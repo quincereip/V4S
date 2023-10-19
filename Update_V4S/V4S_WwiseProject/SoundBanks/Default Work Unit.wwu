@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0F1698B1-2723-443F-9BE9-DB48AB2C865A}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{0F1698B1-2723-443F-9BE9-DB48AB2C865A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{E19EE910-4431-421A-82C4-6214E7842FE1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Crickets" ID="{EFEDFEDC-343D-40E1-956D-909B8FBE5C41}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ball" ID="{1AD974C4-DA0D-41AA-A23F-8D78D35BFF95}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Breaking_Wood" ID="{CC645C5A-D9F8-4236-9704-F5DE95FE71DA}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Animal_Eating" ID="{9872449C-19EE-424D-AB6F-333ED4FF8F13}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Music_Seasons_2D" ID="{CF3A9AF8-3F4A-4374-AC35-FBB7DE80D9BE}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Fireplace" ID="{261D421A-89A2-43C5-83C3-88D0F574828B}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stop" ID="{3B939BC0-8699-43CA-991D-EA87442D495D}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Winter" ID="{B1DC7BC5-A739-45AC-A38C-9E0EC2845320}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Waterfall" ID="{34B2BFBB-8D93-4619-AF2A-38C0BB8CDC4C}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EXT_Wind_Breeze" ID="{0C50345F-362F-46B8-81E2-5DA4D0E50A42}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Trees_Summer" ID="{DE6E9D5C-6D85-4734-B6D8-FE9599349B9D}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ice_Cream_Truck" ID="{75A62336-6F7F-4772-91FC-ED381DA964B1}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Summer" ID="{5D376412-EFCC-4772-BB38-18751090E6B3}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Trees_Fall" ID="{9D46690E-B8B4-482C-9F51-223DB27EFAC2}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Fall" ID="{72E1B5A9-A3AF-48A1-B820-073CC8D64404}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_INT_Room" ID="{025C39E6-FDE2-48E9-8F17-9AC0128C8C63}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Apple" ID="{B9468113-2F62-4918-B9C6-B96FB3F557CD}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Life_Layer" ID="{CDEB172B-02F1-491A-81A7-5A5E9CEC55E2}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Rodent_Acorn" ID="{ED76452B-DCD7-493C-80F4-3F4C1A5E182F}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ocean" ID="{14A26BB5-08B1-4947-B32A-BA763ACA861F}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Trees_Winter" ID="{7659B955-2030-4A1E-89E8-5178F594240E}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Branch_Breaking" ID="{E7BE12DD-0B12-4A20-B8A5-5C082112692B}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RoomTone_AC" ID="{1FA75620-173D-4A3E-A862-C57CB2F66BBA}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Animal_Sniffing" ID="{B0B16941-6A07-4A6E-BC64-4ADBC74B54DF}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Footsteps" ID="{3EBB731C-81E2-4ABE-ACBE-3926A2A2B7A2}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_bells" ID="{2702C270-B9A6-4B19-9B34-38398A7EE0D5}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reverb" ID="{C3A29F44-F3B3-4C04-8CE0-EFFD855EAF39}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Fox" ID="{0C2D4D40-5AAF-4C40-AAB7-4CB92FBB8A7A}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Wood_Sawing" ID="{E8459EFD-2769-4D71-88C2-802064FB5E8D}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enable_State_Music" ID="{0EC6DA16-21FE-4EA3-B00B-5D760B3DBB00}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Shells" ID="{59DB6D5E-9096-4EA9-BC62-4C259FAF4858}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Spring" ID="{1004FE73-E063-4F4E-B62F-CE2617DB1D6D}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Seasons_2D" ID="{53D034A3-88C2-4F64-8520-4368ED41F007}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Trees_Spring" ID="{2B52C499-248C-4FCF-AF57-C35AA07FE271}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Music_Seasons" ID="{569EFB9B-A4E9-4FE0-B868-B562F77F593C}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{30972FB1-4EFA-4619-AD5E-237DF5934A36}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
