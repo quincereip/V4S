@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{79211163-B3C9-4F7D-B79E-D8E842E57C10}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{79211163-B3C9-4F7D-B79E-D8E842E57C10}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Footsteps" ID="{8431CFBD-501D-4C0D-87BE-FC4000BBCFA2}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Grass" ID="{C5066CD3-3C0A-45C9-AEAA-889048F99C27}"/>
+						<Switch Name="Wood" ID="{7F141D26-D3AE-4E1F-888E-DD8D27EE3705}"/>
+						<Switch Name="Sand" ID="{646497F6-B854-47A8-8FD2-DFB17DECB6B2}"/>
+						<Switch Name="Snow" ID="{5F710444-FAFF-42E9-BB73-80AE40F4445B}"/>
+						<Switch Name="Rocks" ID="{5A3F88B8-FD25-48FA-80C2-78B2CDF30AEE}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
