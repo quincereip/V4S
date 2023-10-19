@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="2379943063">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="1233317514" Name="FX_Reverb_Outside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\FX_Reverb_Outside" GUID="{B287AFC0-FD91-4A94-9971-FFAFAEF062A5}"/>
+			</IncludedAuxBusses>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
