@@ -266,6 +266,13 @@
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="FALL_music_file_Fall-002" ID="{239DC8DF-C22D-4844-BF66-116563CF7357}" ShortID="429371731">
+															<PropertyList>
+																<Property Name="Inclusion" Type="bool">
+																	<ValueList>
+																		<Value>False</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -441,6 +448,210 @@
 																<ActiveSource Name="EXT_Birds_Conversation" ID="{541FDC1F-BFB3-4AD1-868C-611EC430E320}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
+														<Sound Name="3D_Audio_AnimalsCrickets" ID="{7F33F9DA-48B3-4E45-9C95-9DDF19DC2B14}" ShortID="208733086">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="Lowpass" Type="int16">
+																	<ValueList>
+																		<Value>42</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>12</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="bbc_crickets-s_nhu0509310 [chan 1]" ID="{900CD0DC-F32E-4C5C-A1A2-3CB5A6CEC575}">
+																	<Language>SFX</Language>
+																	<AudioFile>bbc_crickets-s_nhu0509310 [chan 1].wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="33037143"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="bbc_crickets-s_nhu0509310 [chan 1]" ID="{900CD0DC-F32E-4C5C-A1A2-3CB5A6CEC575}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<RandomSequenceContainer Name="EXT_Birds_LR" ID="{29FC7A9C-14F3-4798-B036-BF2B04206405}" ShortID="447843626">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="EXT_Birds_Bypass_01" ID="{21DB17D6-F076-4B60-AD38-6C6FFADFC399}" ShortID="911861283">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Bypass_01" ID="{702ECF8C-EACB-4E8B-BB9D-ABB7F516E26E}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Bypass_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="955252605"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Bypass_01" ID="{702ECF8C-EACB-4E8B-BB9D-ABB7F516E26E}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Bypass_02" ID="{C03FE599-5230-4DD3-BC44-0FBB8D6CB92A}" ShortID="503404526">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Bypass_02" ID="{EE8D02E5-B903-4797-AB4F-718A421F9263}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Bypass_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="842579147"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Bypass_02" ID="{EE8D02E5-B903-4797-AB4F-718A421F9263}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Cry_05" ID="{EF3BDDFB-5427-46A1-AEC5-6A949F0D4AE3}" ShortID="964022323">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Cry_05" ID="{A46B523E-EE7D-4C6D-A51D-F6D5530B6E35}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Cry_05.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="379451351"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Cry_05" ID="{A46B523E-EE7D-4C6D-A51D-F6D5530B6E35}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Cry_06" ID="{D7B7CE30-53E5-47AD-A78D-76846FF56543}" ShortID="856470875">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Cry_06" ID="{179604DD-2542-44A5-8513-BD63AFD75FDF}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Cry_06.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="153860606"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Cry_06" ID="{179604DD-2542-44A5-8513-BD63AFD75FDF}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Cry_07" ID="{DA4B0BBB-BDB0-4F89-9BEE-DFA97FA0F4DC}" ShortID="46028288">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Cry_07" ID="{5F9C8638-BF3C-41DD-8D59-0AF505736574}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Cry_07.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="467293222"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Cry_07" ID="{5F9C8638-BF3C-41DD-8D59-0AF505736574}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Cry_08" ID="{1043F689-1A19-4E0B-AC7C-00E84C00C637}" ShortID="484927930">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Cry_08" ID="{D2D78588-F982-4463-802D-1C69CB2DFCC7}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Cry_08.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="478972068"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Cry_08" ID="{D2D78588-F982-4463-802D-1C69CB2DFCC7}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Silence" ID="{1F0CEE5F-9735-4B00-9AAD-6AC4AF055969}" ShortID="473454355">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Silence" ID="{FBBB7FF8-BB09-422B-A698-891020A4DCB8}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Silence.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="402933948"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Silence" ID="{FBBB7FF8-BB09-422B-A698-891020A4DCB8}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<BlendContainer Name="ST_Trees_Fall" ID="{3A960F10-25FB-4ACD-A78B-9A26B458853E}" ShortID="939811884">
@@ -1326,6 +1537,93 @@
 																<ActiveSource Name="EXT_Wind_Harsh" ID="{F6A282E6-54DC-4D01-A953-B87195DD0CE3}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
+														<RandomSequenceContainer Name="EXT_Snow" ID="{051C6F1D-D62E-4340-AB1F-47EC89C1658F}" ShortID="400737483">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Snow_Icicle" ID="{9FD6CA72-9C03-46DD-9CD2-ACD4A4AC342E}" ShortID="516986298">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Snow_Icicle" ID="{3AFBA743-4770-4D08-83E9-3C58D8042902}">
+																			<Language>SFX</Language>
+																			<AudioFile>Snow_Icicle.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="249259965"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Snow_Icicle" ID="{3AFBA743-4770-4D08-83E9-3C58D8042902}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Snow_Icicle_03" ID="{D6C32EA9-B03E-4A18-BAA9-38000B04B0E5}" ShortID="55326511">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Snow_Icicle_03" ID="{8F3684D3-88E7-4E38-9126-B330917A06B2}">
+																			<Language>SFX</Language>
+																			<AudioFile>Snow_Icicle_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="505044048"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Snow_Icicle_03" ID="{8F3684D3-88E7-4E38-9126-B330917A06B2}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Snow_Icicle_02" ID="{88159EFE-2C0A-4C29-AC0B-AE8BB19601C3}" ShortID="630500301">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Snow_Icicle_02" ID="{8677C4AC-68F8-49D0-B477-83CC7B65B105}">
+																			<Language>SFX</Language>
+																			<AudioFile>Snow_Icicle_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="39169374"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Snow_Icicle_02" ID="{8677C4AC-68F8-49D0-B477-83CC7B65B105}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="EXT_Birds_Winter" ID="{1C57F0CE-A76F-4BE0-9735-2FDFD7E8A40A}" ShortID="473288465">
@@ -1392,6 +1690,153 @@
 																<ActiveSource Name="EXT_Birds-001" ID="{0619869F-009E-47A3-BCDF-79318C40BD90}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
+														<RandomSequenceContainer Name="EXT_Birds_LR" ID="{0811E7E7-D106-4B0E-A11F-7DA1192D5355}" ShortID="453151749">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="EXT_Birds_Owl_01" ID="{3B0FC15C-1042-4E7F-A4B3-F29DAE1B7BCD}" ShortID="773988075">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Owl_01" ID="{D5F6FE7A-B2F2-4267-A06C-AF4F8292EF31}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Owl_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="27027360"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Owl_01" ID="{D5F6FE7A-B2F2-4267-A06C-AF4F8292EF31}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Owl_02" ID="{6E12A1EC-4913-42D4-8700-DC079FAE3F15}" ShortID="928832050">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Owl_02" ID="{3CFD040C-89F2-4D68-9409-DC9B59C2BE8D}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Owl_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="158887276"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Owl_02" ID="{3CFD040C-89F2-4D68-9409-DC9B59C2BE8D}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Owl_03" ID="{1F45537D-54AF-4A33-BBBA-01245042451F}" ShortID="976576781">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Owl_03" ID="{5D28E297-DEC2-40BB-ABC0-DACAA05113C3}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Owl_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="235408110"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Owl_03" ID="{5D28E297-DEC2-40BB-ABC0-DACAA05113C3}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Owl_04" ID="{32038B03-80EB-4BCD-94C9-8079C69321A4}" ShortID="440190164">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Owl_04" ID="{D8A11E3F-9F1D-431A-9E67-762266A12F31}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Owl_04.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="304249928"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Owl_04" ID="{D8A11E3F-9F1D-431A-9E67-762266A12F31}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Owl_05" ID="{0241F871-00CB-4D86-9246-CD0CB054E293}" ShortID="1001489245">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Owl_05" ID="{1C98BB60-380A-4DA2-80E4-05BC70D7BA82}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Owl_05.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="474432727"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Owl_05" ID="{1C98BB60-380A-4DA2-80E4-05BC70D7BA82}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Silence" ID="{CFB4AFCA-0CF9-494D-A115-1483EC755BF5}" ShortID="123595806">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Silence" ID="{664CAA63-4564-44AA-BC70-6099AE8A420C}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Silence.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="402933948"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Silence" ID="{664CAA63-4564-44AA-BC70-6099AE8A420C}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<BlendContainer Name="ST_Trees_Winter" ID="{6BE96C0B-6A27-4CD0-B665-0A6A5377A536}" ShortID="58415284">
@@ -1860,6 +2305,93 @@
 																<ActiveSource Name="Wind_Breeze" ID="{1AC3540D-3663-4C59-9698-7397F3E001A2}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
+														<RandomSequenceContainer Name="EXT_Rain" ID="{AA026C14-1316-44BF-AC25-C4210CE8FDC7}" ShortID="404177149">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="EXT_AMB_Rain_Light" ID="{DB6DA85A-31CD-45C8-B31A-812E59A913D9}" ShortID="389939056">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_AMB_Rain_Light" ID="{39CE73B9-3AEE-42F2-B479-1862F3FDE228}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_AMB_Rain_Light.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="864683368"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_AMB_Rain_Light" ID="{39CE73B9-3AEE-42F2-B479-1862F3FDE228}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Rain" ID="{0D793CE6-7383-48A1-90DB-16D05BC34DAE}" ShortID="142938486">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Rain" ID="{945B5189-29AD-4B0C-963D-795599CD09A4}">
+																			<Language>SFX</Language>
+																			<AudioFile>Rain.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="309298276"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Rain" ID="{945B5189-29AD-4B0C-963D-795599CD09A4}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Rain_Heavy" ID="{4CE18665-F3FC-4897-A4C0-8C4E044CFB48}" ShortID="549243156">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Rain_Heavy" ID="{96A5AF73-630F-45CC-916F-90FB1FDA50BE}">
+																			<Language>SFX</Language>
+																			<AudioFile>Rain_Heavy.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="800130255"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Rain_Heavy" ID="{96A5AF73-630F-45CC-916F-90FB1FDA50BE}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="EXT_Birds_Spring" ID="{D1AD3C23-D641-4282-8011-E69705848822}" ShortID="184888779">
@@ -1957,6 +2489,175 @@
 																<ActiveSource Name="EXT_Birds" ID="{4CA3DE12-2B50-4263-8FE1-27AEEC7ECA04}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
+														<RandomSequenceContainer Name="EXT_Birds_LR" ID="{340172FF-0026-428F-BE7D-5304991E751A}" ShortID="114758046">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="EXT_Birds_Bypass_01" ID="{1AC4648A-214E-4FCD-B659-6A9AFE546DDC}" ShortID="651058319">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Bypass_01" ID="{C6099ED2-C648-41D5-BB9B-880636E59880}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Bypass_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="955252605"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Bypass_01" ID="{C6099ED2-C648-41D5-BB9B-880636E59880}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Bypass_02" ID="{EE18320F-B1D2-469B-A786-131A807D59FD}" ShortID="754257154">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Bypass_02" ID="{40F2A155-EE4C-4684-8F43-9DAC0F257380}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Bypass_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="842579147"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Bypass_02" ID="{40F2A155-EE4C-4684-8F43-9DAC0F257380}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Cry_01" ID="{B8AC199B-EDA3-4657-A9F2-47BD76A1F666}" ShortID="324783980">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Cry_01" ID="{1430DDEA-BA40-4ABA-A60C-E640483544D7}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Cry_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="642696601"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Cry_01" ID="{1430DDEA-BA40-4ABA-A60C-E640483544D7}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Cry_02" ID="{1A76A779-44A0-4575-B1C6-C1803FD1B2B4}" ShortID="65723378">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Cry_02" ID="{D8ACB1BB-8336-4E86-A7BC-13D1B9C04AD2}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Cry_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="944868827"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Cry_02" ID="{D8ACB1BB-8336-4E86-A7BC-13D1B9C04AD2}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Cry_03" ID="{262E844F-C049-47E1-8808-F99F94B15471}" ShortID="1023781473">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Cry_03" ID="{119BF979-B16D-4741-A41D-67819E5C0D15}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Cry_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="851513767"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Cry_03" ID="{119BF979-B16D-4741-A41D-67819E5C0D15}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Cry_04" ID="{EB450788-825F-455A-8672-CE065A613A70}" ShortID="311760180">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Cry_04" ID="{D01176AD-D752-45C9-B661-9ACCD62F08AF}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Cry_04.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="705460172"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Cry_04" ID="{D01176AD-D752-45C9-B661-9ACCD62F08AF}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Silence" ID="{AF23AE88-7368-440A-8BC3-B531E63D2BCD}" ShortID="686332412">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Silence" ID="{73CF668E-DCDD-4987-B385-B924F786F70B}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Silence.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="402933948"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Silence" ID="{73CF668E-DCDD-4987-B385-B924F786F70B}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<BlendContainer Name="ST_Trees_Spring" ID="{42FD5BED-C837-4091-B3E9-AC9E9CF99ECF}" ShortID="701257550">
@@ -2387,6 +3088,109 @@
 																<ActiveSource Name="EXT_Birds_Crowds_Planes" ID="{29068B18-B1C9-4448-80D3-AE1E9371DFC7}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
+														<RandomSequenceContainer Name="EXT_Birds_LR" ID="{AC961C5A-D8A8-4A43-A26B-82712A8F1182}" ShortID="825810754">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="EXT_Birds_Seagull_01" ID="{094A76A7-F95A-4927-AB7B-EFEE34633892}" ShortID="286666899">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Seagull_01" ID="{72A8F0BD-ACCE-45D1-891A-D7337D5D0567}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Seagull_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="579168609"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Seagull_01" ID="{72A8F0BD-ACCE-45D1-891A-D7337D5D0567}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Seagull_02" ID="{531B96FD-0BCA-48D6-A6AD-187B93B1982E}" ShortID="793068215">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Seagull_02" ID="{886C3EB2-F2A8-4CD9-8BAC-9732C64FFEF2}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Seagull_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="273175736"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Seagull_02" ID="{886C3EB2-F2A8-4CD9-8BAC-9732C64FFEF2}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Seagull_03" ID="{9C472D83-5083-4208-9E57-6C8A227E0AAD}" ShortID="318825180">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Seagull_03" ID="{2189F532-522A-4A53-B2F2-3F1B528061E6}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Seagull_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="78225215"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Seagull_03" ID="{2189F532-522A-4A53-B2F2-3F1B528061E6}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="EXT_Birds_Silence" ID="{A0CFB558-CF7A-4C24-98C8-336421ECC216}" ShortID="248768647">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_Birds_Silence" ID="{3F1C9889-B61F-4D19-BBE6-1982FAF4249F}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_Birds_Silence.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="402933948"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_Birds_Silence" ID="{3F1C9889-B61F-4D19-BBE6-1982FAF4249F}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<BlendContainer Name="ST_Trees_Summer" ID="{95221402-A0E0-4AF7-A107-8E8D4D4F3472}" ShortID="768059801">
@@ -3895,41 +4699,6 @@
 										</ActorMixer>
 									</ChildrenList>
 								</Folder>
-								<Sound Name="3D_Audio_AnimalsCrickets" ID="{7F33F9DA-48B3-4E45-9C95-9DDF19DC2B14}" ShortID="208733086">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="Lowpass" Type="int16">
-											<ValueList>
-												<Value>42</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>12</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="bbc_crickets-s_nhu0509310 [chan 1]" ID="{900CD0DC-F32E-4C5C-A1A2-3CB5A6CEC575}">
-											<Language>SFX</Language>
-											<AudioFile>bbc_crickets-s_nhu0509310 [chan 1].wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="33037143"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="bbc_crickets-s_nhu0509310 [chan 1]" ID="{900CD0DC-F32E-4C5C-A1A2-3CB5A6CEC575}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="First_Person_Audio" ID="{41801DA6-A1FE-4D79-A93D-F96639DB8964}" ShortID="449243092">
@@ -5817,6 +6586,28 @@
 															</ChildrenList>
 															<ActiveSourceList>
 																<ActiveSource Name="Ocean_Waves" ID="{B9E5BECA-220E-4941-9405-B929D9CF10D2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Ocean_Fix" ID="{BE5DECC5-9185-404F-A3F5-1AA2EFDD28D5}" ShortID="269826339">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Ocean_Fix" ID="{FDF3489D-CD13-49BD-9906-C76E19138BF4}">
+																	<Language>SFX</Language>
+																	<AudioFile>Ocean_Fix.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="79930149"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Ocean_Fix" ID="{FDF3489D-CD13-49BD-9906-C76E19138BF4}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
