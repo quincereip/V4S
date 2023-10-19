@@ -1,0 +1,1700 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\2023 Spring Term\\Capstone\\Backup\\Backup_Audio_In_Game\\V4S_WwiseProject\\",
+   "SourceFilesRoot": "D:\\2023 Spring Term\\Capstone\\Backup\\Backup_Audio_In_Game\\V4S_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\2023 Spring Term\\Capstone\\Backup\\Backup_Audio_In_Game\\V4S_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\2023 Spring Term\\Capstone\\Backup\\Backup_Audio_In_Game\\V4S_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "DialogueEvents": [],
+  "StreamedFiles": [],
+  "MediaFilesNotInAnyBank": [],
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "3770372829",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "1233317514",
+      "Name": "FX_Reverb_Outside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\FX_Reverb_Outside",
+      "GUID": "{B287AFC0-FD91-4A94-9971-FFAFAEF062A5}"
+     }
+    ]
+   },
+   {
+    "Id": "3161908922",
+    "GUID": "{E19EE910-4431-421A-82C4-6214E7842FE1}",
+    "Language": "SFX",
+    "Hash": "1998009518",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "766354434",
+      "Name": "Enable_State_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enable_State_Music",
+      "GUID": "{0EC6DA16-21FE-4EA3-B00B-5D760B3DBB00}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "788884573",
+        "Name": "Stop",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Stop",
+        "GUID": "{AB3BFD53-AE84-44BC-B083-9BBE5424864E}"
+       },
+       {
+        "Id": "1296465106",
+        "Name": "Spring",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Spring",
+        "GUID": "{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}"
+       },
+       {
+        "Id": "2077253480",
+        "Name": "Room",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Room",
+        "GUID": "{BB1FF06B-807D-4905-B6D1-9688FD62BCF1}"
+       },
+       {
+        "Id": "2512384458",
+        "Name": "Fall",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Fall",
+        "GUID": "{8A310035-D314-4994-9C44-086F31CD9288}"
+       },
+       {
+        "Id": "2965343494",
+        "Name": "Winter",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Winter",
+        "GUID": "{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}"
+       },
+       {
+        "Id": "3924562482",
+        "Name": "Summer",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Summer",
+        "GUID": "{A37533DF-9D04-4261-9F0F-E8C57838412A}"
+       }
+      ]
+     },
+     {
+      "Id": "737787143",
+      "Name": "Play_Animal_Eating",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Animal_Eating",
+      "GUID": "{9872449C-19EE-424D-AB6F-333ED4FF8F13}",
+      "MaxAttenuation": "3000.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "677174587",
+        "Language": "SFX",
+        "ShortName": "Animal_Eating.wav",
+        "Path": "SFX\\Animal_Eating_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "617588793",
+      "Name": "Play_Animal_Sniffing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Animal_Sniffing",
+      "GUID": "{B0B16941-6A07-4A6E-BC64-4ADBC74B54DF}",
+      "MaxAttenuation": "3000.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "657254767",
+        "Language": "SFX",
+        "ShortName": "Animal_Sniffing.wav",
+        "Path": "SFX\\Animal_Sniffing_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2782109158",
+      "Name": "Play_Apple",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Apple",
+      "GUID": "{B9468113-2F62-4918-B9C6-B96FB3F557CD}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "318610343",
+        "Language": "SFX",
+        "ShortName": "Apple\\Apple_Droppimg.wav",
+        "Path": "SFX\\Apple\\Apple_Droppimg_10C4C929.wem"
+       },
+       {
+        "Id": "774997628",
+        "Language": "SFX",
+        "ShortName": "Apple\\Apple_Drop_01.wav",
+        "Path": "SFX\\Apple\\Apple_Drop_01_10C4C929.wem"
+       },
+       {
+        "Id": "897365529",
+        "Language": "SFX",
+        "ShortName": "Apple\\Apple_Drop_02.wav",
+        "Path": "SFX\\Apple\\Apple_Drop_02_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1409529853",
+      "Name": "Play_Ball",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ball",
+      "GUID": "{1AD974C4-DA0D-41AA-A23F-8D78D35BFF95}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "60181135",
+        "Language": "SFX",
+        "ShortName": "Ball\\Ball_05.wav",
+        "Path": "SFX\\Ball\\Ball_05_10C4C929.wem"
+       },
+       {
+        "Id": "87675766",
+        "Language": "SFX",
+        "ShortName": "Ball\\Ball_06.wav",
+        "Path": "SFX\\Ball\\Ball_06_10C4C929.wem"
+       },
+       {
+        "Id": "172631235",
+        "Language": "SFX",
+        "ShortName": "Ball\\Ball_04.wav",
+        "Path": "SFX\\Ball\\Ball_04_10C4C929.wem"
+       },
+       {
+        "Id": "378608949",
+        "Language": "SFX",
+        "ShortName": "Ball\\Ball_03.wav",
+        "Path": "SFX\\Ball\\Ball_03_10C4C929.wem"
+       },
+       {
+        "Id": "418319852",
+        "Language": "SFX",
+        "ShortName": "Ball\\Ball_02.wav",
+        "Path": "SFX\\Ball\\Ball_02_10C4C929.wem"
+       },
+       {
+        "Id": "951997273",
+        "Language": "SFX",
+        "ShortName": "Ball\\Ball_01.wav",
+        "Path": "SFX\\Ball\\Ball_01_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2324519816",
+      "Name": "Play_bells",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_bells",
+      "GUID": "{2702C270-B9A6-4B19-9B34-38398A7EE0D5}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "101509308",
+        "Language": "SFX",
+        "ShortName": "bells.wav",
+        "Path": "SFX\\bells_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3935030902",
+      "Name": "Play_Branch_Breaking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Branch_Breaking",
+      "GUID": "{E7BE12DD-0B12-4A20-B8A5-5C082112692B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "2.5",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "142457981",
+        "Language": "SFX",
+        "ShortName": "Grass_Other\\Grass_Leaves.wav",
+        "Path": "SFX\\Grass_Other\\Grass_Leaves_10C4C929.wem"
+       },
+       {
+        "Id": "221305644",
+        "Language": "SFX",
+        "ShortName": "Branch_Breaking\\Branch_Breaking_06.wav",
+        "Path": "SFX\\Branch_Breaking\\Branch_Breaking_06_10C4C929.wem"
+       },
+       {
+        "Id": "449718918",
+        "Language": "SFX",
+        "ShortName": "Branch_Breaking\\Branch_Breaking_04.wav",
+        "Path": "SFX\\Branch_Breaking\\Branch_Breaking_04_10C4C929.wem"
+       },
+       {
+        "Id": "847948627",
+        "Language": "SFX",
+        "ShortName": "Branch_Breaking\\Branch_Breaking_03.wav",
+        "Path": "SFX\\Branch_Breaking\\Branch_Breaking_03_10C4C929.wem"
+       },
+       {
+        "Id": "869033472",
+        "Language": "SFX",
+        "ShortName": "Branch_Breaking\\Branch_Breaking_05.wav",
+        "Path": "SFX\\Branch_Breaking\\Branch_Breaking_05_10C4C929.wem"
+       },
+       {
+        "Id": "886497636",
+        "Language": "SFX",
+        "ShortName": "Branch_Breaking\\Branch_Breaking_01.wav",
+        "Path": "SFX\\Branch_Breaking\\Branch_Breaking_01_10C4C929.wem"
+       },
+       {
+        "Id": "1036544549",
+        "Language": "SFX",
+        "ShortName": "Branch_Breaking\\Branch_Breaking_02.wav",
+        "Path": "SFX\\Branch_Breaking\\Branch_Breaking_02_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3243822179",
+      "Name": "Play_Breaking_Wood",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Breaking_Wood",
+      "GUID": "{CC645C5A-D9F8-4236-9704-F5DE95FE71DA}",
+      "MaxAttenuation": "3000.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "441022715",
+        "Language": "SFX",
+        "ShortName": "Breaking Wood.wav",
+        "Path": "SFX\\Breaking Wood_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2626596706",
+      "Name": "Play_Crickets",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Crickets",
+      "GUID": "{EFEDFEDC-343D-40E1-956D-909B8FBE5C41}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "33037143",
+        "Language": "SFX",
+        "ShortName": "bbc_crickets-s_nhu0509310 [chan 1].wav",
+        "Path": "SFX\\bbc_crickets-s_nhu0509310 [chan 1]_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "642687590",
+      "Name": "Play_EXT_Wind_Breeze",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_EXT_Wind_Breeze",
+      "GUID": "{0C50345F-362F-46B8-81E2-5DA4D0E50A42}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "439622629",
+        "Language": "SFX",
+        "ShortName": "Wind_Breeze.wav",
+        "Path": "SFX\\Wind_Breeze_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2712047697",
+      "Name": "Play_Fall",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Fall",
+      "GUID": "{72E1B5A9-A3AF-48A1-B820-073CC8D64404}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "58501010",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Conversation.wav",
+        "Path": "SFX\\EXT_Birds_Conversation_F7101D8D.wem"
+       },
+       {
+        "Id": "301663420",
+        "Language": "SFX",
+        "ShortName": "EXT_Wind_Fly.wav",
+        "Path": "SFX\\EXT_Wind_Fly_D79FB2B7.wem"
+       },
+       {
+        "Id": "316914175",
+        "Language": "SFX",
+        "ShortName": "EXT_Wind_Soft.wav",
+        "Path": "SFX\\EXT_Wind_Soft_D79FB2B7.wem"
+       },
+       {
+        "Id": "616098322",
+        "Language": "SFX",
+        "ShortName": "music_file_Fall_Edit.wav",
+        "Path": "SFX\\music_file_Fall_Edit_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1501216439",
+      "Name": "Play_Fireplace",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Fireplace",
+      "GUID": "{261D421A-89A2-43C5-83C3-88D0F574828B}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "174091285",
+        "Language": "SFX",
+        "ShortName": "bbc_fire---clo_nhu0500808 [chan 1].wav",
+        "Path": "SFX\\bbc_fire---clo_nhu0500808 [chan 1]_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3854155799",
+      "Name": "Play_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
+      "GUID": "{3EBB731C-81E2-4ABE-ACBE-3926A2A2B7A2}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.249096",
+      "DurationMax": "4.061179",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "496452",
+        "Language": "SFX",
+        "ShortName": "Wood\\FT_Wood_04.wav",
+        "Path": "SFX\\Wood\\FT_Wood_04_D1DD4874.wem"
+       },
+       {
+        "Id": "17504910",
+        "Language": "SFX",
+        "ShortName": "Grass\\FT_Grass_03.wav",
+        "Path": "SFX\\Grass\\FT_Grass_03_B7354374.wem"
+       },
+       {
+        "Id": "65948870",
+        "Language": "SFX",
+        "ShortName": "Grass\\FT_Grass_Harsh_01.wav",
+        "Path": "SFX\\Grass\\FT_Grass_Harsh_01_6D51C6F2.wem"
+       },
+       {
+        "Id": "100038301",
+        "Language": "SFX",
+        "ShortName": "Rocks\\FT_Rocks_05.wav",
+        "Path": "SFX\\Rocks\\FT_Rocks_05_442A41F4.wem"
+       },
+       {
+        "Id": "125806133",
+        "Language": "SFX",
+        "ShortName": "Sand\\FT_Sand_03.wav",
+        "Path": "SFX\\Sand\\FT_Sand_03_A9B40C8A.wem"
+       },
+       {
+        "Id": "142175974",
+        "Language": "SFX",
+        "ShortName": "Rocks\\FT_Rocks_03.wav",
+        "Path": "SFX\\Rocks\\FT_Rocks_03_EC17565B.wem"
+       },
+       {
+        "Id": "148239983",
+        "Language": "SFX",
+        "ShortName": "Snow\\FT_Snow_02.wav",
+        "Path": "SFX\\Snow\\FT_Snow_02_EF77A351.wem"
+       },
+       {
+        "Id": "203084110",
+        "Language": "SFX",
+        "ShortName": "Snow\\FT_Snow_05.wav",
+        "Path": "SFX\\Snow\\FT_Snow_05_59C0C4D9.wem"
+       },
+       {
+        "Id": "210518197",
+        "Language": "SFX",
+        "ShortName": "Rocks\\FT_Rocks_02.wav",
+        "Path": "SFX\\Rocks\\FT_Rocks_02_0921E309.wem"
+       },
+       {
+        "Id": "247653023",
+        "Language": "SFX",
+        "ShortName": "Wood\\FT_Wood_01.wav",
+        "Path": "SFX\\Wood\\FT_Wood_01_70E218F2.wem"
+       },
+       {
+        "Id": "250097581",
+        "Language": "SFX",
+        "ShortName": "Snow\\FT_Snow_03.wav",
+        "Path": "SFX\\Snow\\FT_Snow_03_C7AB1EB4.wem"
+       },
+       {
+        "Id": "294573058",
+        "Language": "SFX",
+        "ShortName": "Sand\\FT_Sand_04.wav",
+        "Path": "SFX\\Sand\\FT_Sand_04_1054E3A6.wem"
+       },
+       {
+        "Id": "313219139",
+        "Language": "SFX",
+        "ShortName": "Rocks\\FT_Rocks_01.wav",
+        "Path": "SFX\\Rocks\\FT_Rocks_01_58609EF3.wem"
+       },
+       {
+        "Id": "338371126",
+        "Language": "SFX",
+        "ShortName": "Grass\\FT_Grass_04.wav",
+        "Path": "SFX\\Grass\\FT_Grass_04_78B5E67A.wem"
+       },
+       {
+        "Id": "339225625",
+        "Language": "SFX",
+        "ShortName": "Grass\\FT_Grass_Harsh_05.wav",
+        "Path": "SFX\\Grass\\FT_Grass_Harsh_05_4C1945A8.wem"
+       },
+       {
+        "Id": "355189096",
+        "Language": "SFX",
+        "ShortName": "Grass\\FT_Grass_Harsh_02.wav",
+        "Path": "SFX\\Grass\\FT_Grass_Harsh_02_2F2849C1.wem"
+       },
+       {
+        "Id": "378237051",
+        "Language": "SFX",
+        "ShortName": "Sand\\FT_Sand_01.wav",
+        "Path": "SFX\\Sand\\FT_Sand_01_CC02FBEF.wem"
+       },
+       {
+        "Id": "384040443",
+        "Language": "SFX",
+        "ShortName": "Snow\\FT_Snow_01.wav",
+        "Path": "SFX\\Snow\\FT_Snow_01_5C82C394.wem"
+       },
+       {
+        "Id": "404957497",
+        "Language": "SFX",
+        "ShortName": "Wood\\FT_Wood_05.wav",
+        "Path": "SFX\\Wood\\FT_Wood_05_E82903AF.wem"
+       },
+       {
+        "Id": "407568287",
+        "Language": "SFX",
+        "ShortName": "Breath\\Breath_Close_01.wav",
+        "Path": "SFX\\Breath\\Breath_Close_01_D342BE08.wem"
+       },
+       {
+        "Id": "435703577",
+        "Language": "SFX",
+        "ShortName": "Breath\\Breath_Close_03.wav",
+        "Path": "SFX\\Breath\\Breath_Close_03_A6AA3FF4.wem"
+       },
+       {
+        "Id": "476310656",
+        "Language": "SFX",
+        "ShortName": "Grass\\FT_Grass_02.wav",
+        "Path": "SFX\\Grass\\FT_Grass_02_CFAA1FC3.wem"
+       },
+       {
+        "Id": "570651741",
+        "Language": "SFX",
+        "ShortName": "Grass\\FT_Grass_01.wav",
+        "Path": "SFX\\Grass\\FT_Grass_01_E1E930B3.wem"
+       },
+       {
+        "Id": "574519879",
+        "Language": "SFX",
+        "ShortName": "Snow\\FT_Snow_04.wav",
+        "Path": "SFX\\Snow\\FT_Snow_04_A7D4FFC0.wem"
+       },
+       {
+        "Id": "596951155",
+        "Language": "SFX",
+        "ShortName": "Sand\\FT_Sand_05.wav",
+        "Path": "SFX\\Sand\\FT_Sand_05_79ACFD0C.wem"
+       },
+       {
+        "Id": "619253737",
+        "Language": "SFX",
+        "ShortName": "Grass\\FT_Grass_Harsh_03.wav",
+        "Path": "SFX\\Grass\\FT_Grass_Harsh_03_728024CA.wem"
+       },
+       {
+        "Id": "740783707",
+        "Language": "SFX",
+        "ShortName": "Rocks\\FT_Rocks_04.wav",
+        "Path": "SFX\\Rocks\\FT_Rocks_04_E44D32F0.wem"
+       },
+       {
+        "Id": "797141612",
+        "Language": "SFX",
+        "ShortName": "Breath\\Breath_Close_05.wav",
+        "Path": "SFX\\Breath\\Breath_Close_05_10C4C929.wem"
+       },
+       {
+        "Id": "968935020",
+        "Language": "SFX",
+        "ShortName": "Sand\\FT_Sand_02.wav",
+        "Path": "SFX\\Sand\\FT_Sand_02_A1C85143.wem"
+       },
+       {
+        "Id": "969815087",
+        "Language": "SFX",
+        "ShortName": "Wood\\Wood_Plank_02.wav",
+        "Path": "SFX\\Wood\\Wood_Plank_02_2C84C05F.wem"
+       },
+       {
+        "Id": "970319510",
+        "Language": "SFX",
+        "ShortName": "Grass\\FT_Grass_Harsh_04.wav",
+        "Path": "SFX\\Grass\\FT_Grass_Harsh_04_0F6380E9.wem"
+       },
+       {
+        "Id": "974655469",
+        "Language": "SFX",
+        "ShortName": "Grass\\FT_Grass_05.wav",
+        "Path": "SFX\\Grass\\FT_Grass_05_FEFCF50F.wem"
+       },
+       {
+        "Id": "986451361",
+        "Language": "SFX",
+        "ShortName": "Wood\\Wood_Plank_01.wav",
+        "Path": "SFX\\Wood\\Wood_Plank_01_04D03666.wem"
+       },
+       {
+        "Id": "1004230976",
+        "Language": "SFX",
+        "ShortName": "Breath\\Breath_Close_02.wav",
+        "Path": "SFX\\Breath\\Breath_Close_02_6B306A33.wem"
+       },
+       {
+        "Id": "1004689511",
+        "Language": "SFX",
+        "ShortName": "Wood\\FT_Wood_03.wav",
+        "Path": "SFX\\Wood\\FT_Wood_03_A1C85143.wem"
+       },
+       {
+        "Id": "1025653509",
+        "Language": "SFX",
+        "ShortName": "Breath\\Breath_Close_04.wav",
+        "Path": "SFX\\Breath\\Breath_Close_04_10C4C929.wem"
+       },
+       {
+        "Id": "1048819968",
+        "Language": "SFX",
+        "ShortName": "Wood\\FT_Wood_02.wav",
+        "Path": "SFX\\Wood\\FT_Wood_02_B5D3616B.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{C5066CD3-3C0A-45C9-AEAA-889048F99C27}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{7F141D26-D3AE-4E1F-888E-DD8D27EE3705}",
+        "Media": [
+         {
+          "Id": "496452"
+         },
+         {
+          "Id": "247653023"
+         },
+         {
+          "Id": "404957497"
+         },
+         {
+          "Id": "969815087"
+         },
+         {
+          "Id": "986451361"
+         },
+         {
+          "Id": "1004689511"
+         },
+         {
+          "Id": "1048819968"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{5F710444-FAFF-42E9-BB73-80AE40F4445B}",
+        "Media": [
+         {
+          "Id": "148239983"
+         },
+         {
+          "Id": "203084110"
+         },
+         {
+          "Id": "250097581"
+         },
+         {
+          "Id": "384040443"
+         },
+         {
+          "Id": "407568287"
+         },
+         {
+          "Id": "435703577"
+         },
+         {
+          "Id": "574519879"
+         },
+         {
+          "Id": "797141612"
+         },
+         {
+          "Id": "1004230976"
+         },
+         {
+          "Id": "1025653509"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{5A3F88B8-FD25-48FA-80C2-78B2CDF30AEE}",
+        "Media": [
+         {
+          "Id": "100038301"
+         },
+         {
+          "Id": "142175974"
+         },
+         {
+          "Id": "210518197"
+         },
+         {
+          "Id": "313219139"
+         },
+         {
+          "Id": "740783707"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{C5066CD3-3C0A-45C9-AEAA-889048F99C27}",
+        "Media": [
+         {
+          "Id": "17504910"
+         },
+         {
+          "Id": "65948870"
+         },
+         {
+          "Id": "338371126"
+         },
+         {
+          "Id": "339225625"
+         },
+         {
+          "Id": "355189096"
+         },
+         {
+          "Id": "476310656"
+         },
+         {
+          "Id": "570651741"
+         },
+         {
+          "Id": "619253737"
+         },
+         {
+          "Id": "970319510"
+         },
+         {
+          "Id": "974655469"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{646497F6-B854-47A8-8FD2-DFB17DECB6B2}",
+        "Media": [
+         {
+          "Id": "125806133"
+         },
+         {
+          "Id": "294573058"
+         },
+         {
+          "Id": "378237051"
+         },
+         {
+          "Id": "596951155"
+         },
+         {
+          "Id": "968935020"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "2991955701",
+      "Name": "Play_Fox",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Fox",
+      "GUID": "{0C2D4D40-5AAF-4C40-AAB7-4CB92FBB8A7A}",
+      "MaxAttenuation": "3000.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "415374879",
+        "Language": "SFX",
+        "ShortName": "Fox_Cry.wav",
+        "Path": "SFX\\Fox_Cry_10C4C929.wem"
+       },
+       {
+        "Id": "719933676",
+        "Language": "SFX",
+        "ShortName": "Fox_Imitation_Talk.wav",
+        "Path": "SFX\\Fox_Imitation_Talk_10C4C929.wem"
+       },
+       {
+        "Id": "857467946",
+        "Language": "SFX",
+        "ShortName": "Fox_Imitation_Laugh.wav",
+        "Path": "SFX\\Fox_Imitation_Laugh_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2063432232",
+      "Name": "Play_Ice_Cream_Truck",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ice_Cream_Truck",
+      "GUID": "{75A62336-6F7F-4772-91FC-ED381DA964B1}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "2632873",
+        "Language": "SFX",
+        "ShortName": "674237__kevingambleaudio__ice-cream-truck.wav",
+        "Path": "SFX\\674237__kevingambleaudio__ice-cream-truck_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "519940873",
+      "Name": "Play_INT_Room",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_INT_Room",
+      "GUID": "{025C39E6-FDE2-48E9-8F17-9AC0128C8C63}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "655501665",
+        "Language": "SFX",
+        "ShortName": "RoomTone_AC.wav",
+        "Path": "SFX\\RoomTone_AC_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2208365614",
+      "Name": "Play_Life_Layer",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Life_Layer",
+      "GUID": "{CDEB172B-02F1-491A-81A7-5A5E9CEC55E2}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "251224248",
+        "Language": "SFX",
+        "ShortName": "Life_Layer\\LF_Cloth_Shuffle.wav",
+        "Path": "SFX\\Life_Layer\\LF_Cloth_Shuffle_D79FB2B7.wem"
+       },
+       {
+        "Id": "673167724",
+        "Language": "SFX",
+        "ShortName": "Life_Layer\\LF_Cloth.wav",
+        "Path": "SFX\\Life_Layer\\LF_Cloth_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2015339408",
+      "Name": "Play_Music_Seasons",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music_Seasons",
+      "GUID": "{569EFB9B-A4E9-4FE0-B868-B562F77F593C}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "21490570",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds-001.wav",
+        "Path": "SFX\\EXT_Birds-001_D79FB2B7.wem"
+       },
+       {
+        "Id": "42247407",
+        "Language": "SFX",
+        "ShortName": "music_file_Winter_.wav",
+        "Path": "SFX\\music_file_Winter__D79FB2B7.wem"
+       },
+       {
+        "Id": "58501010",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Conversation.wav",
+        "Path": "SFX\\EXT_Birds_Conversation_F7101D8D.wem"
+       },
+       {
+        "Id": "72726658",
+        "Language": "SFX",
+        "ShortName": "EXT_Beach_Walla.wav",
+        "Path": "SFX\\EXT_Beach_Walla_D79FB2B7.wem"
+       },
+       {
+        "Id": "301663420",
+        "Language": "SFX",
+        "ShortName": "EXT_Wind_Fly.wav",
+        "Path": "SFX\\EXT_Wind_Fly_D79FB2B7.wem"
+       },
+       {
+        "Id": "316914175",
+        "Language": "SFX",
+        "ShortName": "EXT_Wind_Soft.wav",
+        "Path": "SFX\\EXT_Wind_Soft_D79FB2B7.wem"
+       },
+       {
+        "Id": "421581830",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Crickets_Birds_Flapping.wav",
+        "Path": "SFX\\EXT_Birds_Crickets_Birds_Flapping_D79FB2B7.wem"
+       },
+       {
+        "Id": "439622629",
+        "Language": "SFX",
+        "ShortName": "Wind_Breeze.wav",
+        "Path": "SFX\\Wind_Breeze_D79FB2B7.wem"
+       },
+       {
+        "Id": "444396471",
+        "Language": "SFX",
+        "ShortName": "EXT_Wind_Harsh.wav",
+        "Path": "SFX\\EXT_Wind_Harsh_D79FB2B7.wem"
+       },
+       {
+        "Id": "494262773",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Summer.wav",
+        "Path": "SFX\\EXT_Birds_Summer_D79FB2B7.wem"
+       },
+       {
+        "Id": "516286206",
+        "Language": "SFX",
+        "ShortName": "music_file_Spring_Edit.wav",
+        "Path": "SFX\\music_file_Spring_Edit_D79FB2B7.wem"
+       },
+       {
+        "Id": "527676015",
+        "Language": "SFX",
+        "ShortName": "music_file_Summer_Edit.wav",
+        "Path": "SFX\\music_file_Summer_Edit_D79FB2B7.wem"
+       },
+       {
+        "Id": "616098322",
+        "Language": "SFX",
+        "ShortName": "music_file_Fall_Edit.wav",
+        "Path": "SFX\\music_file_Fall_Edit_D79FB2B7.wem"
+       },
+       {
+        "Id": "655501665",
+        "Language": "SFX",
+        "ShortName": "RoomTone_AC.wav",
+        "Path": "SFX\\RoomTone_AC_D79FB2B7.wem"
+       },
+       {
+        "Id": "830139097",
+        "Language": "SFX",
+        "ShortName": "573376__johnloser__cyber-punch-01.wav",
+        "Path": "SFX\\573376__johnloser__cyber-punch-01_10C4C929.wem"
+       },
+       {
+        "Id": "885297293",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Crowds_Planes.wav",
+        "Path": "SFX\\EXT_Birds_Crowds_Planes_D79FB2B7.wem"
+       },
+       {
+        "Id": "923291791",
+        "Language": "SFX",
+        "ShortName": "EXT_Bird_Cocodoo.wav",
+        "Path": "SFX\\EXT_Bird_Cocodoo_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1352561401",
+      "Name": "Play_Music_Seasons_2D",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music_Seasons_2D",
+      "GUID": "{CF3A9AF8-3F4A-4374-AC35-FBB7DE80D9BE}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "21490570",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds-001.wav",
+        "Path": "SFX\\EXT_Birds-001_D79FB2B7.wem"
+       },
+       {
+        "Id": "42247407",
+        "Language": "SFX",
+        "ShortName": "music_file_Winter_.wav",
+        "Path": "SFX\\music_file_Winter__D79FB2B7.wem"
+       },
+       {
+        "Id": "72726658",
+        "Language": "SFX",
+        "ShortName": "EXT_Beach_Walla.wav",
+        "Path": "SFX\\EXT_Beach_Walla_D79FB2B7.wem"
+       },
+       {
+        "Id": "197855375",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Conversation.wav",
+        "Path": "SFX\\EXT_Birds_Conversation_D79FB2B7.wem"
+       },
+       {
+        "Id": "301663420",
+        "Language": "SFX",
+        "ShortName": "EXT_Wind_Fly.wav",
+        "Path": "SFX\\EXT_Wind_Fly_D79FB2B7.wem"
+       },
+       {
+        "Id": "316914175",
+        "Language": "SFX",
+        "ShortName": "EXT_Wind_Soft.wav",
+        "Path": "SFX\\EXT_Wind_Soft_D79FB2B7.wem"
+       },
+       {
+        "Id": "421581830",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Crickets_Birds_Flapping.wav",
+        "Path": "SFX\\EXT_Birds_Crickets_Birds_Flapping_D79FB2B7.wem"
+       },
+       {
+        "Id": "439622629",
+        "Language": "SFX",
+        "ShortName": "Wind_Breeze.wav",
+        "Path": "SFX\\Wind_Breeze_D79FB2B7.wem"
+       },
+       {
+        "Id": "444396471",
+        "Language": "SFX",
+        "ShortName": "EXT_Wind_Harsh.wav",
+        "Path": "SFX\\EXT_Wind_Harsh_D79FB2B7.wem"
+       },
+       {
+        "Id": "475318142",
+        "Language": "SFX",
+        "ShortName": "573376__johnloser__cyber-punch-01.wav",
+        "Path": "SFX\\573376__johnloser__cyber-punch-01_D79FB2B7.wem"
+       },
+       {
+        "Id": "494262773",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Summer.wav",
+        "Path": "SFX\\EXT_Birds_Summer_D79FB2B7.wem"
+       },
+       {
+        "Id": "516286206",
+        "Language": "SFX",
+        "ShortName": "music_file_Spring_Edit.wav",
+        "Path": "SFX\\music_file_Spring_Edit_D79FB2B7.wem"
+       },
+       {
+        "Id": "527676015",
+        "Language": "SFX",
+        "ShortName": "music_file_Summer_Edit.wav",
+        "Path": "SFX\\music_file_Summer_Edit_D79FB2B7.wem"
+       },
+       {
+        "Id": "616098322",
+        "Language": "SFX",
+        "ShortName": "music_file_Fall_Edit.wav",
+        "Path": "SFX\\music_file_Fall_Edit_D79FB2B7.wem"
+       },
+       {
+        "Id": "655501665",
+        "Language": "SFX",
+        "ShortName": "RoomTone_AC.wav",
+        "Path": "SFX\\RoomTone_AC_D79FB2B7.wem"
+       },
+       {
+        "Id": "885297293",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Crowds_Planes.wav",
+        "Path": "SFX\\EXT_Birds_Crowds_Planes_D79FB2B7.wem"
+       },
+       {
+        "Id": "923291791",
+        "Language": "SFX",
+        "ShortName": "EXT_Bird_Cocodoo.wav",
+        "Path": "SFX\\EXT_Bird_Cocodoo_D79FB2B7.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{8A310035-D314-4994-9C44-086F31CD9288}",
+        "Media": [
+         {
+          "Id": "197855375"
+         },
+         {
+          "Id": "301663420"
+         },
+         {
+          "Id": "316914175"
+         },
+         {
+          "Id": "616098322"
+         },
+         {
+          "Id": "923291791"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{BB1FF06B-807D-4905-B6D1-9688FD62BCF1}",
+        "Media": [
+         {
+          "Id": "655501665"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}",
+        "Media": [
+         {
+          "Id": "421581830"
+         },
+         {
+          "Id": "439622629"
+         },
+         {
+          "Id": "516286206"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{A37533DF-9D04-4261-9F0F-E8C57838412A}",
+        "Media": [
+         {
+          "Id": "72726658"
+         },
+         {
+          "Id": "494262773"
+         },
+         {
+          "Id": "527676015"
+         },
+         {
+          "Id": "885297293"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}",
+        "Media": [
+         {
+          "Id": "21490570"
+         },
+         {
+          "Id": "42247407"
+         },
+         {
+          "Id": "444396471"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{AB3BFD53-AE84-44BC-B083-9BBE5424864E}",
+        "Media": [
+         {
+          "Id": "475318142"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1724638476",
+      "Name": "Play_Ocean",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ocean",
+      "GUID": "{14A26BB5-08B1-4947-B32A-BA763ACA861F}",
+      "MaxAttenuation": "3000.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "47504844",
+        "Language": "SFX",
+        "ShortName": "bbc_beach_atmo_nhu0505009.wav",
+        "Path": "SFX\\bbc_beach_atmo_nhu0505009_D79FB2B7.wem"
+       },
+       {
+        "Id": "85059130",
+        "Language": "SFX",
+        "ShortName": "Ocean_Waves_01.wav",
+        "Path": "SFX\\Ocean_Waves_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "128255444",
+        "Language": "SFX",
+        "ShortName": "Ocean_Waves.wav",
+        "Path": "SFX\\Ocean_Waves_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2851949950",
+      "Name": "Play_Reverb",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Reverb",
+      "GUID": "{C3A29F44-F3B3-4C04-8CE0-EFFD855EAF39}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "2576946814",
+      "Name": "Play_Rodent_Acorn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Rodent_Acorn",
+      "GUID": "{ED76452B-DCD7-493C-80F4-3F4C1A5E182F}",
+      "MaxAttenuation": "3000.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "866778322",
+        "Language": "SFX",
+        "ShortName": "Rodent_Acorn.wav",
+        "Path": "SFX\\Rodent_Acorn_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "907752394",
+      "Name": "Play_RoomTone_AC",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_RoomTone_AC",
+      "GUID": "{1FA75620-173D-4A3E-A862-C57CB2F66BBA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "2180918873",
+      "Name": "Play_Seasons_2D",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Seasons_2D",
+      "GUID": "{53D034A3-88C2-4F64-8520-4368ED41F007}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "1966481595",
+      "Name": "Play_Shells",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Shells",
+      "GUID": "{59DB6D5E-9096-4EA9-BC62-4C259FAF4858}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "819845612",
+        "Language": "SFX",
+        "ShortName": "Shells.wav",
+        "Path": "SFX\\Shells_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "633054225",
+      "Name": "Play_Spring",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Spring",
+      "GUID": "{1004FE73-E063-4F4E-B62F-CE2617DB1D6D}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "21490570",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds-001.wav",
+        "Path": "SFX\\EXT_Birds-001_D79FB2B7.wem"
+       },
+       {
+        "Id": "421581830",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Crickets_Birds_Flapping.wav",
+        "Path": "SFX\\EXT_Birds_Crickets_Birds_Flapping_D79FB2B7.wem"
+       },
+       {
+        "Id": "439622629",
+        "Language": "SFX",
+        "ShortName": "Wind_Breeze.wav",
+        "Path": "SFX\\Wind_Breeze_D79FB2B7.wem"
+       },
+       {
+        "Id": "516286206",
+        "Language": "SFX",
+        "ShortName": "music_file_Spring_Edit.wav",
+        "Path": "SFX\\music_file_Spring_Edit_D79FB2B7.wem"
+       },
+       {
+        "Id": "923291791",
+        "Language": "SFX",
+        "ShortName": "EXT_Bird_Cocodoo.wav",
+        "Path": "SFX\\EXT_Bird_Cocodoo_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "266982282",
+      "Name": "Play_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Stop",
+      "GUID": "{3B939BC0-8699-43CA-991D-EA87442D495D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.429583",
+      "DurationMax": "0.429583",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "830139097",
+        "Language": "SFX",
+        "ShortName": "573376__johnloser__cyber-punch-01.wav",
+        "Path": "SFX\\573376__johnloser__cyber-punch-01_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1570882009",
+      "Name": "Play_Summer",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Summer",
+      "GUID": "{5D376412-EFCC-4772-BB38-18751090E6B3}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "72726658",
+        "Language": "SFX",
+        "ShortName": "EXT_Beach_Walla.wav",
+        "Path": "SFX\\EXT_Beach_Walla_D79FB2B7.wem"
+       },
+       {
+        "Id": "494262773",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Summer.wav",
+        "Path": "SFX\\EXT_Birds_Summer_D79FB2B7.wem"
+       },
+       {
+        "Id": "527676015",
+        "Language": "SFX",
+        "ShortName": "music_file_Summer_Edit.wav",
+        "Path": "SFX\\music_file_Summer_Edit_D79FB2B7.wem"
+       },
+       {
+        "Id": "885297293",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Crowds_Planes.wav",
+        "Path": "SFX\\EXT_Birds_Crowds_Planes_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2873124431",
+      "Name": "Play_Trees_Fall",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Trees_Fall",
+      "GUID": "{9D46690E-B8B4-482C-9F51-223DB27EFAC2}",
+      "MaxAttenuation": "7000.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "40429813",
+        "Language": "SFX",
+        "ShortName": "Grass_Other\\Grass_Tree_Falling.wav",
+        "Path": "SFX\\Grass_Other\\Grass_Tree_Falling_D79FB2B7.wem"
+       },
+       {
+        "Id": "172158003",
+        "Language": "SFX",
+        "ShortName": "Grass_Other\\Grass_Leaves_Step.wav",
+        "Path": "SFX\\Grass_Other\\Grass_Leaves_Step_0F274014.wem"
+       },
+       {
+        "Id": "182790339",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Crush.wav",
+        "Path": "SFX\\Leaves\\Leaves_Crush_D83DCE2D.wem"
+       },
+       {
+        "Id": "657069852",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Dry_Drop.wav",
+        "Path": "SFX\\Leaves\\Leaves_Dry_Drop_D79FB2B7.wem"
+       },
+       {
+        "Id": "674690314",
+        "Language": "SFX",
+        "ShortName": "Grass_Other\\Grass_Movement_Leaves.wav",
+        "Path": "SFX\\Grass_Other\\Grass_Movement_Leaves_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "536661123",
+      "Name": "Play_Trees_Spring",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Trees_Spring",
+      "GUID": "{2B52C499-248C-4FCF-AF57-C35AA07FE271}",
+      "MaxAttenuation": "7000.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "457156708",
+        "Language": "SFX",
+        "ShortName": "Grass_Other\\Grass_Crush.wav",
+        "Path": "SFX\\Grass_Other\\Grass_Crush_D79FB2B7.wem"
+       },
+       {
+        "Id": "674690314",
+        "Language": "SFX",
+        "ShortName": "Grass_Other\\Grass_Movement_Leaves.wav",
+        "Path": "SFX\\Grass_Other\\Grass_Movement_Leaves_D79FB2B7.wem"
+       },
+       {
+        "Id": "820204544",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Against_Leaves.wav",
+        "Path": "SFX\\Leaves\\Leaves_Against_Leaves_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2693546347",
+      "Name": "Play_Trees_Summer",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Trees_Summer",
+      "GUID": "{DE6E9D5C-6D85-4734-B6D8-FE9599349B9D}",
+      "MaxAttenuation": "5000.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "75865247",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Flap_Soft.wav",
+        "Path": "SFX\\Leaves\\Leaves_Flap_Soft_D79FB2B7.wem"
+       },
+       {
+        "Id": "629825764",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Soft.wav",
+        "Path": "SFX\\Leaves\\Leaves_Soft_D79FB2B7.wem"
+       },
+       {
+        "Id": "674690314",
+        "Language": "SFX",
+        "ShortName": "Grass_Other\\Grass_Movement_Leaves.wav",
+        "Path": "SFX\\Grass_Other\\Grass_Movement_Leaves_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "200447815",
+      "Name": "Play_Trees_Winter",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Trees_Winter",
+      "GUID": "{7659B955-2030-4A1E-89E8-5178F594240E}",
+      "MaxAttenuation": "7000.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "30607187",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Flap_Harsh.wav",
+        "Path": "SFX\\Leaves\\Leaves_Flap_Harsh_D79FB2B7.wem"
+       },
+       {
+        "Id": "78922643",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Dry_Crunch_01.wav",
+        "Path": "SFX\\Leaves\\Leaves_Dry_Crunch_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "274121632",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Dry_Crunch_02.wav",
+        "Path": "SFX\\Leaves\\Leaves_Dry_Crunch_02_D79FB2B7.wem"
+       },
+       {
+        "Id": "564832675",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Dry_Falling.wav",
+        "Path": "SFX\\Leaves\\Leaves_Dry_Falling_D79FB2B7.wem"
+       },
+       {
+        "Id": "674690314",
+        "Language": "SFX",
+        "ShortName": "Grass_Other\\Grass_Movement_Leaves.wav",
+        "Path": "SFX\\Grass_Other\\Grass_Movement_Leaves_D79FB2B7.wem"
+       },
+       {
+        "Id": "763508518",
+        "Language": "SFX",
+        "ShortName": "Grass_Other\\Grass_Crunch.wav",
+        "Path": "SFX\\Grass_Other\\Grass_Crunch_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "467174588",
+      "Name": "Play_Waterfall",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Waterfall",
+      "GUID": "{34B2BFBB-8D93-4619-AF2A-38C0BB8CDC4C}",
+      "MaxAttenuation": "3000.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "200208802",
+        "Language": "SFX",
+        "ShortName": "EXT_WaterFall_Wind.wav",
+        "Path": "SFX\\EXT_WaterFall_Wind_D79FB2B7.wem"
+       },
+       {
+        "Id": "351054453",
+        "Language": "SFX",
+        "ShortName": "Water.wav",
+        "Path": "SFX\\Water_D79FB2B7.wem"
+       },
+       {
+        "Id": "739948257",
+        "Language": "SFX",
+        "ShortName": "Waterfall_INT-001.wav",
+        "Path": "SFX\\Waterfall_INT-001_D79FB2B7.wem"
+       },
+       {
+        "Id": "1047006766",
+        "Language": "SFX",
+        "ShortName": "Waterfall_INT.wav",
+        "Path": "SFX\\Waterfall_INT_D79FB2B7.wem"
+       },
+       {
+        "Id": "1057045915",
+        "Language": "SFX",
+        "ShortName": "bbc_beach_atmo_nhu0505009.wav",
+        "Path": "SFX\\bbc_beach_atmo_nhu0505009_C5DD6A6E.wem"
+       }
+      ]
+     },
+     {
+      "Id": "384244457",
+      "Name": "Play_Winter",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Winter",
+      "GUID": "{B1DC7BC5-A739-45AC-A38C-9E0EC2845320}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "42247407",
+        "Language": "SFX",
+        "ShortName": "music_file_Winter_.wav",
+        "Path": "SFX\\music_file_Winter__D79FB2B7.wem"
+       },
+       {
+        "Id": "444396471",
+        "Language": "SFX",
+        "ShortName": "EXT_Wind_Harsh.wav",
+        "Path": "SFX\\EXT_Wind_Harsh_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "639628721",
+      "Name": "Play_Wood_Sawing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Wood_Sawing",
+      "GUID": "{E8459EFD-2769-4D71-88C2-802064FB5E8D}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1022106722",
+        "Language": "SFX",
+        "ShortName": "Wood_Sawing.wav",
+        "Path": "SFX\\Wood_Sawing_D79FB2B7.wem"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "487587012",
+      "Name": "Player_Distance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Player_Distance",
+      "GUID": "{9C09E92B-3F2F-4D23-A540-BA8D0EA7ADC2}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "788884573",
+      "Name": "Stop",
+      "ObjectPath": "\\States\\Default Work Unit\\Music\\Stop",
+      "GUID": "{AB3BFD53-AE84-44BC-B083-9BBE5424864E}",
+      "States": []
+     },
+     {
+      "Id": "1296465106",
+      "Name": "Spring",
+      "ObjectPath": "\\States\\Default Work Unit\\Music\\Spring",
+      "GUID": "{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}",
+      "States": []
+     },
+     {
+      "Id": "2077253480",
+      "Name": "Room",
+      "ObjectPath": "\\States\\Default Work Unit\\Music\\Room",
+      "GUID": "{BB1FF06B-807D-4905-B6D1-9688FD62BCF1}",
+      "States": []
+     },
+     {
+      "Id": "2424359524",
+      "Name": "Seasons_Tree",
+      "ObjectPath": "\\States\\Default Work Unit\\Seasons_Tree",
+      "GUID": "{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Seasons_Tree\\None",
+        "GUID": "{F3544A33-E96D-4075-AEB3-FA937893CDCB}"
+       },
+       {
+        "Id": "2512384458",
+        "Name": "Fall",
+        "ObjectPath": "\\States\\Default Work Unit\\Seasons_Tree\\Fall",
+        "GUID": "{7BD3DDCB-659C-43D0-BFD0-E30D4FFAEA22}"
+       },
+       {
+        "Id": "1296465106",
+        "Name": "Spring",
+        "ObjectPath": "\\States\\Default Work Unit\\Seasons_Tree\\Spring",
+        "GUID": "{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"
+       },
+       {
+        "Id": "3924562482",
+        "Name": "Summer",
+        "ObjectPath": "\\States\\Default Work Unit\\Seasons_Tree\\Summer",
+        "GUID": "{4C8E80BE-462D-4655-9995-934F090BFAA9}"
+       },
+       {
+        "Id": "2965343494",
+        "Name": "Winter",
+        "ObjectPath": "\\States\\Default Work Unit\\Seasons_Tree\\Winter",
+        "GUID": "{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"
+       }
+      ]
+     },
+     {
+      "Id": "2512384458",
+      "Name": "Fall",
+      "ObjectPath": "\\States\\Default Work Unit\\Music\\Fall",
+      "GUID": "{8A310035-D314-4994-9C44-086F31CD9288}",
+      "States": []
+     },
+     {
+      "Id": "2965343494",
+      "Name": "Winter",
+      "ObjectPath": "\\States\\Default Work Unit\\Music\\Winter",
+      "GUID": "{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}",
+      "States": []
+     },
+     {
+      "Id": "3924562482",
+      "Name": "Summer",
+      "ObjectPath": "\\States\\Default Work Unit\\Music\\Summer",
+      "GUID": "{A37533DF-9D04-4261-9F0F-E8C57838412A}",
+      "States": []
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\States\\Default Work Unit\\Music",
+      "GUID": "{475CFF01-5F51-4371-A68B-D735737A2C23}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\None",
+        "GUID": "{34213144-279D-4225-8E82-F502BD43E2C8}"
+       },
+       {
+        "Id": "2512384458",
+        "Name": "Fall",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Fall",
+        "GUID": "{8A310035-D314-4994-9C44-086F31CD9288}"
+       },
+       {
+        "Id": "1296465106",
+        "Name": "Spring",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Spring",
+        "GUID": "{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}"
+       },
+       {
+        "Id": "3924562482",
+        "Name": "Summer",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Summer",
+        "GUID": "{A37533DF-9D04-4261-9F0F-E8C57838412A}"
+       },
+       {
+        "Id": "2965343494",
+        "Name": "Winter",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Winter",
+        "GUID": "{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}"
+       },
+       {
+        "Id": "2077253480",
+        "Name": "Room",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Room",
+        "GUID": "{BB1FF06B-807D-4905-B6D1-9688FD62BCF1}"
+       },
+       {
+        "Id": "788884573",
+        "Name": "Stop",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Stop",
+        "GUID": "{AB3BFD53-AE84-44BC-B083-9BBE5424864E}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
+      "GUID": "{8431CFBD-501D-4C0D-87BE-FC4000BBCFA2}",
+      "Switches": [
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Grass",
+        "GUID": "{C5066CD3-3C0A-45C9-AEAA-889048F99C27}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Wood",
+        "GUID": "{7F141D26-D3AE-4E1F-888E-DD8D27EE3705}"
+       },
+       {
+        "Id": "803837735",
+        "Name": "Sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Sand",
+        "GUID": "{646497F6-B854-47A8-8FD2-DFB17DECB6B2}"
+       },
+       {
+        "Id": "787898836",
+        "Name": "Snow",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Snow",
+        "GUID": "{5F710444-FAFF-42E9-BB73-80AE40F4445B}"
+       },
+       {
+        "Id": "1863277117",
+        "Name": "Rocks",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Rocks",
+        "GUID": "{5A3F88B8-FD25-48FA-80C2-78B2CDF30AEE}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3991942870",
+    "GUID": "{30972FB1-4EFA-4619-AD5E-237DF5934A36}",
+    "Language": "SFX",
+    "Hash": "4085940060",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
+    "ShortName": "Music",
+    "Path": "Music.bnk"
+   }
+  ]
+ }
+}
