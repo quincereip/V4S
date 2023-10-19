@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{66458A1D-F841-460E-B37D-A449C653D407}" SchemaVersion="97">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{66458A1D-F841-460E-B37D-A449C653D407}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Reverb_Outside" ID="{5F98440F-E248-479B-ACBF-A47EC13A5EBE}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="Diffusion" Type="Real32" Value="16"/>
+						<Property Name="DryLevel" Type="Real32" Value="-4.3"/>
+						<Property Name="ERFrontBackDelay" Type="Real32" Value="15"/>
+						<Property Name="EnableToneControls" Type="bool" Value="True"/>
+						<Property Name="Filter1InsertPos" Type="int32" Value="1"/>
+						<Property Name="Filter2Curve" Type="int32" Value="0"/>
+						<Property Name="Filter2Freq" Type="Real32" Value="380"/>
+						<Property Name="Filter2InsertPos" Type="int32" Value="2"/>
+						<Property Name="Filter3Curve" Type="int32" Value="0"/>
+						<Property Name="Filter3Freq" Type="Real32" Value="530"/>
+						<Property Name="HFDamping" Type="Real32" Value="5.6"/>
+						<Property Name="InputLFELevel" Type="Real32" Value="-40.3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="ReverbLevel" Type="Real32" Value="-16"/>
+						<Property Name="RoomShape" Type="Real32" Value="79"/>
+						<Property Name="RoomSize" Type="Real32" Value="98"/>
+					</PropertyList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Winter" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
+								<CustomState Name="" ID="{E631DEE2-30C1-44F0-8DF6-4AE418A5E88F}" ShortID="458638917"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Fall" ID="{7BD3DDCB-659C-43D0-BFD0-E30D4FFAEA22}"/>
+								<CustomState Name="" ID="{4E26CB31-0ED3-4A29-8FD3-2A9D36EFA7BF}" ShortID="592657095"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Summer" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
+								<CustomState Name="" ID="{B606E01D-FB22-4A9F-A786-2F8A71E57B18}" ShortID="185953575"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Spring" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
+								<CustomState Name="" ID="{18D8D7E7-72AF-44CC-A5AA-53D2B21918CD}" ShortID="575290563"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>
