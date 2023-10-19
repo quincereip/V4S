@@ -6279,339 +6279,6 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<BlendContainer Name="Water_Ocean" ID="{563A7B87-2D36-48CD-9E63-161C30F221A6}" ShortID="409057456">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-														<Property Name="BlendBehavior" Type="int16" Value="1"/>
-														<Property Name="OutputBusVolume" Type="Real64">
-															<ValueList>
-																<Value>-12</Value>
-															</ValueList>
-														</Property>
-														<Property Name="OverridePositioning" Type="bool" Value="True"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>12</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<Custom>
-																<Attenuation Name="Attenuation (Custom)" ID="{F38EE85E-AC19-41A8-8A27-845626357E09}" ShortID="464355380">
-																	<PropertyList>
-																		<Property Name="ConeInnerAngle" Type="int32" Value="45"/>
-																		<Property Name="ConeOuterAngle" Type="int32" Value="260"/>
-																		<Property Name="RadiusMax" Type="Real64" Value="3000"/>
-																	</PropertyList>
-																	<CurveUsageInfoList>
-																		<VolumeDryUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																				<Curve Name="VolumeDry" ID="{98453920-4F18-40FA-8E30-32B53FA09C8B}">
-																					<PropertyList>
-																						<Property Name="Flags" Type="int32" Value="3"/>
-																					</PropertyList>
-																					<PointList>
-																						<Point>
-																							<XPos>0</XPos>
-																							<YPos>0</YPos>
-																							<Flags>5</Flags>
-																						</Point>
-																						<Point>
-																							<XPos>3000</XPos>
-																							<YPos>-13.667</YPos>
-																							<Flags>37</Flags>
-																						</Point>
-																					</PointList>
-																				</Curve>
-																			</CurveUsageInfo>
-																		</VolumeDryUsage>
-																		<VolumeWetGameUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																		</VolumeWetGameUsage>
-																		<VolumeWetUserUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																		</VolumeWetUserUsage>
-																		<LowPassFilterUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																		</LowPassFilterUsage>
-																		<HighPassFilterUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																				<Curve Name="HighPassFilter" ID="{88784924-EE1A-4237-A470-BB42406174F5}">
-																					<PropertyList>
-																						<Property Name="Flags" Type="int32" Value="65537"/>
-																					</PropertyList>
-																					<PointList>
-																						<Point>
-																							<XPos>0</XPos>
-																							<YPos>18</YPos>
-																							<Flags>5</Flags>
-																						</Point>
-																						<Point>
-																							<XPos>3000</XPos>
-																							<YPos>23</YPos>
-																							<Flags>37</Flags>
-																						</Point>
-																					</PointList>
-																				</Curve>
-																			</CurveUsageInfo>
-																		</HighPassFilterUsage>
-																		<SpreadUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																				<Curve Name="Spread" ID="{AAA9DD64-EE00-4826-BE55-D8401B8D3B95}">
-																					<PropertyList>
-																						<Property Name="Flags" Type="int32" Value="1"/>
-																					</PropertyList>
-																					<PointList>
-																						<Point>
-																							<XPos>0</XPos>
-																							<YPos>42.47313</YPos>
-																							<Flags>5</Flags>
-																						</Point>
-																						<Point>
-																							<XPos>3000</XPos>
-																							<YPos>0</YPos>
-																							<Flags>37</Flags>
-																						</Point>
-																					</PointList>
-																				</Curve>
-																			</CurveUsageInfo>
-																		</SpreadUsage>
-																		<FocusUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																		</FocusUsage>
-																	</CurveUsageInfoList>
-																</Attenuation>
-															</Custom>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-														</Reference>
-														<Reference Name="Effect0">
-															<Custom CreatedFrom="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}">
-																<Effect Name="Have_U_Ever_Been_Outside_(Custom)" ID="{EB2FAC23-401E-424A-8F2D-D857AA7AD7D9}" ShortID="14858846" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-																	<PropertyList>
-																		<Property Name="DecayTime" Type="Real32" Value="1"/>
-																		<Property Name="Density" Type="Real32" Value="81"/>
-																		<Property Name="Diffusion" Type="Real32" Value="99"/>
-																		<Property Name="DryLevel" Type="Real32" Value="-25.3">
-																			<RTPCList>
-																				<RTPC Name="" ID="{41053E1F-F1D4-4277-9F49-0CE14D975937}" ShortID="733714533">
-																					<ReferenceList>
-																						<Reference Name="ControlInput">
-																							<ObjectRef Name="Player_Distance" ID="{9C09E92B-3F2F-4D23-A540-BA8D0EA7ADC2}" WorkUnitID="{E5613AA8-70E4-4AC8-BD0D-1B3F362D7B68}"/>
-																						</Reference>
-																					</ReferenceList>
-																					<Curve Name="" ID="{F866DD50-400C-49FB-84DB-6CAA869823CE}">
-																						<PropertyList>
-																							<Property Name="Flags" Type="int32" Value="3"/>
-																						</PropertyList>
-																						<PointList>
-																							<Point>
-																								<XPos>0</XPos>
-																								<YPos>38.97604</YPos>
-																								<Flags>5</Flags>
-																							</Point>
-																							<Point>
-																								<XPos>3000</XPos>
-																								<YPos>-6.7319</YPos>
-																								<Flags>37</Flags>
-																							</Point>
-																						</PointList>
-																					</Curve>
-																				</RTPC>
-																			</RTPCList>
-																		</Property>
-																		<Property Name="ERFrontBackDelay" Type="Real32" Value="27"/>
-																		<Property Name="ERLevel" Type="Real32" Value="-18"/>
-																		<Property Name="Filter1Freq" Type="Real32" Value="210"/>
-																		<Property Name="Filter1Gain" Type="Real32" Value="1.5"/>
-																		<Property Name="Filter2Freq" Type="Real32" Value="6830"/>
-																		<Property Name="Filter2Gain" Type="Real32" Value="-7.5"/>
-																		<Property Name="Filter2Q" Type="Real32" Value="0.65"/>
-																		<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
-																		<Property Name="Filter3Gain" Type="Real32" Value="-4"/>
-																		<Property Name="FrontLevel" Type="Real32">
-																			<RTPCList>
-																				<RTPC Name="" ID="{F550BFD6-CCA9-4204-89EF-9DA4A8F15FB6}" ShortID="987306588">
-																					<ReferenceList>
-																						<Reference Name="ControlInput">
-																							<ObjectRef Name="Player_Distance" ID="{9C09E92B-3F2F-4D23-A540-BA8D0EA7ADC2}" WorkUnitID="{E5613AA8-70E4-4AC8-BD0D-1B3F362D7B68}"/>
-																						</Reference>
-																					</ReferenceList>
-																					<Curve Name="" ID="{2669943D-1448-45A2-A3FC-A9147369D06F}">
-																						<PropertyList>
-																							<Property Name="Flags" Type="int32" Value="3"/>
-																						</PropertyList>
-																						<PointList>
-																							<Point>
-																								<XPos>0</XPos>
-																								<YPos>96.3</YPos>
-																								<Flags>5</Flags>
-																							</Point>
-																							<Point>
-																								<XPos>3000</XPos>
-																								<YPos>-96.3</YPos>
-																								<Flags>37</Flags>
-																							</Point>
-																						</PointList>
-																					</Curve>
-																				</RTPC>
-																			</RTPCList>
-																		</Property>
-																		<Property Name="HFDamping" Type="Real32" Value="3.75"/>
-																		<Property Name="PreDelay" Type="Real32" Value="145"/>
-																		<Property Name="Quality" Type="int32" Value="12"/>
-																		<Property Name="ReverbLevel" Type="Real32" Value="-31"/>
-																		<Property Name="RoomSize" Type="Real32" Value="33"/>
-																		<Property Name="StereoWidth" Type="Real32" Value="90"/>
-																	</PropertyList>
-																	<StateInfo>
-																		<StateGroupList>
-																			<StateGroupInfo>
-																				<StateGroupRef Name="Seasons_2D" ID="{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}"/>
-																			</StateGroupInfo>
-																		</StateGroupList>
-																		<CustomStateList>
-																			<CustomState>
-																				<StateRef Name="Summer" ID="{B2F6DCC2-0296-439A-8847-FB4C5D483B19}"/>
-																				<CustomState Name="" ID="{B137FE8E-A8DB-4A8A-88FA-4ED190A7B9CF}" ShortID="1039473224"/>
-																			</CustomState>
-																			<CustomState>
-																				<StateRef Name="Winter" ID="{D874A809-6B76-4605-9F8D-585B18CF2E97}"/>
-																				<CustomState Name="" ID="{F1D760C3-00F6-40A4-A251-58DA3CAECFAF}" ShortID="108774546"/>
-																			</CustomState>
-																			<CustomState>
-																				<StateRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
-																				<CustomState Name="" ID="{AE6FD834-EED7-4995-ADF2-AD4111A6F7FC}" ShortID="295423415"/>
-																			</CustomState>
-																			<CustomState>
-																				<StateRef Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
-																				<CustomState Name="" ID="{956F0425-E902-4A4C-B7BD-194E3809405F}" ShortID="554694507"/>
-																			</CustomState>
-																		</CustomStateList>
-																	</StateInfo>
-																</Effect>
-															</Custom>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="bbc_beach_atmo_nhu0505009" ID="{186FDC3B-8686-4811-A704-4BEC80A66B3E}" ShortID="706347269">
-															<PropertyList>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-																	<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="bbc_beach_atmo_nhu0505009" ID="{7CA9E49D-3F7C-4E70-9F24-C525696F5FE1}">
-																	<Language>SFX</Language>
-																	<AudioFile>bbc_beach_atmo_nhu0505009.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="47504844"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="bbc_beach_atmo_nhu0505009" ID="{7CA9E49D-3F7C-4E70-9F24-C525696F5FE1}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Ocean_Waves_01" ID="{C0ECFC41-7184-41AD-A1E2-67587A059234}" ShortID="781155927">
-															<PropertyList>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-																	<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Ocean_Waves_01" ID="{6059CBA9-E851-4903-B4A5-967BC586A364}">
-																	<Language>SFX</Language>
-																	<AudioFile>Ocean_Waves_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="85059130"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Ocean_Waves_01" ID="{6059CBA9-E851-4903-B4A5-967BC586A364}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Ocean_Waves" ID="{15BD7EF8-3D00-443A-897B-F54C13B01F74}" ShortID="123884085">
-															<PropertyList>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-																<Property Name="Weight" Type="Real64">
-																	<ValueList>
-																		<Value>71</Value>
-																	</ValueList>
-																</Property>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-																	<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Ocean_Waves" ID="{B9E5BECA-220E-4941-9405-B929D9CF10D2}">
-																	<Language>SFX</Language>
-																	<AudioFile>Ocean_Waves.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="128255444"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Ocean_Waves" ID="{B9E5BECA-220E-4941-9405-B929D9CF10D2}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Ocean_Fix" ID="{BE5DECC5-9185-404F-A3F5-1AA2EFDD28D5}" ShortID="269826339">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Ocean_Fix" ID="{FDF3489D-CD13-49BD-9906-C76E19138BF4}">
-																	<Language>SFX</Language>
-																	<AudioFile>Ocean_Fix.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="79930149"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Ocean_Fix" ID="{FDF3489D-CD13-49BD-9906-C76E19138BF4}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</BlendContainer>
 												<BlendContainer Name="Water_Waterfall" ID="{FC73D419-F372-4B25-9831-35611318CA8A}" ShortID="777668390">
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="2"/>
@@ -6624,7 +6291,7 @@
 														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>12</Value>
+																<Value>6</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -6997,20 +6664,37 @@
 																<ActiveSource Name="Water" ID="{9DCDEE81-0434-4737-B1F6-1BEFF65F1067}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="bbc_beach_atmo_nhu0505009_01" ID="{2A7CB6D3-F7FB-4CC3-8DE4-5953652BA394}" ShortID="293837162">
+													</ChildrenList>
+												</BlendContainer>
+												<RandomSequenceContainer Name="Water_Ocean" ID="{2FF29502-5BEC-4498-AE21-5FAB67651C2C}" ShortID="1041333537">
+													<PropertyList>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="bbc_beach_atmo_nhu0505009" ID="{08F88938-ECBB-4A64-A83C-0DA814BC1EFE}" ShortID="54833306">
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-																<Property Name="Volume" Type="Real64">
+																<Property Name="Weight" Type="Real64">
 																	<ValueList>
-																		<Value>-12</Value>
+																		<Value>20</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
 																	<Custom>
-																		<Attenuation Name="Attenuation (Custom)" ID="{C816F713-92BB-4A5A-9CE5-24C3C5F3CB7E}" ShortID="811198756">
+																		<Attenuation Name="Attenuation (Custom)" ID="{193D290E-D601-41F9-AFDF-8CA0D5C6400F}" ShortID="561199099">
 																			<PropertyList>
 																				<Property Name="ConeInnerAngle" Type="int32" Value="45"/>
 																				<Property Name="ConeOuterAngle" Type="int32" Value="260"/>
@@ -7019,7 +6703,7 @@
 																			<CurveUsageInfoList>
 																				<VolumeDryUsage>
 																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="VolumeDry" ID="{AB291B29-22FB-4F85-A7FC-BAE2913EEC09}">
+																						<Curve Name="VolumeDry" ID="{4ADD88FA-7E8F-4E4D-8D7C-547011A59BC5}">
 																							<PropertyList>
 																								<Property Name="Flags" Type="int32" Value="3"/>
 																							</PropertyList>
@@ -7049,7 +6733,7 @@
 																				</LowPassFilterUsage>
 																				<HighPassFilterUsage>
 																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="HighPassFilter" ID="{B1973096-8883-46E6-A338-22F4DCC455F2}">
+																						<Curve Name="HighPassFilter" ID="{FEC15ABF-B135-4443-8F78-6C78C7AE165E}">
 																							<PropertyList>
 																								<Property Name="Flags" Type="int32" Value="65537"/>
 																							</PropertyList>
@@ -7070,7 +6754,7 @@
 																				</HighPassFilterUsage>
 																				<SpreadUsage>
 																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="Spread" ID="{CBFD0E0E-34BE-427E-ACAD-F2378AD3FB77}">
+																						<Curve Name="Spread" ID="{919001E2-CB82-4048-A873-7D8A5A7EE089}">
 																							<PropertyList>
 																								<Property Name="Flags" Type="int32" Value="1"/>
 																							</PropertyList>
@@ -7100,29 +6784,153 @@
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
 																</Reference>
 																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																	<ObjectRef Name="SFX" ID="{56A82526-F8AE-4ABB-B8B3-331AEC87F12F}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Emitter" ID="{49953334-5AB5-462F-B68B-4F88ECD72A6E}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="bbc_beach_atmo_nhu0505009" ID="{367A586F-7F00-49DA-BE33-F3F979746EAF}">
-																	<PropertyList>
-																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimEnd" Type="Real64" Value="4.09577278731836"/>
-																	</PropertyList>
+																<AudioFileSource Name="bbc_beach_atmo_nhu0505009" ID="{40BD9387-A77C-4EBE-A774-47DBB333208A}">
 																	<Language>SFX</Language>
 																	<AudioFile>bbc_beach_atmo_nhu0505009.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="1057045915"/>
+																		<MediaID ID="228171953"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="bbc_beach_atmo_nhu0505009" ID="{367A586F-7F00-49DA-BE33-F3F979746EAF}" Platform="Linked"/>
+																<ActiveSource Name="bbc_beach_atmo_nhu0505009" ID="{40BD9387-A77C-4EBE-A774-47DBB333208A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Ocean_Fix" ID="{697B3300-B4B2-4C85-B2ED-851141ABFBFB}" ShortID="820308475">
+															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>3</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>70</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<Custom>
+																		<Attenuation Name="Attenuation (Custom)" ID="{F37ACABE-F0F1-44F9-8747-A80C7D9A3274}" ShortID="895741181">
+																			<PropertyList>
+																				<Property Name="ConeInnerAngle" Type="int32" Value="45"/>
+																				<Property Name="ConeOuterAngle" Type="int32" Value="260"/>
+																				<Property Name="RadiusMax" Type="Real64" Value="3000"/>
+																			</PropertyList>
+																			<CurveUsageInfoList>
+																				<VolumeDryUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																						<Curve Name="VolumeDry" ID="{A3A1C570-AD93-45AB-B362-BF44BF8CC5E0}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="3"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>0</YPos>
+																									<Flags>5</Flags>
+																								</Point>
+																								<Point>
+																									<XPos>3000</XPos>
+																									<YPos>-13.667</YPos>
+																									<Flags>37</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</CurveUsageInfo>
+																				</VolumeDryUsage>
+																				<VolumeWetGameUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																				</VolumeWetGameUsage>
+																				<VolumeWetUserUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																				</VolumeWetUserUsage>
+																				<LowPassFilterUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																				</LowPassFilterUsage>
+																				<HighPassFilterUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																						<Curve Name="HighPassFilter" ID="{F955A723-2C90-415F-960A-B149442EA0EC}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="65537"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>18</YPos>
+																									<Flags>5</Flags>
+																								</Point>
+																								<Point>
+																									<XPos>3000</XPos>
+																									<YPos>23</YPos>
+																									<Flags>37</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</CurveUsageInfo>
+																				</HighPassFilterUsage>
+																				<SpreadUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																						<Curve Name="Spread" ID="{28AAAC20-8400-4938-9BB9-B0145101F0D6}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="1"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>42.47313</YPos>
+																									<Flags>5</Flags>
+																								</Point>
+																								<Point>
+																									<XPos>3000</XPos>
+																									<YPos>0</YPos>
+																									<Flags>37</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</CurveUsageInfo>
+																				</SpreadUsage>
+																				<FocusUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																				</FocusUsage>
+																			</CurveUsageInfoList>
+																		</Attenuation>
+																	</Custom>
+																</Reference>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="SFX" ID="{56A82526-F8AE-4ABB-B8B3-331AEC87F12F}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Emitter" ID="{49953334-5AB5-462F-B68B-4F88ECD72A6E}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Ocean_Fix" ID="{5FD983FD-F091-497C-BB1D-54A5B567600B}">
+																	<Language>SFX</Language>
+																	<AudioFile>Ocean_Fix.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="79930149"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Ocean_Fix" ID="{5FD983FD-F091-497C-BB1D-54A5B567600B}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
-												</BlendContainer>
+												</RandomSequenceContainer>
 											</ChildrenList>
 										</ActorMixer>
 									</ChildrenList>
