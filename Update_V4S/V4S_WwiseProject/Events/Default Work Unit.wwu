@@ -74,7 +74,7 @@
 						<Action Name="" ID="{02D8431A-6D8A-40FB-A0EF-0823B069E011}" ShortID="970268912">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="3D_Audio_AnimalsCrickets" ID="{7F33F9DA-48B3-4E45-9C95-9DDF19DC2B14}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
+									<ObjectRef Name="2D_Ambience_AnimalsCrickets" ID="{7F33F9DA-48B3-4E45-9C95-9DDF19DC2B14}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

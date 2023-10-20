@@ -16,10 +16,11 @@
 				</GameParameter>
 				<GameParameter Name="Emitter_Pan" ID="{352E2A4D-FB2D-49EE-8501-C0A519C2FCC9}">
 					<PropertyList>
-						<Property Name="BindToBuiltInParam" Type="int16" Value="4"/>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="2"/>
 						<Property Name="Color" Type="int16" Value="2"/>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="180"/>
+						<Property Name="Min" Type="Real64" Value="-180"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 				</GameParameter>
