@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="97">
 	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1689361350" DateHigh="0"/>
-	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\V4S_WwiseProject.wproj" DateLow="1690799000" DateHigh="0"/>
-	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\V4S_WwiseProject.quinc.wsettings" DateLow="1697686748" DateHigh="0"/>
+	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\V4S_WwiseProject.wproj" DateLow="1697686982" DateHigh="0"/>
+	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\V4S_WwiseProject.quinc.wsettings" DateLow="1698164488" DateHigh="0"/>
 	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1689361348" DateHigh="0"/>
-	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1690400328" DateHigh="0"/>
-	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\States\Default Work Unit.wwu" DateLow="1691619454" DateHigh="0"/>
+	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1697687364" DateHigh="0"/>
+	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\States\Default Work Unit.wwu" DateLow="1697687364" DateHigh="0"/>
 	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1689361348" DateHigh="0"/>
 	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1692243460" DateHigh="0"/>
 	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Queries\Factory Queries.wwu" DateLow="1675730958" DateHigh="0"/>
@@ -14,19 +14,19 @@
 	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1689361350" DateHigh="0"/>
 	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1689361348" DateHigh="0"/>
 	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1689361348" DateHigh="0"/>
-	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1691971336" DateHigh="0"/>
-	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1692394656" DateHigh="0"/>
-	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1692236424" DateHigh="0"/>
-	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Events\Default Work Unit.wwu" DateLow="1692243460" DateHigh="0"/>
+	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1697686982" DateHigh="0"/>
+	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1697746376" DateHigh="0"/>
+	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1697818534" DateHigh="0"/>
+	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Events\Default Work Unit.wwu" DateLow="1697836452" DateHigh="0"/>
 	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Effects\Factory Effects.wwu" DateLow="1691442964" DateHigh="0"/>
-	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1690694918" DateHigh="0"/>
+	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1697687364" DateHigh="0"/>
 	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1689361348" DateHigh="0"/>
 	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1675730958" DateHigh="0"/>
 	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1689361350" DateHigh="0"/>
 	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1689364902" DateHigh="0"/>
 	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1689361350" DateHigh="0"/>
 	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1691442964" DateHigh="0"/>
-	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1692395290" DateHigh="0"/>
+	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\V4S_GitHub\V4S\Update_V4S\V4S_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1698164488" DateHigh="0"/>
 	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\Repository_Capstone\Capstone\V4S\V4S_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1689361350" DateHigh="0"/>
 	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\Repository_Capstone\Capstone\V4S\V4S_WwiseProject\V4S_WwiseProject.wproj" DateLow="1690799000" DateHigh="0"/>
 	<ValidationCacheItem File="D:\2023 Spring Term\GitHub\Repository_Capstone\Capstone\V4S\V4S_WwiseProject\V4S_WwiseProject.quinc.wsettings" DateLow="1692278972" DateHigh="0"/>

@@ -70,6 +70,12 @@
 									</PropertyList>
 									<ChildrenList>
 										<AuxBus Name="Emitter" ID="{49953334-5AB5-462F-B68B-4F88ECD72A6E}"/>
+										<AuxBus Name="Footsteps" ID="{A549B72C-B68C-4353-986C-9111014EC9C5}">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="3"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+										</AuxBus>
 									</ChildrenList>
 								</Bus>
 							</ChildrenList>
