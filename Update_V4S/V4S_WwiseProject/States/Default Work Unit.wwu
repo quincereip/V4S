@@ -63,7 +63,6 @@
 				</StateGroup>
 				<StateGroup Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="4"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>

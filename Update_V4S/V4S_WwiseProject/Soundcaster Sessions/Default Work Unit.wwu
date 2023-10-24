@@ -128,11 +128,11 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Waterfall_Elevation" ID="{8E318064-CD55-4892-BEFC-90273F29D31E}"/>
-							<Value>-0.288924558587482</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Emitter_Pan" ID="{352E2A4D-FB2D-49EE-8501-C0A519C2FCC9}"/>
-							<Value>-0.500463392029644</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Player_Distance" ID="{9C09E92B-3F2F-4D23-A540-BA8D0EA7ADC2}"/>
@@ -141,8 +141,8 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{F3544A33-E96D-4075-AEB3-FA937893CDCB}"/>
-						<CurrentStateRef Name="None" ID="{34213144-279D-4225-8E82-F502BD43E2C8}"/>
-						<CurrentStateRef Name="None" ID="{3CEB32E6-C52B-439C-BDB6-979183F2E492}"/>
+						<CurrentStateRef Name="Fall" ID="{8A310035-D314-4994-9C44-086F31CD9288}"/>
+						<CurrentStateRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
 						<CurrentStateRef Name="None" ID="{2810BA7A-BEC0-440D-A8EE-53D5E100B1F9}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

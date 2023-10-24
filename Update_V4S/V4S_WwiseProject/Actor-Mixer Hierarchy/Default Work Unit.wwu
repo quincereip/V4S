@@ -1517,7 +1517,11 @@
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
-														<CustomState Name="" ID="{685F46F1-FA33-45B9-B4CF-DC7994C4E79A}" ShortID="607714605"/>
+														<CustomState Name="" ID="{685F46F1-FA33-45B9-B4CF-DC7994C4E79A}" ShortID="607714605">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-6"/>
+															</PropertyList>
+														</CustomState>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
@@ -2302,13 +2306,17 @@
 														<StateRef Name="Winter" ID="{D874A809-6B76-4605-9F8D-585B18CF2E97}"/>
 														<CustomState Name="" ID="{B872A963-9BDA-4D39-9B4C-17135AE0A2D0}" ShortID="119638038">
 															<PropertyList>
-																<Property Name="Volume" Type="Real64" Value="15"/>
+																<Property Name="Volume" Type="Real64" Value="3"/>
 															</PropertyList>
 														</CustomState>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
-														<CustomState Name="" ID="{0560D41E-5FF9-430E-BF5F-A3C807E7AD67}" ShortID="154797689"/>
+														<CustomState Name="" ID="{0560D41E-5FF9-430E-BF5F-A3C807E7AD67}" ShortID="154797689">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
@@ -3158,13 +3166,17 @@
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
-														<CustomState Name="" ID="{29BC4AEA-B7C0-45A3-BC96-55B4E2A583E7}" ShortID="227063935"/>
+														<CustomState Name="" ID="{29BC4AEA-B7C0-45A3-BC96-55B4E2A583E7}" ShortID="227063935">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
 														<CustomState Name="" ID="{F628F52D-0012-414F-B3C5-76CC333137BE}" ShortID="616205804">
 															<PropertyList>
-																<Property Name="Volume" Type="Real64" Value="12"/>
+																<Property Name="Volume" Type="Real64" Value="3"/>
 															</PropertyList>
 														</CustomState>
 													</CustomState>
@@ -3909,7 +3921,7 @@
 														<StateRef Name="Summer" ID="{B2F6DCC2-0296-439A-8847-FB4C5D483B19}"/>
 														<CustomState Name="" ID="{DC5FC565-822C-4619-9192-AFC14D650232}" ShortID="214487171">
 															<PropertyList>
-																<Property Name="Volume" Type="Real64" Value="21"/>
+																<Property Name="Volume" Type="Real64" Value="3"/>
 															</PropertyList>
 														</CustomState>
 													</CustomState>
@@ -3923,7 +3935,11 @@
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
-														<CustomState Name="" ID="{01F31607-29E9-4D83-9E5F-0FEDACE390B0}" ShortID="448267371"/>
+														<CustomState Name="" ID="{01F31607-29E9-4D83-9E5F-0FEDACE390B0}" ShortID="448267371">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
