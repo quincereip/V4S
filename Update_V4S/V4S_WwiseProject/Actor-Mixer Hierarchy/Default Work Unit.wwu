@@ -1390,6 +1390,18 @@
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{771F7113-B9B1-4103-9323-3FFA098953AC}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-1"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
 																		<Value>6</Value>
@@ -2377,164 +2389,6 @@
 														<ActiveSource Name="music_file_Spring_Edit" ID="{91D25467-D83A-485C-A224-1ED2BD40F674}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<RandomSequenceContainer Name="EXT_Wind_Spring" ID="{8CBABD3F-1DC4-4A5C-B6B3-1FBD3BCC93CD}" ShortID="340536516">
-													<PropertyList>
-														<Property Name="GameAuxSendVolume" Type="Real64">
-															<ValueList>
-																<Value>3</Value>
-															</ValueList>
-														</Property>
-														<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
-														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
-														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-3</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="EXT_Wind_Breeze" ID="{8A5BC899-7F76-4E05-ACF1-DA2493F5BAB3}" ShortID="304831020">
-															<PropertyList>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-																<Property Name="Volume" Type="Real64">
-																	<ValueList>
-																		<Value>-3</Value>
-																	</ValueList>
-																</Property>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Wind_Breeze" ID="{1AC3540D-3663-4C59-9698-7397F3E001A2}">
-																	<Language>SFX</Language>
-																	<AudioFile>Wind_Breeze.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="439622629"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Wind_Breeze" ID="{1AC3540D-3663-4C59-9698-7397F3E001A2}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<RandomSequenceContainer Name="EXT_Rain" ID="{AA026C14-1316-44BF-AC25-C4210CE8FDC7}" ShortID="404177149">
-															<PropertyList>
-																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<Sound Name="EXT_AMB_Rain_Light" ID="{DB6DA85A-31CD-45C8-B31A-812E59A913D9}" ShortID="389939056">
-																	<PropertyList>
-																		<Property Name="Weight" Type="Real64">
-																			<ValueList>
-																				<Value>20</Value>
-																			</ValueList>
-																		</Property>
-																	</PropertyList>
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																		</Reference>
-																		<Reference Name="UserAuxSend0">
-																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="EXT_AMB_Rain_Light" ID="{39CE73B9-3AEE-42F2-B479-1862F3FDE228}">
-																			<Language>SFX</Language>
-																			<AudioFile>EXT_AMB_Rain_Light.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="864683368"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="EXT_AMB_Rain_Light" ID="{39CE73B9-3AEE-42F2-B479-1862F3FDE228}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
-																<Sound Name="Rain" ID="{0D793CE6-7383-48A1-90DB-16D05BC34DAE}" ShortID="142938486">
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																		</Reference>
-																		<Reference Name="UserAuxSend0">
-																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="Rain" ID="{945B5189-29AD-4B0C-963D-795599CD09A4}">
-																			<Language>SFX</Language>
-																			<AudioFile>Rain.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="309298276"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="Rain" ID="{945B5189-29AD-4B0C-963D-795599CD09A4}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
-																<Sound Name="Rain_Heavy" ID="{4CE18665-F3FC-4897-A4C0-8C4E044CFB48}" ShortID="549243156">
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																		</Reference>
-																		<Reference Name="UserAuxSend0">
-																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="Rain_Heavy" ID="{96A5AF73-630F-45CC-916F-90FB1FDA50BE}">
-																			<Language>SFX</Language>
-																			<AudioFile>Rain_Heavy.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="800130255"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="Rain_Heavy" ID="{96A5AF73-630F-45CC-916F-90FB1FDA50BE}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
-															</ChildrenList>
-														</RandomSequenceContainer>
-													</ChildrenList>
-												</RandomSequenceContainer>
 												<BlendContainer Name="ST_Trees_Spring" ID="{42FD5BED-C837-4091-B3E9-AC9E9CF99ECF}" ShortID="701257550">
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="2"/>
@@ -3133,6 +2987,166 @@
 															</ChildrenList>
 															<ActiveSourceList>
 																<ActiveSource Name="EXT_Birds" ID="{4CA3DE12-2B50-4263-8FE1-27AEEC7ECA04}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</BlendContainer>
+												<BlendContainer Name="EXT_Wind_Spring" ID="{986CE196-FA01-458E-9454-FB9AE6D69751}" ShortID="594824762">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="EXT_Rain" ID="{AA026C14-1316-44BF-AC25-C4210CE8FDC7}" ShortID="404177149">
+															<PropertyList>
+																<Property Name="GameAuxSendVolume" Type="Real64">
+																	<ValueList>
+																		<Value>3</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="EXT_AMB_Rain_Light" ID="{DB6DA85A-31CD-45C8-B31A-812E59A913D9}" ShortID="389939056">
+																	<PropertyList>
+																		<Property Name="Weight" Type="Real64">
+																			<ValueList>
+																				<Value>20</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="EXT_AMB_Rain_Light" ID="{39CE73B9-3AEE-42F2-B479-1862F3FDE228}">
+																			<Language>SFX</Language>
+																			<AudioFile>EXT_AMB_Rain_Light.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="864683368"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="EXT_AMB_Rain_Light" ID="{39CE73B9-3AEE-42F2-B479-1862F3FDE228}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Rain" ID="{0D793CE6-7383-48A1-90DB-16D05BC34DAE}" ShortID="142938486">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Rain" ID="{945B5189-29AD-4B0C-963D-795599CD09A4}">
+																			<Language>SFX</Language>
+																			<AudioFile>Rain.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="309298276"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Rain" ID="{945B5189-29AD-4B0C-963D-795599CD09A4}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Rain_Heavy" ID="{4CE18665-F3FC-4897-A4C0-8C4E044CFB48}" ShortID="549243156">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Rain_Heavy" ID="{96A5AF73-630F-45CC-916F-90FB1FDA50BE}">
+																			<Language>SFX</Language>
+																			<AudioFile>Rain_Heavy.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="800130255"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Rain_Heavy" ID="{96A5AF73-630F-45CC-916F-90FB1FDA50BE}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<Sound Name="EXT_Wind_Breeze" ID="{8A5BC899-7F76-4E05-ACF1-DA2493F5BAB3}" ShortID="304831020">
+															<PropertyList>
+																<Property Name="GameAuxSendVolume" Type="Real64">
+																	<ValueList>
+																		<Value>3</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-3</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wind_Breeze" ID="{1AC3540D-3663-4C59-9698-7397F3E001A2}">
+																	<Language>SFX</Language>
+																	<AudioFile>Wind_Breeze.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="439622629"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wind_Breeze" ID="{1AC3540D-3663-4C59-9698-7397F3E001A2}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
