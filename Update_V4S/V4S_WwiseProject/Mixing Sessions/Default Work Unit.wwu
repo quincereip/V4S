@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C2ABDE87-3AF6-476A-9C64-8B95C3B1362B}" SchemaVersion="97">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{C2ABDE87-3AF6-476A-9C64-8B95C3B1362B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C2ABDE87-3AF6-476A-9C64-8B95C3B1362B}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Master_Mixier" ID="{FF5F0E17-1611-4B61-A4C1-303065D6F40C}">
+					<ObjectList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+						<ObjectRef Name="M&amp;E" ID="{81A3429B-4B6E-4DF8-BCFA-E87141DCCED4}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+						<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+						<ObjectRef Name="MUS" ID="{C6BE419B-B20D-4B06-A018-2DBECC86D745}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+						<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+						<ObjectRef Name="SFX" ID="{56A82526-F8AE-4ABB-B8B3-331AEC87F12F}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+						<ObjectRef Name="Footsteps" ID="{A549B72C-B68C-4353-986C-9111014EC9C5}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+						<ObjectRef Name="Emitter" ID="{49953334-5AB5-462F-B68B-4F88ECD72A6E}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>

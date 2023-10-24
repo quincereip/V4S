@@ -41,12 +41,34 @@
 								<Property Name="Color" Type="int16" Value="3"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+							<ReferenceList>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+								</Reference>
+								<Reference Name="UserAuxSend1">
+									<ObjectRef Name="MUS" ID="{C6BE419B-B20D-4B06-A018-2DBECC86D745}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+								</Reference>
+								<Reference Name="UserAuxSend2">
+									<ObjectRef Name="Emitter" ID="{49953334-5AB5-462F-B68B-4F88ECD72A6E}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+								</Reference>
+								<Reference Name="UserAuxSend3">
+									<ObjectRef Name="Footsteps" ID="{A549B72C-B68C-4353-986C-9111014EC9C5}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+								</Reference>
+							</ReferenceList>
 							<ChildrenList>
 								<Bus Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}">
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="4"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
+									<ReferenceList>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+										</Reference>
+										<Reference Name="UserAuxSend1">
+											<ObjectRef Name="MUS" ID="{C6BE419B-B20D-4B06-A018-2DBECC86D745}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+										</Reference>
+									</ReferenceList>
 									<ChildrenList>
 										<AuxBus Name="MUS" ID="{C6BE419B-B20D-4B06-A018-2DBECC86D745}"/>
 										<AuxBus Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}"/>
@@ -68,6 +90,14 @@
 										<Property Name="Color" Type="int16" Value="1"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
+									<ReferenceList>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Emitter" ID="{49953334-5AB5-462F-B68B-4F88ECD72A6E}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+										</Reference>
+										<Reference Name="UserAuxSend1">
+											<ObjectRef Name="Footsteps" ID="{A549B72C-B68C-4353-986C-9111014EC9C5}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+										</Reference>
+									</ReferenceList>
 									<ChildrenList>
 										<AuxBus Name="Emitter" ID="{49953334-5AB5-462F-B68B-4F88ECD72A6E}"/>
 										<AuxBus Name="Footsteps" ID="{A549B72C-B68C-4353-986C-9111014EC9C5}">
