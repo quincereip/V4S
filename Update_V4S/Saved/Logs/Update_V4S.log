@@ -1238,3 +1238,121 @@ It is recommended that you free some space to avoid issues such as crashed and d
 [2023.10.25-20.04.40:258][632]LogSavePackage: Moving 'D:/2023 Spring Term/GitHub/V4S_GitHub/V4S/Update_V4S/Saved/V4S_Update4E0DEEFD4FEE8A1EAC4913A4F848281F.tmp' to 'D:/2023 Spring Term/GitHub/V4S_GitHub/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
 [2023.10.25-20.04.40:337][632]AssetCheck: New page: Asset Save: V4S_Update
 [2023.10.25-20.04.40:337][632]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.10.25-20.39.58:647][765]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2023.10.25-20.39.58:717][765]LogSlate: Took 0.006173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.10.25-20.41.54:756][248]LogMaterial: Display: Missing cached shader map for material MM_Stylized_Landscape, compiling. 
+[2023.10.25-20.41.54:795][248]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 34
+[2023.10.25-20.41.54:795][248]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
+[2023.10.25-20.41.54:795][248]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 16
+[2023.10.25-20.41.54:795][248]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2023.10.25-20.41.54:797][248]LogMaterial: Display: Missing cached shader map for material MM_Stylized_Landscape, compiling. 
+[2023.10.25-20.41.54:820][248]LogMaterial: Display: Missing cached shader map for material MM_Stylized_Landscape, compiling. 
+[2023.10.25-20.41.54:839][248]LogMaterial: Display: Missing cached shader map for material MM_Stylized_Landscape, compiling. 
+[2023.10.25-20.41.54:855][248]LogMaterial: Display: Missing cached shader map for material MM_Stylized_Landscape, compiling. 
+[2023.10.25-20.41.54:931][250]LogProfilingDebugging: Allocated a 916 x 388 texture for HMD canvas layer
+[2023.10.25-20.41.59:157][440]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 84
+[2023.10.25-20.41.59:157][440]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 74
+[2023.10.25-20.41.59:873][480]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 64
+[2023.10.25-20.41.59:923][482]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 54
+[2023.10.25-20.42.03:474][628]LogProfilingDebugging: Allocated a 908 x 388 texture for HMD canvas layer
+[2023.10.25-20.42.03:561][629]LogProfilingDebugging: Allocated a 878 x 388 texture for HMD canvas layer
+[2023.10.25-20.42.03:638][630]LogProfilingDebugging: Allocated a 815 x 388 texture for HMD canvas layer
+[2023.10.25-20.42.03:742][632]LogProfilingDebugging: Allocated a 775 x 388 texture for HMD canvas layer
+[2023.10.25-20.42.04:060][649]LogProfilingDebugging: Allocated a 778 x 388 texture for HMD canvas layer
+[2023.10.25-20.42.04:121][650]LogProfilingDebugging: Allocated a 786 x 388 texture for HMD canvas layer
+[2023.10.25-20.42.04:185][651]LogProfilingDebugging: Allocated a 793 x 388 texture for HMD canvas layer
+[2023.10.25-20.42.04:242][653]LogProfilingDebugging: Allocated a 794 x 388 texture for HMD canvas layer
+[2023.10.25-20.42.05:232][685]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 44
+[2023.10.25-20.42.05:519][689]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 34
+[2023.10.25-20.42.05:713][695]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
+[2023.10.25-20.42.05:976][702]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+[2023.10.25-20.42.09:919][768]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2023.10.25-20.42.10:067][771]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2023.10.25-20.42.10:967][787]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2023.10.25-20.42.11:074][789]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2023.10.25-20.42.12:325][814]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2023.10.25-20.42.12:325][814]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2023.10.25-20.51.59:819][612]LogSlate: Window 'Create New Landscape Layer Info Object' being destroyed
+[2023.10.25-20.52.02:770][705]LogSlate: Window 'Create New Landscape Layer Info Object' being destroyed
+[2023.10.25-20.52.15:690][142]LogSlate: Window 'Message' being destroyed
+[2023.10.25-20.52.15:696][142]Message dialog closed, result: Ok, title: Message, text: Name may not contain the following characters: ' '
+[2023.10.25-20.52.21:181][142]LogSlate: Window 'Create New Landscape Layer Info Object' being destroyed
+[2023.10.25-20.52.25:001][260]LogSlate: Window 'Create New Landscape Layer Info Object' being destroyed
+[2023.10.25-20.52.39:927][666]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 64X64)
+[2023.10.25-20.52.39:927][666]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2023.10.25-20.52.39:927][666]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2023.10.25-20.52.39:927][666]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 64X64)
+[2023.10.25-20.52.39:927][666]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 64X64)
+[2023.10.25-20.52.39:927][666]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 64X64)
+[2023.10.25-20.52.39:927][666]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2023.10.25-20.52.39:927][666]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 64X64)
+[2023.10.25-20.52.39:927][666]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 64X64)
+[2023.10.25-20.52.39:927][666]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 64X64)
+[2023.10.25-20.52.39:927][666]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 64X64)
+[2023.10.25-20.52.39:927][666]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2023.10.25-20.52.39:927][666]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2023.10.25-20.52.39:927][666]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2023.10.25-20.52.39:927][666]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 64X64)
+[2023.10.25-20.52.39:927][666]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 64X64)
+[2023.10.25-20.52.39:931][666]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2023.10.25-20.52.39:935][666]LogMaterial: Display: Missing cached shader map for material MM_Stylized_Landscape, compiling. 
+[2023.10.25-20.52.39:973][666]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 72
+[2023.10.25-20.52.39:973][666]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 62
+[2023.10.25-20.52.39:973][666]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 52
+[2023.10.25-20.52.39:973][666]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 42
+[2023.10.25-20.52.40:000][666]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 512X512)
+[2023.10.25-20.52.40:001][666]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 64X64)
+[2023.10.25-20.52.40:015][666]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 64X64)
+[2023.10.25-20.52.40:027][666]LogTexture: Display: Building textures: Texture2D_20 (BGRA8, 64X64)
+[2023.10.25-20.52.40:040][666]LogTexture: Display: Building textures: Texture2D_21 (BGRA8, 64X64)
+[2023.10.25-20.52.40:054][666]LogTexture: Display: Building textures: Texture2D_22 (BGRA8, 64X64)
+[2023.10.25-20.52.40:067][666]LogTexture: Display: Building textures: Texture2D_23 (BGRA8, 64X64)
+[2023.10.25-20.52.40:082][666]LogTexture: Display: Building textures: Texture2D_24 (BGRA8, 64X64)
+[2023.10.25-20.52.40:095][666]LogTexture: Display: Building textures: Texture2D_25 (BGRA8, 64X64)
+[2023.10.25-20.52.40:109][666]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 64X64)
+[2023.10.25-20.52.40:123][666]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 64X64)
+[2023.10.25-20.52.40:138][666]LogTexture: Display: Building textures: Texture2D_28 (BGRA8, 64X64)
+[2023.10.25-20.52.40:150][666]LogTexture: Display: Building textures: Texture2D_29 (BGRA8, 64X64)
+[2023.10.25-20.52.40:163][666]LogTexture: Display: Building textures: Texture2D_30 (BGRA8, 64X64)
+[2023.10.25-20.52.40:176][666]LogTexture: Display: Building textures: Texture2D_31 (BGRA8, 64X64)
+[2023.10.25-20.52.40:191][666]LogTexture: Display: Building textures: Texture2D_32 (BGRA8, 64X64)
+[2023.10.25-20.52.40:203][666]LogTexture: Display: Building textures: Texture2D_33 (BGRA8, 64X64)
+[2023.10.25-20.52.40:217][666]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 512X512)
+[2023.10.25-20.52.40:222][666]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 64X64)
+[2023.10.25-20.52.40:223][666]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 64X64)
+[2023.10.25-20.52.40:224][666]LogTexture: Display: Building textures: Texture2D_20 (BGRA8, 64X64)
+[2023.10.25-20.52.40:225][666]LogTexture: Display: Building textures: Texture2D_21 (BGRA8, 64X64)
+[2023.10.25-20.52.40:226][666]LogTexture: Display: Building textures: Texture2D_22 (BGRA8, 64X64)
+[2023.10.25-20.52.40:227][666]LogTexture: Display: Building textures: Texture2D_23 (BGRA8, 64X64)
+[2023.10.25-20.52.40:229][666]LogTexture: Display: Building textures: Texture2D_24 (BGRA8, 64X64)
+[2023.10.25-20.52.40:230][666]LogTexture: Display: Building textures: Texture2D_25 (BGRA8, 64X64)
+[2023.10.25-20.52.40:231][666]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 64X64)
+[2023.10.25-20.52.40:232][666]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 64X64)
+[2023.10.25-20.52.40:233][666]LogTexture: Display: Building textures: Texture2D_28 (BGRA8, 64X64)
+[2023.10.25-20.52.40:234][666]LogTexture: Display: Building textures: Texture2D_29 (BGRA8, 64X64)
+[2023.10.25-20.52.40:235][666]LogTexture: Display: Building textures: Texture2D_30 (BGRA8, 64X64)
+[2023.10.25-20.52.40:236][666]LogTexture: Display: Building textures: Texture2D_31 (BGRA8, 64X64)
+[2023.10.25-20.52.40:237][666]LogTexture: Display: Building textures: Texture2D_32 (BGRA8, 64X64)
+[2023.10.25-20.52.40:237][666]LogTexture: Display: Building textures: Texture2D_33 (BGRA8, 64X64)
+[2023.10.25-20.52.43:429][753]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 32
+[2023.10.25-20.52.43:429][753]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2023.10.25-20.52.43:989][769]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2023.10.25-20.52.44:190][774]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2023.10.25-20.52.45:237][802]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2023.10.25-20.52.45:583][812]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2023.10.25-20.52.46:162][829]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2023.10.25-20.52.46:272][831]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2023.10.25-20.52.46:362][834]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2023.10.25-21.34.48:027][ 98]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2023.10.25-21.44.15:324][501]Cmd: TRANSACTION UNDO
+[2023.10.25-21.44.15:324][501]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2023.10.25-21.44.15:350][501]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 512X512)
+[2023.10.25-21.44.15:357][501]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2023.10.25-21.52.35:182][524]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2023.10.25-21.53.36:755][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="D:/2023 Spring Term/GitHub/V4S_GitHub/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.25-21.53.36:806][427]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2023.10.25-21.53.36:854][427]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 512X512)
+[2023.10.25-21.53.36:957][427]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2023.10.25-21.53.37:323][427]LogSavePackage: Moving 'D:/2023 Spring Term/GitHub/V4S_GitHub/V4S/Update_V4S/Saved/V4S_Update631FDACF44FC1035A9FF9E9E27CA7DF0.tmp' to 'D:/2023 Spring Term/GitHub/V4S_GitHub/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.10.25-21.53.37:385][427]AssetCheck: New page: Asset Save: V4S_Update
+[2023.10.25-21.53.37:385][427]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
