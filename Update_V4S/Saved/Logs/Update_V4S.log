@@ -2497,3 +2497,8 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
  with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DRIVER_INTERNAL_ERROR
 [2023.10.27-15.58.08:091][563]LogD3D11RHI: [Aftermath] GDynamicRHI=0000016AD924FC40, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
 [2023.10.27-15.58.08:091][563]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2023.10.27-15.59.08:290][565]LogWindows: FPlatformMisc::RequestExit(0)
+[2023.10.27-15.59.08:295][565]LogCore: Engine exit requested (reason: Win RequestExit)
+[2023.10.27-15.59.08:296][565]LogWindows: FPlatformMisc::RequestExit(1)
+[2023.10.27-15.59.08:296][565]LogCore: Engine exit requested (reason: Win RequestExit; note: exit was already requested)
+[2023.10.27-15.59.08:404][565]Log file closed, 10/27/23 11:59:08
