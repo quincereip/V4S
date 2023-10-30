@@ -4054,3 +4054,599 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2023.10.30-22.08.28:868][  1]LogAssetRegistry: Asset discovery search completed in 15.6845 seconds
 [2023.10.30-22.08.28:870][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
 [2023.10.30-22.08.29:298][  2]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.10.30-22.09.09:364][393]LogSlate: Took 0.000085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.10.30-22.09.09:402][393]LogMaterial: Display: Missing cached shader map for material MM_Fire, compiling. 
+[2023.10.30-22.09.09:458][393]LogMaterial: Display: Missing cached shader map for material MM_Fire_Wave, compiling. 
+[2023.10.30-22.09.09:489][393]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 90
+[2023.10.30-22.09.09:489][393]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 82
+[2023.10.30-22.09.09:489][393]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 74
+[2023.10.30-22.09.09:489][393]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 66
+[2023.10.30-22.09.09:489][393]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 58
+[2023.10.30-22.09.09:489][393]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 50
+[2023.10.30-22.09.09:489][393]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 42
+[2023.10.30-22.09.09:489][393]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 34
+[2023.10.30-22.09.09:489][393]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 26
+[2023.10.30-22.09.09:489][393]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 18
+[2023.10.30-22.09.09:489][393]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 10
+[2023.10.30-22.09.09:489][393]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2023.10.30-22.09.09:489][393]LogMaterial: Display: Missing cached shader map for material MM_Fire_Wave, compiling. 
+[2023.10.30-22.09.09:563][393]LogMaterial: Display: Missing cached shader map for material MM_Dust, compiling. 
+[2023.10.30-22.09.10:532][393]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 252
+[2023.10.30-22.09.12:068][393]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 242
+[2023.10.30-22.09.12:068][393]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 232
+[2023.10.30-22.09.12:068][393]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 222
+[2023.10.30-22.09.12:068][393]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 212
+[2023.10.30-22.09.12:068][393]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 202
+[2023.10.30-22.09.12:841][393]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 192
+[2023.10.30-22.09.12:841][393]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 182
+[2023.10.30-22.09.12:841][393]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 172
+[2023.10.30-22.09.12:841][393]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 162
+[2023.10.30-22.09.12:841][393]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 152
+[2023.10.30-22.09.13:591][393]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 142
+[2023.10.30-22.09.14:337][393]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 132
+[2023.10.30-22.09.15:100][393]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 122
+[2023.10.30-22.09.15:100][393]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 112
+[2023.10.30-22.09.15:100][393]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 102
+[2023.10.30-22.09.15:878][393]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 93
+[2023.10.30-22.09.15:878][393]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 85
+[2023.10.30-22.09.15:878][393]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 77
+[2023.10.30-22.09.15:878][393]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 70
+[2023.10.30-22.09.15:878][393]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 64
+[2023.10.30-22.09.16:641][393]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 58
+[2023.10.30-22.09.16:641][393]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 53
+[2023.10.30-22.09.16:641][393]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 48
+[2023.10.30-22.09.16:641][393]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 43
+[2023.10.30-22.09.17:405][393]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 39
+[2023.10.30-22.09.17:405][393]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 35
+[2023.10.30-22.09.17:405][393]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 32
+[2023.10.30-22.09.17:405][393]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 29
+[2023.10.30-22.09.17:405][393]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 26
+[2023.10.30-22.09.17:405][393]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 23
+[2023.10.30-22.09.17:405][393]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 21
+[2023.10.30-22.09.18:191][393]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 19
+[2023.10.30-22.09.18:191][393]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 17
+[2023.10.30-22.09.18:191][393]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 15
+[2023.10.30-22.09.18:191][393]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 13
+[2023.10.30-22.09.18:191][393]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 11
+[2023.10.30-22.09.18:191][393]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 10
+[2023.10.30-22.09.18:191][393]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 9
+[2023.10.30-22.09.18:191][393]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 8
+[2023.10.30-22.09.18:191][393]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2023.10.30-22.09.18:191][393]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 6
+[2023.10.30-22.09.18:191][393]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
+[2023.10.30-22.09.18:815][393]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 4
+[2023.10.30-22.09.18:815][393]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 3
+[2023.10.30-22.09.18:815][393]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2023.10.30-22.09.18:815][393]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.30-22.09.21:343][393]LogMetaData: Removing '/Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Roots_001.SM_Roots_001' ref from Metadata '/Game/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Roots_001.PackageMetaData'
+[2023.10.30-22.09.23:925][393]LogMetaData: Removing '/Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_Cliff_001.SM_Cliff_001' ref from Metadata '/Game/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_Cliff_001.PackageMetaData'
+[2023.10.30-22.09.24:449][393]LogMetaData: Removing '/Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_Cliff_002.SM_Cliff_002' ref from Metadata '/Game/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_Cliff_002.PackageMetaData'
+[2023.10.30-22.09.25:494][393]LogMetaData: Removing '/Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_RockPile_001.SM_RockPile_001' ref from Metadata '/Game/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_RockPile_001.PackageMetaData'
+[2023.10.30-22.09.25:998][393]LogMetaData: Removing '/Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_001.SM_SmallRock_001' ref from Metadata '/Game/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_001.PackageMetaData'
+[2023.10.30-22.09.26:499][393]LogMetaData: Removing '/Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_002.SM_SmallRock_002' ref from Metadata '/Game/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_002.PackageMetaData'
+[2023.10.30-22.09.27:004][393]LogMetaData: Removing '/Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_003.SM_SmallRock_003' ref from Metadata '/Game/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_003.PackageMetaData'
+[2023.10.30-22.09.27:515][393]LogMetaData: Removing '/Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_004.SM_SmallRock_004' ref from Metadata '/Game/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_004.PackageMetaData'
+[2023.10.30-22.09.28:021][393]LogMetaData: Removing '/Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_005.SM_SmallRock_005' ref from Metadata '/Game/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_005.PackageMetaData'
+[2023.10.30-22.09.28:519][393]LogMetaData: Removing '/Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_006.SM_SmallRock_006' ref from Metadata '/Game/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_006.PackageMetaData'
+[2023.10.30-22.09.29:024][393]LogMetaData: Removing '/Game/Assets_Other/EasyBuildingSystem/Meshes/Props/Stylized/SM_Stylized_Campfire.SM_Stylized_Campfire' ref from Metadata '/Game/EasyBuildingSystem/Meshes/Props/Stylized/SM_Stylized_Campfire.PackageMetaData'
+[2023.10.30-22.09.29:539][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/LG_Grass_0011F4CDE614D4AAA6796D481ACDA283724.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/FoliageType/Stylized/LG_Grass_001.uasset'
+[2023.10.30-22.09.29:539][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/LG_Grass_00199BECABE4E7250C4B21C9DA3C32ED904.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/FoliageType/Stylized/LG_Grass_001.uasset'
+[2023.10.30-22.09.29:683][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Grass_001ACA13B0D44158257BBA527BA2CC9C6FA.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Grass_001.uasset'
+[2023.10.30-22.09.29:683][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Grass_001043E306A40F56312340FF289522C3463.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Grass_001.uasset'
+[2023.10.30-22.09.29:713][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MI_Grass_001EA09CCA042FDC3A9C9C85190A049DF6E.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Grass_001.uasset'
+[2023.10.30-22.09.29:741][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MM_Stylized_Foliage1416BA68465A0E195A46ED9903EA8DE1.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Masters/Stylized/MM_Stylized_Foliage.uasset'
+[2023.10.30-22.09.29:742][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MPC_WindF908A8E445EC9CA818E307A485AC5365.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Collections/MPC_Wind.uasset'
+[2023.10.30-22.09.29:746][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.29:815][393]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 34
+[2023.10.30-22.09.29:815][393]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 31
+[2023.10.30-22.09.29:816][393]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 28
+[2023.10.30-22.09.29:816][393]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 25
+[2023.10.30-22.09.29:816][393]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 22
+[2023.10.30-22.09.29:816][393]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 19
+[2023.10.30-22.09.29:816][393]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 16
+[2023.10.30-22.09.29:816][393]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 13
+[2023.10.30-22.09.29:816][393]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 10
+[2023.10.30-22.09.29:816][393]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 7
+[2023.10.30-22.09.29:816][393]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 4
+[2023.10.30-22.09.29:816][393]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 1
+[2023.10.30-22.09.30:016][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_Texture_Tune_RMADDA141BD4B5270FD521BD4B406753973.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Texture_Tune_RMA.uasset'
+[2023.10.30-22.09.30:020][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.30:021][393]LogMaterial: Warning: [AssetLog] /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Texture_Sample_RMA.MF_Texture_Sample_RMA:Material_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2023.10.30-22.09.30:021][393]LogMaterial: Display: 	(Node TextureObject) Texture Object> Requires valid texture
+[2023.10.30-22.09.30:021][393]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2023.10.30-22.09.30:317][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_Texture_Sample_RMA3C3030CB48983B2BABA1C9898235122F.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Texture_Sample_RMA.uasset'
+[2023.10.30-22.09.30:321][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Utility_N5A8C77D34A427BCBE2E3D88AC6A84DCC.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Utility/T_Utility_N.uasset'
+[2023.10.30-22.09.30:321][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EasyBuildingSystem/Textures/Utility/T_Utility_N" FILE="../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Textures/Utility/T_Utility_N.uasset" SILENT=true
+[2023.10.30-22.09.30:322][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Utility_NEA0DC9DC44E12AAE2B7FE7B687218896.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Textures/Utility/T_Utility_N.uasset'
+[2023.10.30-22.09.30:325][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Utility_M1F2D46644C3084FC33B1E8B915B1FAB9.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Utility/T_Utility_M.uasset'
+[2023.10.30-22.09.30:326][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EasyBuildingSystem/Textures/Utility/T_Utility_M" FILE="../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Textures/Utility/T_Utility_M.uasset" SILENT=true
+[2023.10.30-22.09.30:327][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Utility_M01F5708448BB16B946ECA394CBD800F2.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Textures/Utility/T_Utility_M.uasset'
+[2023.10.30-22.09.30:345][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Tile_Grass_001_A909EA70C48C1FCBBACC29AA651F16348.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Grass_001_A.uasset'
+[2023.10.30-22.09.30:347][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Tile_Grass_001_A997C53EC4A7BF0B068C968B3CC486310.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Grass_001_A.uasset'
+[2023.10.30-22.09.30:348][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.30:352][393]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2023.10.30-22.09.30:424][393]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.30-22.09.30:638][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_Rocks_DetailingD9E16BF647090F1D1D394D982B401AED.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Rocks_Detailing.uasset'
+[2023.10.30-22.09.30:673][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Tile_Rock_Cracked_001_A928AE3DE4D28B5006C00CBA2929B6C01.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Rock_Cracked_001_A.uasset'
+[2023.10.30-22.09.30:673][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Tile_Rock_Cracked_001_AAAB440F541CC1B39A83257B2B8CCF784.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Rock_Cracked_001_A.uasset'
+[2023.10.30-22.09.30:704][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Tile_Rock_Cracked_001_N329AD8824890E3351D9B29AE2A65BF09.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Rock_Cracked_001_N.uasset'
+[2023.10.30-22.09.30:705][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Tile_Rock_Cracked_001_NF94A61C64BD961692EBBD6B5349C1A82.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Rock_Cracked_001_N.uasset'
+[2023.10.30-22.09.30:742][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Tile_Rock_Cracked_001_RHA87DF408540953FD211A9C78511E34818.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Rock_Cracked_001_RHA.uasset'
+[2023.10.30-22.09.30:743][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Tile_Rock_Cracked_001_RHA2DD7506C40F7D2603F06BF87953BC480.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Rock_Cracked_001_RHA.uasset'
+[2023.10.30-22.09.30:745][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.30:747][393]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2023.10.30-22.09.30:747][393]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.30-22.09.30:923][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_L1_Slope8174AB04481C71F4CC26EAA19CE7C424.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_L1_Slope.uasset'
+[2023.10.30-22.09.30:925][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.30:936][393]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 34
+[2023.10.30-22.09.30:937][393]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 31
+[2023.10.30-22.09.30:937][393]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 28
+[2023.10.30-22.09.30:937][393]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 25
+[2023.10.30-22.09.30:937][393]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 22
+[2023.10.30-22.09.30:937][393]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 19
+[2023.10.30-22.09.30:937][393]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 16
+[2023.10.30-22.09.30:937][393]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 13
+[2023.10.30-22.09.30:937][393]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 10
+[2023.10.30-22.09.30:937][393]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 7
+[2023.10.30-22.09.30:980][393]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 4
+[2023.10.30-22.09.30:980][393]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 3
+[2023.10.30-22.09.31:212][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_L2_Grass3FDBE3E144184F1451C448997D84EC0A.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_L2_Grass.uasset'
+[2023.10.30-22.09.31:244][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Misc_Clouds_003F99B0568483A5B0649D9F4974D90C0F0.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Misc/T_Misc_Clouds_003.uasset'
+[2023.10.30-22.09.31:245][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Misc_Clouds_003799A1DF2440F71999FC7D4BA03B207CE.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Textures/Environment/Stylized/Misc/T_Misc_Clouds_003.uasset'
+[2023.10.30-22.09.31:267][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Tile_Ground_001_A3D63AC514FB5E9635DB6128AB7F2609C.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Ground_001_A.uasset'
+[2023.10.30-22.09.31:270][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Tile_Ground_001_A24D5C57049FBD03F7933DD8A72B2F531.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Ground_001_A.uasset'
+[2023.10.30-22.09.31:295][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Tile_Ground_001_NB7EF7F414DB90CDC63045094AF98E446.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Ground_001_N.uasset'
+[2023.10.30-22.09.31:297][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Tile_Ground_001_N1C0452ED4B756ADC28CEBCB756459EC2.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Ground_001_N.uasset'
+[2023.10.30-22.09.31:312][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Tile_Ground_001_RHACD0F79434285F4E63F0D9DB6C74BE7EE.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Ground_001_RHA.uasset'
+[2023.10.30-22.09.31:313][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Tile_Ground_001_RHA21F3C1D5461F1F86E5140B9DBED8FB06.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Ground_001_RHA.uasset'
+[2023.10.30-22.09.31:316][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.31:333][393]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2023.10.30-22.09.31:583][393]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 35
+[2023.10.30-22.09.31:583][393]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 32
+[2023.10.30-22.09.31:631][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_L3_Dirt91F13C0B42CD098C18CC638F066B45CF.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_L3_Dirt.uasset'
+[2023.10.30-22.09.31:634][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.31:652][393]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 29
+[2023.10.30-22.09.31:735][393]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 60
+[2023.10.30-22.09.31:744][393]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 54
+[2023.10.30-22.09.31:816][393]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 49
+[2023.10.30-22.09.31:839][393]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 44
+[2023.10.30-22.09.31:862][393]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 40
+[2023.10.30-22.09.31:904][393]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 36
+[2023.10.30-22.09.31:907][393]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 32
+[2023.10.30-22.09.31:946][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_L6_Snow_17CF159D49382B9D2650ABB7879C4E96.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_L6_Snow_.uasset'
+[2023.10.30-22.09.31:948][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.32:058][393]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 63
+[2023.10.30-22.09.32:058][393]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 57
+[2023.10.30-22.09.32:286][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_L7_SandBD9118214B94326D7CDA2EBC7A25AF73.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_L7_Sand.uasset'
+[2023.10.30-22.09.32:301][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Misc_Clouds_00124D5E1504619C95C4DFD21A3884FB85E.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Misc/T_Misc_Clouds_001.uasset'
+[2023.10.30-22.09.32:303][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Misc_Clouds_001887DFD8A424885C271F7F1A8BC06A7A4.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Textures/Environment/Stylized/Misc/T_Misc_Clouds_001.uasset'
+[2023.10.30-22.09.32:306][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.32:428][393]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 86
+[2023.10.30-22.09.32:462][393]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 78
+[2023.10.30-22.09.32:521][393]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 71
+[2023.10.30-22.09.32:606][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_Landscape_Lerp4D41BBA3404BEE010B64148AAD2F0719.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Landscape_Lerp.uasset'
+[2023.10.30-22.09.32:662][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MM_Stylized_Landscape1E10CC6D543B675E1B28AB2AC390730C5.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Masters/Stylized/MM_Stylized_Landscape1.uasset'
+[2023.10.30-22.09.32:663][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MM_Stylized_Landscape1B5C0B75740FEDC472483A58684610046.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Materials/Masters/Stylized/MM_Stylized_Landscape1.uasset'
+[2023.10.30-22.09.32:665][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.32:683][393]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 65
+[2023.10.30-22.09.32:998][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_Texture_Tune_RMA_Mask3D03B193414B63897A4E0FAD91E43931.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Texture_Tune_RMA_Mask.uasset'
+[2023.10.30-22.09.33:028][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MM_Stylized_Structures_Base774656124F94F3659DE29FAD376A5CD0.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Masters/Stylized/MM_Stylized_Structures_Base.uasset'
+[2023.10.30-22.09.33:055][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MI_Flowers_001599DE567469EB652795550951C703887.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Flowers_001.uasset'
+[2023.10.30-22.09.33:064][393]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 93
+[2023.10.30-22.09.33:083][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Flowers_001005DDD4542620E7EFC592891CBDC7A30.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Flowers_001.uasset'
+[2023.10.30-22.09.33:085][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Flowers_0010E42C0E74FA9EC0D64CCD382ABAE1BC5.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Flowers_001.uasset'
+[2023.10.30-22.09.33:112][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Flowers_002EB8E0F7B40B8EB8DED5B90A2122A97DA.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Flowers_002.uasset'
+[2023.10.30-22.09.33:114][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Flowers_00280483012428582637FBC789098E394A6.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Flowers_002.uasset'
+[2023.10.30-22.09.33:139][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Grass_003AE35B4FF4058AC99990ADF9CC4034825.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Grass_003.uasset'
+[2023.10.30-22.09.33:141][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Grass_00366874FC04148AE9246EC0DBACE186596.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Grass_003.uasset'
+[2023.10.30-22.09.33:155][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Foliage_001_A3C6A65A842C9E7B879233693DF83C8AA.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Foliage/T_Foliage_001_A.uasset'
+[2023.10.30-22.09.33:174][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Foliage_001_N229CDE5A4201497519A4C1A9B4609D48.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Foliage/T_Foliage_001_N.uasset'
+[2023.10.30-22.09.33:192][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Foliage_001_RMA61EF3FA34066B94C69AD97B899A93DDE.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Foliage/T_Foliage_001_RMA.uasset'
+[2023.10.30-22.09.33:220][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MI_Stylized_Fern_001B3EF5CDD4335091ABFA7B294173DCB3F.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Stylized_Fern_001.uasset'
+[2023.10.30-22.09.33:250][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Roots_001899B0DA34613A182F47B31A1B54E3BA0.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Roots_001.uasset'
+[2023.10.30-22.09.33:252][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Roots_00162FCBAC443806D1A414CE38F48A38359.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Roots_001.uasset'
+[2023.10.30-22.09.33:265][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Tile_Bark_001_A731C50F849281463FDDAF097ED4CD3E3.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Foliage/T_Tile_Bark_001_A.uasset'
+[2023.10.30-22.09.33:268][393]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 85
+[2023.10.30-22.09.33:280][393]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 77
+[2023.10.30-22.09.33:280][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Tile_Bark_001_N0AF8D25F49EAA7796F0BA48FE67E535C.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Foliage/T_Tile_Bark_001_N.uasset'
+[2023.10.30-22.09.33:290][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Tile_Bark_001_RMA2399DFAB46B72154B0D08E9B1AF31A43.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Foliage/T_Tile_Bark_001_RMA.uasset'
+[2023.10.30-22.09.33:317][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MI_Stylized_Tree_Bark_00198CDE8F04681A00DFBA95FA033276998.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Stylized_Tree_Bark_001.uasset'
+[2023.10.30-22.09.33:320][393]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 70
+[2023.10.30-22.09.33:337][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Tree_Branch_001_AF55B9F264228B3A70AE28188E593D18E.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Foliage/T_Tree_Branch_001_A.uasset'
+[2023.10.30-22.09.33:360][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Tree_Branch_001_N76403ADA49DA647D9D4B7F9A1AAA3B62.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Foliage/T_Tree_Branch_001_N.uasset'
+[2023.10.30-22.09.33:373][393]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 64
+[2023.10.30-22.09.33:373][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Misc_Clouds_004D06C4A60433AA9B94276FA8552AD356B.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Misc/T_Misc_Clouds_004.uasset'
+[2023.10.30-22.09.33:401][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MI_Stylized_Tree_Branch_0017A81DBDB4EA5FA092B604980750FB521.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Stylized_Tree_Branch_001.uasset'
+[2023.10.30-22.09.33:454][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Tree_00106E26E5947CD621F9EADA2ACA8D2E199.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Tree_001.uasset'
+[2023.10.30-22.09.33:456][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Tree_00163F15C464553707FF0FECCB62DCD8534.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Tree_001.uasset'
+[2023.10.30-22.09.33:505][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Tree_0025E3DAAA8434132F43A00AF9AAB9D9920.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Tree_002.uasset'
+[2023.10.30-22.09.33:506][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Tree_002F7B9DACC4815711AD356FC86A2C12007.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Tree_002.uasset'
+[2023.10.30-22.09.33:558][393]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 58
+[2023.10.30-22.09.33:558][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Tree_00325E2145C4A9127ED1FA801835F4EA02A.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Tree_003.uasset'
+[2023.10.30-22.09.33:560][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Tree_0038244AF764A37899C1103EA869CE97E80.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Tree_003.uasset'
+[2023.10.30-22.09.33:565][393]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 53
+[2023.10.30-22.09.33:598][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Tree_004032C5F7A4BFB6AF1AFB89F827C680810.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Tree_004.uasset'
+[2023.10.30-22.09.33:600][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Tree_0040C1F511B46D334EB67803DAF89CBC7C4.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Tree_004.uasset'
+[2023.10.30-22.09.33:620][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.33:935][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_Distance99E641C0424DF5F6B8CD78A294B2540C.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Distance.uasset'
+[2023.10.30-22.09.33:937][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.33:956][393]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 50
+[2023.10.30-22.09.34:080][393]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 79
+[2023.10.30-22.09.34:263][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_Distance_Fade78975B214AF357CDF29E3B97915B1781.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Distance_Fade.uasset'
+[2023.10.30-22.09.34:266][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.34:602][393]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 106
+[2023.10.30-22.09.34:602][393]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 97
+[2023.10.30-22.09.34:610][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_Dithering269DC9F948EA23F686840A94ACEE50D0.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Dithering.uasset'
+[2023.10.30-22.09.34:613][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.34:615][393]LogMaterial: Warning: [AssetLog] /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Grass_Cover.MF_Grass_Cover:Material_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2023.10.30-22.09.34:615][393]LogMaterial: Display: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2023.10.30-22.09.34:615][393]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2023.10.30-22.09.34:796][393]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 88
+[2023.10.30-22.09.34:811][393]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 80
+[2023.10.30-22.09.34:963][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_Grass_Cover79AA33204024052B05D8E4A8B47C1B83.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Grass_Cover.uasset'
+[2023.10.30-22.09.34:984][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.35:257][393]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 75
+[2023.10.30-22.09.35:309][393]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 68
+[2023.10.30-22.09.35:309][393]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 62
+[2023.10.30-22.09.35:309][393]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 56
+[2023.10.30-22.09.35:316][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_Moss_Cover7BB1D3EA4AC59C1E5DA5B7A29D82B66E.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Moss_Cover.uasset'
+[2023.10.30-22.09.35:318][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.35:582][393]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 53
+[2023.10.30-22.09.35:623][393]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 48
+[2023.10.30-22.09.35:628][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_Specular00F691B34161EFD091BC168D00EEAA3C.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Specular.uasset'
+[2023.10.30-22.09.35:631][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.35:632][393]LogMaterial: Warning: [AssetLog] /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Moss_Cover_3DPoints.MF_Moss_Cover_3DPoints:Material_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2023.10.30-22.09.35:632][393]LogMaterial: Display: 	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.10.30-22.09.35:632][393]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2023.10.30-22.09.35:632][393]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Specular
+[2023.10.30-22.09.35:716][393]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 43
+[2023.10.30-22.09.36:001][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_Moss_Cover_3DPoints23D8755F4DDA5565674C1F88F0992406.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Moss_Cover_3DPoints.uasset'
+[2023.10.30-22.09.36:019][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.36:021][393]LogMaterial: Warning: [AssetLog] /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Moss_Cover_Fade.MF_Moss_Cover_Fade:Material_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2023.10.30-22.09.36:021][393]LogMaterial: Display: 	Function MF_Grass_Cover: (Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2023.10.30-22.09.36:021][393]LogMaterial: Display: 	Function MF_Grass_Cover: (Node MakeMaterialAttributes) Error on property BaseColor
+[2023.10.30-22.09.36:318][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_Moss_Cover_FadeCE1EE0654F239F86EAE13DA6D9933FEC.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Moss_Cover_Fade.uasset'
+[2023.10.30-22.09.36:354][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MM_Stylized_Rocks3F2C43DC468B2DF46AA5D394F3261624.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Masters/Stylized/MM_Stylized_Rocks.uasset'
+[2023.10.30-22.09.36:366][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Misc_Clouds_0021452A9E443F47EE0439EF4B4C7640618.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Misc/T_Misc_Clouds_002.uasset'
+[2023.10.30-22.09.36:385][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Rock_Detail_001_N77E38CE146D8708822137C92E22B2328.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Misc/T_Rock_Detail_001_N.uasset'
+[2023.10.30-22.09.36:406][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Rock_Detail_002_N144B98604D978979309ECE975F86F92F.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Misc/T_Rock_Detail_002_N.uasset'
+[2023.10.30-22.09.36:437][393]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 39
+[2023.10.30-22.09.36:437][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Cliff_001_A2366A89E4D004EE3C9FD4091674DF541.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_Cliff_001_A.uasset'
+[2023.10.30-22.09.36:473][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Cliff_001_N8F8020804F6956CE589B0A9515241872.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_Cliff_001_N.uasset'
+[2023.10.30-22.09.36:500][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Cliff_001_RMA6A6C027F48BFF61E6391BF871EEE20E1.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_Cliff_001_RMA.uasset'
+[2023.10.30-22.09.36:532][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MI_Cliff_001CC071A874E5F0EC0B70E30A063B4C026.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Cliff_001.uasset'
+[2023.10.30-22.09.36:604][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Cliff_0018A08A743425132770578F19925208B0A.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_Cliff_001.uasset'
+[2023.10.30-22.09.36:606][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Cliff_00121D7F5CA4CA2B053C97C77A834779A39.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_Cliff_001.uasset'
+[2023.10.30-22.09.36:640][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Cliff_002_A8A498CF14659F438B2BB69A9D0D0D81D.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_Cliff_002_A.uasset'
+[2023.10.30-22.09.36:681][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Cliff_002_N8903A28346680C2A2F040F82B49C78CD.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_Cliff_002_N.uasset'
+[2023.10.30-22.09.36:707][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Cliff_002_RMAF91A62A94E31476D86C226A0DFC6D3BE.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_Cliff_002_RMA.uasset'
+[2023.10.30-22.09.36:740][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MI_Cliff_0024F5F8F05422C65EC6C2EC09CF5CE3951.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Cliff_002.uasset'
+[2023.10.30-22.09.36:786][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Cliff_0027FB543AD4FA4F6468BC14AB307237D73.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_Cliff_002.uasset'
+[2023.10.30-22.09.36:788][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Cliff_00213536BEB4CB4F99E8939348A9A4A7058.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_Cliff_002.uasset'
+[2023.10.30-22.09.36:822][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Cliff_003_A4FBABD2B4B8894725BA61FB7E8C0E6D5.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_Cliff_003_A.uasset'
+[2023.10.30-22.09.36:872][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Cliff_003_N48C0FECB4C273880EC2565BC8564A098.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_Cliff_003_N.uasset'
+[2023.10.30-22.09.36:915][393]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 35
+[2023.10.30-22.09.36:915][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Cliff_003_RMA0482CE5B40520301892AD08243D25F3B.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_Cliff_003_RMA.uasset'
+[2023.10.30-22.09.36:945][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MI_Cliff_0031792AAD34122F390394558894C588DAA.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Cliff_003.uasset'
+[2023.10.30-22.09.36:979][393]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 32
+[2023.10.30-22.09.36:979][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Cliff_003BE31F6E14E57C8D6176157AE3036DAB6.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_Cliff_003.uasset'
+[2023.10.30-22.09.36:981][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Cliff_0031378F0594F7F87199C7E08BC026AC0B4.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_Cliff_003.uasset'
+[2023.10.30-22.09.37:019][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_RockPile_001_A285EB5E340D97165BEAC0F8BD77398BE.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_RockPile_001_A.uasset'
+[2023.10.30-22.09.37:055][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_RockPile_001_N6E039936479D6CD532FBC8A153878D02.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_RockPile_001_N.uasset'
+[2023.10.30-22.09.37:081][393]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 29
+[2023.10.30-22.09.37:082][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_RockPile_001_RMAA77D3CF549BF40E4FC688A9A13E027A0.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_RockPile_001_RMA.uasset'
+[2023.10.30-22.09.37:109][393]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 26
+[2023.10.30-22.09.37:109][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MI_RockPile_001969924084985F2068374719D15D906BF.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_RockPile_001.uasset'
+[2023.10.30-22.09.37:146][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_RockPile_0014D80193B45180204E77E4D95705C5FBF.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_RockPile_001.uasset'
+[2023.10.30-22.09.37:148][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_RockPile_0013E23931D4917ADA218CCF5A64A2F9D30.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_RockPile_001.uasset'
+[2023.10.30-22.09.37:156][393]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 23
+[2023.10.30-22.09.37:167][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_SmallRocks_001_A68BC090D405AF319423628BBCB5B9828.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_SmallRocks_001_A.uasset'
+[2023.10.30-22.09.37:186][393]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 21
+[2023.10.30-22.09.37:186][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_SmallRocks_001_N2E875A2B42B33A636D0CF9B9103CF4C2.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_SmallRocks_001_N.uasset'
+[2023.10.30-22.09.37:195][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_SmallRocks_001_RMA2BD61B904956558E54704EB20C4BDAC6.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_SmallRocks_001_RMA.uasset'
+[2023.10.30-22.09.37:221][393]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 19
+[2023.10.30-22.09.37:221][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MI_SmallRocks_00119ECB5054AC3AD5760C2F79C4E8B81D3.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_SmallRocks_001.uasset'
+[2023.10.30-22.09.37:244][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_SmallRock_00129D7B39A43A5BA8B25B1459947839072.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_001.uasset'
+[2023.10.30-22.09.37:245][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_SmallRock_001FF4745BA4738E4C73327669548250768.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_001.uasset'
+[2023.10.30-22.09.37:271][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_SmallRock_002DE7F830C4FEA1096FCF32594FA61A19E.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_002.uasset'
+[2023.10.30-22.09.37:273][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_SmallRock_0023FF932D8499CD713C1D5C68933768909.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_002.uasset'
+[2023.10.30-22.09.37:291][393]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 17
+[2023.10.30-22.09.37:298][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_SmallRock_003E67D40034193DD437EDA9DAD395DF672.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_003.uasset'
+[2023.10.30-22.09.37:300][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_SmallRock_003D91BD51E49686EC5C33DEB9297879805.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_003.uasset'
+[2023.10.30-22.09.37:344][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_SmallRock_004595833EF4F64A832E6FA60AC56FF73D8.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_004.uasset'
+[2023.10.30-22.09.37:345][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_SmallRock_0049C9FE6A34E2B105D544430965A5FD8DE.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_004.uasset'
+[2023.10.30-22.09.37:371][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_SmallRock_005201BF59A4E79AF9323DBAAB0A4675D0C.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_005.uasset'
+[2023.10.30-22.09.37:373][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_SmallRock_005A8052DA54C0B2153D071039A448E7DF4.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_005.uasset'
+[2023.10.30-22.09.37:386][393]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 15
+[2023.10.30-22.09.37:403][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_SmallRock_006AA77667C4ED2D6EA8ABAC999C03E07A6.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_006.uasset'
+[2023.10.30-22.09.37:405][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_SmallRock_0062C22691C48EE4A1EB2F2B085116ABC06.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_006.uasset'
+[2023.10.30-22.09.37:434][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Stylized_Props_001_A539BE9204BF5944384F6B6B91E2886E9.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Structures/Stylized/Props/T_Stylized_Props_001_A.uasset'
+[2023.10.30-22.09.37:473][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Stylized_Props_001_N2CBFE6B9429FAB90BD233099E05CA775.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Structures/Stylized/Props/T_Stylized_Props_001_N.uasset'
+[2023.10.30-22.09.37:497][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Stylized_Props_001_RMA2A1BC9804F4109457796529BE95F2222.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Structures/Stylized/Props/T_Stylized_Props_001_RMA.uasset'
+[2023.10.30-22.09.37:527][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MI_Stylized_PropsA246C25146481CD11C598CB60C6435AA.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Stylized_Props.uasset'
+[2023.10.30-22.09.37:561][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Stylized_Campfire516DD7BE4F73A8BF4B5AE3AC9785A325.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Props/Stylized/SM_Stylized_Campfire.uasset'
+[2023.10.30-22.09.37:563][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Stylized_CampfireA3D064B54E229129D99DD386EAA424EE.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Meshes/Props/Stylized/SM_Stylized_Campfire.uasset'
+[2023.10.30-22.09.37:565][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.37:662][393]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 47
+[2023.10.30-22.09.37:749][393]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 43
+[2023.10.30-22.09.37:763][393]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 39
+[2023.10.30-22.09.37:802][393]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 35
+[2023.10.30-22.09.37:802][393]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 32
+[2023.10.30-22.09.37:872][393]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 29
+[2023.10.30-22.09.37:886][393]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 26
+[2023.10.30-22.09.37:886][393]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 23
+[2023.10.30-22.09.37:886][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_L4_Snow41A7B2DC48D39B119A238FB1094D52C6.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_L4_Snow.uasset'
+[2023.10.30-22.09.37:919][393]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 20
+[2023.10.30-22.09.37:921][393]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.09.38:092][393]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 52
+[2023.10.30-22.09.38:117][393]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 47
+[2023.10.30-22.09.38:251][393]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 43
+[2023.10.30-22.09.38:265][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MF_L5_Sand032585E34F0583E029F974882776CC56.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_L5_Sand.uasset'
+[2023.10.30-22.09.38:302][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MI_Fire_001A5DD537A426DAECF6EBFEDAAAAE91A54.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Instances/Effects/MI_Fire_001.uasset'
+[2023.10.30-22.09.38:336][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MI_Fire_Wave_001AE71331F48F5F7AA9A8F35A528BFA006.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Instances/Effects/MI_Fire_Wave_001.uasset'
+[2023.10.30-22.09.38:364][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MI_Fire_Wave_002971526914C1F3E7126E397BF002FF0B2.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Instances/Effects/MI_Fire_Wave_002.uasset'
+[2023.10.30-22.09.38:394][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MI_Grass_002F8A0256D47B72079649B9DA25CE969C5.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Grass_002.uasset'
+[2023.10.30-22.09.38:423][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MM_Dust3CC556EF423E7A7DAB1EA483702D85EC.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Masters/Dummy/MM_Dust.uasset'
+[2023.10.30-22.09.38:456][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MM_WindF8DB35E14F05256C7AA361B894D2BAEA.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Masters/Dummy/MM_Wind.uasset'
+[2023.10.30-22.09.38:486][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MM_FireAB6FF0804E221FF020061C81DE6AE1C4.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Masters/Effects/MM_Fire.uasset'
+[2023.10.30-22.09.38:515][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MM_Fire_Wave0242B2364F1EC68E2F5F65A2F6DF8CA3.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Masters/Effects/MM_Fire_Wave.uasset'
+[2023.10.30-22.09.38:542][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MM_Fire_EmbersD9F6EAD64DEE447E01E19CAFDACBCA0F.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Masters/Effects/MM_Fire_Embers.uasset'
+[2023.10.30-22.09.38:576][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MM_Stylized_Landscape103233FF40A9F6408B8356853BDA912D.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Materials/Masters/Stylized/MM_Stylized_Landscape.uasset'
+[2023.10.30-22.09.38:617][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Fern_0014710A96647C777D211C0069ECB087220.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Fern_001.uasset'
+[2023.10.30-22.09.38:649][393]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 39
+[2023.10.30-22.09.38:649][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Grass_0022115316F47AA53FFFE9AC08B8079659D.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Grass_002.uasset'
+[2023.10.30-22.09.38:655][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Dust_A769BE5EB4EB7CA4C63F086B00CB82BAA.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Misc/T_Dust_A.uasset'
+[2023.10.30-22.09.38:666][393]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 35
+[2023.10.30-22.09.38:666][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Fire_0017B0F1C974F5D6F9CDFCCF0BAB41C3B12.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Misc/T_Fire_001.uasset'
+[2023.10.30-22.09.38:681][393]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/T_Fire_0020B45E7BA4B248088B1F5598160009354.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/EasyBuildingSystem/Textures/Misc/T_Fire_002.uasset'
+[2023.10.30-22.09.38:912][393]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 32
+[2023.10.30-22.09.38:913][393]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 29
+[2023.10.30-22.09.38:913][393]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 26
+[2023.10.30-22.09.39:118][393]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 23
+[2023.10.30-22.09.39:306][393]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 21
+[2023.10.30-22.09.39:317][393]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 19
+[2023.10.30-22.09.39:352][393]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2023.10.30-22.09.39:367][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.10.30-22.09.39:374][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.10.30-22.09.39:382][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.10.30-22.09.39:389][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.10.30-22.09.39:397][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.10.30-22.09.39:408][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.10.30-22.09.39:414][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.10.30-22.09.39:422][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.10.30-22.09.39:429][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.10.30-22.09.39:436][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.10.30-22.09.39:444][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.10.30-22.09.39:451][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.10.30-22.09.39:459][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.10.30-22.09.39:467][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.10.30-22.09.39:475][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.10.30-22.09.39:481][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.10.30-22.09.39:488][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.10.30-22.09.39:496][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.10.30-22.09.39:504][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.10.30-22.09.39:512][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.10.30-22.09.39:520][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.10.30-22.09.39:527][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.10.30-22.09.39:535][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.10.30-22.09.39:542][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.10.30-22.09.39:557][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.10.30-22.09.39:566][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.10.30-22.09.39:577][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.10.30-22.09.39:585][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.10.30-22.09.39:594][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.10.30-22.09.39:602][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.10.30-22.09.39:610][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.10.30-22.09.39:618][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.10.30-22.09.39:636][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.10.30-22.09.39:648][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.10.30-22.09.39:656][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.10.30-22.09.39:665][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.10.30-22.09.39:674][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.10.30-22.09.39:683][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.10.30-22.09.39:690][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.10.30-22.09.39:698][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.10.30-22.09.39:706][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.10.30-22.09.39:714][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.10.30-22.09.39:721][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.10.30-22.09.39:729][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.10.30-22.09.39:737][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.10.30-22.09.39:745][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.10.30-22.09.39:756][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.10.30-22.09.39:764][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.10.30-22.09.39:771][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.10.30-22.09.39:779][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.10.30-22.09.39:787][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.10.30-22.09.39:794][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.10.30-22.09.39:802][393]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 17
+[2023.10.30-22.09.39:802][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.10.30-22.09.39:809][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.10.30-22.09.39:817][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.10.30-22.09.39:825][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.10.30-22.09.39:831][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.10.30-22.09.39:840][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.10.30-22.09.39:847][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.10.30-22.09.39:856][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.10.30-22.09.39:868][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.10.30-22.09.39:877][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.10.30-22.09.39:885][393]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 15
+[2023.10.30-22.09.39:885][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.10.30-22.09.39:892][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.10.30-22.09.39:903][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.10.30-22.09.39:911][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.10.30-22.09.39:918][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.10.30-22.09.39:926][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.10.30-22.09.39:935][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.10.30-22.09.39:944][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.10.30-22.09.39:951][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.10.30-22.09.39:962][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.10.30-22.09.39:969][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.10.30-22.09.39:976][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.10.30-22.09.39:984][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.10.30-22.09.39:991][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.10.30-22.09.39:998][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.10.30-22.09.40:008][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.10.30-22.09.40:015][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.10.30-22.09.40:031][393]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2023.10.30-22.09.40:038][393]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 13
+[2023.10.30-22.09.40:038][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.10.30-22.09.40:838][393]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 11
+[2023.10.30-22.09.40:838][393]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 10
+[2023.10.30-22.09.40:838][393]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 9
+[2023.10.30-22.09.40:838][393]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 8
+[2023.10.30-22.09.40:838][393]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 7
+[2023.10.30-22.09.40:838][393]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2023.10.30-22.09.40:838][393]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2023.10.30-22.09.40:838][393]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
+[2023.10.30-22.09.40:838][393]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2023.10.30-22.09.40:838][393]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2023.10.30-22.09.40:838][393]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 1
+[2023.10.30-22.09.40:856][393]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating LandscapeGrassType /Game/Assets_Other/EasyBuildingSystem/FoliageType/Stylized/LG_Grass_001.LG_Grass_001
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Grass_001.SM_Grass_001
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Grass_001.MI_Grass_001
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Material /Game/Assets_Other/EasyBuildingSystem/Materials/Masters/Stylized/MM_Stylized_Foliage.MM_Stylized_Foliage
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating MaterialParameterCollection /Game/Assets_Other/EasyBuildingSystem/Materials/Collections/MPC_Wind.MPC_Wind
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Texture_Tune_RMA.MF_Texture_Tune_RMA
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Texture_Sample_RMA.MF_Texture_Sample_RMA
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Utility/T_Utility_N.T_Utility_N
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Utility/T_Utility_M.T_Utility_M
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Grass_001_A.T_Tile_Grass_001_A
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Rocks_Detailing.MF_Rocks_Detailing
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Rock_Cracked_001_A.T_Tile_Rock_Cracked_001_A
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Rock_Cracked_001_N.T_Tile_Rock_Cracked_001_N
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Rock_Cracked_001_RHA.T_Tile_Rock_Cracked_001_RHA
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_L1_Slope.MF_L1_Slope
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_L2_Grass.MF_L2_Grass
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Misc/T_Misc_Clouds_003.T_Misc_Clouds_003
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Ground_001_A.T_Tile_Ground_001_A
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Ground_001_N.T_Tile_Ground_001_N
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Ground_001_RHA.T_Tile_Ground_001_RHA
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_L3_Dirt.MF_L3_Dirt
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_L6_Snow_.MF_L6_Snow_
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_L7_Sand.MF_L7_Sand
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Misc/T_Misc_Clouds_001.T_Misc_Clouds_001
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Landscape_Lerp.MF_Landscape_Lerp
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Material /Game/Assets_Other/EasyBuildingSystem/Materials/Masters/Stylized/MM_Stylized_Landscape1.MM_Stylized_Landscape1
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Texture_Tune_RMA_Mask.MF_Texture_Tune_RMA_Mask
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Material /Game/Assets_Other/EasyBuildingSystem/Materials/Masters/Stylized/MM_Stylized_Structures_Base.MM_Stylized_Structures_Base
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Flowers_001.MI_Flowers_001
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Flowers_001.SM_Flowers_001
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Flowers_002.SM_Flowers_002
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Grass_003.SM_Grass_003
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Foliage/T_Foliage_001_A.T_Foliage_001_A
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Foliage/T_Foliage_001_N.T_Foliage_001_N
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Foliage/T_Foliage_001_RMA.T_Foliage_001_RMA
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Stylized_Fern_001.MI_Stylized_Fern_001
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Roots_001.SM_Roots_001
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Foliage/T_Tile_Bark_001_A.T_Tile_Bark_001_A
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Foliage/T_Tile_Bark_001_N.T_Tile_Bark_001_N
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Foliage/T_Tile_Bark_001_RMA.T_Tile_Bark_001_RMA
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Stylized_Tree_Bark_001.MI_Stylized_Tree_Bark_001
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Foliage/T_Tree_Branch_001_A.T_Tree_Branch_001_A
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Foliage/T_Tree_Branch_001_N.T_Tree_Branch_001_N
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Misc/T_Misc_Clouds_004.T_Misc_Clouds_004
+[2023.10.30-22.09.40:856][393]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Stylized_Tree_Branch_001.MI_Stylized_Tree_Branch_001
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Tree_001.SM_Tree_001
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Tree_002.SM_Tree_002
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Tree_003.SM_Tree_003
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Tree_004.SM_Tree_004
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Distance.MF_Distance
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Distance_Fade.MF_Distance_Fade
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Dithering.MF_Dithering
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Grass_Cover.MF_Grass_Cover
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Moss_Cover.MF_Moss_Cover
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Specular.MF_Specular
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Moss_Cover_3DPoints.MF_Moss_Cover_3DPoints
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_Moss_Cover_Fade.MF_Moss_Cover_Fade
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Material /Game/Assets_Other/EasyBuildingSystem/Materials/Masters/Stylized/MM_Stylized_Rocks.MM_Stylized_Rocks
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Misc/T_Misc_Clouds_002.T_Misc_Clouds_002
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Misc/T_Rock_Detail_001_N.T_Rock_Detail_001_N
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Misc/T_Rock_Detail_002_N.T_Rock_Detail_002_N
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_Cliff_001_A.T_Cliff_001_A
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_Cliff_001_N.T_Cliff_001_N
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_Cliff_001_RMA.T_Cliff_001_RMA
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Cliff_001.MI_Cliff_001
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_Cliff_001.SM_Cliff_001
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_Cliff_002_A.T_Cliff_002_A
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_Cliff_002_N.T_Cliff_002_N
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_Cliff_002_RMA.T_Cliff_002_RMA
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Cliff_002.MI_Cliff_002
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_Cliff_002.SM_Cliff_002
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_Cliff_003_A.T_Cliff_003_A
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_Cliff_003_N.T_Cliff_003_N
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_Cliff_003_RMA.T_Cliff_003_RMA
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Cliff_003.MI_Cliff_003
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_Cliff_003.SM_Cliff_003
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_RockPile_001_A.T_RockPile_001_A
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_RockPile_001_N.T_RockPile_001_N
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_RockPile_001_RMA.T_RockPile_001_RMA
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_RockPile_001.MI_RockPile_001
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_RockPile_001.SM_RockPile_001
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_SmallRocks_001_A.T_SmallRocks_001_A
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_SmallRocks_001_N.T_SmallRocks_001_N
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Organic/T_SmallRocks_001_RMA.T_SmallRocks_001_RMA
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_SmallRocks_001.MI_SmallRocks_001
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_001.SM_SmallRock_001
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_002.SM_SmallRock_002
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_003.SM_SmallRock_003
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_004.SM_SmallRock_004
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_005.SM_SmallRock_005
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_006.SM_SmallRock_006
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Structures/Stylized/Props/T_Stylized_Props_001_A.T_Stylized_Props_001_A
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Structures/Stylized/Props/T_Stylized_Props_001_N.T_Stylized_Props_001_N
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Structures/Stylized/Props/T_Stylized_Props_001_RMA.T_Stylized_Props_001_RMA
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Stylized_Props.MI_Stylized_Props
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Props/Stylized/SM_Stylized_Campfire.SM_Stylized_Campfire
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_L4_Snow.MF_L4_Snow
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialFunction /Game/Assets_Other/EasyBuildingSystem/Materials/Functions/MF_L5_Sand.MF_L5_Sand
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Misc/T_Fire_001.T_Fire_001
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Material /Game/Assets_Other/EasyBuildingSystem/Materials/Masters/Effects/MM_Fire.MM_Fire
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Assets_Other/EasyBuildingSystem/Materials/Instances/Effects/MI_Fire_001.MI_Fire_001
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Misc/T_Fire_002.T_Fire_002
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Material /Game/Assets_Other/EasyBuildingSystem/Materials/Masters/Effects/MM_Fire_Wave.MM_Fire_Wave
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Assets_Other/EasyBuildingSystem/Materials/Instances/Effects/MI_Fire_Wave_001.MI_Fire_Wave_001
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Assets_Other/EasyBuildingSystem/Materials/Instances/Effects/MI_Fire_Wave_002.MI_Fire_Wave_002
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Assets_Other/EasyBuildingSystem/Materials/Instances/Stylized/MI_Grass_002.MI_Grass_002
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/EasyBuildingSystem/Textures/Environment/Stylized/Misc/T_Dust_A.T_Dust_A
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Material /Game/Assets_Other/EasyBuildingSystem/Materials/Masters/Dummy/MM_Dust.MM_Dust
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Material /Game/Assets_Other/EasyBuildingSystem/Materials/Masters/Dummy/MM_Wind.MM_Wind
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Material /Game/Assets_Other/EasyBuildingSystem/Materials/Masters/Effects/MM_Fire_Embers.MM_Fire_Embers
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating Material /Game/Assets_Other/EasyBuildingSystem/Materials/Masters/Stylized/MM_Stylized_Landscape.MM_Stylized_Landscape
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Fern_001.SM_Fern_001
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Grass_002.SM_Grass_002
+[2023.10.30-22.09.40:857][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/FoliageType/Stylized/LG_Grass_001.LG_Grass_001
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Grass_001.SM_Grass_001
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Textures/Utility/T_Utility_N.T_Utility_N
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Textures/Utility/T_Utility_M.T_Utility_M
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Grass_001_A.T_Tile_Grass_001_A
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Rock_Cracked_001_A.T_Tile_Rock_Cracked_001_A
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Rock_Cracked_001_N.T_Tile_Rock_Cracked_001_N
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Rock_Cracked_001_RHA.T_Tile_Rock_Cracked_001_RHA
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Textures/Environment/Stylized/Misc/T_Misc_Clouds_003.T_Misc_Clouds_003
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Ground_001_A.T_Tile_Ground_001_A
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Ground_001_N.T_Tile_Ground_001_N
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Textures/Environment/Stylized/Tiles/T_Tile_Ground_001_RHA.T_Tile_Ground_001_RHA
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Textures/Environment/Stylized/Misc/T_Misc_Clouds_001.T_Misc_Clouds_001
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Materials/Masters/Stylized/MM_Stylized_Landscape1.MM_Stylized_Landscape1
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Flowers_001.SM_Flowers_001
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Flowers_002.SM_Flowers_002
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Grass_003.SM_Grass_003
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Roots_001.SM_Roots_001
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Tree_001.SM_Tree_001
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Tree_002.SM_Tree_002
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Tree_003.SM_Tree_003
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Environment/Stylized/Foliage/SM_Tree_004.SM_Tree_004
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_Cliff_001.SM_Cliff_001
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_Cliff_002.SM_Cliff_002
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_Cliff_003.SM_Cliff_003
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_RockPile_001.SM_RockPile_001
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_001.SM_SmallRock_001
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_002.SM_SmallRock_002
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_003.SM_SmallRock_003
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_004.SM_SmallRock_004
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_005.SM_SmallRock_005
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Environment/Stylized/Organic/SM_SmallRock_006.SM_SmallRock_006
+[2023.10.30-22.09.40:858][393]LogContentValidation: Display: Validating ObjectRedirector /Game/EasyBuildingSystem/Meshes/Props/Stylized/SM_Stylized_Campfire.SM_Stylized_Campfire
+[2023.10.30-22.10.16:653][187]LogSlate: Window 'Undo History' being destroyed
+[2023.10.30-22.10.16:655][187]LogSlate: Window 'Undo History' being destroyed
