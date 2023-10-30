@@ -23468,3 +23468,222 @@ Sphere6
 [2023.10.30-21.24.04:166][ 45]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update1C56F3DE43A54C8E24DE2C8BDAEE1D88.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
 [2023.10.30-21.24.04:216][ 45]AssetCheck: New page: Asset Save: V4S_Update
 [2023.10.30-21.24.04:216][ 45]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.10.30-21.25.24:501][282]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Waterfall3)
+[2023.10.30-21.25.36:064][259]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Waterfall3)
+[2023.10.30-21.25.36:935][334]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Waterfall3)
+[2023.10.30-21.25.37:614][390]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Waterfall2)
+[2023.10.30-21.25.41:685][748]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Waterfall3)
+[2023.10.30-21.25.54:476][460]LogTemp: Repeating last play command: Selected Viewport
+[2023.10.30-21.25.54:480][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.30-21.25.54:481][460]PIE: New page: PIE session: V4S_Update (Oct. 30, 2023, 1:25:54 p.m.)
+[2023.10.30-21.25.54:481][460]LogPlayLevel: Creating play world package: /Game/V4S/UEDPIE_0_V4S_Update
+[2023.10.30-21.25.56:551][460]LogPlayLevel: PIE: StaticDuplicateObject took: (2.070292s)
+[2023.10.30-21.25.56:552][460]LogAIModule: Creating AISystem for world V4S_Update
+[2023.10.30-21.25.56:552][460]LogPlayLevel: PIE: World Init took: (0.001474s)
+[2023.10.30-21.25.56:553][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/V4S/V4S_Update.V4S_Update to /Game/V4S/UEDPIE_0_V4S_Update.V4S_Update (2.072009s)
+[2023.10.30-21.25.56:590][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.10.30-21.25.56:598][460]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.10.30-21.25.56:598][460]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.30-21.25.56:598][460]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.30-21.25.56:598][460]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.30-21.25.56:598][460]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.30-21.25.56:598][460]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.30-21.25.56:598][460]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.30-21.25.56:598][460]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.30-21.25.56:598][460]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.30-21.25.56:598][460]LogAudio: Display: Using built-in audio occlusion.
+[2023.10.30-21.25.56:598][460]LogAudioMixer: Display: Initializing audio mixer.
+[2023.10.30-21.25.56:601][460]LogAudioMixer: Display: 0: FrontLeft
+[2023.10.30-21.25.56:601][460]LogAudioMixer: Display: 1: FrontRight
+[2023.10.30-21.25.56:612][460]LogAudioMixer: Display: Using Audio Device Speakers (Dell USB Audio)
+[2023.10.30-21.25.56:612][460]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.30-21.25.56:612][460]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.30-21.25.56:612][460]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.30-21.25.56:612][460]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.10.30-21.25.56:612][460]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.10.30-21.25.56:612][460]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.10.30-21.25.56:623][460]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.10.30-21.25.56:623][460]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.10.30-21.25.56:623][460]LogInit: FAudioDevice initialized.
+[2023.10.30-21.25.56:623][460]LogAudio: Display: Audio Device (ID: 13) registered with world 'V4S_Update'.
+[2023.10.30-21.25.56:635][460]LogLinker: Warning: The file '../../../../../../Quin/V4S/Update_V4S/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset' contains unrecognizable data, check that it is of the expected type.
+[2023.10.30-21.25.56:635][460]LogLinker: Warning: The file '../../../../../../Quin/V4S/Update_V4S/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset' contains unrecognizable data, check that it is of the expected type.
+[2023.10.30-21.25.56:635][460]LogLoad: Game class is 'GameModeBase'
+[2023.10.30-21.25.57:025][460]LogWorld: Bringing World /Game/V4S/UEDPIE_0_V4S_Update.V4S_Update up for play (max tick rate 0) at 2023.10.30-17.25.57
+[2023.10.30-21.25.57:026][460]LogWorld: Bringing up level for play took: 0.390083
+[2023.10.30-21.25.57:026][460]LogOnline: OSS: Creating online subsystem instance for: :Context_85
+[2023.10.30-21.25.57:048][460]PIE: Server logged in
+[2023.10.30-21.25.57:048][460]PIE: Play in editor total start time 2.569 seconds.
+[2023.10.30-21.25.57:116][461]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.10.30-21.25.57:116][461]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.10.30-21.25.57:116][461]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.10.30-21.26.02:118][702]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.10.30-21.26.02:118][702]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.10.30-21.26.02:118][702]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.10.30-21.26.07:123][263]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.10.30-21.26.07:123][263]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.10.30-21.26.07:123][263]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.10.30-21.26.12:154][512]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.10.30-21.26.12:154][512]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.10.30-21.26.12:154][512]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.10.30-21.26.17:157][648]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.10.30-21.26.17:157][648]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.10.30-21.26.17:157][648]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.10.30-21.26.22:170][969]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.10.30-21.26.22:170][969]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.10.30-21.26.22:170][969]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.10.30-21.26.27:185][118]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.10.30-21.26.27:185][118]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.10.30-21.26.27:185][118]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.10.30-21.26.32:196][439]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.10.30-21.26.32:196][439]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.10.30-21.26.32:196][439]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.10.30-21.26.37:203][925]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.10.30-21.26.37:203][925]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.10.30-21.26.37:203][925]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.10.30-21.26.40:401][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.30-21.26.40:401][187]LogWorld: BeginTearingDown for /Game/V4S/UEDPIE_0_V4S_Update
+[2023.10.30-21.26.40:402][187]LogWorld: UWorld::CleanupWorld for V4S_Update, bSessionEnded=true, bCleanupResources=true
+[2023.10.30-21.26.40:542][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.30-21.26.40:553][187]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.30-21.26.40:565][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.30-21.26.40:590][187]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.30-21.26.40:590][187]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.10.30-21.26.40:591][187]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.10.30-21.26.40:602][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.30-21.26.40:769][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.10.30-21.26.44:816][188]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2023.10.30-21.26.47:715][242]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Waterfall3)
+[2023.10.30-21.27.30:187][743]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Waterfall2)
+[2023.10.30-21.27.55:147][814]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Waterfall3)
+[2023.10.30-21.28.44:930][930]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2023.10.30-21.28.50:252][368]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Waterfall2)
+[2023.10.30-21.28.51:076][432]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Waterfall)
+[2023.10.30-21.29.12:594][213]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Waterfall)
+[2023.10.30-21.29.13:281][269]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Waterfall3)
+[2023.10.30-21.29.13:902][317]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Waterfall2)
+[2023.10.30-21.29.26:833][389]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Waterfall3)
+[2023.10.30-21.30.09:210][872]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/WaterIntroFiles/P_Waterfall.P_Waterfall
+[2023.10.30-21.31.21:100][555]LogSlate: Window 'Color Picker' being destroyed
+[2023.10.30-21.32.09:385][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WaterIntroFiles/P_Waterfall" FILE="../../../../../../Quin/V4S/Update_V4S/Content/WaterIntroFiles/P_Waterfall.uasset" SILENT=true
+[2023.10.30-21.32.09:389][872]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/P_WaterfallDE2C170C48CBB8DB7AA36E8A88373A50.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/WaterIntroFiles/P_Waterfall.uasset'
+[2023.10.30-21.32.09:399][872]AssetCheck: New page: Asset Save: P_Waterfall
+[2023.10.30-21.32.09:399][872]LogContentValidation: Display: Validating ParticleSystem /Game/WaterIntroFiles/P_Waterfall.P_Waterfall
+[2023.10.30-21.32.10:451][945]LogSlate: Window 'P_Waterfall' being destroyed
+[2023.10.30-21.32.10:468][945]LogSlate: Window 'P_Waterfall' being destroyed
+[2023.10.30-21.32.10:468][945]LogCascade: Quitting Cascade. FXSystem=0x0000023923B8E3E0
+[2023.10.30-21.32.10:478][945]LogWorld: UWorld::CleanupWorld for World_73, bSessionEnded=true, bCleanupResources=true
+[2023.10.30-21.32.10:478][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.30-21.33.05:802][844]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/WaterIntroFiles/P_Waterfall.P_Waterfall
+[2023.10.30-21.33.15:587][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WaterIntroFiles/P_Waterfall" FILE="../../../../../../Quin/V4S/Update_V4S/Content/WaterIntroFiles/P_Waterfall.uasset" SILENT=true
+[2023.10.30-21.33.15:590][639]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/P_Waterfall631D3D1340F842283556E9BE11DE426D.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/WaterIntroFiles/P_Waterfall.uasset'
+[2023.10.30-21.33.15:599][639]AssetCheck: New page: Asset Save: P_Waterfall
+[2023.10.30-21.33.15:599][639]LogContentValidation: Display: Validating ParticleSystem /Game/WaterIntroFiles/P_Waterfall.P_Waterfall
+[2023.10.30-21.33.16:384][704]LogSlate: Window 'P_Waterfall' being destroyed
+[2023.10.30-21.33.16:401][704]LogSlate: Window 'P_Waterfall' being destroyed
+[2023.10.30-21.33.16:401][704]LogCascade: Quitting Cascade. FXSystem=0x0000023B7D6C8130
+[2023.10.30-21.33.16:411][704]LogWorld: UWorld::CleanupWorld for World_74, bSessionEnded=true, bCleanupResources=true
+[2023.10.30-21.33.16:411][704]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.30-21.33.40:904][676]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/WaterIntroFiles/WaterfallMesh.WaterfallMesh
+[2023.10.30-21.33.42:307][747]LogSlate: Window 'WaterfallMesh' being destroyed
+[2023.10.30-21.33.42:328][747]LogSlate: Window 'WaterfallMesh' being destroyed
+[2023.10.30-21.33.42:376][747]LogWorld: UWorld::CleanupWorld for World_75, bSessionEnded=true, bCleanupResources=true
+[2023.10.30-21.33.42:376][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.30-21.33.43:405][799]LogActorFactory: Actor Factory created WaterfallMesh
+[2023.10.30-21.33.45:010][915]LogActorFactory: Actor Factory created WaterfallMesh
+[2023.10.30-21.33.46:451][ 31]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/V4S/V4S_Update.V4S_Update:PersistentLevel.WaterfallMesh2_31.StaticMeshComponent0)
+[2023.10.30-21.33.46:682][ 50]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/V4S/V4S_Update.V4S_Update:PersistentLevel.WaterfallMesh2_31.StaticMeshComponent0)
+[2023.10.30-21.35.30:017][960]LogTemp: Repeating last play command: Selected Viewport
+[2023.10.30-21.35.30:021][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.30-21.35.30:021][960]PIE: New page: PIE session: V4S_Update (Oct. 30, 2023, 1:35:30 p.m.)
+[2023.10.30-21.35.30:021][960]LogPlayLevel: Creating play world package: /Game/V4S/UEDPIE_0_V4S_Update
+[2023.10.30-21.35.31:994][960]LogPlayLevel: PIE: StaticDuplicateObject took: (1.972632s)
+[2023.10.30-21.35.31:996][960]LogAIModule: Creating AISystem for world V4S_Update
+[2023.10.30-21.35.31:996][960]LogPlayLevel: PIE: World Init took: (0.001612s)
+[2023.10.30-21.35.31:996][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/V4S/V4S_Update.V4S_Update to /Game/V4S/UEDPIE_0_V4S_Update.V4S_Update (1.974419s)
+[2023.10.30-21.35.32:042][960]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2023.10.30-21.35.32:051][960]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.10.30-21.35.32:051][960]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.30-21.35.32:051][960]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.30-21.35.32:051][960]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.30-21.35.32:051][960]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.30-21.35.32:051][960]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.30-21.35.32:051][960]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.30-21.35.32:051][960]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.30-21.35.32:051][960]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.30-21.35.32:051][960]LogAudio: Display: Using built-in audio occlusion.
+[2023.10.30-21.35.32:051][960]LogAudioMixer: Display: Initializing audio mixer.
+[2023.10.30-21.35.32:054][960]LogAudioMixer: Display: 0: FrontLeft
+[2023.10.30-21.35.32:054][960]LogAudioMixer: Display: 1: FrontRight
+[2023.10.30-21.35.32:064][960]LogAudioMixer: Display: Using Audio Device Speakers (Dell USB Audio)
+[2023.10.30-21.35.32:064][960]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.30-21.35.32:064][960]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.30-21.35.32:064][960]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.30-21.35.32:064][960]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.10.30-21.35.32:064][960]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.10.30-21.35.32:064][960]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.10.30-21.35.32:075][960]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.10.30-21.35.32:075][960]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.10.30-21.35.32:075][960]LogInit: FAudioDevice initialized.
+[2023.10.30-21.35.32:075][960]LogAudio: Display: Audio Device (ID: 14) registered with world 'V4S_Update'.
+[2023.10.30-21.35.32:083][960]LogLinker: Warning: The file '../../../../../../Quin/V4S/Update_V4S/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset' contains unrecognizable data, check that it is of the expected type.
+[2023.10.30-21.35.32:083][960]LogLinker: Warning: The file '../../../../../../Quin/V4S/Update_V4S/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset' contains unrecognizable data, check that it is of the expected type.
+[2023.10.30-21.35.32:083][960]LogLoad: Game class is 'GameModeBase'
+[2023.10.30-21.35.32:395][960]LogWorld: Bringing World /Game/V4S/UEDPIE_0_V4S_Update.V4S_Update up for play (max tick rate 0) at 2023.10.30-17.35.32
+[2023.10.30-21.35.32:395][960]LogWorld: Bringing up level for play took: 0.312926
+[2023.10.30-21.35.32:395][960]LogOnline: OSS: Creating online subsystem instance for: :Context_89
+[2023.10.30-21.35.32:417][960]PIE: Server logged in
+[2023.10.30-21.35.32:418][960]PIE: Play in editor total start time 2.397 seconds.
+[2023.10.30-21.35.32:487][961]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.10.30-21.35.32:487][961]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.10.30-21.35.32:487][961]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.10.30-21.35.37:492][418]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.10.30-21.35.37:492][418]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.10.30-21.35.37:492][418]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.10.30-21.35.42:502][898]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.10.30-21.35.42:502][898]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.10.30-21.35.42:502][898]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.10.30-21.35.47:505][360]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.10.30-21.35.47:505][360]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.10.30-21.35.47:505][360]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.10.30-21.35.52:508][880]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.10.30-21.35.52:508][880]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.10.30-21.35.52:508][880]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.10.30-21.35.57:515][410]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.10.30-21.35.57:515][410]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.10.30-21.35.57:515][410]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.10.30-21.35.59:338][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.30-21.35.59:338][567]LogWorld: BeginTearingDown for /Game/V4S/UEDPIE_0_V4S_Update
+[2023.10.30-21.35.59:339][567]LogWorld: UWorld::CleanupWorld for V4S_Update, bSessionEnded=true, bCleanupResources=true
+[2023.10.30-21.35.59:479][567]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.30-21.35.59:490][567]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.30-21.35.59:507][567]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.30-21.35.59:535][567]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.30-21.35.59:537][567]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.10.30-21.35.59:539][567]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.10.30-21.35.59:550][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.30-21.35.59:713][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.10.30-21.36.02:156][568]LogPlayLevel: Display: Destroying online subsystem :Context_89
+[2023.10.30-21.37.31:074][277]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2023.10.30-21.37.32:460][414]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2023.10.30-21.37.40:821][913]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Waterfall2)
+[2023.10.30-21.37.46:740][418]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Waterfall3)
+[2023.10.30-21.38.31:699][198]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2023.10.30-21.39.10:031][233]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2023.10.30-21.39.54:992][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.30-21.39.55:001][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.10.30-21.40.04:682][579]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_UpdateE16B81D243B7179D168691984AC3AC6C.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.10.30-21.40.04:755][579]AssetCheck: New page: Asset Save: V4S_Update
+[2023.10.30-21.40.04:755][579]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.10.30-21.44.53:528][ 29]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.10.30-21.44.53:545][ 29]LogContentBrowser: Creating deferred item: NewFolder
+[2023.10.30-21.45.01:032][928]LogContentBrowser: Attempting asset rename: NewFolder -> Assets_Other
+[2023.10.30-21.45.01:033][928]LogContentBrowser: End creating deferred item NewFolder
+[2023.10.30-21.45.04:849][177]LogAssetTools: Warning: Failed to import 'G:\2023 Spring Term\WaterIntroFiles\Umbrella\SM_BeachUmb_1.uasset'. Unknown extension 'uasset'.
+[2023.10.30-21.45.04:852][177]LogAssetTools: Warning: Failed to import 'G:\2023 Spring Term\WaterIntroFiles\Umbrella\SM_Seashell_1.uasset'. Unknown extension 'uasset'.
+[2023.10.30-21.45.28:150][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.30-21.45.28:160][218]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.10.30-21.45.37:794][218]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update65FD5A494ECEC2232BD0AA9E7F4AC89A.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.10.30-21.45.37:860][218]AssetCheck: New page: Asset Save: V4S_Update
+[2023.10.30-21.45.37:860][218]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.10.30-21.45.50:250][948]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
