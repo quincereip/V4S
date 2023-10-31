@@ -3468,3 +3468,1063 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2023.10.30-22.41.40:652][761]LogContentValidation: Display: Validating ObjectRedirector /Game/STF/Pack02-Ireland/Textures/Foliage/T_TreeIreland01_ambientocclusion.T_TreeIreland01_ambientocclusion
 [2023.10.30-22.41.40:652][761]LogContentValidation: Display: Validating ObjectRedirector /Game/STF/Pack02-Ireland/Textures/Foliage/T_TreeIreland01_roughness.T_TreeIreland01_roughness
 [2023.10.30-22.41.40:652][761]LogContentValidation: Display: Validating ObjectRedirector /Game/STF/Pack02-Ireland/Textures/Other/T_mesh-blend.T_mesh-blend
+[2023.10.30-22.41.59:904][233]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.10.30-22.42.00:058][233]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.42.00:114][233]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 34
+[2023.10.30-22.42.00:114][233]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 31
+[2023.10.30-22.42.00:114][233]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 28
+[2023.10.30-22.42.00:114][233]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 25
+[2023.10.30-22.42.00:114][233]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 22
+[2023.10.30-22.42.00:114][233]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 19
+[2023.10.30-22.42.00:114][233]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 16
+[2023.10.30-22.42.00:114][233]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 13
+[2023.10.30-22.42.00:114][233]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 10
+[2023.10.30-22.42.00:114][233]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 7
+[2023.10.30-22.42.00:114][233]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 4
+[2023.10.30-22.42.00:114][233]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 1
+[2023.10.30-22.42.00:230][233]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.30-22.42.00:535][233]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 34
+[2023.10.30-22.42.00:732][233]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 31
+[2023.10.30-22.42.00:838][233]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 28
+[2023.10.30-22.42.00:891][233]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 25
+[2023.10.30-22.42.00:891][233]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 22
+[2023.10.30-22.42.00:945][233]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 20
+[2023.10.30-22.42.00:980][233]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 18
+[2023.10.30-22.42.00:980][233]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 16
+[2023.10.30-22.42.01:014][233]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 14
+[2023.10.30-22.42.01:102][233]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 12
+[2023.10.30-22.42.01:156][233]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 10
+[2023.10.30-22.42.01:191][233]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 9
+[2023.10.30-22.42.01:281][233]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 8
+[2023.10.30-22.42.01:299][233]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 7
+[2023.10.30-22.42.01:390][233]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 6
+[2023.10.30-22.42.01:425][233]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 5
+[2023.10.30-22.42.01:444][233]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 4
+[2023.10.30-22.42.01:462][233]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2023.10.30-22.42.01:498][233]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2023.10.30-22.42.01:534][233]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 1
+[2023.10.30-22.42.02:864][233]LogSlate: Window 'Delete Assets' being destroyed
+[2023.10.30-22.42.33:886][234]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.10.30-22.42.35:718][234]LogSlate: Window 'Delete Assets' being destroyed
+[2023.10.30-22.43.03:048][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.30-22.43.03:056][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.10.30-22.43.12:582][855]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_UpdateBF04DA434A1B0D002BECE595ABB35EF7.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.10.30-22.43.12:616][855]LogFileHelpers: Saving map 'V4S_Update' took 9.570
+[2023.10.30-22.43.12:638][855]AssetCheck: New page: Asset Save: V4S_Update
+[2023.10.30-22.43.12:638][855]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.10.30-22.43.43:188][399]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.30-22.43.43:188][399]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.30-22.43.44:303][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_Other/WaterIntroFiles/water_d" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/water_d.uasset" SILENT=true
+[2023.10.30-22.43.44:309][399]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/water_dB1B0FCD449E64D0A03879682AB2FAEAF.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/water_d.uasset'
+[2023.10.30-22.43.44:324][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_Other/WaterIntroFiles/MM_Waterfall" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/MM_Waterfall.uasset" SILENT=true
+[2023.10.30-22.43.44:329][399]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MM_WaterfallA0CB437B4D09004FEABD799392D61C3B.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/MM_Waterfall.uasset'
+[2023.10.30-22.43.44:343][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_Other/WaterIntroFiles/MM_Waterfall_Vapor" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/MM_Waterfall_Vapor.uasset" SILENT=true
+[2023.10.30-22.43.44:346][399]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MM_Waterfall_Vapor0509DEF54ED326AC45DFCC9BAC81E8E9.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/MM_Waterfall_Vapor.uasset'
+[2023.10.30-22.43.44:349][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_Other/WaterIntroFiles/P_Waterfall" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/P_Waterfall.uasset" SILENT=true
+[2023.10.30-22.43.44:353][399]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/P_Waterfall7C5E283543662ED9EA710188D627CDD5.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/P_Waterfall.uasset'
+[2023.10.30-22.43.44:353][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WaterIntroFiles/P_Waterfall" FILE="../../../../../../Quin/V4S/Update_V4S/Content/WaterIntroFiles/P_Waterfall.uasset" SILENT=true
+[2023.10.30-22.43.44:354][399]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/P_WaterfallE2D16AB1464DF0882B2F29AF73FB1BF6.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/WaterIntroFiles/P_Waterfall.uasset'
+[2023.10.30-22.43.44:370][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_Other/WaterIntroFiles/MI_Waterfall_Inst" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/MI_Waterfall_Inst.uasset" SILENT=true
+[2023.10.30-22.43.44:373][399]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/MI_Waterfall_Inst0DC062AB42DC0C1FD325B7B527E9AD4A.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/MI_Waterfall_Inst.uasset'
+[2023.10.30-22.43.44:390][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_Other/WaterIntroFiles/WaterfallMesh" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/WaterfallMesh.uasset" SILENT=true
+[2023.10.30-22.43.44:394][399]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/WaterfallMesh6BC971714899C5C9EE2F46BEEC6F9B8C.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/WaterfallMesh.uasset'
+[2023.10.30-22.43.44:395][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WaterIntroFiles/WaterfallMesh" FILE="../../../../../../Quin/V4S/Update_V4S/Content/WaterIntroFiles/WaterfallMesh.uasset" SILENT=true
+[2023.10.30-22.43.44:395][399]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/WaterfallMeshE679D7C14C44114A5792FC8993A2D76B.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/WaterIntroFiles/WaterfallMesh.uasset'
+[2023.10.30-22.43.44:400][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_Other/WaterIntroFiles/RandomNormal" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/RandomNormal.uasset" SILENT=true
+[2023.10.30-22.43.44:409][399]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/RandomNormal398103A1403D7C2DC04B5384FF133C03.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/RandomNormal.uasset'
+[2023.10.30-22.43.44:424][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_Other/WaterIntroFiles/WaterFallMesh_02" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/WaterFallMesh_02.uasset" SILENT=true
+[2023.10.30-22.43.44:428][399]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/WaterFallMesh_02702B02A94100A5B3E82EC2ABC821374F.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/WaterFallMesh_02.uasset'
+[2023.10.30-22.43.44:428][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_Other/WaterIntroFiles/WaterFall_Test_1" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/WaterFall_Test_1.uasset" SILENT=true
+[2023.10.30-22.43.44:441][399]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/WaterFall_Test_1.WaterFall_Test_1 took 1.411825 sec (time since issued), 2.518975 sec (combined shader worker time).
+[2023.10.30-22.43.44:505][399]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/WaterFall_Test_11155996345CFDBF23E409DA9784370FE.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/WaterFall_Test_1.uasset'
+[2023.10.30-22.43.44:590][399]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.10.30-22.43.44:597][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.10.30-22.43.44:604][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.10.30-22.43.44:611][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.10.30-22.43.44:618][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.10.30-22.43.44:624][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.10.30-22.43.44:631][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.10.30-22.43.44:642][399]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.10.30-22.43.44:650][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.10.30-22.43.45:208][399]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.30-22.43.45:208][399]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/WaterIntroFiles/water_d.water_d
+[2023.10.30-22.43.45:208][399]LogContentValidation: Display: Validating Material /Game/Assets_Other/WaterIntroFiles/MM_Waterfall.MM_Waterfall
+[2023.10.30-22.43.45:208][399]LogContentValidation: Display: Validating Material /Game/Assets_Other/WaterIntroFiles/MM_Waterfall_Vapor.MM_Waterfall_Vapor
+[2023.10.30-22.43.45:208][399]LogContentValidation: Display: Validating ParticleSystem /Game/Assets_Other/WaterIntroFiles/P_Waterfall.P_Waterfall
+[2023.10.30-22.43.45:208][399]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Assets_Other/WaterIntroFiles/MI_Waterfall_Inst.MI_Waterfall_Inst
+[2023.10.30-22.43.45:208][399]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/WaterIntroFiles/WaterfallMesh.WaterfallMesh
+[2023.10.30-22.43.45:208][399]LogContentValidation: Display: Validating StaticMesh /Game/Assets_Other/WaterIntroFiles/WaterFallMesh_02.WaterFallMesh_02
+[2023.10.30-22.43.45:208][399]LogContentValidation: Display: Validating Texture2D /Game/Assets_Other/WaterIntroFiles/RandomNormal.RandomNormal
+[2023.10.30-22.43.45:208][399]LogContentValidation: Display: Validating NiagaraSystem /Game/Assets_Other/WaterIntroFiles/WaterFall_Test_1.WaterFall_Test_1
+[2023.10.30-22.43.45:208][399]LogContentValidation: Display: Validating ObjectRedirector /Game/WaterIntroFiles/P_Waterfall.P_Waterfall
+[2023.10.30-22.43.45:208][399]LogContentValidation: Display: Validating ObjectRedirector /Game/WaterIntroFiles/WaterfallMesh.WaterfallMesh
+[2023.10.30-22.43.56:073][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.10.30-22.44.24:054][987]LogSlate: Window 'Delete Assets' being destroyed
+[2023.10.30-22.44.26:675][ 31]LogLinker: Warning: [AssetLog] E:\Quin\V4S\Update_V4S\Content\InitBank.uasset: Failed to load '/Script/AkAudio': Can't find file.
+[2023.10.30-22.44.26:675][ 31]LogLinker: Warning: [AssetLog] E:\Quin\V4S\Update_V4S\Content\InitBank.uasset: Failed to load '/Script/AkAudio': Can't find file.
+[2023.10.30-22.44.26:675][ 31]LogLinker: Warning: [AssetLog] E:\Quin\V4S\Update_V4S\Content\InitBank.uasset: Failed to load '/Script/AkAudio': Can't find file.
+[2023.10.30-22.44.26:676][ 31]LogLinker: Warning: Failed to load '/Script/AkAudio': Can't find file.
+[2023.10.30-22.44.26:676][ 31]LogLinker: Warning: Failed to load '/Script/AkAudio': Can't find file.
+[2023.10.30-22.44.26:676][ 31]LogLinker: Warning: Unable to load InitBank with outer Package /Game/InitBank because its class does not exist
+[2023.10.30-22.44.26:676][ 31]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/InitBank.InitBank'
+[2023.10.30-22.44.26:676][ 31]LogAssetEditorSubsystem: Error: Opening Asset editor failed because of null asset
+[2023.10.30-22.45.22:666][977]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.30-22.45.24:840][983]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.30-22.45.27:005][989]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.30-22.45.29:171][995]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.30-22.45.31:337][  1]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.30-22.45.33:499][  7]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.30-22.45.35:675][ 13]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.30-22.45.37:832][ 19]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.30-22.45.43:228][365]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.10.30-22.45.43:253][365]LogContentBrowser: Creating deferred item: NewFolder
+[2023.10.30-22.45.47:476][455]LogContentBrowser: Attempting asset rename: NewFolder -> Wwise
+[2023.10.30-22.45.47:476][455]LogContentBrowser: End creating deferred item NewFolder
+[2023.10.30-22.46.33:595][439]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.10.30-22.46.33:619][439]LogContentBrowser: Creating deferred item: NewFolder
+[2023.10.30-22.46.36:940][493]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2023.10.30-22.46.36:940][493]LogContentBrowser: End creating deferred item NewFolder
+[2023.10.30-22.46.40:002][645]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.10.30-22.46.40:010][645]LogContentBrowser: Creating deferred item: NewFolder
+[2023.10.30-22.46.41:574][673]LogContentBrowser: Attempting asset rename: NewFolder -> Events
+[2023.10.30-22.46.41:574][673]LogContentBrowser: End creating deferred item NewFolder
+[2023.10.30-22.46.43:634][783]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.10.30-22.46.43:653][783]LogContentBrowser: Creating deferred item: NewFolder
+[2023.10.30-22.46.47:521][988]LogContentBrowser: Attempting asset rename: NewFolder -> Trigger
+[2023.10.30-22.46.47:521][988]LogContentBrowser: End creating deferred item NewFolder
+[2023.10.30-22.46.51:822][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.30-22.46.51:832][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.10.30-22.47.01:453][ 60]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_UpdateC77619214FF68E4AED6FB7AF512814DB.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.10.30-22.47.01:515][ 60]AssetCheck: New page: Asset Save: V4S_Update
+[2023.10.30-22.47.01:515][ 60]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.10.30-22.48.29:258][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.30-22.48.29:266][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.10.30-22.48.38:901][715]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update48820DF242D330F8D7E20C97659A598D.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.10.30-22.48.38:969][715]AssetCheck: New page: Asset Save: V4S_Update
+[2023.10.30-22.48.38:969][715]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.10.30-22.57.15:917][657]LogContentBrowser: Deferred new asset file creation: NewParticleSystem
+[2023.10.30-22.57.15:926][657]LogContentBrowser: Creating deferred item: NewParticleSystem
+[2023.10.30-22.57.21:319][765]LogHttp: Warning: 00000246EEE15D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-22.57.21:319][765]LogHttp: Warning: 00000246EEE15D00: request failed, libcurl error: 0 (No error)
+[2023.10.30-22.57.21:319][765]LogHttp: Warning: 00000246EEE15D00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x245c0d8fdc0 [can pipeline])
+[2023.10.30-22.57.21:319][765]LogHttp: Warning: 00000246EEE15D00: libcurl info message cache 1 (Re-using existing connection! (#4) with host datarouter.ol.epicgames.com)
+[2023.10.30-22.57.21:319][765]LogHttp: Warning: 00000246EEE15D00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.160.208.87) port 443 (#4))
+[2023.10.30-22.57.21:319][765]LogHttp: Warning: 00000246EEE15D00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.10.30-22.57.21:319][765]LogHttp: Warning: 00000246EEE15D00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2023.10.30-22.57.21:319][765]LogHttp: Warning: 00000246EEE15D00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.10.30-22.57.21:319][765]LogHttp: Warning: 00000246EEE15D00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.10.30-22.57.21:319][765]LogHttp: Warning: 00000246EEE15D00: libcurl info message cache 7 (Closing connection 4)
+[2023.10.30-22.57.21:319][765]LogHttp: Warning: 00000246EEE15D00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2023.10.30-22.57.21:327][766]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-22.57.24:070][822]LogContentBrowser: Attempting asset rename: NewParticleSystem -> P_Rain
+[2023.10.30-22.57.24:070][822]LogContentBrowser: End creating deferred item NewParticleSystem
+[2023.10.30-22.57.25:190][844]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain
+[2023.10.30-22.57.25:202][844]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Cascade' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2023.10.30-22.58.10:593][367]LogHttp: Warning: 0000024750F27200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-22.58.10:593][367]LogHttp: Warning: 0000024750F27200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.30-22.58.10:593][367]LogHttp: Warning: 0000024750F27200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.30-22.58.10:593][367]LogHttp: Warning: 0000024750F27200: libcurl info message cache 1 (Closing connection 5)
+[2023.10.30-22.58.10:713][368]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-22.59.10:559][ 19]LogHttp: Warning: 00000245FD080800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-22.59.10:559][ 19]LogHttp: Warning: 00000245FD080800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.30-22.59.10:559][ 19]LogHttp: Warning: 00000245FD080800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.30-22.59.10:559][ 19]LogHttp: Warning: 00000245FD080800: libcurl info message cache 1 (Closing connection 6)
+[2023.10.30-22.59.10:568][ 20]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-23.00.21:848][229]LogHttp: Warning: 00000245FD318100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-23.00.21:848][229]LogHttp: Warning: 00000245FD318100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.30-23.00.21:848][229]LogHttp: Warning: 00000245FD318100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.30-23.00.21:848][229]LogHttp: Warning: 00000245FD318100: libcurl info message cache 1 (Closing connection 7)
+[2023.10.30-23.00.22:148][230]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-23.01.11:587][425]LogHttp: Warning: 000002483AB5EB00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-23.01.11:587][425]LogHttp: Warning: 000002483AB5EB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.30-23.01.11:587][425]LogHttp: Warning: 000002483AB5EB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.30-23.01.11:587][425]LogHttp: Warning: 000002483AB5EB00: libcurl info message cache 1 (Closing connection 8)
+[2023.10.30-23.01.12:427][426]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-23.02.21:752][ 15]LogHttp: Warning: 000002478A21C100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-23.02.21:752][ 15]LogHttp: Warning: 000002478A21C100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.30-23.02.21:752][ 15]LogHttp: Warning: 000002478A21C100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.30-23.02.21:752][ 15]LogHttp: Warning: 000002478A21C100: libcurl info message cache 1 (Closing connection 9)
+[2023.10.30-23.02.21:819][ 16]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-23.03.10:557][776]LogHttp: Warning: 00000245FD280F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-23.03.10:557][776]LogHttp: Warning: 00000245FD280F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.30-23.03.10:557][776]LogHttp: Warning: 00000245FD280F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.30-23.03.10:557][776]LogHttp: Warning: 00000245FD280F00: libcurl info message cache 1 (Closing connection 10)
+[2023.10.30-23.03.10:557][776]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-23.04.21:744][901]LogHttp: Warning: 000002478A233200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-23.04.21:744][901]LogHttp: Warning: 000002478A233200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.30-23.04.21:744][901]LogHttp: Warning: 000002478A233200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.30-23.04.21:744][901]LogHttp: Warning: 000002478A233200: libcurl info message cache 1 (Closing connection 11)
+[2023.10.30-23.04.21:752][902]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-23.05.21:718][759]LogHttp: Warning: 00000245FD298100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-23.05.21:718][759]LogHttp: Warning: 00000245FD298100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.30-23.05.21:718][759]LogHttp: Warning: 00000245FD298100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.30-23.05.21:718][759]LogHttp: Warning: 00000245FD298100: libcurl info message cache 1 (Closing connection 12)
+[2023.10.30-23.05.21:786][760]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-23.06.21:763][361]LogHttp: Warning: 00000246E4324100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-23.06.21:763][361]LogHttp: Warning: 00000246E4324100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.30-23.06.21:763][361]LogHttp: Warning: 00000246E4324100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.30-23.06.21:763][361]LogHttp: Warning: 00000246E4324100: libcurl info message cache 1 (Closing connection 13)
+[2023.10.30-23.06.21:832][362]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-23.06.21:833][362]LogCascade: Non-seeded module ParticleModuleTypeDataGpu
+[2023.10.30-23.06.26:398][848]LogMaterial: Display: Material /Game/Assets_Other/WaterIntroFiles/MM_Waterfall_Vapor.MM_Waterfall_Vapor needed to have new flag set bUsedWithBeamTrails !
+[2023.10.30-23.06.26:399][848]LogMaterial: Display: Missing cached shader map for material MM_Waterfall_Vapor, compiling. 
+[2023.10.30-23.06.26:450][849]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 120
+[2023.10.30-23.06.26:450][849]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 110
+[2023.10.30-23.06.26:450][849]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 100
+[2023.10.30-23.06.26:450][849]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 90
+[2023.10.30-23.06.26:450][849]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 80
+[2023.10.30-23.06.26:450][849]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 70
+[2023.10.30-23.06.26:450][849]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 60
+[2023.10.30-23.06.26:450][849]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 50
+[2023.10.30-23.06.26:450][849]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 40
+[2023.10.30-23.06.26:450][849]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 30
+[2023.10.30-23.06.26:450][849]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 20
+[2023.10.30-23.06.26:450][849]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 10
+[2023.10.30-23.06.35:400][255]LogCascade: Non-seeded module ParticleModuleTypeDataBeam2
+[2023.10.30-23.06.48:706][868]LogCascade: Non-seeded module ParticleModuleTypeDataAnimTrail
+[2023.10.30-23.07.21:758][376]LogHttp: Warning: 000002479276AB00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-23.07.21:758][376]LogHttp: Warning: 000002479276AB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.30-23.07.21:758][376]LogHttp: Warning: 000002479276AB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.30-23.07.21:758][376]LogHttp: Warning: 000002479276AB00: libcurl info message cache 1 (Closing connection 14)
+[2023.10.30-23.07.21:758][376]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-23.08.10:621][426]LogHttp: Warning: 00000245FD33C800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-23.08.10:621][426]LogHttp: Warning: 00000245FD33C800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.30-23.08.10:621][426]LogHttp: Warning: 00000245FD33C800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.30-23.08.10:621][426]LogHttp: Warning: 00000245FD33C800: libcurl info message cache 1 (Closing connection 15)
+[2023.10.30-23.08.10:621][426]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-23.09.10:617][400]LogHttp: Warning: 000002483AB05D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-23.09.10:617][400]LogHttp: Warning: 000002483AB05D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.30-23.09.10:617][400]LogHttp: Warning: 000002483AB05D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.30-23.09.10:617][400]LogHttp: Warning: 000002483AB05D00: libcurl info message cache 1 (Closing connection 16)
+[2023.10.30-23.09.10:617][400]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-23.09.51:243][568]LogCascade: Non-seeded module ParticleModuleSpawn
+[2023.10.30-23.10.21:709][521]LogHttp: Warning: 000002483A5E2B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-23.10.21:709][521]LogHttp: Warning: 000002483A5E2B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.30-23.10.21:709][521]LogHttp: Warning: 000002483A5E2B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.30-23.10.21:709][521]LogHttp: Warning: 000002483A5E2B00: libcurl info message cache 1 (Closing connection 17)
+[2023.10.30-23.10.21:783][522]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-23.10.30:886][715]LogCascade: Non-seeded module ParticleModuleAttractorLine
+[2023.10.30-23.11.21:662][825]LogHttp: Warning: 00000246E4357200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-23.11.21:662][825]LogHttp: Warning: 00000246E4357200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.30-23.11.21:662][825]LogHttp: Warning: 00000246E4357200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.30-23.11.21:662][825]LogHttp: Warning: 00000246E4357200: libcurl info message cache 1 (Closing connection 18)
+[2023.10.30-23.11.21:669][826]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-23.12.10:622][861]LogHttp: Warning: 000002483AAF2B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-23.12.10:622][861]LogHttp: Warning: 000002483AAF2B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.30-23.12.10:622][861]LogHttp: Warning: 000002483AAF2B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.30-23.12.10:622][861]LogHttp: Warning: 000002483AAF2B00: libcurl info message cache 1 (Closing connection 19)
+[2023.10.30-23.12.10:648][862]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-23.13.25:191][623]LogMaterial: Display: Material /Game/Assets_Other/EasyBuildingSystem/Materials/Masters/Dummy/MM_Dust.MM_Dust needed to have new flag set bUsedWithBeamTrails !
+[2023.10.30-23.13.25:258][623]LogMaterial: Display: Missing cached shader map for material MM_Dust, compiling. 
+[2023.10.30-23.13.25:295][623]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 112
+[2023.10.30-23.13.25:295][623]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 102
+[2023.10.30-23.13.25:295][623]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 92
+[2023.10.30-23.13.25:295][623]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 82
+[2023.10.30-23.13.25:295][623]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 72
+[2023.10.30-23.13.25:295][623]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 62
+[2023.10.30-23.13.25:295][623]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 52
+[2023.10.30-23.13.25:295][623]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 42
+[2023.10.30-23.13.25:295][623]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 32
+[2023.10.30-23.13.25:295][623]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 22
+[2023.10.30-23.13.25:295][623]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 12
+[2023.10.30-23.13.25:295][623]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2023.10.30-23.13.48:764][581]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.30-23.13.55:694][607]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.30-23.14.31:893][732]LogSlate: Window 'P_Rain' being destroyed
+[2023.10.30-23.14.31:897][732]LogSlate: Window 'P_Rain' being destroyed
+[2023.10.30-23.14.31:897][732]LogCascade: Quitting Cascade. FXSystem=0x000002472BC12E30
+[2023.10.30-23.14.31:902][732]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.10.30-23.14.31:902][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.30-23.14.35:734][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2023.10.30-23.14.36:617][ 25]LogSlate: Window 'Delete Assets' being destroyed
+[2023.10.30-23.14.36:633][ 25]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain
+[2023.10.30-23.14.38:257][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.10.30-23.14.43:411][291]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.30-23.15.57:962][800]LogSlate: Window 'Pick a starting point for your system' being destroyed
+[2023.10.30-23.15.58:029][800]LogContentBrowser: Deferred new asset file creation: NewNiagaraSystem
+[2023.10.30-23.15.58:040][800]LogContentBrowser: Creating deferred item: NewNiagaraSystem
+[2023.10.30-23.16.05:757][981]LogContentBrowser: Attempting asset rename: NewNiagaraSystem -> P_Rain
+[2023.10.30-23.16.06:073][981]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2023.10.30-23.16.06:073][981]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.30-23.16.06:073][981]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2023.10.30-23.16.06:073][981]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2023.10.30-23.16.06:073][981]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 1
+[2023.10.30-23.16.06:073][981]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 1
+[2023.10.30-23.16.06:073][981]LogContentBrowser: End creating deferred item NewNiagaraSystem
+[2023.10.30-23.16.06:792][997]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain
+[2023.10.30-23.16.06:947][997]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 1.074073 sec (time since issued), 5.337142 sec (combined shader worker time).
+[2023.10.30-23.16.07:408][  5]79951_P_Rain_MessageLog: System successfully compiled.
+[2023.10.30-23.16.12:990][204]LogSlate: Window 'P_Rain' being destroyed
+[2023.10.30-23.16.12:994][204]LogSlate: Window 'P_Rain' being destroyed
+[2023.10.30-23.16.12:994][204]LogNiagaraEditor: Warning: Cleanup System view model 0000024751380F10
+[2023.10.30-23.16.13:000][204]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.10.30-23.16.13:000][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.30-23.16.13:014][204]LogNiagaraEditor: Warning: Cleanup System view model 0000024751380F10
+[2023.10.30-23.16.13:014][204]LogNiagaraEditor: Warning: Deleting System view model 0000024751380F10
+[2023.10.30-23.16.13:036][204]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2023.10.30-23.50.52:898][487]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain
+[2023.10.30-23.50.53:617][495]79951_P_Rain_MessageLog: System successfully compiled.
+[2023.10.30-23.55.28:236][426]LogHttp: Warning: 00000246FB790F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-23.55.28:236][426]LogHttp: Warning: 00000246FB790F00: request failed, libcurl error: 0 (No error)
+[2023.10.30-23.55.28:236][426]LogHttp: Warning: 00000246FB790F00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x245c0d8c160 [can pipeline])
+[2023.10.30-23.55.28:236][426]LogHttp: Warning: 00000246FB790F00: libcurl info message cache 1 (Re-using existing connection! (#22) with host datarouter.ol.epicgames.com)
+[2023.10.30-23.55.28:236][426]LogHttp: Warning: 00000246FB790F00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (107.21.123.59) port 443 (#22))
+[2023.10.30-23.55.28:236][426]LogHttp: Warning: 00000246FB790F00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.10.30-23.55.28:236][426]LogHttp: Warning: 00000246FB790F00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2023.10.30-23.55.28:236][426]LogHttp: Warning: 00000246FB790F00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.10.30-23.55.28:236][426]LogHttp: Warning: 00000246FB790F00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.10.30-23.55.28:236][426]LogHttp: Warning: 00000246FB790F00: libcurl info message cache 7 (Closing connection 22)
+[2023.10.30-23.55.28:236][426]LogHttp: Warning: 00000246FB790F00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2023.10.30-23.55.28:236][426]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-23.56.18:001][482]LogHttp: Warning: 00000246FB793200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-23.56.18:001][482]LogHttp: Warning: 00000246FB793200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.30-23.56.18:001][482]LogHttp: Warning: 00000246FB793200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.30-23.56.18:001][482]LogHttp: Warning: 00000246FB793200: libcurl info message cache 1 (Closing connection 23)
+[2023.10.30-23.56.18:001][482]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-23.57.29:130][992]LogHttp: Warning: 00000246FB7C0800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-23.57.29:130][992]LogHttp: Warning: 00000246FB7C0800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.30-23.57.29:130][992]LogHttp: Warning: 00000246FB7C0800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.30-23.57.29:130][992]LogHttp: Warning: 00000246FB7C0800: libcurl info message cache 1 (Closing connection 24)
+[2023.10.30-23.57.29:130][992]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-23.58.29:153][266]LogHttp: Warning: 00000246FB7C2B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-23.58.29:153][266]LogHttp: Warning: 00000246FB7C2B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.30-23.58.29:153][266]LogHttp: Warning: 00000246FB7C2B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.30-23.58.29:153][266]LogHttp: Warning: 00000246FB7C2B00: libcurl info message cache 1 (Closing connection 25)
+[2023.10.30-23.58.29:153][266]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.30-23.59.29:154][540]LogHttp: Warning: 00000246FB7E9600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.30-23.59.29:154][540]LogHttp: Warning: 00000246FB7E9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.30-23.59.29:154][540]LogHttp: Warning: 00000246FB7E9600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.30-23.59.29:154][540]LogHttp: Warning: 00000246FB7E9600: libcurl info message cache 1 (Closing connection 26)
+[2023.10.30-23.59.29:154][540]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-00.00.18:038][578]LogHttp: Warning: 00000246FB7C0800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-00.00.18:038][578]LogHttp: Warning: 00000246FB7C0800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-00.00.18:038][578]LogHttp: Warning: 00000246FB7C0800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-00.00.18:038][578]LogHttp: Warning: 00000246FB7C0800: libcurl info message cache 1 (Closing connection 27)
+[2023.10.31-00.00.18:038][578]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-00.01.18:040][852]LogHttp: Warning: 00000246FB7C0F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-00.01.18:040][852]LogHttp: Warning: 00000246FB7C0F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-00.01.18:040][852]LogHttp: Warning: 00000246FB7C0F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-00.01.18:040][852]LogHttp: Warning: 00000246FB7C0F00: libcurl info message cache 1 (Closing connection 28)
+[2023.10.31-00.01.18:040][852]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-00.02.18:046][126]LogHttp: Warning: 00000246FB790800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-00.02.18:047][126]LogHttp: Warning: 00000246FB790800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-00.02.18:047][126]LogHttp: Warning: 00000246FB790800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-00.02.18:047][126]LogHttp: Warning: 00000246FB790800: libcurl info message cache 1 (Closing connection 29)
+[2023.10.31-00.02.18:047][126]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-00.03.29:169][636]LogHttp: Warning: 00000246FB7C1600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-00.03.29:169][636]LogHttp: Warning: 00000246FB7C1600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-00.03.29:169][636]LogHttp: Warning: 00000246FB7C1600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-00.03.29:169][636]LogHttp: Warning: 00000246FB7C1600: libcurl info message cache 1 (Closing connection 30)
+[2023.10.31-00.03.29:169][636]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-00.04.18:051][674]LogHttp: Warning: 00000246FB7C1600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-00.04.18:051][674]LogHttp: Warning: 00000246FB7C1600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-00.04.18:051][674]LogHttp: Warning: 00000246FB7C1600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-00.04.18:051][674]LogHttp: Warning: 00000246FB7C1600: libcurl info message cache 1 (Closing connection 31)
+[2023.10.31-00.04.18:051][674]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-00.05.29:153][176]LogHttp: Warning: 00000246FB7C0100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-00.05.29:153][176]LogHttp: Warning: 00000246FB7C0100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-00.05.29:153][176]LogHttp: Warning: 00000246FB7C0100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-00.05.29:153][176]LogHttp: Warning: 00000246FB7C0100: libcurl info message cache 1 (Closing connection 32)
+[2023.10.31-00.05.29:153][176]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-00.06.18:001][206]LogHttp: Warning: 00000246FB7C0F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-00.06.18:001][206]LogHttp: Warning: 00000246FB7C0F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-00.06.18:001][206]LogHttp: Warning: 00000246FB7C0F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-00.06.18:001][206]LogHttp: Warning: 00000246FB7C0F00: libcurl info message cache 1 (Closing connection 33)
+[2023.10.31-00.06.18:001][206]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-00.07.29:157][706]LogHttp: Warning: 00000246FB7C0F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-00.07.29:157][706]LogHttp: Warning: 00000246FB7C0F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-00.07.29:157][706]LogHttp: Warning: 00000246FB7C0F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-00.07.29:157][706]LogHttp: Warning: 00000246FB7C0F00: libcurl info message cache 1 (Closing connection 34)
+[2023.10.31-00.07.29:157][706]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-00.08.29:151][971]LogHttp: Warning: 00000246FB7ACF00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-00.08.29:151][971]LogHttp: Warning: 00000246FB7ACF00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-00.08.29:151][971]LogHttp: Warning: 00000246FB7ACF00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-00.08.29:151][971]LogHttp: Warning: 00000246FB7ACF00: libcurl info message cache 1 (Closing connection 35)
+[2023.10.31-00.08.29:219][972]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-00.09.29:172][236]LogHttp: Warning: 00000246FB790100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-00.09.29:172][236]LogHttp: Warning: 00000246FB790100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-00.09.29:172][236]LogHttp: Warning: 00000246FB790100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-00.09.29:172][236]LogHttp: Warning: 00000246FB790100: libcurl info message cache 1 (Closing connection 36)
+[2023.10.31-00.09.29:172][236]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-00.10.29:141][500]LogHttp: Warning: 00000246FB7C0100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-00.10.29:142][500]LogHttp: Warning: 00000246FB7C0100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-00.10.29:142][500]LogHttp: Warning: 00000246FB7C0100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-00.10.29:142][500]LogHttp: Warning: 00000246FB7C0100: libcurl info message cache 1 (Closing connection 37)
+[2023.10.31-00.10.29:142][500]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-00.11.18:465][668]LogHttp: Warning: 00000246EE175D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-00.11.18:465][668]LogHttp: Warning: 00000246EE175D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-00.11.18:465][668]LogHttp: Warning: 00000246EE175D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-00.11.18:465][668]LogHttp: Warning: 00000246EE175D00: libcurl info message cache 1 (Closing connection 38)
+[2023.10.31-00.11.18:465][668]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-00.12.18:487][847]LogHttp: Warning: 00000246FB791600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-00.12.18:487][847]LogHttp: Warning: 00000246FB791600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-00.12.18:487][847]LogHttp: Warning: 00000246FB791600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-00.12.18:487][847]LogHttp: Warning: 00000246FB791600: libcurl info message cache 1 (Closing connection 39)
+[2023.10.31-00.12.18:820][848]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-00.13.29:557][ 59]LogHttp: Warning: 00000246EE174100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-00.13.29:558][ 59]LogHttp: Warning: 00000246EE174100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-00.13.29:558][ 59]LogHttp: Warning: 00000246EE174100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-00.13.29:558][ 59]LogHttp: Warning: 00000246EE174100: libcurl info message cache 1 (Closing connection 40)
+[2023.10.31-00.13.29:896][ 60]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-00.14.29:577][238]LogHttp: Warning: 00000246EE174100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-00.14.29:577][238]LogHttp: Warning: 00000246EE174100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-00.14.29:577][238]LogHttp: Warning: 00000246EE174100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-00.14.29:577][238]LogHttp: Warning: 00000246EE174100: libcurl info message cache 1 (Closing connection 41)
+[2023.10.31-00.14.29:577][238]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-00.15.18:577][384]LogHttp: Warning: 00000246FB790800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-00.15.18:577][384]LogHttp: Warning: 00000246FB790800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-00.15.18:577][384]LogHttp: Warning: 00000246FB790800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-00.15.18:577][384]LogHttp: Warning: 00000246FB790800: libcurl info message cache 1 (Closing connection 42)
+[2023.10.31-00.15.18:577][384]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-00.16.18:302][562]LogHttp: Warning: 00000246FB791600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-00.16.18:302][562]LogHttp: Warning: 00000246FB791600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-00.16.18:302][562]LogHttp: Warning: 00000246FB791600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-00.16.18:302][562]LogHttp: Warning: 00000246FB791600: libcurl info message cache 1 (Closing connection 43)
+[2023.10.31-00.16.18:302][562]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-00.27.21:022][390]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2023.10.31-00.27.21:022][390]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.27.21:082][390]79951_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.27.21:204][393]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.339507 sec (time since issued), 0.314836 sec (combined shader worker time).
+[2023.10.31-00.27.23:081][432]79951_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.27.46:511][ 34]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2023.10.31-00.27.46:511][ 34]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.27.48:119][205]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 1.826282 sec (time since issued), 3.428124 sec (combined shader worker time).
+[2023.10.31-00.27.48:566][213]79951_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.27.50:281][390]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2023.10.31-00.27.50:281][390]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.27.51:475][479]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 1.282694 sec (time since issued), 1.301858 sec (combined shader worker time).
+[2023.10.31-00.27.53:484][486]79951_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.27.58:129][649]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.27.58:129][649]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.27.58:183][649]79951_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.27.58:307][652]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.255243 sec (time since issued), 0.291595 sec (combined shader worker time).
+[2023.10.31-00.27.59:980][753]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.27.59:980][753]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.28.00:094][756]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.194826 sec (time since issued), 0.230931 sec (combined shader worker time).
+[2023.10.31-00.28.00:212][757]79951_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.28.02:229][798]79951_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.30.10:687][937]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2023.10.31-00.30.10:687][937]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.30.10:745][937]79951_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.30.10:946][942]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.339078 sec (time since issued), 0.439699 sec (combined shader worker time).
+[2023.10.31-00.30.12:773][980]79951_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.31.52:773][537]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2023.10.31-00.31.52:773][537]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.31.52:827][537]79951_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.31.52:965][541]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.276850 sec (time since issued), 0.383747 sec (combined shader worker time).
+[2023.10.31-00.31.54:842][579]79951_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.32.05:194][282]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.32.05:194][282]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.32.05:247][282]79951_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.32.05:467][285]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.356538 sec (time since issued), 0.568573 sec (combined shader worker time).
+[2023.10.31-00.32.07:312][323]79951_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.32.11:738][528]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.32.11:738][528]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.32.11:795][528]79951_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.32.11:934][532]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.279826 sec (time since issued), 0.390427 sec (combined shader worker time).
+[2023.10.31-00.32.13:810][570]79951_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.32.28:041][125]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.32.28:041][125]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.32.28:098][125]79951_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.32.28:313][128]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.357723 sec (time since issued), 0.424090 sec (combined shader worker time).
+[2023.10.31-00.32.30:151][166]79951_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.32.41:717][700]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.32.41:717][700]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.32.41:769][700]79951_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.32.41:965][703]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.336840 sec (time since issued), 0.394188 sec (combined shader worker time).
+[2023.10.31-00.32.43:815][741]79951_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.32.58:162][580]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2023.10.31-00.32.58:162][580]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.32.58:213][580]79951_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.32.58:421][583]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.341537 sec (time since issued), 0.414382 sec (combined shader worker time).
+[2023.10.31-00.33.00:238][620]79951_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.33.27:269][449]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2023.10.31-00.33.27:269][449]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.33.27:503][451]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.319332 sec (time since issued), 0.606464 sec (combined shader worker time).
+[2023.10.31-00.33.27:868][457]79951_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.34.34:346][165]LogSlate: Window 'P_Rain' being destroyed
+[2023.10.31-00.34.34:351][165]LogSlate: Window 'P_Rain' being destroyed
+[2023.10.31-00.34.34:351][165]LogNiagaraEditor: Warning: Cleanup System view model 00000245EAB1E410
+[2023.10.31-00.34.34:354][165]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-00.34.34:354][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-00.34.34:414][165]LogNiagaraEditor: Warning: Cleanup System view model 00000245EAB1E410
+[2023.10.31-00.34.34:414][165]LogNiagaraEditor: Warning: Deleting System view model 00000245EAB1E410
+[2023.10.31-00.34.34:418][165]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2023.10.31-00.34.37:244][334]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.10.31-00.34.38:569][334]LogSlate: Window 'Delete Assets' being destroyed
+[2023.10.31-00.34.38:639][334]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.10.31-00.38.07:284][106]LogSlate: Window 'Pick a starting point for your system' being destroyed
+[2023.10.31-00.38.07:295][106]LogContentBrowser: Deferred new asset file creation: NewNiagaraSystem
+[2023.10.31-00.38.07:304][106]LogContentBrowser: Creating deferred item: NewNiagaraSystem
+[2023.10.31-00.38.13:618][252]LogContentBrowser: Attempting asset rename: NewNiagaraSystem -> P_Rain
+[2023.10.31-00.38.13:806][252]LogContentBrowser: End creating deferred item NewNiagaraSystem
+[2023.10.31-00.38.13:814][253]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2023.10.31-00.38.13:814][253]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2023.10.31-00.38.13:814][253]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2023.10.31-00.38.13:814][253]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2023.10.31-00.38.15:064][280]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain
+[2023.10.31-00.38.15:167][280]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 1.447152 sec (time since issued), 5.449481 sec (combined shader worker time).
+[2023.10.31-00.38.15:445][286]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.39.06:188][265]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2023.10.31-00.39.06:188][265]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.39.06:215][265]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.39.06:286][266]LogProfilingDebugging: Allocated a 555 x 218 texture for HMD canvas layer
+[2023.10.31-00.39.06:394][268]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.285488 sec (time since issued), 0.357389 sec (combined shader worker time).
+[2023.10.31-00.39.08:419][301]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.39.16:358][533]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.39.16:358][533]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.39.16:377][533]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.39.16:562][536]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.270099 sec (time since issued), 0.345956 sec (combined shader worker time).
+[2023.10.31-00.39.18:381][676]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.39.20:716][938]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2023.10.31-00.39.20:716][938]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.39.20:739][938]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.39.20:972][939]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.333364 sec (time since issued), 0.534076 sec (combined shader worker time).
+[2023.10.31-00.39.22:801][980]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.41.03:614][ 88]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2023.10.31-00.41.03:614][ 88]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.41.03:638][ 88]LogProfilingDebugging: Allocated a 555 x 111 texture for HMD canvas layer
+[2023.10.31-00.41.03:638][ 88]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.41.03:801][ 93]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.263906 sec (time since issued), 0.328865 sec (combined shader worker time).
+[2023.10.31-00.41.05:648][234]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.42.40:481][ 36]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.42.40:995][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_Other/WaterIntroFiles/P_Rain" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/P_Rain.uasset" SILENT=true
+[2023.10.31-00.42.41:032][ 77]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/P_Rain44D542FE423D91DA0C7E32B850FC3283.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/P_Rain.uasset'
+[2023.10.31-00.42.41:041][ 77]AssetCheck: New page: Asset Save: P_Rain
+[2023.10.31-00.42.41:041][ 77]LogContentValidation: Display: Validating NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain
+[2023.10.31-00.43.00:909][819]LogContentBrowser: Deferred new asset file creation: P_Rain1
+[2023.10.31-00.43.00:929][819]LogContentBrowser: Creating deferred item: P_Rain1
+[2023.10.31-00.43.04:866][913]LogContentBrowser: Attempting asset rename: P_Rain1 -> P_Snow
+[2023.10.31-00.43.04:962][913]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2023.10.31-00.43.04:962][913]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.43.04:962][913]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2023.10.31-00.43.04:962][913]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2023.10.31-00.43.04:962][913]LogContentBrowser: End creating deferred item P_Rain1
+[2023.10.31-00.43.04:977][915]LogProfilingDebugging: Allocated a 1132 x 567 texture for HMD canvas layer
+[2023.10.31-00.43.07:277][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_Other/WaterIntroFiles/P_Snow" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/P_Snow.uasset" SILENT=true
+[2023.10.31-00.43.07:282][ 47]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Snow.P_Snow took 2.396182 sec (time since issued), 9.305901 sec (combined shader worker time).
+[2023.10.31-00.43.07:318][ 47]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/P_SnowC5C53F3640F9E5C88281D99C3AD559E2.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/P_Snow.uasset'
+[2023.10.31-00.43.07:327][ 47]AssetCheck: New page: Asset Save: P_Snow
+[2023.10.31-00.43.07:327][ 47]LogContentValidation: Display: Validating NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Snow.P_Snow
+[2023.10.31-00.43.55:027][674]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2023.10.31-00.43.55:027][674]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.43.55:053][674]LogProfilingDebugging: Allocated a 555 x 75 texture for HMD canvas layer
+[2023.10.31-00.43.55:053][674]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.43.55:304][691]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.353250 sec (time since issued), 0.409451 sec (combined shader worker time).
+[2023.10.31-00.43.57:081][762]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.48.14:831][948]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.48.14:831][948]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.48.14:936][949]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.352067 sec (time since issued), 0.426356 sec (combined shader worker time).
+[2023.10.31-00.48.15:337][959]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.48.54:184][103]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.48.54:184][103]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.48.54:217][103]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.48.54:859][140]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.968017 sec (time since issued), 1.247116 sec (combined shader worker time).
+[2023.10.31-00.48.55:819][237]LogNiagaraEditor: Move module /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain:HangingParticulates.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraNodeFunctionCall_1
+[2023.10.31-00.48.55:821][237]LogNiagaraEditor: Finished moving!
+[2023.10.31-00.48.56:350][239]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.48.56:350][239]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.48.56:380][239]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.48.57:058][291]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.997834 sec (time since issued), 1.295267 sec (combined shader worker time).
+[2023.10.31-00.48.58:381][426]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.49.24:811][434]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.49.24:811][434]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.49.24:841][434]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.49.25:584][480]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 1.006665 sec (time since issued), 1.310501 sec (combined shader worker time).
+[2023.10.31-00.49.26:847][612]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.49.27:519][655]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.49.27:519][655]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.49.28:309][744]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 1.024301 sec (time since issued), 1.328750 sec (combined shader worker time).
+[2023.10.31-00.49.28:847][791]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.50.13:904][744]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.50.13:904][744]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.50.13:935][744]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.50.14:732][805]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 1.081097 sec (time since issued), 1.369059 sec (combined shader worker time).
+[2023.10.31-00.50.15:936][932]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.50.50:718][968]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.50.50:718][968]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.50.50:718][968]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2023.10.31-00.50.50:751][968]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.50.51:498][ 41]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 1.028736 sec (time since issued), 1.453421 sec (combined shader worker time).
+[2023.10.31-00.50.52:750][158]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.52.13:305][488]LogNiagaraEditor: Move module /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain:HangingParticulates.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraNodeFunctionCall_3
+[2023.10.31-00.52.13:321][488]LogNiagaraEditor: Finished moving!
+[2023.10.31-00.52.13:719][490]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2023.10.31-00.52.13:719][490]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.52.13:719][490]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2023.10.31-00.52.13:719][490]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2023.10.31-00.52.13:719][490]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 1
+[2023.10.31-00.52.13:755][490]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.52.14:476][544]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 1.019396 sec (time since issued), 1.812504 sec (combined shader worker time).
+[2023.10.31-00.52.15:748][666]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.52.17:516][826]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.52.17:516][826]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.52.17:516][826]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2023.10.31-00.52.17:688][843]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.382323 sec (time since issued), 0.417038 sec (combined shader worker time).
+[2023.10.31-00.52.17:861][845]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.52.19:861][ 65]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.52.35:437][805]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.52.37:442][983]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.52.42:123][499]LogNiagaraEditor: Move module /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain:HangingParticulates.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraNodeFunctionCall_1
+[2023.10.31-00.52.42:178][499]LogNiagaraEditor: Finished moving!
+[2023.10.31-00.52.42:697][501]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.52.42:697][501]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.52.42:697][501]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2023.10.31-00.52.42:729][501]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.52.43:318][530]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.924202 sec (time since issued), 1.403792 sec (combined shader worker time).
+[2023.10.31-00.52.44:363][615]LogNiagaraEditor: Move module /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain:Fountain.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraNodeFunctionCall_1
+[2023.10.31-00.52.44:364][615]LogNiagaraEditor: Finished moving!
+[2023.10.31-00.52.44:929][619]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.52.44:929][619]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.52.44:929][619]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2023.10.31-00.52.44:962][619]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.52.45:566][654]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.870775 sec (time since issued), 1.278675 sec (combined shader worker time).
+[2023.10.31-00.52.46:961][764]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.52.48:027][847]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2023.10.31-00.52.48:028][847]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.52.48:226][857]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.399768 sec (time since issued), 0.366988 sec (combined shader worker time).
+[2023.10.31-00.52.48:966][921]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.52.53:969][406]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.52.53:969][406]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.52.54:012][406]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.52.54:222][412]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.465353 sec (time since issued), 0.453980 sec (combined shader worker time).
+[2023.10.31-00.52.56:006][598]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.53.24:160][517]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2023.10.31-00.53.24:674][517]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.514 s
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: === Handled ensure: ===
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: 
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: Ensure condition failed: ModuleIndex != INDEX_NONE [File:D:/Build/++UE4/Sync/Engine/Plugins/FX/Niagara/Source/NiagaraEditor/Private/ViewModels/Stack/NiagaraStackModuleItem.cpp] [Line: 607]
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: In system /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain, module GenerateCollisionEvent (NiagaraNodeFunctionCall_12) did not exist in the stack module data.
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: Stack: 
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fff8019d97f UE4Editor-NiagaraEditor.dll!UnknownFunction []
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fff7fe6849f UE4Editor-NiagaraEditor.dll!UnknownFunction []
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fff7fe94631 UE4Editor-NiagaraEditor.dll!UnknownFunction []
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fff7fe2fde9 UE4Editor-NiagaraEditor.dll!UnknownFunction []
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fff7fe2ffa4 UE4Editor-NiagaraEditor.dll!UnknownFunction []
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fff7ff38398 UE4Editor-NiagaraEditor.dll!UnknownFunction []
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fff7ff2eb02 UE4Editor-NiagaraEditor.dll!UnknownFunction []
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fff7dfe6765 UE4Editor-NiagaraEditorWidgets.dll!UnknownFunction []
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fff7e03a2ed UE4Editor-NiagaraEditorWidgets.dll!UnknownFunction []
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fff7dfe4472 UE4Editor-NiagaraEditorWidgets.dll!UnknownFunction []
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fff8e37c0ae UE4Editor-GraphEditor.dll!UnknownFunction []
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fff8e3aaf5b UE4Editor-GraphEditor.dll!UnknownFunction []
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fff8e337d07 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fff8e3d3df6 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fff8e3d439e UE4Editor-GraphEditor.dll!UnknownFunction []
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fff8e3b7d7d UE4Editor-GraphEditor.dll!UnknownFunction []
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fffd4f446be UE4Editor-Slate.dll!UnknownFunction []
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fffd4fc7f14 UE4Editor-Slate.dll!UnknownFunction []
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fffd4fb0337 UE4Editor-Slate.dll!UnknownFunction []
+[2023.10.31-00.53.24:674][517]LogOutputDevice: Error: [Callstack] 0x00007fffd4fa3632 UE4Editor-Slate.dll!UnknownFunction []
+[2023.10.31-00.53.24:675][517]LogOutputDevice: Error: [Callstack] 0x00007ff8160fbcb5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.10.31-00.53.24:675][517]LogOutputDevice: Error: [Callstack] 0x00007ff8160e9197 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.10.31-00.53.24:675][517]LogOutputDevice: Error: [Callstack] 0x00007ff8160fe389 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.10.31-00.53.24:675][517]LogOutputDevice: Error: [Callstack] 0x00007ff8160e4310 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.10.31-00.53.24:675][517]LogOutputDevice: Error: [Callstack] 0x00007ff83bf98241 USER32.dll!UnknownFunction []
+[2023.10.31-00.53.24:675][517]LogOutputDevice: Error: [Callstack] 0x00007ff83bf97d01 USER32.dll!UnknownFunction []
+[2023.10.31-00.53.24:675][517]LogOutputDevice: Error: [Callstack] 0x00007ff8160ff914 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.10.31-00.53.24:675][517]LogOutputDevice: Error: [Callstack] 0x00007ff764b28848 UE4Editor.exe!UnknownFunction []
+[2023.10.31-00.53.24:675][517]LogOutputDevice: Error: [Callstack] 0x00007ff764b4117c UE4Editor.exe!UnknownFunction []
+[2023.10.31-00.53.24:675][517]LogOutputDevice: Error: [Callstack] 0x00007ff764b4125a UE4Editor.exe!UnknownFunction []
+[2023.10.31-00.53.24:675][517]LogOutputDevice: Error: [Callstack] 0x00007ff764b552bd UE4Editor.exe!UnknownFunction []
+[2023.10.31-00.53.24:675][517]LogOutputDevice: Error: [Callstack] 0x00007ff764b57fea UE4Editor.exe!UnknownFunction []
+[2023.10.31-00.53.24:675][517]LogOutputDevice: Error: [Callstack] 0x00007ff83bec257d KERNEL32.DLL!UnknownFunction []
+[2023.10.31-00.53.24:675][517]LogOutputDevice: Error: [Callstack] 0x00007ff83d30aa58 ntdll.dll!UnknownFunction []
+[2023.10.31-00.53.24:675][517]LogOutputDevice: Error: 
+[2023.10.31-00.53.24:686][517]LogStats:                SubmitErrorReport -  0.000 s
+[2023.10.31-00.53.25:975][517]LogStats:                    SendNewReport -  1.289 s
+[2023.10.31-00.53.25:975][517]LogStats:             FDebug::EnsureFailed -  1.814 s
+[2023.10.31-00.53.26:377][520]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.53.26:378][520]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.53.26:378][520]LogNiagaraCompiler: Before the Particles.ID parameter can be used, the 'Requires persistent IDs' option has to be activated in the emitter properties. Note that this comes with additional memory and CPU costs. - 
+[2023.10.31-00.53.26:426][521]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.53.27:163][587]LogNiagara: Warning: [AssetLog] E:\Quin\V4S\Update_V4S\Content\Assets_Other\WaterIntroFiles\P_Rain.uasset: Before the Particles.ID parameter can be used, the 'Requires persistent IDs' option has to be activated in the emitter properties. Note that this comes with additional memory and CPU costs. - 
+[2023.10.31-00.53.27:165][587]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 1.028190 sec (time since issued), 1.374640 sec (combined shader worker time).
+[2023.10.31-00.53.27:165][587]LogNiagara: Warning: Failed to activate Niagara System due to invalid asset! System(P_Rain) Component(NiagaraComponent /Engine/Transient.NiagaraComponent_2)
+[2023.10.31-00.53.28:655][710]89536_P_Rain_MessageLog: System failed to compile with 1 errors.
+[2023.10.31-00.53.28:655][710]89536_P_Rain_MessageLog: Error: Before the Particles.ID parameter can be used, the 'Requires persistent IDs' option has to be activated in the emitter properties. Note that this comes with additional memory and CPU costs. -  Fountain, Particle Event Script, 
+[2023.10.31-00.53.40:480][956]LogNiagara: Warning: Failed to activate Niagara System due to invalid asset! System(P_Rain) Component(NiagaraComponent /Engine/Transient.NiagaraComponent_2)
+[2023.10.31-00.53.40:924][956]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.53.40:924][956]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.53.40:924][956]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2023.10.31-00.53.41:430][  3]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.949735 sec (time since issued), 1.315279 sec (combined shader worker time).
+[2023.10.31-00.53.41:722][ 13]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.54.05:709][595]LogNiagaraEditor: Move module /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain:Fountain.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraNodeFunctionCall_12
+[2023.10.31-00.54.05:717][595]LogNiagaraEditor: Finished moving!
+[2023.10.31-00.54.06:138][599]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.54.06:138][599]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.54.06:138][599]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2023.10.31-00.54.06:175][599]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.54.11:176][638]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 5.279299 sec (time since issued), 5.698777 sec (combined shader worker time).
+[2023.10.31-00.54.11:744][648]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.54.29:479][763]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 3
+[2023.10.31-00.54.29:480][763]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 2
+[2023.10.31-00.54.29:480][763]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2023.10.31-00.54.29:513][763]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.54.29:786][782]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.525446 sec (time since issued), 0.590766 sec (combined shader worker time).
+[2023.10.31-00.54.31:520][922]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.55.13:859][323]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 3
+[2023.10.31-00.55.13:859][323]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 2
+[2023.10.31-00.55.13:859][323]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2023.10.31-00.55.13:904][323]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.55.14:212][326]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.566746 sec (time since issued), 0.645108 sec (combined shader worker time).
+[2023.10.31-00.55.16:134][346]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.55.44:292][867]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.55.44:292][867]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.55.44:325][867]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.55.44:425][867]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.345894 sec (time since issued), 0.290958 sec (combined shader worker time).
+[2023.10.31-00.55.46:445][  0]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.55.55:677][100]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2023.10.31-00.55.55:677][100]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.55.55:677][100]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2023.10.31-00.55.55:713][100]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.55.55:989][114]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.527332 sec (time since issued), 0.662960 sec (combined shader worker time).
+[2023.10.31-00.55.56:372][117]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 3
+[2023.10.31-00.55.56:372][117]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 2
+[2023.10.31-00.55.56:372][117]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2023.10.31-00.55.56:569][130]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.408429 sec (time since issued), 0.471963 sec (combined shader worker time).
+[2023.10.31-00.55.57:710][202]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.55.58:618][250]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 3
+[2023.10.31-00.55.58:618][250]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 2
+[2023.10.31-00.55.58:618][250]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2023.10.31-00.55.58:887][260]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.475298 sec (time since issued), 0.514774 sec (combined shader worker time).
+[2023.10.31-00.55.59:999][279]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.56.09:869][468]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2023.10.31-00.56.09:869][468]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2023.10.31-00.56.09:869][468]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2023.10.31-00.56.09:906][468]89536_P_Rain_MessageLog: System compile status unknown.
+[2023.10.31-00.56.10:084][475]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.442934 sec (time since issued), 0.575416 sec (combined shader worker time).
+[2023.10.31-00.56.10:590][481]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 3
+[2023.10.31-00.56.10:590][481]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 2
+[2023.10.31-00.56.10:590][481]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2023.10.31-00.56.10:714][490]LogNiagara: Compiling System NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain took 0.339744 sec (time since issued), 0.396247 sec (combined shader worker time).
+[2023.10.31-00.56.11:907][526]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.57.05:692][248]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.59.11:540][548]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-00.59.19:581][296]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-01.00.19:377][897]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-01.00.19:516][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_Other/WaterIntroFiles/P_Rain" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/P_Rain.uasset" SILENT=true
+[2023.10.31-01.00.19:606][898]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/P_Rain72E7CBD24EB7281A026501B349DC6B88.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/P_Rain.uasset'
+[2023.10.31-01.00.19:625][898]AssetCheck: New page: Asset Save: P_Rain
+[2023.10.31-01.00.19:625][898]LogContentValidation: Display: Validating NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain
+[2023.10.31-01.00.20:485][989]LogSlate: Window 'P_Rain' being destroyed
+[2023.10.31-01.00.20:488][989]LogSlate: Window 'P_Rain' being destroyed
+[2023.10.31-01.00.20:488][989]LogNiagaraEditor: Warning: Cleanup System view model 0000024734D94F10
+[2023.10.31-01.00.20:499][989]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-01.00.20:500][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-01.00.20:680][989]LogNiagaraEditor: Warning: Cleanup System view model 0000024734D94F10
+[2023.10.31-01.00.20:680][989]LogNiagaraEditor: Warning: Deleting System view model 0000024734D94F10
+[2023.10.31-01.00.20:724][989]LogUObjectHash: Compacting FUObjectHashTables data took   5.84ms
+[2023.10.31-01.00.38:912][598]Cmd: TRANSACTION UNDO
+[2023.10.31-01.00.38:912][598]LogEditorTransaction: Undo Reset Location
+[2023.10.31-01.01.05:261][435]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2023.10.31-01.01.49:475][362]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain
+[2023.10.31-01.01.50:170][372]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-01.03.11:817][240]89536_P_Rain_MessageLog: System successfully compiled.
+[2023.10.31-01.03.13:322][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_Other/WaterIntroFiles/P_Rain" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/P_Rain.uasset" SILENT=true
+[2023.10.31-01.03.13:408][249]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/P_Rain184E1B684B853E29CD01FE932B0CA710.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/P_Rain.uasset'
+[2023.10.31-01.03.13:419][249]AssetCheck: New page: Asset Save: P_Rain
+[2023.10.31-01.03.13:419][249]LogContentValidation: Display: Validating NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Rain.P_Rain
+[2023.10.31-01.03.14:577][257]LogSlate: Window 'P_Rain' being destroyed
+[2023.10.31-01.03.14:844][257]LogSlate: Window 'P_Rain' being destroyed
+[2023.10.31-01.03.14:844][257]LogNiagaraEditor: Warning: Cleanup System view model 0000024650DD1610
+[2023.10.31-01.03.14:856][257]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-01.03.14:856][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-01.03.14:866][257]LogNiagaraEditor: Warning: Cleanup System view model 0000024650DD1610
+[2023.10.31-01.03.14:866][257]LogNiagaraEditor: Warning: Deleting System view model 0000024650DD1610
+[2023.10.31-01.03.14:942][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.10.31-01.03.49:365][803]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.05.05:131][886]Cmd: EDIT COPY
+[2023.10.31-01.05.05:649][896]Cmd: EDIT PASTE
+[2023.10.31-01.05.20:861][ 27]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2023.10.31-01.05.28:018][ 59]LogRenderer: Reallocating scene render targets to support 4096x4096 Format 10 NumSamples 1 (Frame:196468).
+[2023.10.31-01.05.28:556][ 59]LogTexture: Display: Building textures: WaterVelocityTexture (RGBA16F, 4096X4096)
+[2023.10.31-01.05.28:933][ 59]Water Texture Update Time: 1.072372 secs
+[2023.10.31-01.05.30:371][ 63]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.05.33:892][100]Cmd: TRANSACTION UNDO
+[2023.10.31-01.05.33:892][100]LogEditorTransaction: Undo Clicking on Actors
+[2023.10.31-01.05.35:585][183]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.06.10:534][655]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.06.41:824][351]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Snow.P_Snow
+[2023.10.31-01.06.42:568][357]106869_P_Snow_MessageLog: System successfully compiled.
+[2023.10.31-01.07.42:428][ 13]106869_P_Snow_MessageLog: System successfully compiled.
+[2023.10.31-01.07.43:126][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_Other/WaterIntroFiles/P_Snow" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/P_Snow.uasset" SILENT=true
+[2023.10.31-01.07.43:162][ 25]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/P_Snow9D9AC4584FD63917A15353BEEB2C5FC5.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Assets_Other/WaterIntroFiles/P_Snow.uasset'
+[2023.10.31-01.07.43:172][ 25]AssetCheck: New page: Asset Save: P_Snow
+[2023.10.31-01.07.43:172][ 25]LogContentValidation: Display: Validating NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Snow.P_Snow
+[2023.10.31-01.07.44:369][ 41]LogSlate: Window 'P_Snow' being destroyed
+[2023.10.31-01.07.44:376][ 41]LogSlate: Window 'P_Snow' being destroyed
+[2023.10.31-01.07.44:376][ 41]LogNiagaraEditor: Warning: Cleanup System view model 0000024751926410
+[2023.10.31-01.07.44:382][ 41]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-01.07.44:382][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-01.07.44:392][ 41]LogNiagaraEditor: Warning: Cleanup System view model 0000024751926410
+[2023.10.31-01.07.44:392][ 41]LogNiagaraEditor: Warning: Deleting System view model 0000024751926410
+[2023.10.31-01.07.44:472][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2023.10.31-01.07.57:243][298]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/Assets_Other/WaterIntroFiles/P_Snow.P_Snow
+[2023.10.31-01.07.57:939][304]106869_P_Snow_MessageLog: System successfully compiled.
+[2023.10.31-01.08.22:669][985]LogSlate: Window 'Color Picker' being destroyed
+[2023.10.31-01.08.25:966][ 25]106869_P_Snow_MessageLog: System successfully compiled.
+[2023.10.31-01.08.26:963][ 39]LogSlate: Window 'P_Snow' being destroyed
+[2023.10.31-01.08.26:970][ 39]LogSlate: Window 'P_Snow' being destroyed
+[2023.10.31-01.08.26:970][ 39]LogNiagaraEditor: Warning: Cleanup System view model 0000024757398810
+[2023.10.31-01.08.26:976][ 39]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-01.08.26:976][ 39]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-01.08.26:987][ 39]LogNiagaraEditor: Warning: Cleanup System view model 0000024757398810
+[2023.10.31-01.08.26:987][ 39]LogNiagaraEditor: Warning: Deleting System view model 0000024757398810
+[2023.10.31-01.08.27:067][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.10.31-01.08.58:938][430]Cmd: EDIT COPY
+[2023.10.31-01.08.59:561][437]Cmd: EDIT PASTE
+[2023.10.31-01.09.10:698][568]Cmd: EDIT COPY
+[2023.10.31-01.09.11:314][575]Cmd: EDIT PASTE
+[2023.10.31-01.10.00:073][137]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.10.43:619][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.31-01.10.43:631][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.10.31-01.10.53:865][674]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_UpdateE6CEB0414F84AE9976BDFCB98ADEA4AC.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.10.31-01.10.53:865][674]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap', retrying in .5s...
+[2023.10.31-01.10.54:366][674]LogFileManager: Error: Error deleting file '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'.
+[2023.10.31-01.10.54:366][674]LogSavePackage: Error: Error saving '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.10.31-01.10.54:382][674]EditorErrors: New page: Save Output
+[2023.10.31-01.10.54:382][674]EditorErrors: Warning: Error saving '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.10.31-01.11.54:816][940]LogSlate: Window 'Message Log' being destroyed
+[2023.10.31-01.11.54:819][940]LogSlate: Window 'Message Log' being destroyed
+[2023.10.31-01.12.14:135][193]LogHttp: Warning: 0000024898DD8800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-01.12.14:135][193]LogHttp: Warning: 0000024898DD8800: request failed, libcurl error: 0 (No error)
+[2023.10.31-01.12.14:135][193]LogHttp: Warning: 0000024898DD8800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x245c0d8f5e0 [can pipeline])
+[2023.10.31-01.12.14:135][193]LogHttp: Warning: 0000024898DD8800: libcurl info message cache 1 (Re-using existing connection! (#44) with host datarouter.ol.epicgames.com)
+[2023.10.31-01.12.14:135][193]LogHttp: Warning: 0000024898DD8800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.232.164.65) port 443 (#44))
+[2023.10.31-01.12.14:135][193]LogHttp: Warning: 0000024898DD8800: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.10.31-01.12.14:135][193]LogHttp: Warning: 0000024898DD8800: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2023.10.31-01.12.14:135][193]LogHttp: Warning: 0000024898DD8800: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.10.31-01.12.14:135][193]LogHttp: Warning: 0000024898DD8800: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.10.31-01.12.14:135][193]LogHttp: Warning: 0000024898DD8800: libcurl info message cache 7 (Closing connection 44)
+[2023.10.31-01.12.14:135][193]LogHttp: Warning: 0000024898DD8800: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2023.10.31-01.12.14:216][194]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-01.12.40:388][483]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.12.40:889][484]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.12.42:018][489]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.12.42:564][489]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.12.43:068][490]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.12.44:324][491]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.12.46:094][496]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.12.46:597][497]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.12.47:772][498]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.12.49:524][503]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.12.50:028][504]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.12.51:173][505]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.12.52:922][510]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.12.53:426][511]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.12.54:623][512]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.12.56:390][517]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.12.56:892][518]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.12.58:042][519]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.13.02:319][528]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.13.02:821][529]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.13.05:883][530]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.13.07:653][535]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.13.08:156][536]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.13.09:343][537]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.13.11:108][542]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.13.11:610][543]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.13.12:802][544]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-01.31.20:051][338]LogHttp: Warning: 000002487D78E400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-01.31.20:051][338]LogHttp: Warning: 000002487D78E400: request failed, libcurl error: 0 (No error)
+[2023.10.31-01.31.20:051][338]LogHttp: Warning: 000002487D78E400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x245c0d8d510 [can pipeline])
+[2023.10.31-01.31.20:051][338]LogHttp: Warning: 000002487D78E400: libcurl info message cache 1 (Re-using existing connection! (#45) with host datarouter.ol.epicgames.com)
+[2023.10.31-01.31.20:051][338]LogHttp: Warning: 000002487D78E400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.20.106.27) port 443 (#45))
+[2023.10.31-01.31.20:051][338]LogHttp: Warning: 000002487D78E400: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.10.31-01.31.20:051][338]LogHttp: Warning: 000002487D78E400: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2023.10.31-01.31.20:051][338]LogHttp: Warning: 000002487D78E400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.10.31-01.31.20:051][338]LogHttp: Warning: 000002487D78E400: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.10.31-01.31.20:051][338]LogHttp: Warning: 000002487D78E400: libcurl info message cache 7 (Closing connection 45)
+[2023.10.31-01.31.20:051][338]LogHttp: Warning: 000002487D78E400: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2023.10.31-01.31.20:051][338]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-01.48.17:659][370]LogHttp: Warning: 000002487D78E400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-01.48.17:659][370]LogHttp: Warning: 000002487D78E400: request failed, libcurl error: 0 (No error)
+[2023.10.31-01.48.17:659][370]LogHttp: Warning: 000002487D78E400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x245c0d8ed10 [can pipeline])
+[2023.10.31-01.48.17:659][370]LogHttp: Warning: 000002487D78E400: libcurl info message cache 1 (Re-using existing connection! (#46) with host datarouter.ol.epicgames.com)
+[2023.10.31-01.48.17:659][370]LogHttp: Warning: 000002487D78E400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.210.33.237) port 443 (#46))
+[2023.10.31-01.48.17:659][370]LogHttp: Warning: 000002487D78E400: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.10.31-01.48.17:659][370]LogHttp: Warning: 000002487D78E400: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2023.10.31-01.48.17:659][370]LogHttp: Warning: 000002487D78E400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.10.31-01.48.17:659][370]LogHttp: Warning: 000002487D78E400: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.10.31-01.48.17:660][370]LogHttp: Warning: 000002487D78E400: libcurl info message cache 7 (Closing connection 46)
+[2023.10.31-01.48.17:660][370]LogHttp: Warning: 000002487D78E400: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2023.10.31-01.48.17:660][370]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-01.49.11:359][530]LogHttp: Warning: 000002487D78E400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-01.49.11:359][530]LogHttp: Warning: 000002487D78E400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-01.49.11:359][530]LogHttp: Warning: 000002487D78E400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-01.49.11:359][530]LogHttp: Warning: 000002487D78E400: libcurl info message cache 1 (Closing connection 47)
+[2023.10.31-01.49.11:359][530]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-01.50.22:446][742]LogHttp: Warning: 000002487D78DD00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-01.50.22:446][742]LogHttp: Warning: 000002487D78DD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-01.50.22:446][742]LogHttp: Warning: 000002487D78DD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-01.50.22:446][742]LogHttp: Warning: 000002487D78DD00: libcurl info message cache 1 (Closing connection 48)
+[2023.10.31-01.50.22:446][742]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-01.51.11:096][887]LogHttp: Warning: 000002487D78DD00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-01.51.11:096][887]LogHttp: Warning: 000002487D78DD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-01.51.11:096][887]LogHttp: Warning: 000002487D78DD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-01.51.11:096][887]LogHttp: Warning: 000002487D78DD00: libcurl info message cache 1 (Closing connection 49)
+[2023.10.31-01.51.11:430][888]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-01.52.11:101][ 66]LogHttp: Warning: 000002487D78DD00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-01.52.11:101][ 66]LogHttp: Warning: 000002487D78DD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-01.52.11:101][ 66]LogHttp: Warning: 000002487D78DD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-01.52.11:101][ 66]LogHttp: Warning: 000002487D78DD00: libcurl info message cache 1 (Closing connection 50)
+[2023.10.31-01.52.11:101][ 66]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-01.53.11:127][245]LogHttp: Warning: 000002487D78EB00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-01.53.11:127][245]LogHttp: Warning: 000002487D78EB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-01.53.11:127][245]LogHttp: Warning: 000002487D78EB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-01.53.11:127][245]LogHttp: Warning: 000002487D78EB00: libcurl info message cache 1 (Closing connection 51)
+[2023.10.31-01.53.11:464][246]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-01.54.22:216][457]LogHttp: Warning: 000002487D78E400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-01.54.22:216][457]LogHttp: Warning: 000002487D78E400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-01.54.22:216][457]LogHttp: Warning: 000002487D78E400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-01.54.22:216][457]LogHttp: Warning: 000002487D78E400: libcurl info message cache 1 (Closing connection 52)
+[2023.10.31-01.54.22:551][458]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-01.55.22:234][636]LogHttp: Warning: 000002487D78EB00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-01.55.22:234][636]LogHttp: Warning: 000002487D78EB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-01.55.22:234][636]LogHttp: Warning: 000002487D78EB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-01.55.22:234][636]LogHttp: Warning: 000002487D78EB00: libcurl info message cache 1 (Closing connection 53)
+[2023.10.31-01.55.22:235][636]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-02.06.19:330][597]LogHttp: Warning: 00000248AACAD600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-02.06.19:330][597]LogHttp: Warning: 00000248AACAD600: request failed, libcurl error: 0 (No error)
+[2023.10.31-02.06.19:330][597]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x245c0d8f460 [can pipeline])
+[2023.10.31-02.06.19:330][597]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 1 (Re-using existing connection! (#54) with host datarouter.ol.epicgames.com)
+[2023.10.31-02.06.19:330][597]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (44.198.128.47) port 443 (#54))
+[2023.10.31-02.06.19:330][597]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.10.31-02.06.19:330][597]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2023.10.31-02.06.19:330][597]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.10.31-02.06.19:330][597]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.10.31-02.06.19:330][597]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 7 (Closing connection 54)
+[2023.10.31-02.06.19:330][597]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2023.10.31-02.06.19:665][598]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-02.12.19:450][671]LogHttp: Warning: 00000248AACAD600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-02.12.19:450][671]LogHttp: Warning: 00000248AACAD600: request failed, libcurl error: 0 (No error)
+[2023.10.31-02.12.19:450][671]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x245c0d8e5c0 [can pipeline])
+[2023.10.31-02.12.19:450][671]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 1 (Re-using existing connection! (#55) with host datarouter.ol.epicgames.com)
+[2023.10.31-02.12.19:450][671]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.210.33.237) port 443 (#55))
+[2023.10.31-02.12.19:450][671]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.10.31-02.12.19:450][671]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2023.10.31-02.12.19:450][671]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.10.31-02.12.19:450][671]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.10.31-02.12.19:450][671]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 7 (Closing connection 55)
+[2023.10.31-02.12.19:450][671]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2023.10.31-02.12.19:787][672]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-02.13.10:474][823]LogHttp: Warning: 00000248AACAD600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-02.13.10:474][823]LogHttp: Warning: 00000248AACAD600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-02.13.10:474][823]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-02.13.10:474][823]LogHttp: Warning: 00000248AACAD600: libcurl info message cache 1 (Closing connection 56)
+[2023.10.31-02.13.10:809][824]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-02.14.10:508][  2]LogHttp: Warning: 00000248AACAE400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-02.14.10:508][  2]LogHttp: Warning: 00000248AACAE400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-02.14.10:508][  2]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-02.14.10:508][  2]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 1 (Closing connection 57)
+[2023.10.31-02.14.10:508][  2]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-02.46.15:412][741]LogHttp: Warning: 00000248AACAE400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-02.46.15:412][741]LogHttp: Warning: 00000248AACAE400: request failed, libcurl error: 0 (No error)
+[2023.10.31-02.46.15:412][741]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x245c0d8de10 [can pipeline])
+[2023.10.31-02.46.15:412][741]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 1 (Re-using existing connection! (#58) with host datarouter.ol.epicgames.com)
+[2023.10.31-02.46.15:412][741]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.243.104.214) port 443 (#58))
+[2023.10.31-02.46.15:412][741]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.10.31-02.46.15:412][741]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2023.10.31-02.46.15:412][741]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.10.31-02.46.15:412][741]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.10.31-02.46.15:412][741]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 7 (Closing connection 58)
+[2023.10.31-02.46.15:412][741]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2023.10.31-02.46.15:753][742]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-02.54.19:558][184]LogHttp: Warning: 00000248AACAE400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-02.54.19:558][184]LogHttp: Warning: 00000248AACAE400: request failed, libcurl error: 0 (No error)
+[2023.10.31-02.54.19:558][184]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x245c0d8ce80 [can pipeline])
+[2023.10.31-02.54.19:558][184]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 1 (Re-using existing connection! (#59) with host datarouter.ol.epicgames.com)
+[2023.10.31-02.54.19:558][184]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.221.188.114) port 443 (#59))
+[2023.10.31-02.54.19:559][184]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.10.31-02.54.19:559][184]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2023.10.31-02.54.19:559][184]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.10.31-02.54.19:559][184]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.10.31-02.54.19:559][184]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 7 (Closing connection 59)
+[2023.10.31-02.54.19:559][184]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2023.10.31-02.54.19:559][184]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-02.55.22:313][371]LogHttp: Warning: 00000248AACAE400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-02.55.22:313][371]LogHttp: Warning: 00000248AACAE400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-02.55.22:313][371]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-02.55.22:313][371]LogHttp: Warning: 00000248AACAE400: libcurl info message cache 1 (Closing connection 61)
+[2023.10.31-02.55.22:651][372]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-03.06.19:728][330]LogHttp: Warning: 0000024840B67200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-03.06.19:728][330]LogHttp: Warning: 0000024840B67200: request failed, libcurl error: 0 (No error)
+[2023.10.31-03.06.19:728][330]LogHttp: Warning: 0000024840B67200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x245c0d8d8d0 [can pipeline])
+[2023.10.31-03.06.19:728][330]LogHttp: Warning: 0000024840B67200: libcurl info message cache 1 (Re-using existing connection! (#62) with host datarouter.ol.epicgames.com)
+[2023.10.31-03.06.19:728][330]LogHttp: Warning: 0000024840B67200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.234.132.237) port 443 (#62))
+[2023.10.31-03.06.19:728][330]LogHttp: Warning: 0000024840B67200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.10.31-03.06.19:728][330]LogHttp: Warning: 0000024840B67200: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2023.10.31-03.06.19:728][330]LogHttp: Warning: 0000024840B67200: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.10.31-03.06.19:728][330]LogHttp: Warning: 0000024840B67200: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.10.31-03.06.19:728][330]LogHttp: Warning: 0000024840B67200: libcurl info message cache 7 (Closing connection 62)
+[2023.10.31-03.06.19:728][330]LogHttp: Warning: 0000024840B67200: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2023.10.31-03.06.19:728][330]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-03.07.22:775][518]LogHttp: Warning: 0000024840B66B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-03.07.22:775][518]LogHttp: Warning: 0000024840B66B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-03.07.22:775][518]LogHttp: Warning: 0000024840B66B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-03.07.22:775][518]LogHttp: Warning: 0000024840B66B00: libcurl info message cache 1 (Closing connection 63)
+[2023.10.31-03.07.22:775][518]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-03.08.22:866][697]LogHttp: Warning: 0000024840B67200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-03.08.22:866][697]LogHttp: Warning: 0000024840B67200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.10.31-03.08.22:866][697]LogHttp: Warning: 0000024840B67200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.10.31-03.08.22:866][697]LogHttp: Warning: 0000024840B67200: libcurl info message cache 1 (Closing connection 64)
+[2023.10.31-03.08.23:198][698]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-03.10.11:083][ 35]LogHttp: Warning: 0000024840B66B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.10.31-03.10.11:083][ 35]LogHttp: Warning: 0000024840B66B00: request failed, libcurl error: 28 (Timeout was reached)
+[2023.10.31-03.10.11:083][ 35]LogHttp: Warning: 0000024840B66B00: libcurl info message cache 0 (  Trying 54.225.175.31...)
+[2023.10.31-03.10.11:083][ 35]LogHttp: Warning: 0000024840B66B00: libcurl info message cache 1 (TCP_NODELAY set)
+[2023.10.31-03.10.11:083][ 35]LogHttp: Warning: 0000024840B66B00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.225.175.31) port 443 (#65))
+[2023.10.31-03.10.11:083][ 35]LogHttp: Warning: 0000024840B66B00: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2023.10.31-03.10.11:083][ 35]LogHttp: Warning: 0000024840B66B00: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2023.10.31-03.10.11:083][ 35]LogHttp: Warning: 0000024840B66B00: libcurl info message cache 5 (SSL re-using session ID)
+[2023.10.31-03.10.11:083][ 35]LogHttp: Warning: 0000024840B66B00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2023.10.31-03.10.11:083][ 35]LogHttp: Warning: 0000024840B66B00: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2023.10.31-03.10.11:083][ 35]LogHttp: Warning: 0000024840B66B00: libcurl info message cache 8 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2023.10.31-03.10.11:083][ 35]LogHttp: Warning: 0000024840B66B00: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2023.10.31-03.10.11:083][ 35]LogHttp: Warning: 0000024840B66B00: libcurl info message cache 10 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2023.10.31-03.10.11:083][ 35]LogHttp: Warning: 0000024840B66B00: libcurl info message cache 11 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2023.10.31-03.10.11:083][ 35]LogHttp: Warning: 0000024840B66B00: libcurl info message cache 12 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2023.10.31-03.10.11:083][ 35]LogHttp: Warning: 0000024840B66B00: libcurl info message cache 13 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2023.10.31-03.10.11:083][ 35]LogHttp: Warning: 0000024840B66B00: libcurl info message cache 14 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2023.10.31-03.10.11:083][ 35]LogHttp: Warning: 0000024840B66B00: libcurl info message cache 15 (Closing connection 65)
+[2023.10.31-03.10.11:416][ 36]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94264B76-4021-087D-C35D-839F25368340%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.31-03.19.37:435][723]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{1aded79d-b129-4e10-bc8e-8340877d4590}.
+[2023.10.31-03.19.37:435][723]LogAudioMixer: Resetting audio stream to device id 
+[2023.10.31-03.19.37:440][723]LogAudioMixer: Display: 0: FrontLeft
+[2023.10.31-03.19.37:440][723]LogAudioMixer: Display: 1: FrontRight
+[2023.10.31-03.19.42:133][737]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{ab4bce0a-2169-40a6-a725-fd74a31da531}.
+[2023.10.31-03.19.42:133][737]LogAudioMixer: Resetting audio stream to device id 
+[2023.10.31-03.19.42:157][737]LogAudioMixer: Display: 0: FrontLeft
+[2023.10.31-03.19.42:157][737]LogAudioMixer: Display: 1: FrontRight
+[2023.10.31-03.19.53:540][771]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{1aded79d-b129-4e10-bc8e-8340877d4590}.
+[2023.10.31-03.19.53:540][771]LogAudioMixer: Resetting audio stream to device id 
+[2023.10.31-03.19.53:560][771]LogAudioMixer: Display: 0: FrontLeft
+[2023.10.31-03.19.53:560][771]LogAudioMixer: Display: 1: FrontRight
+[2023.10.31-03.19.56:223][779]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{ab4bce0a-2169-40a6-a725-fd74a31da531}.
+[2023.10.31-03.19.56:223][779]LogAudioMixer: Resetting audio stream to device id 
+[2023.10.31-03.19.59:024][779]LogAudioMixer: Display: 0: FrontLeft
+[2023.10.31-03.19.59:024][779]LogAudioMixer: Display: 1: FrontRight
+[2023.10.31-03.19.59:139][780]LogAudioMixer: Resetting audio stream to device id 
+[2023.10.31-03.19.59:159][780]LogAudioMixer: Display: 0: FrontLeft
+[2023.10.31-03.19.59:159][780]LogAudioMixer: Display: 1: FrontRight
+[2023.10.31-03.20.01:154][786]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{ab4bce0a-2169-40a6-a725-fd74a31da531}.
+[2023.10.31-03.20.01:154][786]LogAudioMixer: Resetting audio stream to device id 
+[2023.10.31-03.20.01:176][786]LogAudioMixer: Display: 0: FrontLeft
+[2023.10.31-03.20.01:176][786]LogAudioMixer: Display: 1: FrontRight
+[2023.10.31-03.24.02:753][515]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{1aded79d-b129-4e10-bc8e-8340877d4590}.
+[2023.10.31-03.24.02:753][515]LogAudioMixer: Resetting audio stream to device id 
+[2023.10.31-03.24.02:774][515]LogAudioMixer: Display: 0: FrontLeft
+[2023.10.31-03.24.02:774][515]LogAudioMixer: Display: 1: FrontRight
+[2023.10.31-03.24.05:436][523]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{ab4bce0a-2169-40a6-a725-fd74a31da531}.
+[2023.10.31-03.24.05:436][523]LogAudioMixer: Resetting audio stream to device id 
+[2023.10.31-03.24.05:459][523]LogAudioMixer: Display: 0: FrontLeft
+[2023.10.31-03.24.05:459][523]LogAudioMixer: Display: 1: FrontRight
+[2023.10.31-03.24.09:787][536]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{1aded79d-b129-4e10-bc8e-8340877d4590}.
+[2023.10.31-03.24.09:787][536]LogAudioMixer: Resetting audio stream to device id 
+[2023.10.31-03.24.09:808][536]LogAudioMixer: Display: 0: FrontLeft
+[2023.10.31-03.24.09:808][536]LogAudioMixer: Display: 1: FrontRight
