@@ -4745,3 +4745,44 @@ Script Stack (0 frames):
 [2023.10.31-04.18.07:494][241]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update122B5B80437181C6855240A6BF2738A2.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
 [2023.10.31-04.18.07:555][241]AssetCheck: New page: Asset Save: V4S_Update
 [2023.10.31-04.18.07:555][241]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.10.31-04.19.29:763][630]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-04.20.13:242][159]Cmd: EDIT COPY
+[2023.10.31-04.20.13:570][162]Cmd: EDIT PASTE
+[2023.10.31-04.21.05:427][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.31-04.21.05:436][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.10.31-04.21.14:839][513]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update8F5396234489E7D815D94F8C052B1068.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.10.31-04.21.15:073][513]AssetCheck: New page: Asset Save: V4S_Update
+[2023.10.31-04.21.15:073][513]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.10.31-04.22.10:508][935]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-04.22.14:815][964]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2023.10.31-04.22.14:816][964]LogMaterial: Warning: [AssetLog] E:\Quin\V4S\Update_V4S\Content\Assets_Other\EasyBuildingSystem\Materials\Functions\MF_Moss_Cover_3DPoints.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2023.10.31-04.22.14:816][964]LogMaterial: Display: 	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.10.31-04.22.14:816][964]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2023.10.31-04.22.14:816][964]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Specular
+[2023.10.31-04.22.19:844][  3]LogStaticMesh: Building static mesh SM_Arrow_1...
+[2023.10.31-04.22.19:937][  3]LogStaticMesh: Built static mesh [0.09s] /Game/VanVehicle/Meshes/SM_Arrow_1.SM_Arrow_1
+[2023.10.31-04.22.19:941][  3]LogMaterial: Display: Missing cached shader map for material M_Pink, compiling. 
+[2023.10.31-04.22.19:949][  3]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 12
+[2023.10.31-04.22.19:949][  3]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 10
+[2023.10.31-04.22.19:949][  3]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2023.10.31-04.22.19:949][  3]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2023.10.31-04.22.19:949][  3]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2023.10.31-04.22.19:949][  3]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 2
+[2023.10.31-04.22.19:976][  3]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/VanVehicle/Meshes/SM_Arrow_1.SM_Arrow_1
+[2023.10.31-04.22.27:046][ 53]LogSlate: Window 'SM_Arrow_1' being destroyed
+[2023.10.31-04.22.27:140][ 53]LogSlate: Window 'SM_Arrow_1' being destroyed
+[2023.10.31-04.22.27:144][ 53]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-04.22.27:144][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-04.22.29:648][ 69]LogActorFactory: Actor Factory created SM_Arrow_1
+[2023.10.31-04.22.31:418][ 81]LogActorFactory: Actor Factory created SM_Arrow_1
+[2023.10.31-04.22.39:070][137]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/V4S/V4S_Update.V4S_Update:PersistentLevel.SM_Arrow_11.StaticMeshComponent0)
+[2023.10.31-04.22.39:319][138]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/V4S/V4S_Update.V4S_Update:PersistentLevel.SM_Arrow_11.StaticMeshComponent0)
+[2023.10.31-04.23.19:548][437]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2023.10.31-04.23.20:711][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Arrow_1)
+[2023.10.31-04.23.38:325][553]Cmd: TRANSACTION UNDO
+[2023.10.31-04.23.38:325][553]LogEditorTransaction: Undo Rotate Actors
+[2023.10.31-04.24.35:415][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.31-04.24.35:426][881]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2023.10.31-04.24.44:941][881]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update727CE5904A9563C83CBCE0A717C6E973.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.10.31-04.24.45:004][881]AssetCheck: New page: Asset Save: V4S_Update
+[2023.10.31-04.24.45:004][881]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
