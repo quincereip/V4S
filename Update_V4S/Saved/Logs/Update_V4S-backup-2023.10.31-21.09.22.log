@@ -1,0 +1,1357 @@
+﻿Log file open, 10/31/23 17:04:53
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: Update_V4S
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.508742
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin BlueprintMaterialTextureNodes
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin Landmass
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin Water
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin GoogleVRController
+LogPluginManager: Mounting plugin GoogleVRHMD
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Wwise
+LogXGEController: Cleaning working directory: C:/Users/Joseph/AppData/Local/Temp/UnrealXGEWorkingDir/
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 7 5800X 8-Core Processor             , GPU: NVIDIA GeForce RTX 2060 SUPER
+LogInit: Compiled (64-bit): Apr 12 2021 06:14:10
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line: 
+LogInit: Base Directory: E:/Program/Epic Games/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2023.10.31-21.04.55:410][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2023.10.31-21.04.55:410][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Engine.ini]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Engine.ini]
+[2023.10.31-21.04.55:411][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Engine.ini]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Engine.ini]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2023.10.31-21.04.55:411][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Engine.ini]
+[2023.10.31-21.04.55:411][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Engine.ini]
+[2023.10.31-21.04.55:415][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Scalability.ini]
+[2023.10.31-21.04.55:415][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.10.31-21.04.55:415][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.10.31-21.04.55:415][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Scalability.ini]
+[2023.10.31-21.04.55:415][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.10.31-21.04.55:415][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Scalability.ini]
+[2023.10.31-21.04.55:415][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.10.31-21.04.55:415][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.10.31-21.04.55:415][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.10.31-21.04.55:415][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.10.31-21.04.55:415][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.10.31-21.04.55:415][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.10.31-21.04.55:415][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Scalability.ini]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Scalability.ini]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Scalability.ini]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Scalability.ini]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Scalability.ini]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2023.10.31-21.04.55:416][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2023.10.31-21.04.55:417][  0]LogInit: Selected Device Profile: [Windows]
+[2023.10.31-21.04.55:417][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.10.31-21.04.55:417][  0]LogHAL: Display: Platform has ~ 32 GB [34247909376 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.10.31-21.04.55:417][  0]LogInit: Going up to parent DeviceProfile []
+[2023.10.31-21.04.55:417][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Scalability.ini]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Scalability.ini]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Scalability.ini]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Scalability.ini]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.10.31-21.04.55:417][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Scalability.ini]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Scalability.ini]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Scalability.ini]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Scalability.ini]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2023.10.31-21.04.55:418][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.10.31-21.04.55:422][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2023.10.31-21.04.55:422][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.10.31-21.04.55:422][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2023.10.31-21.04.55:422][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Engine.ini]
+[2023.10.31-21.04.55:422][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Quin/V4S/Update_V4S/Saved/Config/Windows/Editor.ini]
+[2023.10.31-21.04.55:422][  0]LogInit: Computer: DESKTOP-VIN7ENV
+[2023.10.31-21.04.55:422][  0]LogInit: User: Joseph
+[2023.10.31-21.04.55:422][  0]LogInit: CPU Page size=4096, Cores=8
+[2023.10.31-21.04.55:422][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.10.31-21.04.55:422][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2023.10.31-21.04.55:422][  0]LogMemory: Platform Memory Stats for Windows
+[2023.10.31-21.04.55:422][  0]LogMemory: Process Physical Memory: 144.33 MB used, 144.33 MB peak
+[2023.10.31-21.04.55:422][  0]LogMemory: Process Virtual Memory: 127.99 MB used, 127.99 MB peak
+[2023.10.31-21.04.55:422][  0]LogMemory: Physical Memory: 10686.00 MB used,  21975.36 MB free, 32661.35 MB total
+[2023.10.31-21.04.55:422][  0]LogMemory: Virtual Memory: 134198488.00 MB used,  19238.74 MB free, 134217728.00 MB total
+[2023.10.31-21.04.55:426][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.10.31-21.04.55:619][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2023.10.31-21.04.55:622][  0]LogInit: Using OS detected language (en-US).
+[2023.10.31-21.04.55:622][  0]LogInit: Using OS detected locale (en-CA).
+[2023.10.31-21.04.55:630][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2023.10.31-21.04.55:832][  0]LogInit: Setting process to per monitor DPI aware
+[2023.10.31-21.04.55:849][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2023.10.31-21.04.55:906][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.10.31-21.04.55:906][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.10.31-21.04.57:598][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.10.31-21.04.57:598][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2023.10.31-21.04.57:598][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2023.10.31-21.04.57:598][  0]LogD3D11RHI: D3D11 adapters:
+[2023.10.31-21.04.57:729][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060 SUPER' (Feature Level 11_0)
+[2023.10.31-21.04.57:729][  0]LogD3D11RHI:       8019/0/16330 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2023.10.31-21.04.57:730][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.10.31-21.04.57:730][  0]LogD3D11RHI:       0/0/16330 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.10.31-21.04.57:802][  0]LogD3D11RHI:    2. 'NVIDIA GeForce RTX 2060 SUPER' (Feature Level 11_0)
+[2023.10.31-21.04.57:803][  0]LogD3D11RHI:       8019/0/16330 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2023.10.31-21.04.57:900][  0]LogD3D11RHI:    3. 'NVIDIA GeForce RTX 2060 SUPER' (Feature Level 11_0)
+[2023.10.31-21.04.57:900][  0]LogD3D11RHI:       8019/0/16330 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2023.10.31-21.04.57:900][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.10.31-21.04.57:906][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.10.31-21.04.57:906][  0]LogD3D11RHI:     GPU DeviceId: 0x1f06 (for the marketing name, search the web for "GPU Device Id")
+[2023.10.31-21.04.57:906][  0]LogWindows: EnumDisplayDevices:
+[2023.10.31-21.04.57:906][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060 SUPER' (P:1 D:1)
+[2023.10.31-21.04.57:907][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
+[2023.10.31-21.04.57:907][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
+[2023.10.31-21.04.57:907][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
+[2023.10.31-21.04.57:907][  0]LogWindows:    4. 'DisplayLink USB Device' (P:0 D:0)
+[2023.10.31-21.04.57:907][  0]LogWindows:    5. 'DisplayLink USB Device' (P:0 D:0)
+[2023.10.31-21.04.57:907][  0]LogWindows:    6. 'DisplayLink USB Device' (P:0 D:0)
+[2023.10.31-21.04.57:907][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2023.10.31-21.04.57:907][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060 SUPER
+[2023.10.31-21.04.57:907][  0]LogD3D11RHI:   Driver Version: 536.23 (internal:31.0.15.3623, unified:536.23)
+[2023.10.31-21.04.57:907][  0]LogD3D11RHI:      Driver Date: 6-8-2023
+[2023.10.31-21.04.57:907][  0]LogRHI: Texture pool is 5613 MB (70% of 8019 MB)
+[2023.10.31-21.04.57:979][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2023.10.31-21.04.57:982][  0]LogD3D11RHI: Async texture creation enabled
+[2023.10.31-21.04.57:982][  0]LogD3D11RHI: Array index from any shader is supported
+[2023.10.31-21.04.58:011][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2023.10.31-21.04.58:014][  0]LogRHI: GeForceNow SDK initialized: 1
+[2023.10.31-21.04.58:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.10.31-21.04.58:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.10.31-21.04.58:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.10.31-21.04.58:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.10.31-21.04.58:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.10.31-21.04.58:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.10.31-21.04.58:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.10.31-21.04.58:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.10.31-21.04.58:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.10.31-21.04.58:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.10.31-21.04.58:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.10.31-21.04.58:762][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.10.31-21.04.58:762][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.10.31-21.04.58:788][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.10.31-21.04.58:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.10.31-21.04.58:825][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.10.31-21.04.58:844][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.10.31-21.04.58:861][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.10.31-21.04.58:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.10.31-21.04.58:900][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.10.31-21.04.58:931][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.10.31-21.04.58:931][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.10.31-21.04.58:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2023.10.31-21.04.58:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2023.10.31-21.04.58:992][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2023.10.31-21.04.59:011][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2023.10.31-21.04.59:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.10.31-21.04.59:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.10.31-21.04.59:052][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.10.31-21.04.59:072][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.10.31-21.04.59:091][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.10.31-21.04.59:110][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.10.31-21.04.59:110][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.10.31-21.04.59:172][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.10.31-21.04.59:543][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2023.10.31-21.04.59:543][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (../../../../../../Quin/V4S/Update_V4S/Intermediate/Shaders/WorkingDirectory/8484/).
+[2023.10.31-21.04.59:543][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Joseph/AppData/Local/Temp/UnrealShaderWorkingDir/639160C34C6EEC5CBBA6D1BDE5C37C77/'.
+[2023.10.31-21.04.59:544][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.10.31-21.04.59:544][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.10.31-21.05.01:750][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.10.31-21.05.01:962][  0]LogDerivedDataCache: Loaded boot cache 0.21s 87MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2023.10.31-21.05.01:962][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Joseph/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2023.10.31-21.05.01:962][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Quin/V4S/Update_V4S/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.10.31-21.05.01:962][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.10.31-21.05.01:962][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Quin/V4S/Update_V4S/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.10.31-21.05.01:962][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.10.31-21.05.01:980][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.10.31-21.05.01:980][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.10.31-21.05.01:980][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2023.10.31-21.05.02:018][  0]LogDerivedDataCache: Speed tests for C:/Users/Joseph/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.04 seconds
+[2023.10.31-21.05.02:018][  0]LogDerivedDataCache: Display: Performance to C:/Users/Joseph/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.20ms. RandomReadSpeed=30.62MBs, RandomWriteSpeed=218.47MBs. Assigned SpeedClass 'Local'
+[2023.10.31-21.05.02:018][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joseph/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.10.31-21.05.02:018][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.10.31-21.05.02:018][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.10.31-21.05.02:054][  0]LogSlate: Using FreeType 2.10.0
+[2023.10.31-21.05.02:068][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.10.31-21.05.02:174][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
+[2023.10.31-21.05.02:417][  0]LogInit: Selected Device Profile: [Windows]
+[2023.10.31-21.05.02:417][  0]LogInit: Active device profile: [000001ED4493E000][000001ED43327400 49] Windows
+[2023.10.31-21.05.02:417][  0]LogInit: Profiles: [000001ED4493E000][000001ED43327400 49] Windows, [000001ED448BDC00][000001ED4332F580 49] WindowsNoEditor, [000001ED4493D500][000001ED4332B6C0 49] WindowsServer, [000001ED448BD000][000001ED43333800 49] WindowsClient, [000001ED4493DD00][000001ED43337940 49] IOS, [000001ED448BED00][000001ED4333BA80 49] iPadAir, [000001ED4493C600][000001ED43343C00 49] iPadAir2, [000001ED44872400][000001ED4334A200 49] IPadPro, [000001ED44872500][000001ED43346240 49] iPadAir3, [000001ED448BD900][000001ED4334E3C0 49] iPadAir4, [000001ED44873D00][000001ED43352540 49] iPadMini2, [000001ED448BE600][000001ED433566C0 49] iPadMini3, [000001ED44873E00][000001ED4335A840 49] iPadMini4, [000001ED448BF800][000001ED4335E9C0 49] iPadMini5, [000001ED44899D00][000001ED43366C80 49] iPhone6, [000001ED44899E00][000001ED43362CC0 49] iPodTouch6, [000001ED44871D00][000001ED4336EF80 49] iPhone7, [000001ED44871C00][000001ED4336AFC0 49] iPodTouch7, [000001ED4489B500][000001ED43373140 49] iPhone5S, [000001ED44871B00][000001ED433772C0 49] iPhone6Plus, [000001ED4489AD00][000001ED4337B440 49] iPhone6S, [000001ED44870900][000001ED445275C0 49] iPhone6SPlus, [000001ED4489B300][000001ED4333F700 49] iPhone7Plus, [000001ED44872D00][000001ED4452B840 49] iPhoneSE, [000001ED4489B400][000001ED4452F980 49] iPhone8, [000001ED44873000][000001ED44533AC0 49] iPhone8Plus, [000001ED4489BD00][000001ED44555C40 49] iPhoneX, [000001ED44870E00][000001ED44558100 49] iPhoneXS, [000001ED44898600][000001ED4455C280 49] iPhoneXSMax, [000001ED44870F00][000001ED44560400 49] iPhoneXR, [000001ED4489A300][000001ED44564580 49] iPhone11, [000001ED44871A00][000001ED44568700 49] iPhone11Pro, [000001ED44898700][000001ED4456C880 49] iPhone11ProMax, [000001ED44870100][000001ED44570A00 49] iPhoneSE2, [000001ED44899C00][000001ED44574B80 49] iPhone12Mini, [000001ED44870C00][000001ED44578D00 49] iPhone12, [000001ED44899600][000001ED4457CE80 49] iPhone12Pro, [000001ED44871700][000001ED44581000 49] iPhone12ProMax, [000001ED4489B800][000001ED44585180 49] iPadPro105, [000001ED44872C00][000001ED44589300 49] iPadPro129, [000001ED4489AB00][000001ED4458D480 49] iPadPro97, [000001ED44873600][000001ED44591600 49] iPadPro2_129, [000001ED4493EB00][000001ED44595780 49] iPad5, [000001ED44872A00][000001ED445518C0 49] iPad6, [000001ED4493C400][000001ED44599A00 49] iPad7, [000001ED44872700][000001ED4459DB40 49] iPad8, [000001ED4493E200][000001ED445A5CC0 49] iPadPro11, [000001ED44871800][000001ED445A8180 49] iPadPro2_11, [000001ED4493D400][000001ED445AC300 49] iPadPro3_129, [000001ED44873500][000001ED445B0480 49] iPadPro4_129, [000001ED4493CF00][000001ED445B4600 49] AppleTV, [000001ED44873400][000001ED445B8780 49] AppleTV4K, [000001ED4493E700][000001ED445BC900 49] TVOS, [000001ED44872B00][000001ED445C0A80 49] Mac, [000001ED4493DE00][000001ED445C4C00 49] MacClient, [000001ED44870200][000001ED445C8D80 49] MacNoEditor, [000001ED4493DF00][000001ED445CCF00 49] MacServer, [000001ED44870B00][000001ED445D1080 49] Linux, [000001ED4493C900][000001ED445D5200 49] LinuxAArch64, [000001ED44872F00][000001ED445D9380 49] LinuxNoEditor, [000001ED4493CE00][000001ED445DD500 49] LinuxAArch64NoEditor, [000001ED44871200][000001ED445E1680 49] LinuxClient, [000001ED4493D800][000001ED445E5800 49] LinuxAArch64Client, [000001ED44873800][000001ED445A1940 49] LinuxServer, [000001ED4493C700][000001ED445E9A80 49] LinuxAArch64Server, [000001ED44872300][000001ED445EDBC0 49] Android, [000001ED4493C300][000001ED445F1D00 49] Android_Low, [000001ED44871500][000001ED445F81C0 49] Android_Mid, [000001ED4493F000][000001ED445FC340 49] Android_High, [000001ED44873A00][000001ED446004C0 49] Android_Default, [000001ED4493ED00][000001ED44604640 49] Android_Adreno4xx, [000001ED44870600][000001ED446087C0 49] Android_Adreno5xx_Low, [000001ED4493E600][000001ED4460C940 49] Android_Adreno5xx, [000001ED44871F00][000001ED44610AC0 49] Android_Adreno6xx, [000001ED4493C200][000001ED44614C40 49] Android_Adreno6xx_Vulkan, [000001ED44873C00][000001ED44618DC0 49] Android_Mali_T6xx, [000001ED4493D200][000001ED4461CF40 49] Android_Mali_T7xx, [000001ED44872200][000001ED446210C0 49] Android_Mali_T8xx, [000001ED4493E900][000001ED44625240 49] Android_Mali_G71, [000001ED448BE400][000001ED446293C0 49] Android_Mali_G72, [000001ED4489B700][000001ED4462D540 49] Android_Mali_G72_Vulkan, [000001ED448BCB00][000001ED446316C0 49] Android_Mali_G76, [000001ED4489BC00][000001ED44635840 49] Android_Mali_G76_Vulkan, [000001ED448BEE00][000001ED445F5980 49] Android_Mali_G77, [000001ED44898500][000001ED44639AC0 49] Android_Mali_G77_Vulkan, [000001ED448BE800][000001ED4463DC00 49] Android_Vulkan_SM5, [000001ED44899B00][000001ED44641D40 49] Android_PowerVR_G6xxx, [000001ED448BF300][000001ED44648200 49] Android_PowerVR_GT7xxx, [000001ED44898E00][000001ED4464C380 49] Android_PowerVR_GE8xxx, [000001ED448BF500][000001ED44650500 49] Android_PowerVR_GM9xxx, [000001ED44899400][000001ED44654680 49] Android_PowerVR_GM9xxx_Vulkan, [000001ED448BE000][000001ED44658800 49] Android_TegraK1, [000001ED44898D00][000001ED4465C980 49] Android_Unknown_Vulkan, [000001ED448BF400][000001ED44660B00 49] Lumin, [000001ED44898B00][000001ED44664C80 49] Lumin_Desktop, [000001ED448BE900][000001ED44668E00 49] HoloLens, 
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Animations/FirstPerson_JumpEnd.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Effects/PS_Wind.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Effects/VF_Noise.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Animations/FirstPersonFire_Montage.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Effects/PS_CampFire.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Animations/FirstPerson_Idle.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Materials/Masters/Stylized/MM_Stylized_Grass.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Animations/FirstPerson_Fire.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Effects/PS_Dust.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Animations/FirstPerson_Run.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Animations/FirstPerson_JumpStart.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/EasyBuildingSystem/Textures/Utility/T_Utility_A.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Animations/FirstPerson_JumpLoop.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Audio/FirstPersonTemplateWeaponFire02.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Character/Materials/M_UE4Man_Body.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Character/Mesh/FirstPersonAnimBlueprint_Copy.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Character/Textures/UE4_LOGO_CARD.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/FPWeapon/Materials/M_FPGun.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/FPWeapon/Textures/T_FPGun_M.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Meshes/CubeMaterialOverride.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/FPWeapon/Textures/T_FPGun_N.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Meshes/BaseMaterial.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Meshes/FirstPersonProjectileMaterial.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPerson/Textures/FirstPersonCrosshair.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPersonBP/FirstPersonOverview.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/Geometry/Meshes/CubeMaterial.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/Geometry/Meshes/1M_Cube.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Architecture/Floor_400x400.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Architecture/Pillar_50x500.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/Geometry/Meshes/TemplateFloor.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Architecture/SM_AssetPlatform.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Architecture/Wall_400x200.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Architecture/Wall_400x400.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Architecture/Wall_400x300.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Architecture/Wall_Door_400x400.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Explosion_Cue.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Fire01.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Collapse01.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Fire01_Cue.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Explosion02.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Explosion01.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Architecture/Wall_Window_400x400.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Architecture/Wall_500x500.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Collapse02.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Collapse_Cue.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Architecture/Wall_Window_400x300.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Fire_Sparks01.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Architecture/Wall_Door_400x300.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Light01_Cue.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Light02.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Smoke01_Cue.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Starter_Birds01.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Smoke01.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Light01.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Light02_Cue.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Steam01.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Starter_Wind06.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Starter_Background_Cue.uasset has malformed tag
+[2023.10.31-21.05.02:751][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Starter_Music_Cue.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Steam01_Cue.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Starter_Wind05.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Audio/Starter_Music01.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Blueprints/BP_LightStudio.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Blueprints/Assets/Skybox.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Maps/Advanced_Lighting.umap has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Maps/StarterMap_BuiltData.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Maps/Minimal_Default.umap has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_AssetPlatform.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Maps/StarterMap.umap has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Basic_Floor.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Basic_Wall.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Brick_Clay_New.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Concrete_Grime.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Concrete_Panels.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Concrete_Poured.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Glass.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Ground_Grass.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Ground_Moss.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Concrete_Tiles.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Ground_Gravel.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Metal_Chrome.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Metal_Rust.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Rock_Basalt.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Metal_Copper.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Metal_Gold.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Metal_Steel.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Rock_Sandstone.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Rock_Slate.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Water_Lake.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Tech_Panel.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Water_Ocean.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Wood_Walnut.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Particles/P_Ambient_Dust.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Particles/P_Sparks.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Wood_Pine.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Materials/M_Wood_Oak.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Particles/P_Explosion.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Particles/P_Fire.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Particles/P_Steam_Lit.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Particles/P_Smoke.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Particles/Materials/M_Burst.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Particles/Materials/m_flare_01.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/MaterialSphere.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/SM_Bush.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Particles/Materials/M_Spark.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/SM_Door.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/SM_CornerFrame.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/SM_Chair.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/SM_Couch.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/SM_DoorFrame.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/SM_GlassWindow.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/SM_Lamp_Wall.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/SM_Shelf.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/SM_PillarFrame300.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/SM_PillarFrame.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/SM_Statue.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/SM_Rock.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/SM_TableRound.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/SM_Stairs.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/SM_WindowFrame.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/Materials/M_Frame.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/Materials/M_Chair.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/Materials/M_Bush.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/Materials/M_Door.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/Materials/M_Lamp.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/Materials/M_Rock.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/Materials/M_Shelf.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/Materials/M_Statue.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/Materials/M_StatueGlass.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Shapes/Shape_Cube.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Shapes/Shape_Cone.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Shapes/Shape_Cylinder.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Props/Materials/M_TableRound.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Shapes/Shape_Pipe_90.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Shapes/Shape_Pipe_180.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Shapes/Shape_Plane.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Shapes/Shape_Pipe.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Shapes/Shape_Sphere.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Shapes/Shape_Trim.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Shapes/Shape_Torus.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Shapes/Shape_TriPyramid.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Shapes/Shape_Wedge_B.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Shapes/Shape_WideCapsule.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Shapes/Shape_Tube.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Shapes/Shape_Wedge_A.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Bush_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Bush_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Burst_M.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Chair_M.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Checker_Noise_M.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Chair_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Door_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Door_M.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Explosion_SubUV.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Fire_SubUV.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Frame_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Gradinet_01.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Ground_Grass_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Frame_M.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Dust_Particle_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Ground_Grass_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_ground_Moss_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Lamp_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Lamp_M.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Ground_Moss_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_MacroVariation.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Metal_Copper_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Metal_Gold_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Metal_Gold_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Metal_Steel_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Metal_Steel_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Metal_Rust_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Metal_Rust_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_RockMesh_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_RockMesh_M.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Rock_Slate_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Rock_Slate_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Shelf_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Single_Tile_N.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Spark_Core.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Smoke_SubUV.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Shelf_M.uasset has malformed tag
+[2023.10.31-21.05.02:752][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Statue_N.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Tech_Dot_N.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Statue_M.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_TableRound_M.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Tech_Dot_M.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_TableRound_N.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Tech_Panel_M.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Wood_Oak_D.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Tech_Panel_N.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Water_N.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Water_M.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Wood_Pine_D.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Maps/STF_Pack02_DemoScene.umap has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Wood_Oak_N.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/StarterContent/Textures/T_Wood_Pine_N.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Maps/STF_Pack02_DemoScene_BuiltData.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Maps/STF_Pack02_RockPresentation_BuiltData.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Maps/STF_Pack02_RockPresentation.umap has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Maps/STF_Pack02_DemoScene_sharedassets/Grass_01_LayerInfo.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Maps/STF_Pack02_RockPresentation_sharedassets/Layer01_LayerInfo.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Maps/STF_Pack02_RockPresentation_sharedassets/Layer03_LayerInfo.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Maps/STF_Pack02_DemoScene_sharedassets/Path_03_LayerInfo.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Maps/STF_Pack02_DemoScene_sharedassets/Grass_02_LayerInfo.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Foliage/MI_Field_Grass_1.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Foliage/MI_BushLeavesIreland_01.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Maps/STF_Pack02_RockPresentation_sharedassets/Layer02_LayerInfo.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Foliage/MI_BushBark_01.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Maps/STF_Pack02_RockPresentation_sharedassets/Layer04_LayerInfo.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Foliage/MI_Ireland_Grass_01_Inst.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Maps/STF_Pack02_DemoScene_sharedassets/Rock_01_LayerInfo.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Foliage/MI_TreeIreland01.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Foliage/MI_TreeIreland_leaves.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Foliage/M_Leaves_Generic.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Foliage/M_GrassMaster_Mat.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Landscape/LGT_grass01.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Landscape/M_Landscape_Ireland.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/MaterialFunctions/MF_ColorVariation.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Landscape/M_Landscape_Ireland_Inst.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Other/M_Demo_Background.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/MaterialFunctions/MF_grass-function.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/MaterialFunctions/MF_mesh-blend.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/MaterialFunctions/MF_Normal_Strength.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/MaterialFunctions/MF_grass-wind.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/MaterialFunctions/MF_Leaves_Generic.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_BoulderGroup02.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_BoulderGroup01.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_BoulderGroup03.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/MaterialFunctions/MF_rgb-scaler.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Other/M_Demo_Background_Inst.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_BoulderGroup04.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_Boulder_a01_03.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_Boulder_a01_02.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_Boulder_a01_01.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_Boulder_a02_02.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_Boulder_a02_01.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_Boulder_a04.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_Boulder_a06.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_Boulder_a02_03.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_Boulder_a03.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_Boulder_a07.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_Boulder_a10.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_Boulder_a13.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_Boulder_a05.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_Boulder_a12.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_Boulder_a14.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_Boulder_a08.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_Boulder_a11.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/MI_Boulder_a09.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/M_Boulder.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Water/MI_Water_Planar_Reflection_Inst.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Rocks/M_Boulder_Generic.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Meshes/Foliage/SM_grass03.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Meshes/Foliage/SM_grass01.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Meshes/Foliage/SM_grass02.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Meshes/Other/SM_BackgroundBlank.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Meshes/Foliage/SM_Bush_Ireland_01.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Materials/Water/M_Water_Planar_Reflection.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Meshes/Foliage/SM_TreeIreland01.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Meshes/Other/SM_waterPlane.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogAssetRegistry: Error: Package ../../../../../../Quin/V4S/Update_V4S/Content/STF/Pack02-Ireland/Meshes/Rocks/SM_boulder_a01_01.uasset has malformed tag
+[2023.10.31-21.05.02:753][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.10.31-21.05.02:753][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.10.31-21.05.02:753][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.10.31-21.05.02:753][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.10.31-21.05.02:753][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.10.31-21.05.02:856][  0]LogNetVersion: Update_V4S 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 2638510253)
+[2023.10.31-21.05.04:435][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2023.10.31-21.05.04:466][  0]LogPackageLocalizationCache: Processed 26 localized package path(s) for 1 prioritized culture(s) in 0.029968 seconds
+[2023.10.31-21.05.04:470][  0]LogUObjectArray: 17971 objects as part of root set at end of initial load.
+[2023.10.31-21.05.04:470][  0]LogUObjectAllocator: 4651152 out of 0 bytes used by permanent object pool.
+[2023.10.31-21.05.04:470][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.10.31-21.05.06:126][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.10.31-21.05.06:148][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.10.31-21.05.06:546][  0]SourceControl: Source control is disabled
+[2023.10.31-21.05.06:636][  0]LogAkAudio: Wwise(R) SDK Version 2019.2.15 Build 7667. Copyright (c) 2006-2019 Audiokinetic Inc.
+[2023.10.31-21.05.06:638][  0]LogAkAudio: Wwise plug-in DLL path: E:/Quin/V4S/Update_V4S/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/
+[2023.10.31-21.05.06:642][  0]LogAkAudio: Wwise remote connection application name: Update_V4S (Editor)
+[2023.10.31-21.05.06:642][  0]LogAkAudio: Wwise successfully initialized.
+[2023.10.31-21.05.06:644][  0]LogAkAudio: Error: Cannot open file: Init.bnk
+[2023.10.31-21.05.06:644][  0]LogAkAudio: Error: Bank Load Failed
+[2023.10.31-21.05.06:644][  0]LogAkAudio: Initialization complete.
+[2023.10.31-21.05.06:645][  0]LogInit: Audiokinetic Audio Device initialized.
+[2023.10.31-21.05.07:114][  0]SourceControl: Source control is disabled
+[2023.10.31-21.05.07:134][  0]SourceControl: Source control is disabled
+[2023.10.31-21.05.07:181][  0]SourceControl: Source control is disabled
+[2023.10.31-21.05.07:234][  0]SourceControl: Source control is disabled
+[2023.10.31-21.05.07:252][  0]LogUProjectInfo: Found projects:
+[2023.10.31-21.05.07:255][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2023.10.31-21.05.07:255][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2023.10.31-21.05.07:857][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.10.31-21.05.08:032][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.10.31-21.05.08:032][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.10.31-21.05.08:628][  0]LogCollectionManager: Loaded 0 collections in 0.000801 seconds
+[2023.10.31-21.05.08:705][  0]LogFileCache: Scanning file cache for directory 'E:/Quin/V4S/Update_V4S/Saved/Collections/' took 0.00s
+[2023.10.31-21.05.08:705][  0]LogFileCache: Scanning file cache for directory 'E:/Quin/V4S/Update_V4S/Content/Developers/Joseph/Collections/' took 0.00s
+[2023.10.31-21.05.08:705][  0]LogFileCache: Scanning file cache for directory 'E:/Quin/V4S/Update_V4S/Content/Collections/' took 0.00s
+[2023.10.31-21.05.08:705][  0]LogOcInput: OculusInput pre-init called
+[2023.10.31-21.05.08:744][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2023.10.31-21.05.08:746][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2023.10.31-21.05.08:811][  0]LogAkAudio: Warning: InitBank - Current Short ID '0' is different from expected ID '2954482177'
+[2023.10.31-21.05.08:939][  0]LogEngine: Initializing Engine...
+[2023.10.31-21.05.09:036][  0]LogInstantPreview: Warning: Adb Not Detected.  Please set the ANDROID_HOME environment variable to your Android SDK directory and restart the Unreal editor.
+[2023.10.31-21.05.09:036][  0]LogHMD: GoogleVR API created
+[2023.10.31-21.05.09:038][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.10.31-21.05.09:236][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.10.31-21.05.09:276][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.10.31-21.05.09:278][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.10.31-21.05.09:296][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.10.31-21.05.09:296][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.10.31-21.05.09:296][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.31-21.05.09:296][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.31-21.05.09:296][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.31-21.05.09:296][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.31-21.05.09:296][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.31-21.05.09:296][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.31-21.05.09:296][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.31-21.05.09:296][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.31-21.05.09:297][  0]LogAudio: Display: Using built-in audio occlusion.
+[2023.10.31-21.05.09:297][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2023.10.31-21.05.09:331][  0]LogAudioMixer: Display: 0: FrontLeft
+[2023.10.31-21.05.09:331][  0]LogAudioMixer: Display: 1: FrontRight
+[2023.10.31-21.05.09:349][  0]LogAudioMixer: Display: Using Audio Device Speakers (Dell USB Audio)
+[2023.10.31-21.05.09:351][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.31-21.05.09:367][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.31-21.05.09:367][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.31-21.05.09:368][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.10.31-21.05.09:368][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.10.31-21.05.09:368][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.10.31-21.05.09:369][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.10.31-21.05.09:369][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.10.31-21.05.09:369][  0]LogInit: FAudioDevice initialized.
+[2023.10.31-21.05.09:369][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.10.31-21.05.09:369][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.10.31-21.05.09:431][  0]LogDerivedDataCache: Saved boot cache 0.06s 79MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2023.10.31-21.05.09:434][  0]LogInit: Texture streaming: Enabled
+[2023.10.31-21.05.09:484][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2023.10.31-21.05.09:499][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.10.31-21.05.09:499][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={F34794ED-4963-A4DE-21B4-C19CDB309132}
+[2023.10.31-21.05.09:499][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2023.10.31-21.05.09:500][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2023.10.31-21.05.09:552][  0]LogInit: Transaction tracking system initialized
+[2023.10.31-21.05.09:671][  0]BlueprintLog: New page: Editor Load
+[2023.10.31-21.05.10:027][  0]LocalizationService: Localization service is disabled
+[2023.10.31-21.05.10:153][  0]TimingProfiler: Initialize
+[2023.10.31-21.05.10:154][  0]TimingProfiler: OnSessionChanged
+[2023.10.31-21.05.10:154][  0]LoadingProfiler: Initialize
+[2023.10.31-21.05.10:154][  0]LoadingProfiler: OnSessionChanged
+[2023.10.31-21.05.10:154][  0]NetworkingProfiler: Initialize
+[2023.10.31-21.05.10:154][  0]NetworkingProfiler: OnSessionChanged
+[2023.10.31-21.05.10:154][  0]MemoryProfiler: Initialize
+[2023.10.31-21.05.10:154][  0]MemoryProfiler: OnSessionChanged
+[2023.10.31-21.05.10:375][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2023.10.31-21.05.10:375][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2023.10.31-21.05.10:573][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2023.10.31-21.05.10:573][  0]LogCook: Display: Mobile HDR setting 1
+[2023.10.31-21.05.10:737][  0]LogFileCache: Scanning file cache for directory 'E:/Quin/V4S/Update_V4S/Content/' took 0.01s
+[2023.10.31-21.05.11:438][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.10.31-21.05.11:446][  0]SourceControl: Source control is disabled
+[2023.10.31-21.05.11:446][  0]LogUnrealEdMisc: Loading editor; pre map load, took 18.825
+[2023.10.31-21.05.11:448][  0]Cmd: MAP LOAD FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.10.31-21.05.11:449][  0]LightingResults: New page: Lighting Build
+[2023.10.31-21.05.11:451][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-21.05.11:452][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-21.05.11:452][  0]MapCheck: New page: Map Check
+[2023.10.31-21.05.11:452][  0]LightingResults: New page: Lighting Build
+[2023.10.31-21.05.11:460][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.10.31-21.05.17:180][  0]LogMaterial: Display: Missing cached shader map for material MM_Stylized_Rocks, compiling. 
+[2023.10.31-21.05.17:182][  0]LogMaterial: Warning: [AssetLog] E:\Quin\V4S\Update_V4S\Content\Assets_Other\EasyBuildingSystem\Materials\Masters\Stylized\MM_Stylized_Rocks.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2023.10.31-21.05.17:182][  0]LogMaterial: Display: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2023.10.31-21.05.17:182][  0]LogMaterial: Display: 	Function MF_Texture_Sample_RMA: (Node MakeMaterialAttributes) Error on property BaseColor
+[2023.10.31-21.05.17:184][  0]LogMaterial: Display: Missing cached shader map for material MM_Stylized_Rocks, compiling. 
+[2023.10.31-21.05.17:188][  0]LogMaterial: Warning: [AssetLog] E:\Quin\V4S\Update_V4S\Content\Assets_Other\EasyBuildingSystem\Materials\Instances\Stylized\MI_SmallRocks_001.uasset: Failed to compile Material Instance with Base MM_Stylized_Rocks for platform PCD3D_SM5, Default Material will be used in game.
+[2023.10.31-21.05.17:188][  0]LogMaterial: Display: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2023.10.31-21.05.17:188][  0]LogMaterial: Display: 	Function MF_Texture_Sample_RMA: (Node MakeMaterialAttributes) Error on property BaseColor
+[2023.10.31-21.05.17:188][  0]LogMaterial: Display: 	Function MF_Moss_Cover_Fade: (Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2023.10.31-21.05.17:188][  0]LogMaterial: Display: 	Function MF_Moss_Cover_Fade: (Node MakeMaterialAttributes) Error on property BaseColor
+[2023.10.31-21.05.17:207][  0]LogMaterial: Display: Missing cached shader map for material MM_Stylized_Rocks, compiling. 
+[2023.10.31-21.05.17:211][  0]LogMaterial: Warning: [AssetLog] E:\Quin\V4S\Update_V4S\Content\Assets_Other\EasyBuildingSystem\Materials\Instances\Stylized\MI_RockPile_001.uasset: Failed to compile Material Instance with Base MM_Stylized_Rocks for platform PCD3D_SM5, Default Material will be used in game.
+[2023.10.31-21.05.17:211][  0]LogMaterial: Display: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2023.10.31-21.05.17:211][  0]LogMaterial: Display: 	Function MF_Texture_Sample_RMA: (Node MakeMaterialAttributes) Error on property BaseColor
+[2023.10.31-21.05.17:211][  0]LogMaterial: Display: 	Function MF_Moss_Cover_Fade: (Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2023.10.31-21.05.17:211][  0]LogMaterial: Display: 	Function MF_Moss_Cover_Fade: (Node MakeMaterialAttributes) Error on property BaseColor
+[2023.10.31-21.05.17:230][  0]LogMaterial: Display: Missing cached shader map for material MM_Stylized_Rocks, compiling. 
+[2023.10.31-21.05.17:233][  0]LogMaterial: Warning: [AssetLog] E:\Quin\V4S\Update_V4S\Content\Assets_Other\EasyBuildingSystem\Materials\Instances\Stylized\MI_Cliff_003.uasset: Failed to compile Material Instance with Base MM_Stylized_Rocks for platform PCD3D_SM5, Default Material will be used in game.
+[2023.10.31-21.05.17:233][  0]LogMaterial: Display: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2023.10.31-21.05.17:233][  0]LogMaterial: Display: 	Function MF_Texture_Sample_RMA: (Node MakeMaterialAttributes) Error on property BaseColor
+[2023.10.31-21.05.17:250][  0]LogMaterial: Display: Missing cached shader map for material MM_Stylized_Rocks, compiling. 
+[2023.10.31-21.05.17:254][  0]LogMaterial: Warning: [AssetLog] E:\Quin\V4S\Update_V4S\Content\Assets_Other\EasyBuildingSystem\Materials\Instances\Stylized\MI_Cliff_002.uasset: Failed to compile Material Instance with Base MM_Stylized_Rocks for platform PCD3D_SM5, Default Material will be used in game.
+[2023.10.31-21.05.17:254][  0]LogMaterial: Display: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2023.10.31-21.05.17:254][  0]LogMaterial: Display: 	Function MF_Texture_Sample_RMA: (Node MakeMaterialAttributes) Error on property BaseColor
+[2023.10.31-21.05.17:254][  0]LogMaterial: Display: 	Function MF_Moss_Cover_Fade: (Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2023.10.31-21.05.17:254][  0]LogMaterial: Display: 	Function MF_Moss_Cover_Fade: (Node MakeMaterialAttributes) Error on property BaseColor
+[2023.10.31-21.05.17:272][  0]LogMaterial: Display: Missing cached shader map for material MM_Stylized_Rocks, compiling. 
+[2023.10.31-21.05.17:276][  0]LogMaterial: Warning: [AssetLog] E:\Quin\V4S\Update_V4S\Content\Assets_Other\EasyBuildingSystem\Materials\Instances\Stylized\MI_Cliff_001.uasset: Failed to compile Material Instance with Base MM_Stylized_Rocks for platform PCD3D_SM5, Default Material will be used in game.
+[2023.10.31-21.05.17:276][  0]LogMaterial: Display: 	(Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2023.10.31-21.05.17:276][  0]LogMaterial: Display: 	Function MF_Texture_Sample_RMA: (Node MakeMaterialAttributes) Error on property BaseColor
+[2023.10.31-21.05.17:276][  0]LogMaterial: Display: 	Function MF_Moss_Cover_Fade: (Node TextureObjectParameter) Param Tex Object> Requires valid texture
+[2023.10.31-21.05.17:276][  0]LogMaterial: Display: 	Function MF_Moss_Cover_Fade: (Node MakeMaterialAttributes) Error on property BaseColor
+[2023.10.31-21.05.22:456][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'V4S_Update'.
+[2023.10.31-21.05.22:457][  0]LogAIModule: Creating AISystem for world V4S_Update
+[2023.10.31-21.05.35:457][  0]LogMaterial: Display: Material /Game/Stylized_Trees/Materials/Masters/M_Bark.M_Bark needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2023.10.31-21.05.35:457][  0]LogMaterial: Display: Missing cached shader map for material M_Bark, compiling. 
+[2023.10.31-21.05.35:483][  0]MapCheck: Warning: M_Bark Material /Game/Stylized_Trees/Materials/Masters/M_Bark.M_Bark was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2023.10.31-21.05.35:484][  0]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 24
+[2023.10.31-21.05.35:484][  0]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 22
+[2023.10.31-21.05.35:484][  0]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 20
+[2023.10.31-21.05.35:484][  0]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 18
+[2023.10.31-21.05.35:484][  0]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 16
+[2023.10.31-21.05.35:484][  0]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 14
+[2023.10.31-21.05.35:484][  0]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 12
+[2023.10.31-21.05.35:484][  0]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 10
+[2023.10.31-21.05.35:484][  0]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 8
+[2023.10.31-21.05.35:484][  0]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 6
+[2023.10.31-21.05.35:484][  0]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 4
+[2023.10.31-21.05.35:484][  0]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2023.10.31-21.05.35:484][  0]LogMaterial: Display: Missing cached shader map for material M_Bark, compiling. 
+[2023.10.31-21.05.35:900][  0]LogShaderCompilers: Display: Worker (13/13): shaders left to compile 24
+[2023.10.31-21.05.35:902][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.31-21.05.35:961][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.10.31-21.05.35:963][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.31-21.05.35:963][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.072ms to complete.
+[2023.10.31-21.05.36:046][  0]LogFileHelpers: Loading map 'V4S_Update' took 24.599
+[2023.10.31-21.05.36:064][  0]LogUnrealEdMisc: Total Editor Startup Time, took 43.442
+[2023.10.31-21.05.36:262][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.31-21.05.36:277][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.31-21.05.36:292][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.31-21.05.36:307][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.31-21.05.36:352][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0149 seconds. Added 3821 classes and 913 folders.
+[2023.10.31-21.05.36:364][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2023.10.31-21.05.36:389][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.10.31-21.05.36:389][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:389][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.10.31-21.05.36:389][  0]LogPakFile: OnPakFileMounted2Time == 0.000020
+[2023.10.31-21.05.36:402][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2023.10.31-21.05.36:402][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:402][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2023.10.31-21.05.36:402][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
+[2023.10.31-21.05.36:411][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2023.10.31-21.05.36:411][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:411][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2023.10.31-21.05.36:411][  0]LogPakFile: OnPakFileMounted2Time == 0.000031
+[2023.10.31-21.05.36:420][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.10.31-21.05.36:420][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:420][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.10.31-21.05.36:420][  0]LogPakFile: OnPakFileMounted2Time == 0.000039
+[2023.10.31-21.05.36:427][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2023.10.31-21.05.36:427][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:427][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2023.10.31-21.05.36:427][  0]LogPakFile: OnPakFileMounted2Time == 0.000045
+[2023.10.31-21.05.36:437][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2023.10.31-21.05.36:437][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:437][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2023.10.31-21.05.36:437][  0]LogPakFile: OnPakFileMounted2Time == 0.000053
+[2023.10.31-21.05.36:446][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2023.10.31-21.05.36:446][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:446][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2023.10.31-21.05.36:446][  0]LogPakFile: OnPakFileMounted2Time == 0.000059
+[2023.10.31-21.05.36:455][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2023.10.31-21.05.36:455][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:455][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2023.10.31-21.05.36:455][  0]LogPakFile: OnPakFileMounted2Time == 0.000066
+[2023.10.31-21.05.36:470][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.10.31-21.05.36:470][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:470][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.10.31-21.05.36:470][  0]LogPakFile: OnPakFileMounted2Time == 0.000075
+[2023.10.31-21.05.36:480][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2023.10.31-21.05.36:480][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:480][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2023.10.31-21.05.36:480][  0]LogPakFile: OnPakFileMounted2Time == 0.000080
+[2023.10.31-21.05.36:489][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2023.10.31-21.05.36:489][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:489][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2023.10.31-21.05.36:489][  0]LogPakFile: OnPakFileMounted2Time == 0.000091
+[2023.10.31-21.05.36:499][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.10.31-21.05.36:499][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:499][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.10.31-21.05.36:499][  0]LogPakFile: OnPakFileMounted2Time == 0.000098
+[2023.10.31-21.05.36:508][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.10.31-21.05.36:508][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:508][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.10.31-21.05.36:508][  0]LogPakFile: OnPakFileMounted2Time == 0.000104
+[2023.10.31-21.05.36:515][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.10.31-21.05.36:515][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:515][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.10.31-21.05.36:515][  0]LogPakFile: OnPakFileMounted2Time == 0.000111
+[2023.10.31-21.05.36:524][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2023.10.31-21.05.36:524][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:524][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2023.10.31-21.05.36:524][  0]LogPakFile: OnPakFileMounted2Time == 0.000117
+[2023.10.31-21.05.36:531][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.10.31-21.05.36:531][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:531][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.10.31-21.05.36:531][  0]LogPakFile: OnPakFileMounted2Time == 0.000121
+[2023.10.31-21.05.36:539][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2023.10.31-21.05.36:540][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:540][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2023.10.31-21.05.36:540][  0]LogPakFile: OnPakFileMounted2Time == 0.000130
+[2023.10.31-21.05.36:549][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.10.31-21.05.36:549][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:549][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.10.31-21.05.36:549][  0]LogPakFile: OnPakFileMounted2Time == 0.000139
+[2023.10.31-21.05.36:557][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.10.31-21.05.36:558][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:558][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.10.31-21.05.36:558][  0]LogPakFile: OnPakFileMounted2Time == 0.000151
+[2023.10.31-21.05.36:572][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.10.31-21.05.36:572][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:572][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.10.31-21.05.36:572][  0]LogPakFile: OnPakFileMounted2Time == 0.000162
+[2023.10.31-21.05.36:581][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.10.31-21.05.36:581][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:581][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.10.31-21.05.36:581][  0]LogPakFile: OnPakFileMounted2Time == 0.000170
+[2023.10.31-21.05.36:592][  0]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 22
+[2023.10.31-21.05.36:592][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.10.31-21.05.36:592][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:592][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.10.31-21.05.36:592][  0]LogPakFile: OnPakFileMounted2Time == 0.000180
+[2023.10.31-21.05.36:601][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2023.10.31-21.05.36:602][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:602][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2023.10.31-21.05.36:602][  0]LogPakFile: OnPakFileMounted2Time == 0.000186
+[2023.10.31-21.05.36:611][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.10.31-21.05.36:611][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:611][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.10.31-21.05.36:611][  0]LogPakFile: OnPakFileMounted2Time == 0.000195
+[2023.10.31-21.05.36:622][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.10.31-21.05.36:623][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:623][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.10.31-21.05.36:623][  0]LogPakFile: OnPakFileMounted2Time == 0.000206
+[2023.10.31-21.05.36:634][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2023.10.31-21.05.36:635][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.10.31-21.05.36:635][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2023.10.31-21.05.36:635][  0]LogPakFile: OnPakFileMounted2Time == 0.000221
+[2023.10.31-21.05.37:099][  0]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 20
+[2023.10.31-21.05.37:099][  0]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 18
+[2023.10.31-21.05.37:099][  0]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 16
+[2023.10.31-21.05.37:099][  0]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 14
+[2023.10.31-21.05.37:099][  0]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 12
+[2023.10.31-21.05.37:099][  0]LogShaderCompilers: Display: Worker (13/13): shaders left to compile 11
+[2023.10.31-21.05.37:099][  0]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 10
+[2023.10.31-21.05.37:099][  0]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 9
+[2023.10.31-21.05.37:099][  0]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 8
+[2023.10.31-21.05.37:099][  0]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 7
+[2023.10.31-21.05.37:099][  0]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 6
+[2023.10.31-21.05.37:099][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2023.10.31-21.05.37:103][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 2 classes and 0 folders.
+[2023.10.31-21.05.37:913][  0]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 5
+[2023.10.31-21.05.37:913][  0]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2023.10.31-21.05.37:913][  0]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 3
+[2023.10.31-21.05.37:913][  0]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2023.10.31-21.05.37:913][  0]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 1
+[2023.10.31-21.05.37:913][  0]LogSlate: Took 0.003872 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.10.31-21.05.37:917][  0]LogSlate: Took 0.003430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.10.31-21.05.37:923][  0]LogSlate: Took 0.003210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.10.31-21.05.38:125][  0]LogRenderer: Reallocating scene render targets to support 1132x568 Format 10 NumSamples 1 (Frame:1).
+[2023.10.31-21.05.38:210][  0]LogSlate: Took 0.003854 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.10.31-21.05.38:262][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.10.31-21.05.38:262][  0]LogLoad: (Engine Initialization) Total time: 45.64 seconds
+[2023.10.31-21.05.38:262][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.10.31-21.05.38:262][  0]LogInit: First time updating LLM stats...
+[2023.10.31-21.05.38:277][  0]LogGoogleVRController: Creating Input Device: GoogleVRController -- Supported
+[2023.10.31-21.05.38:277][  0]LogGoogleVRController: Successfully initialized GoogleVR Controller.
+[2023.10.31-21.05.38:277][  0]LogInstantPreview: Warning: Adb Not Detected.  Please set the ANDROID_HOME environment variable to your Android SDK directory and restart the Unreal editor.
+[2023.10.31-21.05.38:306][  0]LogAssetRegistry: Asset discovery search completed in 36.1340 seconds
+[2023.10.31-21.05.38:309][  0]LogWwiseProjectParser: Could not parse the Cache directory from the Wwise project file. Using default value : .cache
+[2023.10.31-21.05.38:551][  0]LogSlate: Took 0.000082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.10.31-21.05.38:607][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2023.10.31-21.05.38:896][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.10.31-21.05.39:323][  3]LogProfilingDebugging: Allocated a 1132 x 567 texture for HMD canvas layer
+[2023.10.31-21.07.29:009][758]LogContentBrowser: Deferred new asset file creation: NewAkAcousticTexture
+[2023.10.31-21.07.29:104][758]LogContentBrowser: Creating deferred item: NewAkAcousticTexture
+[2023.10.31-21.07.29:364][761]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2023.10.31-21.08.41:883][507]Cmd: DELETE
+[2023.10.31-21.08.41:883][507]Cmd: ACTOR DELETE
+[2023.10.31-21.08.42:431][507]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.31-21.08.42:434][507]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.31-21.08.42:434][507]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.31-21.08.42:434][507]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.31-21.08.42:434][507]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.31-21.08.42:442][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.10.31-21.08.42:449][507]LogEditorActor: Deleted 5 Actors (0.565 secs)
+[2023.10.31-21.08.52:671][691]Cmd: TRANSACTION UNDO
+[2023.10.31-21.08.52:671][691]LogEditorTransaction: Undo Delete Actors
+[2023.10.31-21.08.53:339][693]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-21.08.55:546][711]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-21.09.20:376][432]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2023.10.31-21.09.20:376][432]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2023.10.31-21.09.21:914][432]LogWindows: Error: === Critical error: ===
+[2023.10.31-21.09.21:914][432]LogWindows: Error: 
+[2023.10.31-21.09.21:914][432]LogWindows: Error: Assertion failed: !DeferredItemToCreate.IsValid() [File:D:/Build/++UE4/Sync/Engine/Source/Editor/ContentBrowser/Private/SAssetView.cpp] [Line: 582] 
+[2023.10.31-21.09.21:914][432]LogWindows: Error: 
+[2023.10.31-21.09.21:914][432]LogWindows: Error: 
+[2023.10.31-21.09.21:914][432]LogWindows: Error: 
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007ff83a83565c KERNELBASE.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff936ed066 UE4Editor-Core.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff936f07a8 UE4Editor-Core.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff933fe8cd UE4Editor-Core.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff93395575 UE4Editor-Core.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff93397620 UE4Editor-Core.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff84934aae UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff849da462 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff718875ca UE4Editor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff71889e55 UE4Editor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff71866860 UE4Editor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff71866e6a UE4Editor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff71813b5b UE4Editor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff71866271 UE4Editor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff92cfee15 UE4Editor-Slate.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff92d05600 UE4Editor-Slate.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff92cdb807 UE4Editor-Slate.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff92d7859e UE4Editor-Slate.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff92d9071e UE4Editor-Slate.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff92d06d75 UE4Editor-Slate.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff92bd46be UE4Editor-Slate.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff92c57f14 UE4Editor-Slate.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff92c40337 UE4Editor-Slate.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007fff92c33632 UE4Editor-Slate.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007ffff367bcb5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007ffff3669197 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007ffff367e389 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007ffff3664310 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007ff83bf98241 USER32.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007ff83bf97d01 USER32.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007ffff367f914 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007ff781068848 UE4Editor.exe!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007ff78108117c UE4Editor.exe!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007ff78108125a UE4Editor.exe!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007ff7810952bd UE4Editor.exe!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007ff781097fea UE4Editor.exe!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007ff83bec257d KERNEL32.DLL!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: [Callstack] 0x00007ff83d30aa58 ntdll.dll!UnknownFunction []
+[2023.10.31-21.09.21:914][432]LogWindows: Error: 
+[2023.10.31-21.09.21:921][432]LogExit: Executing StaticShutdownAfterError
+[2023.10.31-21.09.22:064][432]LogWindows: FPlatformMisc::RequestExit(1)
+[2023.10.31-21.09.22:064][432]LogCore: Engine exit requested (reason: Win RequestExit)
+[2023.10.31-21.09.22:070][432]Log file closed, 10/31/23 17:09:22
