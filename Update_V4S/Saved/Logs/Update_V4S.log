@@ -4786,3 +4786,7 @@ Script Stack (0 frames):
 [2023.10.31-04.24.44:941][881]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update727CE5904A9563C83CBCE0A717C6E973.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
 [2023.10.31-04.24.45:004][881]AssetCheck: New page: Asset Save: V4S_Update
 [2023.10.31-04.24.45:004][881]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.10.31-04.25.15:479][980]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-04.25.28:731][ 73]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-04.25.30:802][ 79]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.10.31-04.25.32:927][ 85]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
