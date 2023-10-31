@@ -1,3 +1,4 @@
 Main.bnk filter=lfs diff=lfs merge=lfs -text
 ProfilingSession5.prof filter=lfs diff=lfs merge=lfs -text
 *.wav filter=lfs diff=lfs merge=lfs -text
+Update_V4S/Content/V4S/V4S_Update.umap filter=lfs diff=lfs merge=lfs -text
