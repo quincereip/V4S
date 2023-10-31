@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>E:\Quin\V4S\Update_V4S\V4S_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Quin\V4S\Update_V4S\V4S_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\Quin\V4S\Update_V4S\V4S_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="3991942870" GUID="{30972FB1-4EFA-4619-AD5E-237DF5934A36}" Language="SFX" Hash="4085940060">

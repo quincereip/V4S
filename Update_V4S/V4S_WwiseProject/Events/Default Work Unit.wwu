@@ -403,7 +403,7 @@
 								<Action Name="" ID="{B4301403-24F1-4A52-AF08-6DD73141DC92}" ShortID="9911500">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Water_Ocean" ID="{563A7B87-2D36-48CD-9E63-161C30F221A6}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
+											<ObjectRef Name="Water_Ocean" ID="{2FF29502-5BEC-4498-AE21-5FAB67651C2C}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

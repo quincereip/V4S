@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "D:\\2023 Spring Term\\Capstone\\Backup\\Backup_Audio_In_Game\\V4S_WwiseProject\\",
-   "SourceFilesRoot": "D:\\2023 Spring Term\\Capstone\\Backup\\Backup_Audio_In_Game\\V4S_WwiseProject\\.cache\\Mac\\",
-   "SoundBanksRoot": "D:\\2023 Spring Term\\Capstone\\Backup\\Backup_Audio_In_Game\\V4S_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ProjectRoot": "E:\\Quin\\V4S\\Update_V4S\\V4S_WwiseProject\\",
+   "SourceFilesRoot": "E:\\Quin\\V4S\\Update_V4S\\V4S_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "E:\\Quin\\V4S\\Update_V4S\\V4S_WwiseProject\\GeneratedSoundBanks\\Mac\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\2023 Spring Term\\Capstone\\Backup\\Backup_Audio_In_Game\\V4S_WwiseProject\\GeneratedSoundBanks\\Mac"
+   "ExternalSourcesOutputRoot": "E:\\Quin\\V4S\\Update_V4S\\V4S_WwiseProject\\GeneratedSoundBanks\\Mac"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -19,16 +19,40 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "3770372829",
+    "Hash": "1769387821",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "IncludedAuxBusses": [
      {
+      "Id": "712897226",
+      "Name": "MUS",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\AMB\\MUS",
+      "GUID": "{C6BE419B-B20D-4B06-A018-2DBECC86D745}"
+     },
+     {
+      "Id": "898834102",
+      "Name": "EXT",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\AMB\\EXT",
+      "GUID": "{07373D9E-9413-4A07-8D5D-50D786C3488D}"
+     },
+     {
       "Id": "1233317514",
       "Name": "FX_Reverb_Outside",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\FX_Reverb_Outside",
       "GUID": "{B287AFC0-FD91-4A94-9971-FFAFAEF062A5}"
+     },
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\SFX\\Footsteps",
+      "GUID": "{A549B72C-B68C-4353-986C-9111014EC9C5}"
+     },
+     {
+      "Id": "2802899749",
+      "Name": "Emitter",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\SFX\\Emitter",
+      "GUID": "{49953334-5AB5-462F-B68B-4F88ECD72A6E}"
      }
     ]
    },
@@ -36,7 +60,7 @@
     "Id": "3161908922",
     "GUID": "{E19EE910-4431-421A-82C4-6214E7842FE1}",
     "Language": "SFX",
-    "Hash": "1998009518",
+    "Hash": "1036743077",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -92,7 +116,7 @@
      {
       "Id": "737787143",
       "Name": "Play_Animal_Eating",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Animal_Eating",
+      "ObjectPath": "\\Events\\Default Work Unit\\Idle\\Play_Animal_Eating",
       "GUID": "{9872449C-19EE-424D-AB6F-333ED4FF8F13}",
       "MaxAttenuation": "3000.",
       "DurationType": "Infinite",
@@ -108,7 +132,7 @@
      {
       "Id": "617588793",
       "Name": "Play_Animal_Sniffing",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Animal_Sniffing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Idle\\Play_Animal_Sniffing",
       "GUID": "{B0B16941-6A07-4A6E-BC64-4ADBC74B54DF}",
       "MaxAttenuation": "3000.",
       "DurationType": "Infinite",
@@ -124,7 +148,7 @@
      {
       "Id": "2782109158",
       "Name": "Play_Apple",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Apple",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Apple",
       "GUID": "{B9468113-2F62-4918-B9C6-B96FB3F557CD}",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
@@ -146,12 +170,20 @@
         "ShortName": "Apple\\Apple_Drop_02.wav",
         "Path": "SFX\\Apple\\Apple_Drop_02_10C4C929.wem"
        }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "2802899749",
+        "Name": "Emitter",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\SFX\\Emitter",
+        "GUID": "{49953334-5AB5-462F-B68B-4F88ECD72A6E}"
+       }
       ]
      },
      {
       "Id": "1409529853",
       "Name": "Play_Ball",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ball",
+      "ObjectPath": "\\Events\\Default Work Unit\\Idle\\Play_Ball",
       "GUID": "{1AD974C4-DA0D-41AA-A23F-8D78D35BFF95}",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
@@ -196,7 +228,7 @@
      {
       "Id": "2324519816",
       "Name": "Play_bells",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_bells",
+      "ObjectPath": "\\Events\\Default Work Unit\\Idle\\Play_bells",
       "GUID": "{2702C270-B9A6-4B19-9B34-38398A7EE0D5}",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
@@ -211,7 +243,7 @@
      {
       "Id": "3935030902",
       "Name": "Play_Branch_Breaking",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Branch_Breaking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Idle\\Play_Branch_Breaking",
       "GUID": "{E7BE12DD-0B12-4A20-B8A5-5C082112692B}",
       "DurationType": "OneShot",
       "DurationMin": "0.5",
@@ -264,7 +296,7 @@
      {
       "Id": "3243822179",
       "Name": "Play_Breaking_Wood",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Breaking_Wood",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Breaking_Wood",
       "GUID": "{CC645C5A-D9F8-4236-9704-F5DE95FE71DA}",
       "MaxAttenuation": "3000.",
       "DurationType": "Infinite",
@@ -275,12 +307,20 @@
         "ShortName": "Breaking Wood.wav",
         "Path": "SFX\\Breaking Wood_D79FB2B7.wem"
        }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "2802899749",
+        "Name": "Emitter",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\SFX\\Emitter",
+        "GUID": "{49953334-5AB5-462F-B68B-4F88ECD72A6E}"
+       }
       ]
      },
      {
       "Id": "2626596706",
       "Name": "Play_Crickets",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Crickets",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Crickets",
       "GUID": "{EFEDFEDC-343D-40E1-956D-909B8FBE5C41}",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
@@ -290,12 +330,20 @@
         "ShortName": "bbc_crickets-s_nhu0509310 [chan 1].wav",
         "Path": "SFX\\bbc_crickets-s_nhu0509310 [chan 1]_D79FB2B7.wem"
        }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "898834102",
+        "Name": "EXT",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\AMB\\EXT",
+        "GUID": "{07373D9E-9413-4A07-8D5D-50D786C3488D}"
+       }
       ]
      },
      {
       "Id": "642687590",
       "Name": "Play_EXT_Wind_Breeze",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_EXT_Wind_Breeze",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_EXT_Wind_Breeze",
       "GUID": "{0C50345F-362F-46B8-81E2-5DA4D0E50A42}",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
@@ -305,45 +353,20 @@
         "ShortName": "Wind_Breeze.wav",
         "Path": "SFX\\Wind_Breeze_D79FB2B7.wem"
        }
-      ]
-     },
-     {
-      "Id": "2712047697",
-      "Name": "Play_Fall",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Fall",
-      "GUID": "{72E1B5A9-A3AF-48A1-B820-073CC8D64404}",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
+      ],
+      "AuxBusSends": [
        {
-        "Id": "58501010",
-        "Language": "SFX",
-        "ShortName": "EXT_Birds_Conversation.wav",
-        "Path": "SFX\\EXT_Birds_Conversation_F7101D8D.wem"
-       },
-       {
-        "Id": "301663420",
-        "Language": "SFX",
-        "ShortName": "EXT_Wind_Fly.wav",
-        "Path": "SFX\\EXT_Wind_Fly_D79FB2B7.wem"
-       },
-       {
-        "Id": "316914175",
-        "Language": "SFX",
-        "ShortName": "EXT_Wind_Soft.wav",
-        "Path": "SFX\\EXT_Wind_Soft_D79FB2B7.wem"
-       },
-       {
-        "Id": "616098322",
-        "Language": "SFX",
-        "ShortName": "music_file_Fall_Edit.wav",
-        "Path": "SFX\\music_file_Fall_Edit_D79FB2B7.wem"
+        "Id": "898834102",
+        "Name": "EXT",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\AMB\\EXT",
+        "GUID": "{07373D9E-9413-4A07-8D5D-50D786C3488D}"
        }
       ]
      },
      {
       "Id": "1501216439",
       "Name": "Play_Fireplace",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Fireplace",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Fireplace",
       "GUID": "{261D421A-89A2-43C5-83C3-88D0F574828B}",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
@@ -353,12 +376,20 @@
         "ShortName": "bbc_fire---clo_nhu0500808 [chan 1].wav",
         "Path": "SFX\\bbc_fire---clo_nhu0500808 [chan 1]_D79FB2B7.wem"
        }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "2802899749",
+        "Name": "Emitter",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\SFX\\Emitter",
+        "GUID": "{49953334-5AB5-462F-B68B-4F88ECD72A6E}"
+       }
       ]
      },
      {
       "Id": "3854155799",
       "Name": "Play_Footsteps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Actor\\Play_Footsteps",
       "GUID": "{3EBB731C-81E2-4ABE-ACBE-3926A2A2B7A2}",
       "DurationType": "OneShot",
       "DurationMin": "1.249096",
@@ -730,7 +761,7 @@
      {
       "Id": "2991955701",
       "Name": "Play_Fox",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Fox",
+      "ObjectPath": "\\Events\\Default Work Unit\\Idle\\Play_Fox",
       "GUID": "{0C2D4D40-5AAF-4C40-AAB7-4CB92FBB8A7A}",
       "MaxAttenuation": "3000.",
       "DurationType": "Infinite",
@@ -758,7 +789,7 @@
      {
       "Id": "2063432232",
       "Name": "Play_Ice_Cream_Truck",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ice_Cream_Truck",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Ice_Cream_Truck",
       "GUID": "{75A62336-6F7F-4772-91FC-ED381DA964B1}",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
@@ -768,27 +799,27 @@
         "ShortName": "674237__kevingambleaudio__ice-cream-truck.wav",
         "Path": "SFX\\674237__kevingambleaudio__ice-cream-truck_D79FB2B7.wem"
        }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "2802899749",
+        "Name": "Emitter",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\SFX\\Emitter",
+        "GUID": "{49953334-5AB5-462F-B68B-4F88ECD72A6E}"
+       }
       ]
      },
      {
       "Id": "519940873",
       "Name": "Play_INT_Room",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_INT_Room",
+      "ObjectPath": "\\Events\\Default Work Unit\\Idle\\Play_INT_Room",
       "GUID": "{025C39E6-FDE2-48E9-8F17-9AC0128C8C63}",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "655501665",
-        "Language": "SFX",
-        "ShortName": "RoomTone_AC.wav",
-        "Path": "SFX\\RoomTone_AC_D79FB2B7.wem"
-       }
-      ]
+      "DurationType": "Infinite"
      },
      {
       "Id": "2208365614",
       "Name": "Play_Life_Layer",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Life_Layer",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Actor\\Play_Life_Layer",
       "GUID": "{CDEB172B-02F1-491A-81A7-5A5E9CEC55E2}",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
@@ -807,176 +838,17 @@
       ]
      },
      {
-      "Id": "2015339408",
-      "Name": "Play_Music_Seasons",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music_Seasons",
-      "GUID": "{569EFB9B-A4E9-4FE0-B868-B562F77F593C}",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "21490570",
-        "Language": "SFX",
-        "ShortName": "EXT_Birds-001.wav",
-        "Path": "SFX\\EXT_Birds-001_D79FB2B7.wem"
-       },
-       {
-        "Id": "42247407",
-        "Language": "SFX",
-        "ShortName": "music_file_Winter_.wav",
-        "Path": "SFX\\music_file_Winter__D79FB2B7.wem"
-       },
-       {
-        "Id": "58501010",
-        "Language": "SFX",
-        "ShortName": "EXT_Birds_Conversation.wav",
-        "Path": "SFX\\EXT_Birds_Conversation_F7101D8D.wem"
-       },
-       {
-        "Id": "72726658",
-        "Language": "SFX",
-        "ShortName": "EXT_Beach_Walla.wav",
-        "Path": "SFX\\EXT_Beach_Walla_D79FB2B7.wem"
-       },
-       {
-        "Id": "301663420",
-        "Language": "SFX",
-        "ShortName": "EXT_Wind_Fly.wav",
-        "Path": "SFX\\EXT_Wind_Fly_D79FB2B7.wem"
-       },
-       {
-        "Id": "316914175",
-        "Language": "SFX",
-        "ShortName": "EXT_Wind_Soft.wav",
-        "Path": "SFX\\EXT_Wind_Soft_D79FB2B7.wem"
-       },
-       {
-        "Id": "421581830",
-        "Language": "SFX",
-        "ShortName": "EXT_Birds_Crickets_Birds_Flapping.wav",
-        "Path": "SFX\\EXT_Birds_Crickets_Birds_Flapping_D79FB2B7.wem"
-       },
-       {
-        "Id": "439622629",
-        "Language": "SFX",
-        "ShortName": "Wind_Breeze.wav",
-        "Path": "SFX\\Wind_Breeze_D79FB2B7.wem"
-       },
-       {
-        "Id": "444396471",
-        "Language": "SFX",
-        "ShortName": "EXT_Wind_Harsh.wav",
-        "Path": "SFX\\EXT_Wind_Harsh_D79FB2B7.wem"
-       },
-       {
-        "Id": "494262773",
-        "Language": "SFX",
-        "ShortName": "EXT_Birds_Summer.wav",
-        "Path": "SFX\\EXT_Birds_Summer_D79FB2B7.wem"
-       },
-       {
-        "Id": "516286206",
-        "Language": "SFX",
-        "ShortName": "music_file_Spring_Edit.wav",
-        "Path": "SFX\\music_file_Spring_Edit_D79FB2B7.wem"
-       },
-       {
-        "Id": "527676015",
-        "Language": "SFX",
-        "ShortName": "music_file_Summer_Edit.wav",
-        "Path": "SFX\\music_file_Summer_Edit_D79FB2B7.wem"
-       },
-       {
-        "Id": "616098322",
-        "Language": "SFX",
-        "ShortName": "music_file_Fall_Edit.wav",
-        "Path": "SFX\\music_file_Fall_Edit_D79FB2B7.wem"
-       },
-       {
-        "Id": "655501665",
-        "Language": "SFX",
-        "ShortName": "RoomTone_AC.wav",
-        "Path": "SFX\\RoomTone_AC_D79FB2B7.wem"
-       },
-       {
-        "Id": "830139097",
-        "Language": "SFX",
-        "ShortName": "573376__johnloser__cyber-punch-01.wav",
-        "Path": "SFX\\573376__johnloser__cyber-punch-01_10C4C929.wem"
-       },
-       {
-        "Id": "885297293",
-        "Language": "SFX",
-        "ShortName": "EXT_Birds_Crowds_Planes.wav",
-        "Path": "SFX\\EXT_Birds_Crowds_Planes_D79FB2B7.wem"
-       },
-       {
-        "Id": "923291791",
-        "Language": "SFX",
-        "ShortName": "EXT_Bird_Cocodoo.wav",
-        "Path": "SFX\\EXT_Bird_Cocodoo_D79FB2B7.wem"
-       }
-      ]
-     },
-     {
       "Id": "1352561401",
       "Name": "Play_Music_Seasons_2D",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music_Seasons_2D",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Music_Seasons_2D",
       "GUID": "{CF3A9AF8-3F4A-4374-AC35-FBB7DE80D9BE}",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "21490570",
+        "Id": "470758310",
         "Language": "SFX",
-        "ShortName": "EXT_Birds-001.wav",
-        "Path": "SFX\\EXT_Birds-001_D79FB2B7.wem"
-       },
-       {
-        "Id": "42247407",
-        "Language": "SFX",
-        "ShortName": "music_file_Winter_.wav",
-        "Path": "SFX\\music_file_Winter__D79FB2B7.wem"
-       },
-       {
-        "Id": "72726658",
-        "Language": "SFX",
-        "ShortName": "EXT_Beach_Walla.wav",
-        "Path": "SFX\\EXT_Beach_Walla_D79FB2B7.wem"
-       },
-       {
-        "Id": "197855375",
-        "Language": "SFX",
-        "ShortName": "EXT_Birds_Conversation.wav",
-        "Path": "SFX\\EXT_Birds_Conversation_D79FB2B7.wem"
-       },
-       {
-        "Id": "301663420",
-        "Language": "SFX",
-        "ShortName": "EXT_Wind_Fly.wav",
-        "Path": "SFX\\EXT_Wind_Fly_D79FB2B7.wem"
-       },
-       {
-        "Id": "316914175",
-        "Language": "SFX",
-        "ShortName": "EXT_Wind_Soft.wav",
-        "Path": "SFX\\EXT_Wind_Soft_D79FB2B7.wem"
-       },
-       {
-        "Id": "421581830",
-        "Language": "SFX",
-        "ShortName": "EXT_Birds_Crickets_Birds_Flapping.wav",
-        "Path": "SFX\\EXT_Birds_Crickets_Birds_Flapping_D79FB2B7.wem"
-       },
-       {
-        "Id": "439622629",
-        "Language": "SFX",
-        "ShortName": "Wind_Breeze.wav",
-        "Path": "SFX\\Wind_Breeze_D79FB2B7.wem"
-       },
-       {
-        "Id": "444396471",
-        "Language": "SFX",
-        "ShortName": "EXT_Wind_Harsh.wav",
-        "Path": "SFX\\EXT_Wind_Harsh_D79FB2B7.wem"
+        "ShortName": "05-Summer-230922_1726.wav",
+        "Path": "SFX\\05-Summer-230922_1726_D79FB2B7.wem"
        },
        {
         "Id": "475318142",
@@ -985,164 +857,205 @@
         "Path": "SFX\\573376__johnloser__cyber-punch-01_D79FB2B7.wem"
        },
        {
-        "Id": "494262773",
-        "Language": "SFX",
-        "ShortName": "EXT_Birds_Summer.wav",
-        "Path": "SFX\\EXT_Birds_Summer_D79FB2B7.wem"
-       },
-       {
-        "Id": "516286206",
-        "Language": "SFX",
-        "ShortName": "music_file_Spring_Edit.wav",
-        "Path": "SFX\\music_file_Spring_Edit_D79FB2B7.wem"
-       },
-       {
-        "Id": "527676015",
-        "Language": "SFX",
-        "ShortName": "music_file_Summer_Edit.wav",
-        "Path": "SFX\\music_file_Summer_Edit_D79FB2B7.wem"
-       },
-       {
-        "Id": "616098322",
-        "Language": "SFX",
-        "ShortName": "music_file_Fall_Edit.wav",
-        "Path": "SFX\\music_file_Fall_Edit_D79FB2B7.wem"
-       },
-       {
         "Id": "655501665",
         "Language": "SFX",
         "ShortName": "RoomTone_AC.wav",
         "Path": "SFX\\RoomTone_AC_D79FB2B7.wem"
        },
        {
-        "Id": "885297293",
+        "Id": "945945044",
         "Language": "SFX",
-        "ShortName": "EXT_Birds_Crowds_Planes.wav",
-        "Path": "SFX\\EXT_Birds_Crowds_Planes_D79FB2B7.wem"
+        "ShortName": "10-Fall-230922_1725.wav",
+        "Path": "SFX\\10-Fall-230922_1725_D79FB2B7.wem"
        },
        {
-        "Id": "923291791",
+        "Id": "961384065",
         "Language": "SFX",
-        "ShortName": "EXT_Bird_Cocodoo.wav",
-        "Path": "SFX\\EXT_Bird_Cocodoo_D79FB2B7.wem"
+        "ShortName": "14-Spring-230922_1724.wav",
+        "Path": "SFX\\14-Spring-230922_1724_D79FB2B7.wem"
+       },
+       {
+        "Id": "1056231946",
+        "Language": "SFX",
+        "ShortName": "01-Winter-230922_1727.wav",
+        "Path": "SFX\\01-Winter-230922_1727_D79FB2B7.wem"
        }
       ],
       "SwitchContainers": [
        {
         "SwitchValue": "{8A310035-D314-4994-9C44-086F31CD9288}",
-        "Media": [
+        "Children": [
          {
-          "Id": "197855375"
-         },
-         {
-          "Id": "301663420"
-         },
-         {
-          "Id": "316914175"
-         },
-         {
-          "Id": "616098322"
-         },
-         {
-          "Id": "923291791"
+          "SwitchValue": "{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}",
+          "Media": [
+           {
+            "Id": "945945044"
+           }
+          ]
          }
         ]
        },
        {
         "SwitchValue": "{BB1FF06B-807D-4905-B6D1-9688FD62BCF1}",
-        "Media": [
+        "Children": [
          {
-          "Id": "655501665"
+          "SwitchValue": "{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}",
+          "Media": [
+           {
+            "Id": "655501665"
+           }
+          ]
          }
         ]
        },
        {
         "SwitchValue": "{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}",
-        "Media": [
+        "Children": [
          {
-          "Id": "421581830"
-         },
-         {
-          "Id": "439622629"
-         },
-         {
-          "Id": "516286206"
+          "SwitchValue": "{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}",
+          "Media": [
+           {
+            "Id": "961384065"
+           }
+          ]
          }
         ]
        },
        {
         "SwitchValue": "{A37533DF-9D04-4261-9F0F-E8C57838412A}",
-        "Media": [
+        "Children": [
          {
-          "Id": "72726658"
-         },
-         {
-          "Id": "494262773"
-         },
-         {
-          "Id": "527676015"
-         },
-         {
-          "Id": "885297293"
+          "SwitchValue": "{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}",
+          "Media": [
+           {
+            "Id": "470758310"
+           }
+          ]
          }
         ]
        },
        {
         "SwitchValue": "{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}",
-        "Media": [
+        "Children": [
          {
-          "Id": "21490570"
-         },
-         {
-          "Id": "42247407"
-         },
-         {
-          "Id": "444396471"
+          "SwitchValue": "{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}",
+          "Media": [
+           {
+            "Id": "1056231946"
+           }
+          ]
          }
         ]
        },
        {
         "SwitchValue": "{AB3BFD53-AE84-44BC-B083-9BBE5424864E}",
-        "Media": [
+        "Children": [
          {
-          "Id": "475318142"
+          "SwitchValue": "{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}",
+          "Media": [
+           {
+            "Id": "475318142"
+           }
+          ]
          }
         ]
+       },
+       {
+        "SwitchValue": "{8A310035-D314-4994-9C44-086F31CD9288}",
+        "Children": [
+         {
+          "SwitchValue": "{010571C9-B37C-46C3-A4B1-54CBCA20C71B}",
+          "Media": [
+           {
+            "Id": "945945044"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}",
+        "Children": [
+         {
+          "SwitchValue": "{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}",
+          "Media": [
+           {
+            "Id": "961384065"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{A37533DF-9D04-4261-9F0F-E8C57838412A}",
+        "Children": [
+         {
+          "SwitchValue": "{B2F6DCC2-0296-439A-8847-FB4C5D483B19}",
+          "Media": [
+           {
+            "Id": "470758310"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}",
+        "Children": [
+         {
+          "SwitchValue": "{D874A809-6B76-4605-9F8D-585B18CF2E97}",
+          "Media": [
+           {
+            "Id": "1056231946"
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "712897226",
+        "Name": "MUS",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\AMB\\MUS",
+        "GUID": "{C6BE419B-B20D-4B06-A018-2DBECC86D745}"
        }
       ]
      },
      {
       "Id": "1724638476",
       "Name": "Play_Ocean",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ocean",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Ocean",
       "GUID": "{14A26BB5-08B1-4947-B32A-BA763ACA861F}",
       "MaxAttenuation": "3000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "47504844",
+        "Id": "79930149",
+        "Language": "SFX",
+        "ShortName": "Ocean_Fix.wav",
+        "Path": "SFX\\Ocean_Fix_10C4C929.wem"
+       },
+       {
+        "Id": "228171953",
         "Language": "SFX",
         "ShortName": "bbc_beach_atmo_nhu0505009.wav",
-        "Path": "SFX\\bbc_beach_atmo_nhu0505009_D79FB2B7.wem"
-       },
+        "Path": "SFX\\bbc_beach_atmo_nhu0505009_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
        {
-        "Id": "85059130",
-        "Language": "SFX",
-        "ShortName": "Ocean_Waves_01.wav",
-        "Path": "SFX\\Ocean_Waves_01_D79FB2B7.wem"
-       },
-       {
-        "Id": "128255444",
-        "Language": "SFX",
-        "ShortName": "Ocean_Waves.wav",
-        "Path": "SFX\\Ocean_Waves_D79FB2B7.wem"
+        "Id": "2802899749",
+        "Name": "Emitter",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\SFX\\Emitter",
+        "GUID": "{49953334-5AB5-462F-B68B-4F88ECD72A6E}"
        }
       ]
      },
      {
       "Id": "2851949950",
       "Name": "Play_Reverb",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Reverb",
+      "ObjectPath": "\\Events\\Default Work Unit\\Idle\\Play_Reverb",
       "GUID": "{C3A29F44-F3B3-4C04-8CE0-EFFD855EAF39}",
       "DurationType": "OneShot",
       "DurationMin": "0.",
@@ -1151,7 +1064,7 @@
      {
       "Id": "2576946814",
       "Name": "Play_Rodent_Acorn",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Rodent_Acorn",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Rodent_Acorn",
       "GUID": "{ED76452B-DCD7-493C-80F4-3F4C1A5E182F}",
       "MaxAttenuation": "3000.",
       "DurationType": "Infinite",
@@ -1162,12 +1075,20 @@
         "ShortName": "Rodent_Acorn.wav",
         "Path": "SFX\\Rodent_Acorn_D79FB2B7.wem"
        }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "2802899749",
+        "Name": "Emitter",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\SFX\\Emitter",
+        "GUID": "{49953334-5AB5-462F-B68B-4F88ECD72A6E}"
+       }
       ]
      },
      {
       "Id": "907752394",
       "Name": "Play_RoomTone_AC",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_RoomTone_AC",
+      "ObjectPath": "\\Events\\Default Work Unit\\Idle\\Play_RoomTone_AC",
       "GUID": "{1FA75620-173D-4A3E-A862-C57CB2F66BBA}",
       "DurationType": "OneShot",
       "DurationMin": "0.",
@@ -1176,16 +1097,330 @@
      {
       "Id": "2180918873",
       "Name": "Play_Seasons_2D",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Seasons_2D",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_Seasons_2D",
       "GUID": "{53D034A3-88C2-4F64-8520-4368ED41F007}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "27027360",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Owl_01.wav",
+        "Path": "SFX\\EXT_Birds_Owl_01_10C4C929.wem"
+       },
+       {
+        "Id": "30607187",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Flap_Harsh.wav",
+        "Path": "SFX\\Leaves\\Leaves_Flap_Harsh_D79FB2B7.wem"
+       },
+       {
+        "Id": "39169374",
+        "Language": "SFX",
+        "ShortName": "Snow_Icicle_02.wav",
+        "Path": "SFX\\Snow_Icicle_02_10C4C929.wem"
+       },
+       {
+        "Id": "40429813",
+        "Language": "SFX",
+        "ShortName": "Grass_Other\\Grass_Tree_Falling.wav",
+        "Path": "SFX\\Grass_Other\\Grass_Tree_Falling_D79FB2B7.wem"
+       },
+       {
+        "Id": "72726658",
+        "Language": "SFX",
+        "ShortName": "EXT_Beach_Walla.wav",
+        "Path": "SFX\\EXT_Beach_Walla_D79FB2B7.wem"
+       },
+       {
+        "Id": "75865247",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Flap_Soft.wav",
+        "Path": "SFX\\Leaves\\Leaves_Flap_Soft_D79FB2B7.wem"
+       },
+       {
+        "Id": "78225215",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Seagull_03.wav",
+        "Path": "SFX\\EXT_Birds_Seagull_03_10C4C929.wem"
+       },
+       {
+        "Id": "78922643",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Dry_Crunch_01.wav",
+        "Path": "SFX\\Leaves\\Leaves_Dry_Crunch_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "152405391",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Conversation.wav",
+        "Path": "SFX\\EXT_Birds_Conversation_FF09A76A.wem"
+       },
+       {
+        "Id": "153860606",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Cry_06.wav",
+        "Path": "SFX\\EXT_Birds_Cry_06_10C4C929.wem"
+       },
+       {
+        "Id": "158887276",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Owl_02.wav",
+        "Path": "SFX\\EXT_Birds_Owl_02_10C4C929.wem"
+       },
+       {
+        "Id": "172158003",
+        "Language": "SFX",
+        "ShortName": "Grass_Other\\Grass_Leaves_Step.wav",
+        "Path": "SFX\\Grass_Other\\Grass_Leaves_Step_0F274014.wem"
+       },
+       {
+        "Id": "182790339",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Crush.wav",
+        "Path": "SFX\\Leaves\\Leaves_Crush_D83DCE2D.wem"
+       },
+       {
+        "Id": "200679965",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Summer.wav",
+        "Path": "SFX\\EXT_Birds_Summer_10C4C929.wem"
+       },
+       {
+        "Id": "235408110",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Owl_03.wav",
+        "Path": "SFX\\EXT_Birds_Owl_03_10C4C929.wem"
+       },
+       {
+        "Id": "249259965",
+        "Language": "SFX",
+        "ShortName": "Snow_Icicle.wav",
+        "Path": "SFX\\Snow_Icicle_10C4C929.wem"
+       },
+       {
+        "Id": "273175736",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Seagull_02.wav",
+        "Path": "SFX\\EXT_Birds_Seagull_02_10C4C929.wem"
+       },
+       {
+        "Id": "274121632",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Dry_Crunch_02.wav",
+        "Path": "SFX\\Leaves\\Leaves_Dry_Crunch_02_D79FB2B7.wem"
+       },
+       {
+        "Id": "304249928",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Owl_04.wav",
+        "Path": "SFX\\EXT_Birds_Owl_04_10C4C929.wem"
+       },
+       {
+        "Id": "309298276",
+        "Language": "SFX",
+        "ShortName": "Rain.wav",
+        "Path": "SFX\\Rain_10C4C929.wem"
+       },
+       {
+        "Id": "316658623",
+        "Language": "SFX",
+        "ShortName": "EXT_Wind_Fly.wav",
+        "Path": "SFX\\EXT_Wind_Fly_115E39A6.wem"
+       },
+       {
+        "Id": "346491810",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds.wav",
+        "Path": "SFX\\EXT_Birds_D79FB2B7.wem"
+       },
+       {
+        "Id": "379451351",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Cry_05.wav",
+        "Path": "SFX\\EXT_Birds_Cry_05_10C4C929.wem"
+       },
+       {
+        "Id": "402933948",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Silence.wav",
+        "Path": "SFX\\EXT_Birds_Silence_10C4C929.wem"
+       },
+       {
+        "Id": "439622629",
+        "Language": "SFX",
+        "ShortName": "Wind_Breeze.wav",
+        "Path": "SFX\\Wind_Breeze_D79FB2B7.wem"
+       },
+       {
+        "Id": "444396471",
+        "Language": "SFX",
+        "ShortName": "EXT_Wind_Harsh.wav",
+        "Path": "SFX\\EXT_Wind_Harsh_D79FB2B7.wem"
+       },
+       {
+        "Id": "457156708",
+        "Language": "SFX",
+        "ShortName": "Grass_Other\\Grass_Crush.wav",
+        "Path": "SFX\\Grass_Other\\Grass_Crush_D79FB2B7.wem"
+       },
+       {
+        "Id": "467293222",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Cry_07.wav",
+        "Path": "SFX\\EXT_Birds_Cry_07_10C4C929.wem"
+       },
+       {
+        "Id": "474432727",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Owl_05.wav",
+        "Path": "SFX\\EXT_Birds_Owl_05_10C4C929.wem"
+       },
+       {
+        "Id": "478972068",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Cry_08.wav",
+        "Path": "SFX\\EXT_Birds_Cry_08_10C4C929.wem"
+       },
+       {
+        "Id": "497747040",
+        "Language": "SFX",
+        "ShortName": "EXT_Wind_Soft.wav",
+        "Path": "SFX\\EXT_Wind_Soft_BF73E11C.wem"
+       },
+       {
+        "Id": "505044048",
+        "Language": "SFX",
+        "ShortName": "Snow_Icicle_03.wav",
+        "Path": "SFX\\Snow_Icicle_03_10C4C929.wem"
+       },
+       {
+        "Id": "564832675",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Dry_Falling.wav",
+        "Path": "SFX\\Leaves\\Leaves_Dry_Falling_D79FB2B7.wem"
+       },
+       {
+        "Id": "579168609",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Seagull_01.wav",
+        "Path": "SFX\\EXT_Birds_Seagull_01_10C4C929.wem"
+       },
+       {
+        "Id": "629825764",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Soft.wav",
+        "Path": "SFX\\Leaves\\Leaves_Soft_D79FB2B7.wem"
+       },
+       {
+        "Id": "642696601",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Cry_01.wav",
+        "Path": "SFX\\EXT_Birds_Cry_01_10C4C929.wem"
+       },
+       {
+        "Id": "657069852",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Dry_Drop.wav",
+        "Path": "SFX\\Leaves\\Leaves_Dry_Drop_D79FB2B7.wem"
+       },
+       {
+        "Id": "674690314",
+        "Language": "SFX",
+        "ShortName": "Grass_Other\\Grass_Movement_Leaves.wav",
+        "Path": "SFX\\Grass_Other\\Grass_Movement_Leaves_D79FB2B7.wem"
+       },
+       {
+        "Id": "699190314",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Crickets_Birds_Flapping.wav",
+        "Path": "SFX\\EXT_Birds_Crickets_Birds_Flapping_10C4C929.wem"
+       },
+       {
+        "Id": "705460172",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Cry_04.wav",
+        "Path": "SFX\\EXT_Birds_Cry_04_10C4C929.wem"
+       },
+       {
+        "Id": "763508518",
+        "Language": "SFX",
+        "ShortName": "Grass_Other\\Grass_Crunch.wav",
+        "Path": "SFX\\Grass_Other\\Grass_Crunch_D79FB2B7.wem"
+       },
+       {
+        "Id": "763990043",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Crowds_Planes.wav",
+        "Path": "SFX\\EXT_Birds_Crowds_Planes_10C4C929.wem"
+       },
+       {
+        "Id": "800130255",
+        "Language": "SFX",
+        "ShortName": "Rain_Heavy.wav",
+        "Path": "SFX\\Rain_Heavy_10C4C929.wem"
+       },
+       {
+        "Id": "820204544",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Against_Leaves.wav",
+        "Path": "SFX\\Leaves\\Leaves_Against_Leaves_D79FB2B7.wem"
+       },
+       {
+        "Id": "842579147",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Bypass_02.wav",
+        "Path": "SFX\\EXT_Birds_Bypass_02_10C4C929.wem"
+       },
+       {
+        "Id": "851513767",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Cry_03.wav",
+        "Path": "SFX\\EXT_Birds_Cry_03_10C4C929.wem"
+       },
+       {
+        "Id": "864683368",
+        "Language": "SFX",
+        "ShortName": "EXT_AMB_Rain_Light.wav",
+        "Path": "SFX\\EXT_AMB_Rain_Light_10C4C929.wem"
+       },
+       {
+        "Id": "904918402",
+        "Language": "SFX",
+        "ShortName": "EXT_Bird_Cocodoo.wav",
+        "Path": "SFX\\EXT_Bird_Cocodoo_8F4C9D9B.wem"
+       },
+       {
+        "Id": "941655953",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds-001.wav",
+        "Path": "SFX\\EXT_Birds-001_2066C42B.wem"
+       },
+       {
+        "Id": "944868827",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Cry_02.wav",
+        "Path": "SFX\\EXT_Birds_Cry_02_10C4C929.wem"
+       },
+       {
+        "Id": "955252605",
+        "Language": "SFX",
+        "ShortName": "EXT_Birds_Bypass_01.wav",
+        "Path": "SFX\\EXT_Birds_Bypass_01_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "898834102",
+        "Name": "EXT",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\AMB\\EXT",
+        "GUID": "{07373D9E-9413-4A07-8D5D-50D786C3488D}"
+       }
+      ]
      },
      {
       "Id": "1966481595",
       "Name": "Play_Shells",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Shells",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Shells",
       "GUID": "{59DB6D5E-9096-4EA9-BC62-4C259FAF4858}",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
@@ -1195,44 +1430,13 @@
         "ShortName": "Shells.wav",
         "Path": "SFX\\Shells_D79FB2B7.wem"
        }
-      ]
-     },
-     {
-      "Id": "633054225",
-      "Name": "Play_Spring",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Spring",
-      "GUID": "{1004FE73-E063-4F4E-B62F-CE2617DB1D6D}",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
+      ],
+      "AuxBusSends": [
        {
-        "Id": "21490570",
-        "Language": "SFX",
-        "ShortName": "EXT_Birds-001.wav",
-        "Path": "SFX\\EXT_Birds-001_D79FB2B7.wem"
-       },
-       {
-        "Id": "421581830",
-        "Language": "SFX",
-        "ShortName": "EXT_Birds_Crickets_Birds_Flapping.wav",
-        "Path": "SFX\\EXT_Birds_Crickets_Birds_Flapping_D79FB2B7.wem"
-       },
-       {
-        "Id": "439622629",
-        "Language": "SFX",
-        "ShortName": "Wind_Breeze.wav",
-        "Path": "SFX\\Wind_Breeze_D79FB2B7.wem"
-       },
-       {
-        "Id": "516286206",
-        "Language": "SFX",
-        "ShortName": "music_file_Spring_Edit.wav",
-        "Path": "SFX\\music_file_Spring_Edit_D79FB2B7.wem"
-       },
-       {
-        "Id": "923291791",
-        "Language": "SFX",
-        "ShortName": "EXT_Bird_Cocodoo.wav",
-        "Path": "SFX\\EXT_Bird_Cocodoo_D79FB2B7.wem"
+        "Id": "2802899749",
+        "Name": "Emitter",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\SFX\\Emitter",
+        "GUID": "{49953334-5AB5-462F-B68B-4F88ECD72A6E}"
        }
       ]
      },
@@ -1243,55 +1447,13 @@
       "GUID": "{3B939BC0-8699-43CA-991D-EA87442D495D}",
       "DurationType": "OneShot",
       "DurationMin": "0.429583",
-      "DurationMax": "0.429583",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "830139097",
-        "Language": "SFX",
-        "ShortName": "573376__johnloser__cyber-punch-01.wav",
-        "Path": "SFX\\573376__johnloser__cyber-punch-01_10C4C929.wem"
-       }
-      ]
-     },
-     {
-      "Id": "1570882009",
-      "Name": "Play_Summer",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Summer",
-      "GUID": "{5D376412-EFCC-4772-BB38-18751090E6B3}",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "72726658",
-        "Language": "SFX",
-        "ShortName": "EXT_Beach_Walla.wav",
-        "Path": "SFX\\EXT_Beach_Walla_D79FB2B7.wem"
-       },
-       {
-        "Id": "494262773",
-        "Language": "SFX",
-        "ShortName": "EXT_Birds_Summer.wav",
-        "Path": "SFX\\EXT_Birds_Summer_D79FB2B7.wem"
-       },
-       {
-        "Id": "527676015",
-        "Language": "SFX",
-        "ShortName": "music_file_Summer_Edit.wav",
-        "Path": "SFX\\music_file_Summer_Edit_D79FB2B7.wem"
-       },
-       {
-        "Id": "885297293",
-        "Language": "SFX",
-        "ShortName": "EXT_Birds_Crowds_Planes.wav",
-        "Path": "SFX\\EXT_Birds_Crowds_Planes_D79FB2B7.wem"
-       }
-      ]
+      "DurationMax": "0.429583"
      },
      {
       "Id": "2873124431",
       "Name": "Play_Trees_Fall",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Trees_Fall",
+      "ObjectPath": "\\Events\\Default Work Unit\\Idle\\Trees\\Play_Trees_Fall",
       "GUID": "{9D46690E-B8B4-482C-9F51-223DB27EFAC2}",
-      "MaxAttenuation": "7000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -1324,12 +1486,20 @@
         "ShortName": "Grass_Other\\Grass_Movement_Leaves.wav",
         "Path": "SFX\\Grass_Other\\Grass_Movement_Leaves_D79FB2B7.wem"
        }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "898834102",
+        "Name": "EXT",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\AMB\\EXT",
+        "GUID": "{07373D9E-9413-4A07-8D5D-50D786C3488D}"
+       }
       ]
      },
      {
       "Id": "536661123",
       "Name": "Play_Trees_Spring",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Trees_Spring",
+      "ObjectPath": "\\Events\\Default Work Unit\\Idle\\Trees\\Play_Trees_Spring",
       "GUID": "{2B52C499-248C-4FCF-AF57-C35AA07FE271}",
       "MaxAttenuation": "7000.",
       "DurationType": "Infinite",
@@ -1352,21 +1522,41 @@
         "ShortName": "Leaves\\Leaves_Against_Leaves.wav",
         "Path": "SFX\\Leaves\\Leaves_Against_Leaves_D79FB2B7.wem"
        }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "898834102",
+        "Name": "EXT",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\AMB\\EXT",
+        "GUID": "{07373D9E-9413-4A07-8D5D-50D786C3488D}"
+       }
       ]
      },
      {
       "Id": "2693546347",
       "Name": "Play_Trees_Summer",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Trees_Summer",
+      "ObjectPath": "\\Events\\Default Work Unit\\Idle\\Trees\\Play_Trees_Summer",
       "GUID": "{DE6E9D5C-6D85-4734-B6D8-FE9599349B9D}",
       "MaxAttenuation": "5000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
+        "Id": "30607187",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Flap_Harsh.wav",
+        "Path": "SFX\\Leaves\\Leaves_Flap_Harsh_D79FB2B7.wem"
+       },
+       {
         "Id": "75865247",
         "Language": "SFX",
         "ShortName": "Leaves\\Leaves_Flap_Soft.wav",
         "Path": "SFX\\Leaves\\Leaves_Flap_Soft_D79FB2B7.wem"
+       },
+       {
+        "Id": "564832675",
+        "Language": "SFX",
+        "ShortName": "Leaves\\Leaves_Dry_Falling.wav",
+        "Path": "SFX\\Leaves\\Leaves_Dry_Falling_D79FB2B7.wem"
        },
        {
         "Id": "629825764",
@@ -1380,22 +1570,24 @@
         "ShortName": "Grass_Other\\Grass_Movement_Leaves.wav",
         "Path": "SFX\\Grass_Other\\Grass_Movement_Leaves_D79FB2B7.wem"
        }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "898834102",
+        "Name": "EXT",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\AMB\\EXT",
+        "GUID": "{07373D9E-9413-4A07-8D5D-50D786C3488D}"
+       }
       ]
      },
      {
       "Id": "200447815",
       "Name": "Play_Trees_Winter",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Trees_Winter",
+      "ObjectPath": "\\Events\\Default Work Unit\\Idle\\Trees\\Play_Trees_Winter",
       "GUID": "{7659B955-2030-4A1E-89E8-5178F594240E}",
       "MaxAttenuation": "7000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
-       {
-        "Id": "30607187",
-        "Language": "SFX",
-        "ShortName": "Leaves\\Leaves_Flap_Harsh.wav",
-        "Path": "SFX\\Leaves\\Leaves_Flap_Harsh_D79FB2B7.wem"
-       },
        {
         "Id": "78922643",
         "Language": "SFX",
@@ -1409,12 +1601,6 @@
         "Path": "SFX\\Leaves\\Leaves_Dry_Crunch_02_D79FB2B7.wem"
        },
        {
-        "Id": "564832675",
-        "Language": "SFX",
-        "ShortName": "Leaves\\Leaves_Dry_Falling.wav",
-        "Path": "SFX\\Leaves\\Leaves_Dry_Falling_D79FB2B7.wem"
-       },
-       {
         "Id": "674690314",
         "Language": "SFX",
         "ShortName": "Grass_Other\\Grass_Movement_Leaves.wav",
@@ -1426,12 +1612,20 @@
         "ShortName": "Grass_Other\\Grass_Crunch.wav",
         "Path": "SFX\\Grass_Other\\Grass_Crunch_D79FB2B7.wem"
        }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "898834102",
+        "Name": "EXT",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\AMB\\EXT",
+        "GUID": "{07373D9E-9413-4A07-8D5D-50D786C3488D}"
+       }
       ]
      },
      {
       "Id": "467174588",
       "Name": "Play_Waterfall",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Waterfall",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Waterfall",
       "GUID": "{34B2BFBB-8D93-4619-AF2A-38C0BB8CDC4C}",
       "MaxAttenuation": "3000.",
       "DurationType": "Infinite",
@@ -1459,40 +1653,21 @@
         "Language": "SFX",
         "ShortName": "Waterfall_INT.wav",
         "Path": "SFX\\Waterfall_INT_D79FB2B7.wem"
-       },
-       {
-        "Id": "1057045915",
-        "Language": "SFX",
-        "ShortName": "bbc_beach_atmo_nhu0505009.wav",
-        "Path": "SFX\\bbc_beach_atmo_nhu0505009_C5DD6A6E.wem"
        }
-      ]
-     },
-     {
-      "Id": "384244457",
-      "Name": "Play_Winter",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Winter",
-      "GUID": "{B1DC7BC5-A739-45AC-A38C-9E0EC2845320}",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
+      ],
+      "AuxBusSends": [
        {
-        "Id": "42247407",
-        "Language": "SFX",
-        "ShortName": "music_file_Winter_.wav",
-        "Path": "SFX\\music_file_Winter__D79FB2B7.wem"
-       },
-       {
-        "Id": "444396471",
-        "Language": "SFX",
-        "ShortName": "EXT_Wind_Harsh.wav",
-        "Path": "SFX\\EXT_Wind_Harsh_D79FB2B7.wem"
+        "Id": "2802899749",
+        "Name": "Emitter",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\SFX\\Emitter",
+        "GUID": "{49953334-5AB5-462F-B68B-4F88ECD72A6E}"
        }
       ]
      },
      {
       "Id": "639628721",
       "Name": "Play_Wood_Sawing",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Wood_Sawing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Idle\\Play_Wood_Sawing",
       "GUID": "{E8459EFD-2769-4D71-88C2-802064FB5E8D}",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
@@ -1511,6 +1686,18 @@
       "Name": "Player_Distance",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Player_Distance",
       "GUID": "{9C09E92B-3F2F-4D23-A540-BA8D0EA7ADC2}"
+     },
+     {
+      "Id": "1436295981",
+      "Name": "Emitter_Pan",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Emitter_Pan",
+      "GUID": "{352E2A4D-FB2D-49EE-8501-C0A519C2FCC9}"
+     },
+     {
+      "Id": "4061879585",
+      "Name": "Waterfall_Elevation",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Waterfall_Elevation",
+      "GUID": "{8E318064-CD55-4892-BEFC-90273F29D31E}"
      }
     ],
     "StateGroups": [
@@ -1529,49 +1716,49 @@
       "States": []
      },
      {
+      "Id": "1320557582",
+      "Name": "Seasons_2D",
+      "ObjectPath": "\\States\\Default Work Unit\\Seasons_2D",
+      "GUID": "{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Seasons_2D\\None",
+        "GUID": "{3CEB32E6-C52B-439C-BDB6-979183F2E492}"
+       },
+       {
+        "Id": "2512384458",
+        "Name": "Fall",
+        "ObjectPath": "\\States\\Default Work Unit\\Seasons_2D\\Fall",
+        "GUID": "{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"
+       },
+       {
+        "Id": "2965343494",
+        "Name": "Winter",
+        "ObjectPath": "\\States\\Default Work Unit\\Seasons_2D\\Winter",
+        "GUID": "{D874A809-6B76-4605-9F8D-585B18CF2E97}"
+       },
+       {
+        "Id": "3924562482",
+        "Name": "Summer",
+        "ObjectPath": "\\States\\Default Work Unit\\Seasons_2D\\Summer",
+        "GUID": "{B2F6DCC2-0296-439A-8847-FB4C5D483B19}"
+       },
+       {
+        "Id": "1296465106",
+        "Name": "Spring",
+        "ObjectPath": "\\States\\Default Work Unit\\Seasons_2D\\Spring",
+        "GUID": "{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"
+       }
+      ]
+     },
+     {
       "Id": "2077253480",
       "Name": "Room",
       "ObjectPath": "\\States\\Default Work Unit\\Music\\Room",
       "GUID": "{BB1FF06B-807D-4905-B6D1-9688FD62BCF1}",
       "States": []
-     },
-     {
-      "Id": "2424359524",
-      "Name": "Seasons_Tree",
-      "ObjectPath": "\\States\\Default Work Unit\\Seasons_Tree",
-      "GUID": "{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}",
-      "States": [
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\Seasons_Tree\\None",
-        "GUID": "{F3544A33-E96D-4075-AEB3-FA937893CDCB}"
-       },
-       {
-        "Id": "2512384458",
-        "Name": "Fall",
-        "ObjectPath": "\\States\\Default Work Unit\\Seasons_Tree\\Fall",
-        "GUID": "{7BD3DDCB-659C-43D0-BFD0-E30D4FFAEA22}"
-       },
-       {
-        "Id": "1296465106",
-        "Name": "Spring",
-        "ObjectPath": "\\States\\Default Work Unit\\Seasons_Tree\\Spring",
-        "GUID": "{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"
-       },
-       {
-        "Id": "3924562482",
-        "Name": "Summer",
-        "ObjectPath": "\\States\\Default Work Unit\\Seasons_Tree\\Summer",
-        "GUID": "{4C8E80BE-462D-4655-9995-934F090BFAA9}"
-       },
-       {
-        "Id": "2965343494",
-        "Name": "Winter",
-        "ObjectPath": "\\States\\Default Work Unit\\Seasons_Tree\\Winter",
-        "GUID": "{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"
-       }
-      ]
      },
      {
       "Id": "2512384458",

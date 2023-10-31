@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "D:\\2023 Spring Term\\Capstone\\Backup\\Backup_Audio_In_Game\\V4S_WwiseProject\\",
-   "SourceFilesRoot": "D:\\2023 Spring Term\\Capstone\\Backup\\Backup_Audio_In_Game\\V4S_WwiseProject\\.cache\\Mac\\",
-   "SoundBanksRoot": "D:\\2023 Spring Term\\Capstone\\Backup\\Backup_Audio_In_Game\\V4S_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ProjectRoot": "E:\\Quin\\V4S\\Update_V4S\\V4S_WwiseProject\\",
+   "SourceFilesRoot": "E:\\Quin\\V4S\\Update_V4S\\V4S_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "E:\\Quin\\V4S\\Update_V4S\\V4S_WwiseProject\\GeneratedSoundBanks\\Mac\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\2023 Spring Term\\Capstone\\Backup\\Backup_Audio_In_Game\\V4S_WwiseProject\\GeneratedSoundBanks\\Mac"
+   "ExternalSourcesOutputRoot": "E:\\Quin\\V4S\\Update_V4S\\V4S_WwiseProject\\GeneratedSoundBanks\\Mac"
   },
   "SoundBanks": [
    {

@@ -1,39 +1,34 @@
 Event	ID	Name			Wwise Object Path	Notes
-	200447815	Play_Trees_Winter			\Default Work Unit\Play_Trees_Winter	
+	200447815	Play_Trees_Winter			\Default Work Unit\Idle\Trees\Play_Trees_Winter	
 	266982282	Play_Stop			\Default Work Unit\Play_Stop	
-	384244457	Play_Winter			\Default Work Unit\Play_Winter	
-	467174588	Play_Waterfall			\Default Work Unit\Play_Waterfall	
-	519940873	Play_INT_Room			\Default Work Unit\Play_INT_Room	
-	536661123	Play_Trees_Spring			\Default Work Unit\Play_Trees_Spring	
-	617588793	Play_Animal_Sniffing			\Default Work Unit\Play_Animal_Sniffing	
-	633054225	Play_Spring			\Default Work Unit\Play_Spring	
-	639628721	Play_Wood_Sawing			\Default Work Unit\Play_Wood_Sawing	
-	642687590	Play_EXT_Wind_Breeze			\Default Work Unit\Play_EXT_Wind_Breeze	
-	737787143	Play_Animal_Eating			\Default Work Unit\Play_Animal_Eating	
+	467174588	Play_Waterfall			\Default Work Unit\SFX\Play_Waterfall	
+	519940873	Play_INT_Room			\Default Work Unit\Idle\Play_INT_Room	
+	536661123	Play_Trees_Spring			\Default Work Unit\Idle\Trees\Play_Trees_Spring	
+	617588793	Play_Animal_Sniffing			\Default Work Unit\Idle\Play_Animal_Sniffing	
+	639628721	Play_Wood_Sawing			\Default Work Unit\Idle\Play_Wood_Sawing	
+	642687590	Play_EXT_Wind_Breeze			\Default Work Unit\AMB\Play_EXT_Wind_Breeze	
+	737787143	Play_Animal_Eating			\Default Work Unit\Idle\Play_Animal_Eating	
 	766354434	Enable_State_Music			\Default Work Unit\Enable_State_Music	
-	907752394	Play_RoomTone_AC			\Default Work Unit\Play_RoomTone_AC	
-	1352561401	Play_Music_Seasons_2D			\Default Work Unit\Play_Music_Seasons_2D	
-	1409529853	Play_Ball			\Default Work Unit\Play_Ball	
-	1501216439	Play_Fireplace			\Default Work Unit\Play_Fireplace	
-	1570882009	Play_Summer			\Default Work Unit\Play_Summer	
-	1724638476	Play_Ocean			\Default Work Unit\Play_Ocean	
-	1966481595	Play_Shells			\Default Work Unit\Play_Shells	
-	2015339408	Play_Music_Seasons			\Default Work Unit\Play_Music_Seasons	
-	2063432232	Play_Ice_Cream_Truck			\Default Work Unit\Play_Ice_Cream_Truck	
-	2180918873	Play_Seasons_2D			\Default Work Unit\Play_Seasons_2D	
-	2208365614	Play_Life_Layer			\Default Work Unit\Play_Life_Layer	
-	2324519816	Play_bells			\Default Work Unit\Play_bells	
-	2576946814	Play_Rodent_Acorn			\Default Work Unit\Play_Rodent_Acorn	
-	2626596706	Play_Crickets			\Default Work Unit\Play_Crickets	
-	2693546347	Play_Trees_Summer			\Default Work Unit\Play_Trees_Summer	
-	2712047697	Play_Fall			\Default Work Unit\Play_Fall	
-	2782109158	Play_Apple			\Default Work Unit\Play_Apple	
-	2851949950	Play_Reverb			\Default Work Unit\Play_Reverb	
-	2873124431	Play_Trees_Fall			\Default Work Unit\Play_Trees_Fall	
-	2991955701	Play_Fox			\Default Work Unit\Play_Fox	
-	3243822179	Play_Breaking_Wood			\Default Work Unit\Play_Breaking_Wood	
-	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
-	3935030902	Play_Branch_Breaking			\Default Work Unit\Play_Branch_Breaking	
+	907752394	Play_RoomTone_AC			\Default Work Unit\Idle\Play_RoomTone_AC	
+	1352561401	Play_Music_Seasons_2D			\Default Work Unit\Music\Play_Music_Seasons_2D	
+	1409529853	Play_Ball			\Default Work Unit\Idle\Play_Ball	
+	1501216439	Play_Fireplace			\Default Work Unit\SFX\Play_Fireplace	
+	1724638476	Play_Ocean			\Default Work Unit\SFX\Play_Ocean	
+	1966481595	Play_Shells			\Default Work Unit\SFX\Play_Shells	
+	2063432232	Play_Ice_Cream_Truck			\Default Work Unit\SFX\Play_Ice_Cream_Truck	
+	2180918873	Play_Seasons_2D			\Default Work Unit\AMB\Play_Seasons_2D	
+	2208365614	Play_Life_Layer			\Default Work Unit\SFX\Actor\Play_Life_Layer	
+	2324519816	Play_bells			\Default Work Unit\Idle\Play_bells	
+	2576946814	Play_Rodent_Acorn			\Default Work Unit\SFX\Play_Rodent_Acorn	
+	2626596706	Play_Crickets			\Default Work Unit\AMB\Play_Crickets	
+	2693546347	Play_Trees_Summer			\Default Work Unit\Idle\Trees\Play_Trees_Summer	
+	2782109158	Play_Apple			\Default Work Unit\SFX\Play_Apple	
+	2851949950	Play_Reverb			\Default Work Unit\Idle\Play_Reverb	
+	2873124431	Play_Trees_Fall			\Default Work Unit\Idle\Trees\Play_Trees_Fall	
+	2991955701	Play_Fox			\Default Work Unit\Idle\Play_Fox	
+	3243822179	Play_Breaking_Wood			\Default Work Unit\SFX\Play_Breaking_Wood	
+	3854155799	Play_Footsteps			\Default Work Unit\SFX\Actor\Play_Footsteps	
+	3935030902	Play_Branch_Breaking			\Default Work Unit\Idle\Play_Branch_Breaking	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
@@ -46,10 +41,16 @@ Switch	ID	Name	Switch Group			Notes
 	4248645337	Grass	Footsteps			
 
 State Group	ID	Name			Wwise Object Path	Notes
+	1320557582	Seasons_2D			\Default Work Unit\Seasons_2D	
 	2424359524	Seasons_Tree			\Default Work Unit\Seasons_Tree	
 	3991942870	Music			\Default Work Unit\Music	
 
 State	ID	Name	State Group			Notes
+	748895195	None	Seasons_2D			
+	1296465106	Spring	Seasons_2D			
+	2512384458	Fall	Seasons_2D			
+	2965343494	Winter	Seasons_2D			
+	3924562482	Summer	Seasons_2D			
 	748895195	None	Seasons_Tree			
 	1296465106	Spring	Seasons_Tree			
 	2512384458	Fall	Seasons_Tree			
@@ -65,198 +66,208 @@ State	ID	Name	State Group			Notes
 
 Custom State	ID	Name	State Group	Owner		Notes
 	5962300	Stop	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Room		
-	8959806	Spring	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Winter		
 	47070557	Room	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Summer		
 	53800273	Summer	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Room		
-	70142569	Fall	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\INT_Room		
-	74227390	Stop	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\INT_Room		
 	78517513	Room	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Fall		
-	108663050	Fall	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Summer		
+	104137718	Spring	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall		
+	108663050	Fall	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Summer\ST_Trees_Summer		
+	119638038	Winter	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter		
+	121160499	Spring	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Summer		
 	124135360	Spring	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Winter		
 	148176617	Room	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Winter		
-	148457259	Room	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Spring		
-	184817225	Winter	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Spring		
+	154797689	Fall	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter		
+	184817225	Winter	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring\ST_Trees_Spring		
 	199988232	Winter	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Stop		
-	249518112	Fall	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Summer		
-	279768584	Winter	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Spring		
+	214487171	Summer	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Summer		
+	227063935	Fall	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring		
 	280492319	Spring	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Room		
 	289275110	Stop	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Summer		
-	317389938	Winter	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\INT_Room		
-	361984687	Summer	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Fall		
+	361984687	Summer	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall\ST_Trees_Fall		
 	368115524	Fall	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Winter		
+	369849833	Summer	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall		
 	379968268	Fall	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Room		
-	387418822	Winter	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Fall		
-	393591244	Fall	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Spring		
-	418600177	Spring	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Summer		
+	393591244	Fall	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring\ST_Trees_Spring		
 	424813925	Room	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Spring		
+	448267371	Fall	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Summer		
 	467193366	Winter	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Spring		
-	474647767	Spring	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Winter		
-	477928430	Fall	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Fall		
-	492675803	Spring	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Spring		
+	474647767	Spring	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter\ST_Trees_Winter		
+	477928430	Fall	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall\ST_Trees_Fall		
+	492675803	Spring	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring\ST_Trees_Spring		
 	494936010	Summer	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Spring		
 	496210470	Room	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Room		
 	502630340	Summer	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Fall		
 	504362899	Fall	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Fall		
 	516134271	Fall	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Summer		
 	522548519	Winter	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Summer		
-	525450574	Summer	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Winter		
-	544196619	Winter	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Winter		
-	547029775	Stop	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Fall		
-	567812445	Summer	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\INT_Room		
-	584090792	Fall	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Spring		
-	592220218	Stop	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Summer		
-	599569131	Stop	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Spring		
-	600371891	Spring	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Stop		
-	604159308	Fall	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Stop		
+	544196619	Winter	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter\ST_Trees_Winter		
+	560260504	Summer	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring		
+	607714605	Fall	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall		
+	616205804	Spring	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring		
 	625679984	Room	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Stop		
-	630892101	Summer	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Spring		
-	635501480	Fall	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Winter		
-	655329893	Room	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Fall		
+	630892101	Summer	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring\ST_Trees_Spring		
+	653512407	Winter	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring		
 	668813407	Winter	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Fall		
 	672931492	Stop	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Winter		
-	696383670	Winter	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Summer		
-	707853943	Room	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Summer		
+	696383670	Winter	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Summer\ST_Trees_Summer		
 	709880797	Fall	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Spring		
 	723320251	Summer	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Stop		
-	732930548	Room	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Stop		
 	739804604	Stop	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Fall		
+	745910222	Summer	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter		
 	747484378	Stop	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Spring		
-	753004402	Winter	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Fall		
-	765590022	Summer	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Spring		
+	753004402	Winter	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall\ST_Trees_Fall		
 	779121255	Winter	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Room		
-	780884714	Room	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Winter		
-	790427869	Summer	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Summer		
+	790427869	Summer	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Summer\ST_Trees_Summer		
 	792307167	Spring	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Summer		
 	827191270	Summer	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Summer		
-	838701666	Spring	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Fall		
-	843055851	Summer	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Fall		
-	858176887	Spring	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Fall		
+	838701666	Spring	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall\ST_Trees_Fall		
+	889063421	Spring	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter		
 	894206595	Summer	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Winter		
-	909666619	Summer	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Winter		
+	909666619	Summer	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter\ST_Trees_Winter		
 	909929353	Fall	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Stop		
-	927755438	Winter	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Summer		
-	944108334	Spring	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\INT_Room		
-	950390989	Fall	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Winter		
-	967019894	Winter	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Stop		
+	950390989	Fall	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter\ST_Trees_Winter		
+	955178598	Winter	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Summer		
+	961197441	Winter	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall		
 	1002358805	Spring	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Fall		
-	1004661417	Summer	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Stop		
 	1012752579	Winter	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Winter		
 	1015287507	Spring	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Stop		
 	1044764008	Spring	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Spring		
-	1048270789	Stop	Music	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Winter		
-	1054903534	Spring	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Summer		
+	1054903534	Spring	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Summer\ST_Trees_Summer		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	487587012	Player_Distance			\Default Work Unit\Player_Distance	
+	1436295981	Emitter_Pan			\Default Work Unit\Emitter_Pan	
+	4061879585	Waterfall_Elevation			\Default Work Unit\Waterfall_Elevation	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	496452	FT_Wood_04	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Wood\FT_Wood_04_D1DD4874.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Wood\FT_Wood_04		192064
-	2632873	Objects_Ice_Cream_Truck	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\674237__kevingambleaudio__ice-cream-truck_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Objects\Objects_Ice_Cream_Truck		4343964
-	17504910	FT_Grass_03	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_03_B7354374.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_03		192064
-	21490570	EXT_Birds-001	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds-001_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Spring\EXT_Birds-001		1920064
-	30607187	Leaves_Flap_Harsh	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Leaves\Leaves_Flap_Harsh_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Winter\Leaves_Flap_Harsh		2496064
-	33037143	3D_Audio_AnimalsCrickets	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\bbc_crickets-s_nhu0509310 [chan 1]_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Animals\3D_Audio_AnimalsCrickets		749760
-	40429813	Grass_Tree_Falling	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Grass_Other\Grass_Tree_Falling_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Fall\Grass_Tree_Falling		528064
-	42247407	music_file_Winter_	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\music_file_Winter__D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Winter\music_file_Winter_		8620336
-	47504844	bbc_beach_atmo_nhu0505009	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\bbc_beach_atmo_nhu0505009_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Water\Water\Water_Ocean\bbc_beach_atmo_nhu0505009		4674664
-	58501010	EXT_Birds_Conversation	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Conversation_F7101D8D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Fall\EXT_Birds_Conversation		1316056
-	60181135	Ball_05	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Ball\Ball_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Objects\Objects_Ball\Ball_05		622144
-	65948870	FT_Grass_Harsh_01	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_Harsh_01_6D51C6F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_Harsh_01		240064
-	72726658	EXT_Beach_Walla	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\EXT_Beach_Walla_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Summer\EXT_Beach_Walla		5088064
-	75865247	Leaves_Flap_Soft	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Leaves\Leaves_Flap_Soft_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Summer\Leaves_Flap_Soft		174640
-	78922643	Leaves_Dry_Crunch_01	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Leaves\Leaves_Dry_Crunch_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Winter\Leaves_Dry_Crunch_01		384064
-	85059130	Ocean_Waves_01	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Ocean_Waves_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Water\Water\Water_Ocean\Ocean_Waves_01		153686
-	87675766	Ball_06	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Ball\Ball_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Objects\Objects_Ball\Ball_06		192064
-	100038301	FT_Rocks_05	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Rocks\FT_Rocks_05_442A41F4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Rocks\FT_Rocks_05		182464
-	101509308	Objects_bells	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\bells_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Objects\Objects_bells		402222
-	125806133	FT_Sand_03	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Sand\FT_Sand_03_A9B40C8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Sand\FT_Sand_03		192064
-	128255444	Ocean_Waves	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Ocean_Waves_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Water\Water\Water_Ocean\Ocean_Waves		153686
-	142175974	FT_Rocks_03	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Rocks\FT_Rocks_03_EC17565B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Rocks\FT_Rocks_03		240064
-	142457981	Grass_Leaves	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Grass_Other\Grass_Leaves_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Branch_Breaking\Grass_Leaves		240064
-	148239983	FT_Snow_02	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Snow\FT_Snow_02_EF77A351.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Snow\FT_Snow_02		240064
-	172158003	Grass_Leaves_Step	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Grass_Other\Grass_Leaves_Step_0F274014.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Fall\Grass_Leaves_Step		604218
-	172631235	Ball_04	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Ball\Ball_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Objects\Objects_Ball\Ball_04		192064
-	174091285	Objects_Fireplace	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\bbc_fire---clo_nhu0500808 [chan 1]_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Objects\Objects_Fireplace		1146648
-	182790339	Leaves_Crush	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Leaves\Leaves_Crush_D83DCE2D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Fall\Leaves_Crush		255726
-	197855375	EXT_Birds_Conversation	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Conversation_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Fall\EXT\EXT_Birds_Conversation		1440064
-	200208802	EXT_WaterFall_Wind	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\EXT_WaterFall_Wind_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Water\Water\Water_Waterfall\EXT_WaterFall_Wind		528064
-	203084110	FT_Snow_05	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Snow\FT_Snow_05_59C0C4D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Snow\FT_Snow_05		192064
-	210518197	FT_Rocks_02	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Rocks\FT_Rocks_02_0921E309.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Rocks\FT_Rocks_02		240064
-	221305644	Branch_Breaking_06	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Branch_Breaking\Branch_Breaking_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Branch_Breaking\Branch_Breaking_06		48064
-	247653023	FT_Wood_01	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Wood\FT_Wood_01_70E218F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Wood\FT_Wood_01		192064
-	250097581	FT_Snow_03	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Snow\FT_Snow_03_C7AB1EB4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Snow\FT_Snow_03		384064
-	251224248	LF_Cloth_Shuffle	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Life_Layer\LF_Cloth_Shuffle_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Life_Layer\Life_Layer\LF_Cloth_Shuffle		1248064
-	274121632	Leaves_Dry_Crunch_02	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Leaves\Leaves_Dry_Crunch_02_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Winter\Leaves_Dry_Crunch_02		384064
-	294573058	FT_Sand_04	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Sand\FT_Sand_04_1054E3A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Sand\FT_Sand_04		192064
-	301663420	EXT_Wind_Fly	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\EXT_Wind_Fly_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Fall\EXT\EXT_Wind_Fly		3072064
-	313219139	FT_Rocks_01	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Rocks\FT_Rocks_01_58609EF3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Rocks\FT_Rocks_01		192064
-	316914175	EXT_Wind_Soft	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\EXT_Wind_Soft_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Fall\EXT\EXT_Wind_Soft		1152064
-	318610343	Apple_Droppimg	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Apple\Apple_Droppimg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Objects\Objects_Apple\Apple_Droppimg		192064
-	338371126	FT_Grass_04	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_04_78B5E67A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_04		240064
-	339225625	FT_Grass_Harsh_05	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_Harsh_05_4C1945A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_Harsh_05		288064
-	351054453	Water	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Water_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Water\Water\Water_Waterfall\Water		816064
-	355189096	FT_Grass_Harsh_02	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_Harsh_02_2F2849C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_Harsh_02		288064
-	378237051	FT_Sand_01	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Sand\FT_Sand_01_CC02FBEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Sand\FT_Sand_01		192064
-	378608949	Ball_03	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Ball\Ball_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Objects\Objects_Ball\Ball_03		144064
-	384040443	FT_Snow_01	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Snow\FT_Snow_01_5C82C394.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Snow\FT_Snow_01		240064
-	404957497	FT_Wood_05	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Wood\FT_Wood_05_E82903AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Wood\FT_Wood_05		144064
-	407568287	Breath_Close_01	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Breath\Breath_Close_01_D342BE08.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Breath\Breath_Close_01		144064
-	415374879	Fox_Cry	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Fox_Cry_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Animals\3D_Audio_Animals_Fox\Fox_Cry		144064
-	418319852	Ball_02	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Ball\Ball_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Objects\Objects_Ball\Ball_02		192064
-	421581830	EXT_Birds_Crickets_Birds_Flapping	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Crickets_Birds_Flapping_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Spring\EXT_Birds_Crickets_Birds_Flapping		5952064
-	435703577	Breath_Close_03	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Breath\Breath_Close_03_A6AA3FF4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Breath\Breath_Close_03		144064
-	439622629	EXT_Wind_Breeze	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Wind_Breeze_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Spring\EXT_Wind_Breeze		2688064
-	441022715	Objects_Breaking Wood	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Breaking Wood_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Objects\Objects_Breaking Wood		3214144
-	444396471	EXT_Wind_Harsh	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\EXT_Wind_Harsh_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Winter\EXT_Wind_Harsh		2112064
-	449718918	Branch_Breaking_04	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Branch_Breaking\Branch_Breaking_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Branch_Breaking\Branch_Breaking_04		96064
-	457156708	Grass_Crush	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Grass_Other\Grass_Crush_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Spring\Grass_Crush		1632064
-	475318142	573376__johnloser__cyber-punch-01	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\573376__johnloser__cyber-punch-01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Stop\573376__johnloser__cyber-punch-01		82544
-	476310656	FT_Grass_02	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_02_CFAA1FC3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_02		192064
-	494262773	EXT_Birds_Summer	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Summer_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Summer\EXT_Birds_Summer		4992064
-	516286206	music_file_Spring_Edit	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\music_file_Spring_Edit_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Spring\music_file_Spring_Edit		6144064
-	527676015	music_file_Summer_Edit	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\music_file_Summer_Edit_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Summer\music_file_Summer_Edit		8517140
-	564832675	Leaves_Dry_Falling	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Leaves\Leaves_Dry_Falling_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Winter\Leaves_Dry_Falling		528064
-	570651741	FT_Grass_01	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_01_E1E930B3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_01		192064
-	574519879	FT_Snow_04	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Snow\FT_Snow_04_A7D4FFC0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Snow\FT_Snow_04		192064
-	596951155	FT_Sand_05	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Sand\FT_Sand_05_79ACFD0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Sand\FT_Sand_05		192064
-	616098322	Fall_Edit_Music_85bpm4-4_P1M	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\music_file_Fall_Edit_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Fall\EXT\Fall_Edit_Music_85bpm4-4_P1M		5184064
-	619253737	FT_Grass_Harsh_03	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_Harsh_03_728024CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_Harsh_03		288064
-	629825764	Leaves_Soft	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Leaves\Leaves_Soft_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Summer\Leaves_Soft		624064
-	655501665	RoomTone_AC	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\RoomTone_AC_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Room\RoomTone_AC\RoomTone_AC		2400064
-	657069852	Leaves_Dry_Drop	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Leaves\Leaves_Dry_Drop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Fall\Leaves_Dry_Drop		96064
-	657254767	3D_Audio_Animals_Animal_Sniffing	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Animal_Sniffing_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Animals\3D_Audio_Animals_Animal_Sniffing		384064
-	673167724	LF_Cloth	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Life_Layer\LF_Cloth_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Life_Layer\Life_Layer\LF_Cloth		1248064
-	674690314	Grass_Movement_Leaves_Harsh	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Grass_Other\Grass_Movement_Leaves_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Winter\Grass_Movement_Leaves_Harsh		964000
-	677174587	3D_Audio_Animals_Animal_Eating	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Animal_Eating_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Animals\3D_Audio_Animals_Animal_Eating		528064
-	719933676	Fox_Imitation_Talk	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Fox_Imitation_Talk_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Animals\3D_Audio_Animals_Fox\Fox_Imitation_Talk		240064
-	739948257	Waterfall_INT-001	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Waterfall_INT-001_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Water\Water\Water_Waterfall\Waterfall_INT-001		2496064
-	740783707	FT_Rocks_04	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Rocks\FT_Rocks_04_E44D32F0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Rocks\FT_Rocks_04		288064
-	763508518	Grass_Crunch	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Grass_Other\Grass_Crunch_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Winter\Grass_Crunch		1104064
-	774997628	Apple_Drop_01	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Apple\Apple_Drop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Objects\Objects_Apple\Apple_Drop_01		50834
-	797141612	Breath_Close_05	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Breath\Breath_Close_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Breath\Breath_Close_05		144064
-	819845612	Objects_Shells	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Shells_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Objects\Objects_Shells		288064
-	820204544	Leaves_Against_Leaves	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Leaves\Leaves_Against_Leaves_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Leaves\L_Seasons_Trees\ST_Trees_Spring\Leaves_Against_Leaves		2304064
-	830139097	Stop	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\573376__johnloser__cyber-punch-01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Stop		82544
-	847948627	Branch_Breaking_03	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Branch_Breaking\Branch_Breaking_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Branch_Breaking\Branch_Breaking_03		144064
-	857467946	Fox_Imitation_Laugh	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Fox_Imitation_Laugh_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Animals\3D_Audio_Animals_Fox\Fox_Imitation_Laugh		384064
-	866778322	3D_Audio_Animals_Rodent_Acorn	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Rodent_Acorn_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Animals\3D_Audio_Animals_Rodent_Acorn		2112064
-	869033472	Branch_Breaking_05	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Branch_Breaking\Branch_Breaking_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Branch_Breaking\Branch_Breaking_05		96064
-	885297293	EXT_Birds_Crowds_Planes	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Crowds_Planes_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Summer\EXT_Birds_Crowds_Planes		1440064
-	886497636	Branch_Breaking_01	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Branch_Breaking\Branch_Breaking_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Branch_Breaking\Branch_Breaking_01		240064
-	897365529	Apple_Drop_02	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Apple\Apple_Drop_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Objects\Objects_Apple\Apple_Drop_02		51744
-	923291791	EXT_Bird_Cocodoo	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\EXT_Bird_Cocodoo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Music_Mix\Music_Seasons\Spring\EXT_Bird_Cocodoo		1248064
-	951997273	Ball_01	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Ball\Ball_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Objects\Objects_Ball\Ball_01		192064
-	968935020	FT_Sand_02	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Sand\FT_Sand_02_A1C85143.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Sand\FT_Sand_02		192064
-	969815087	FT_Wood_Plank_02	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Wood\Wood_Plank_02_2C84C05F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Wood\FT_Wood_Plank_02		69930
-	970319510	FT_Grass_Harsh_04	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_Harsh_04_0F6380E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_Harsh_04		336064
-	974655469	FT_Grass_05	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_05_FEFCF50F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_05		240064
-	986451361	FT_Wood_Plank_01	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Wood\Wood_Plank_01_04D03666.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Wood\FT_Wood_Plank_01		96064
-	1004230976	Breath_Close_02	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Breath\Breath_Close_02_6B306A33.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Breath\Breath_Close_02		144064
-	1004689511	FT_Wood_03	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Wood\FT_Wood_03_A1C85143.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Wood\FT_Wood_03		192064
-	1022106722	Objects_Wood_Sawing	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Wood_Sawing_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Objects\Objects_Wood_Sawing		1344064
-	1025653509	Breath_Close_04	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Breath\Breath_Close_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Breath\Breath_Close_04		144064
-	1036544549	Branch_Breaking_02	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Branch_Breaking\Branch_Breaking_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Branch_Breaking\Branch_Breaking_02		240064
-	1047006766	Waterfall_INT	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Waterfall_INT_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Water\Water\Water_Waterfall\Waterfall_INT		3216064
-	1048819968	FT_Wood_02	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\Wood\FT_Wood_02_B5D3616B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Wood\FT_Wood_02		192064
-	1057045915	bbc_beach_atmo_nhu0505009_01	D:\2023 Spring Term\Capstone\Backup\Backup_Audio_In_Game\V4S_WwiseProject\.cache\Mac\SFX\bbc_beach_atmo_nhu0505009_C5DD6A6E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Water\Water\Water_Waterfall\bbc_beach_atmo_nhu0505009_01		722560
+	496452	FT_Wood_04	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Wood\FT_Wood_04_D1DD4874.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Wood\FT_Wood_04		192064
+	2632873	E_Objects_Ice_Cream_Truck	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\674237__kevingambleaudio__ice-cream-truck_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Emitters\E_Objects_Ice_Cream_Truck		4343964
+	17504910	FT_Grass_03	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_03_B7354374.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_03		192064
+	27027360	EXT_Birds_Owl_01	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Owl_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter\EXT_Birds_Winter\EXT_Birds_Winter\EXT_Birds_LR\EXT_Birds_Owl_01		3072064
+	30607187	Leaves_Flap_Harsh	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Leaves\Leaves_Flap_Harsh_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Summer\ST_Trees_Summer\Leaves_Flap_Harsh		2496064
+	33037143	2D_Ambience_AnimalsCrickets	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\bbc_crickets-s_nhu0509310 [chan 1]_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\2D_Ambience_AnimalsCrickets		749760
+	39169374	Snow_Icicle_02	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Snow_Icicle_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter\EXT_Wind_Winter\EXT_Snow\Snow_Icicle_02		3744064
+	40429813	Grass_Tree_Falling	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass_Other\Grass_Tree_Falling_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall\ST_Trees_Fall\Grass_Tree_Falling		528064
+	60181135	Ball_05	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Ball\Ball_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Idle\Objects\Objects_Ball\Ball_05		622144
+	65948870	FT_Grass_Harsh_01	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_Harsh_01_6D51C6F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_Harsh_01		240064
+	72726658	EXT_Beach_Walla	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Beach_Walla_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Summer\EXT_Wind_Summer\EXT_Beach_Walla		5088064
+	75865247	Leaves_Flap_Soft	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Leaves\Leaves_Flap_Soft_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Summer\ST_Trees_Summer\Leaves_Flap_Soft		174640
+	78225215	EXT_Birds_Seagull_03	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Seagull_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Summer\EXT_Birds_Summer\EXT_Birds_Summer\EXT_Birds_LR\EXT_Birds_Seagull_03		2811488
+	78922643	Leaves_Dry_Crunch_01	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Leaves\Leaves_Dry_Crunch_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter\ST_Trees_Winter\Leaves_Dry_Crunch_01		384064
+	79930149	Ocean_Fix	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Ocean_Fix_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Water\Water\Water_Ocean\Ocean_Fix		4128064
+	87675766	Ball_06	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Ball\Ball_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Idle\Objects\Objects_Ball\Ball_06		192064
+	100038301	FT_Rocks_05	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Rocks\FT_Rocks_05_442A41F4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Rocks\FT_Rocks_05		182464
+	101509308	Objects_bells	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\bells_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Idle\Objects\Objects_bells		402222
+	125806133	FT_Sand_03	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Sand\FT_Sand_03_A9B40C8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Sand\FT_Sand_03		192064
+	142175974	FT_Rocks_03	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Rocks\FT_Rocks_03_EC17565B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Rocks\FT_Rocks_03		240064
+	142457981	Grass_Leaves	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass_Other\Grass_Leaves_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Branch_Breaking\Grass_Leaves		240064
+	148239983	FT_Snow_02	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Snow\FT_Snow_02_EF77A351.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Snow\FT_Snow_02		240064
+	152405391	EXT_Birds_Conversation	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Conversation_FF09A76A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall\EXT_Birds_Fall\EXT_Birds_Conversation		1390864
+	153860606	EXT_Birds_Cry_06	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Cry_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall\EXT_Birds_Fall\EXT_Birds_Fall\EXT_Birds_LR\EXT_Birds_Cry_06		1536064
+	158887276	EXT_Birds_Owl_02	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Owl_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter\EXT_Birds_Winter\EXT_Birds_Winter\EXT_Birds_LR\EXT_Birds_Owl_02		4608064
+	172158003	Grass_Leaves_Step	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass_Other\Grass_Leaves_Step_0F274014.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall\ST_Trees_Fall\Grass_Leaves_Step		604218
+	172631235	Ball_04	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Ball\Ball_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Idle\Objects\Objects_Ball\Ball_04		192064
+	174091285	E_Objects_Fireplace	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\bbc_fire---clo_nhu0500808 [chan 1]_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Emitters\E_Objects_Fireplace		1146648
+	182790339	Leaves_Crush	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Leaves\Leaves_Crush_D83DCE2D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall\ST_Trees_Fall\Leaves_Crush		255726
+	200208802	EXT_WaterFall_Wind	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_WaterFall_Wind_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Water\Water\Water_Waterfall\EXT_WaterFall_Wind		528064
+	200679965	EXT_Birds_Summer_AMB	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Summer_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Summer\EXT_Birds_Summer\EXT_Birds_Summer_AMB		4992064
+	203084110	FT_Snow_05	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Snow\FT_Snow_05_59C0C4D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Snow\FT_Snow_05		192064
+	210518197	FT_Rocks_02	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Rocks\FT_Rocks_02_0921E309.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Rocks\FT_Rocks_02		240064
+	221305644	Branch_Breaking_06	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Branch_Breaking\Branch_Breaking_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Branch_Breaking\Branch_Breaking_06		48064
+	228171953	bbc_beach_atmo_nhu0505009	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\bbc_beach_atmo_nhu0505009_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Water\Water\Water_Ocean\bbc_beach_atmo_nhu0505009		4674664
+	235408110	EXT_Birds_Owl_03	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Owl_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter\EXT_Birds_Winter\EXT_Birds_Winter\EXT_Birds_LR\EXT_Birds_Owl_03		3072064
+	247653023	FT_Wood_01	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Wood\FT_Wood_01_70E218F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Wood\FT_Wood_01		192064
+	249259965	Snow_Icicle	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Snow_Icicle_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter\EXT_Wind_Winter\EXT_Snow\Snow_Icicle		79296064
+	250097581	FT_Snow_03	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Snow\FT_Snow_03_C7AB1EB4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Snow\FT_Snow_03		384064
+	251224248	LF_Cloth_Shuffle	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Life_Layer\LF_Cloth_Shuffle_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Life_Layer\Life_Layer\LF_Cloth_Shuffle		1248064
+	273175736	EXT_Birds_Seagull_02	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Seagull_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Summer\EXT_Birds_Summer\EXT_Birds_Summer\EXT_Birds_LR\EXT_Birds_Seagull_02		2304064
+	274121632	Leaves_Dry_Crunch_02	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Leaves\Leaves_Dry_Crunch_02_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter\ST_Trees_Winter\Leaves_Dry_Crunch_02		384064
+	294573058	FT_Sand_04	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Sand\FT_Sand_04_1054E3A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Sand\FT_Sand_04		192064
+	304249928	EXT_Birds_Owl_04	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Owl_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter\EXT_Birds_Winter\EXT_Birds_Winter\EXT_Birds_LR\EXT_Birds_Owl_04		3072064
+	309298276	Rain	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Rain_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring\EXT_Wind_Spring\EXT_Rain\Rain		79296064
+	313219139	FT_Rocks_01	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Rocks\FT_Rocks_01_58609EF3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Rocks\FT_Rocks_01		192064
+	316658623	EXT_Wind_Fly	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Wind_Fly_115E39A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall\EXT_Wind_Fall\EXT_Wind_Fly		3055916
+	318610343	Apple_Droppimg	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Apple\Apple_Droppimg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Emitters\E_Objects_Apple\Apple_Droppimg		192064
+	338371126	FT_Grass_04	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_04_78B5E67A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_04		240064
+	339225625	FT_Grass_Harsh_05	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_Harsh_05_4C1945A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_Harsh_05		288064
+	346491810	EXT_Birds	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring\EXT_Birds_Spring\EXT_Birds		672048
+	351054453	Water	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Water_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Water\Water\Water_Waterfall\Water		816064
+	355189096	FT_Grass_Harsh_02	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_Harsh_02_2F2849C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_Harsh_02		288064
+	378237051	FT_Sand_01	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Sand\FT_Sand_01_CC02FBEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Sand\FT_Sand_01		192064
+	378608949	Ball_03	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Ball\Ball_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Idle\Objects\Objects_Ball\Ball_03		144064
+	379451351	EXT_Birds_Cry_05	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Cry_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall\EXT_Birds_Fall\EXT_Birds_Fall\EXT_Birds_LR\EXT_Birds_Cry_05		864064
+	384040443	FT_Snow_01	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Snow\FT_Snow_01_5C82C394.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Snow\FT_Snow_01		240064
+	402933948	EXT_Birds_Silence	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Silence_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall\EXT_Birds_Fall\EXT_Birds_Fall\EXT_Birds_Silence		1399604
+	404957497	FT_Wood_05	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Wood\FT_Wood_05_E82903AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Wood\FT_Wood_05		144064
+	407568287	Breath_Close_01	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Breath\Breath_Close_01_D342BE08.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Breath\Breath_Close_01		144064
+	415374879	Fox_Cry	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Fox_Cry_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Idle\Animals\3D_Audio_Animals_Fox\Fox_Cry		144064
+	418319852	Ball_02	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Ball\Ball_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Idle\Objects\Objects_Ball\Ball_02		192064
+	435703577	Breath_Close_03	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Breath\Breath_Close_03_A6AA3FF4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Breath\Breath_Close_03		144064
+	439622629	EXT_Wind_Breeze	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Wind_Breeze_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring\EXT_Wind_Spring\EXT_Wind_Breeze		2688064
+	441022715	E_Objects_Breaking Wood	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Breaking Wood_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Emitters\E_Objects_Breaking Wood		3214144
+	444396471	EXT_Wind_Harsh	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Wind_Harsh_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter\EXT_Wind_Winter\EXT_Wind_Harsh		2112064
+	449718918	Branch_Breaking_04	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Branch_Breaking\Branch_Breaking_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Branch_Breaking\Branch_Breaking_04		96064
+	457156708	Grass_Crush	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass_Other\Grass_Crush_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring\ST_Trees_Spring\Grass_Crush		1632064
+	467293222	EXT_Birds_Cry_07	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Cry_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall\EXT_Birds_Fall\EXT_Birds_Fall\EXT_Birds_LR\EXT_Birds_Cry_07		2016064
+	470758310	M_EXT_Summer_80bpm_4-4	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\05-Summer-230922_1726_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Summer\EXT\M_EXT_Summer_80bpm_4-4		10767012
+	474432727	EXT_Birds_Owl_05	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Owl_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter\EXT_Birds_Winter\EXT_Birds_Winter\EXT_Birds_LR\EXT_Birds_Owl_05		3840064
+	475318142	573376__johnloser__cyber-punch-01	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\573376__johnloser__cyber-punch-01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Stop\573376__johnloser__cyber-punch-01		82544
+	476310656	FT_Grass_02	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_02_CFAA1FC3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_02		192064
+	478972068	EXT_Birds_Cry_08	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Cry_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall\EXT_Birds_Fall\EXT_Birds_Fall\EXT_Birds_LR\EXT_Birds_Cry_08		960064
+	497747040	EXT_Wind_Soft	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Wind_Soft_BF73E11C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall\EXT_Wind_Fall\EXT_Wind_Soft		1136928
+	505044048	Snow_Icicle_03	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Snow_Icicle_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter\EXT_Wind_Winter\EXT_Snow\Snow_Icicle_03		3840064
+	564832675	Leaves_Dry_Falling	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Leaves\Leaves_Dry_Falling_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Summer\ST_Trees_Summer\Leaves_Dry_Falling		528064
+	570651741	FT_Grass_01	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_01_E1E930B3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_01		192064
+	574519879	FT_Snow_04	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Snow\FT_Snow_04_A7D4FFC0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Snow\FT_Snow_04		192064
+	579168609	EXT_Birds_Seagull_01	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Seagull_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Summer\EXT_Birds_Summer\EXT_Birds_Summer\EXT_Birds_LR\EXT_Birds_Seagull_01		4608064
+	596951155	FT_Sand_05	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Sand\FT_Sand_05_79ACFD0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Sand\FT_Sand_05		192064
+	619253737	FT_Grass_Harsh_03	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_Harsh_03_728024CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_Harsh_03		288064
+	629825764	Leaves_Soft	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Leaves\Leaves_Soft_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Summer\ST_Trees_Summer\Leaves_Soft		624064
+	642696601	EXT_Birds_Cry_01	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Cry_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring\EXT_Birds_Spring\EXT_Birds_Spring\EXT_Birds_LR\EXT_Birds_Cry_01		768064
+	655501665	RoomTone_AC	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\RoomTone_AC_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Room\RoomTone_AC\RoomTone_AC		2400064
+	657069852	Leaves_Dry_Drop	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Leaves\Leaves_Dry_Drop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall\ST_Trees_Fall\Leaves_Dry_Drop		96064
+	657254767	3D_Audio_Animals_Animal_Sniffing	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Animal_Sniffing_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Idle\Animals\3D_Audio_Animals_Animal_Sniffing		384064
+	673167724	LF_Cloth	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Life_Layer\LF_Cloth_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Life_Layer\Life_Layer\LF_Cloth		1248064
+	674690314	Grass_Movement_Leaves_Low	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass_Other\Grass_Movement_Leaves_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Summer\ST_Trees_Summer\Grass_Movement_Leaves_Low		964000
+	677174587	3D_Audio_Animals_Animal_Eating	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Animal_Eating_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Idle\Animals\3D_Audio_Animals_Animal_Eating		528064
+	699190314	EXT_Birds_Crickets_Birds_Flapping	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Crickets_Birds_Flapping_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring\EXT_Birds_Spring\EXT_Birds_Crickets_Birds_Flapping		5952064
+	705460172	EXT_Birds_Cry_04	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Cry_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring\EXT_Birds_Spring\EXT_Birds_Spring\EXT_Birds_LR\EXT_Birds_Cry_04		1632064
+	719933676	Fox_Imitation_Talk	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Fox_Imitation_Talk_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Idle\Animals\3D_Audio_Animals_Fox\Fox_Imitation_Talk		240064
+	739948257	Waterfall_INT-001	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Waterfall_INT-001_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Water\Water\Water_Waterfall\Waterfall_INT-001		2496064
+	740783707	FT_Rocks_04	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Rocks\FT_Rocks_04_E44D32F0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Rocks\FT_Rocks_04		288064
+	763508518	Grass_Crunch	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass_Other\Grass_Crunch_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter\ST_Trees_Winter\Grass_Crunch		1104064
+	763990043	EXT_Birds_Crowds_Planes	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Crowds_Planes_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Summer\EXT_Birds_Summer\EXT_Birds_Crowds_Planes		1440064
+	774997628	Apple_Drop_01	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Apple\Apple_Drop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Emitters\E_Objects_Apple\Apple_Drop_01		50834
+	797141612	Breath_Close_05	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Breath\Breath_Close_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Breath\Breath_Close_05		144064
+	800130255	Rain_Heavy	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Rain_Heavy_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring\EXT_Wind_Spring\EXT_Rain\Rain_Heavy		6336064
+	819845612	E_Objects_Shells	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Shells_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Emitters\E_Objects_Shells		288064
+	820204544	Leaves_Against_Leaves	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Leaves\Leaves_Against_Leaves_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring\ST_Trees_Spring\Leaves_Against_Leaves		2304064
+	842579147	EXT_Birds_Bypass_02	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Bypass_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall\EXT_Birds_Fall\EXT_Birds_Fall\EXT_Birds_LR\EXT_Birds_Bypass_02		960064
+	847948627	Branch_Breaking_03	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Branch_Breaking\Branch_Breaking_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Branch_Breaking\Branch_Breaking_03		144064
+	851513767	EXT_Birds_Cry_03	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Cry_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring\EXT_Birds_Spring\EXT_Birds_Spring\EXT_Birds_LR\EXT_Birds_Cry_03		1632064
+	857467946	Fox_Imitation_Laugh	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Fox_Imitation_Laugh_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Idle\Animals\3D_Audio_Animals_Fox\Fox_Imitation_Laugh		384064
+	864683368	EXT_AMB_Rain_Light	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_AMB_Rain_Light_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring\EXT_Wind_Spring\EXT_Rain\EXT_AMB_Rain_Light		3072064
+	866778322	E_Animals_Rodent_Acorn	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Rodent_Acorn_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Emitters\E_Animals_Rodent_Acorn		2112064
+	869033472	Branch_Breaking_05	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Branch_Breaking\Branch_Breaking_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Branch_Breaking\Branch_Breaking_05		96064
+	886497636	Branch_Breaking_01	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Branch_Breaking\Branch_Breaking_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Branch_Breaking\Branch_Breaking_01		240064
+	897365529	Apple_Drop_02	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Apple\Apple_Drop_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Emitters\E_Objects_Apple\Apple_Drop_02		51744
+	904918402	EXT_Bird_Cocodoo	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Bird_Cocodoo_8F4C9D9B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall\EXT_Birds_Fall\EXT_Bird_Cocodoo		1221824
+	941655953	EXT_Birds_1	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds-001_2066C42B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Winter\EXT_Birds_Winter\EXT_Birds_1		1920064
+	944868827	EXT_Birds_Cry_02	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Cry_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Spring\EXT_Birds_Spring\EXT_Birds_Spring\EXT_Birds_LR\EXT_Birds_Cry_02		1632064
+	945945044	M_EXT_Fall_80bpm_4-4	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\10-Fall-230922_1725_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Fall\EXT\M_EXT_Fall_80bpm_4-4		7215780
+	951997273	Ball_01	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Ball\Ball_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Idle\Objects\Objects_Ball\Ball_01		192064
+	955252605	EXT_Birds_Bypass_01	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Bypass_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D\EXT_Fall\EXT_Birds_Fall\EXT_Birds_Fall\EXT_Birds_LR\EXT_Birds_Bypass_01		768064
+	961384065	M_EXT_Spring_80bpm_4-4	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\14-Spring-230922_1724_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Spring\EXT\M_EXT_Spring_80bpm_4-4		7031460
+	968935020	FT_Sand_02	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Sand\FT_Sand_02_A1C85143.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Sand\FT_Sand_02		192064
+	969815087	FT_Wood_Plank_02	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Wood\Wood_Plank_02_2C84C05F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Wood\FT_Wood_Plank_02		69930
+	970319510	FT_Grass_Harsh_04	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_Harsh_04_0F6380E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_Harsh_04		336064
+	974655469	FT_Grass_05	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_05_FEFCF50F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_05		240064
+	986451361	FT_Wood_Plank_01	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Wood\Wood_Plank_01_04D03666.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Wood\FT_Wood_Plank_01		96064
+	1004230976	Breath_Close_02	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Breath\Breath_Close_02_6B306A33.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Breath\Breath_Close_02		144064
+	1004689511	FT_Wood_03	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Wood\FT_Wood_03_A1C85143.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Wood\FT_Wood_03		192064
+	1022106722	Objects_Wood_Sawing	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Wood_Sawing_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Idle\Objects\Objects_Wood_Sawing		1344064
+	1025653509	Breath_Close_04	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Breath\Breath_Close_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Winter\Breath\Breath_Close_04		144064
+	1036544549	Branch_Breaking_02	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Branch_Breaking\Branch_Breaking_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Branch_Breaking\Branch_Breaking_02		240064
+	1047006766	Waterfall_INT	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Waterfall_INT_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio\Water\Water\Water_Waterfall\Waterfall_INT		3216064
+	1048819968	FT_Wood_02	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Wood\FT_Wood_02_B5D3616B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Wood\FT_Wood_02		192064
+	1056231946	M_EXT_Winter_80bpm_4-4	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\01-Winter-230922_1727_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Winter\EXT\M_EXT_Winter_80bpm_4-4		9562788
 
