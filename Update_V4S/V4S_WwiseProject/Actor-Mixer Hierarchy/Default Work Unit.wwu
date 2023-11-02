@@ -224,6 +224,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<Sound Name="EXT_Wind_Fly" ID="{59679673-1AF4-494D-A44E-7DCD0D2B1D28}" ShortID="683396649">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-6</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -2193,38 +2200,6 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<Sound Name="Snow_Icicle" ID="{9FD6CA72-9C03-46DD-9CD2-ACD4A4AC342E}" ShortID="516986298">
-																	<PropertyList>
-																		<Property Name="Weight" Type="Real64">
-																			<ValueList>
-																				<Value>20</Value>
-																			</ValueList>
-																		</Property>
-																	</PropertyList>
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																		</Reference>
-																		<Reference Name="UserAuxSend0">
-																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="Snow_Icicle" ID="{3AFBA743-4770-4D08-83E9-3C58D8042902}">
-																			<Language>SFX</Language>
-																			<AudioFile>Snow_Icicle.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="249259965"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="Snow_Icicle" ID="{3AFBA743-4770-4D08-83E9-3C58D8042902}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
 																<Sound Name="Snow_Icicle_03" ID="{D6C32EA9-B03E-4A18-BAA9-38000B04B0E5}" ShortID="55326511">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
@@ -2248,38 +2223,6 @@
 																	</ChildrenList>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Snow_Icicle_03" ID="{8F3684D3-88E7-4E38-9126-B330917A06B2}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
-																<Sound Name="Snow_Icicle_02" ID="{88159EFE-2C0A-4C29-AC0B-AE8BB19601C3}" ShortID="630500301">
-																	<PropertyList>
-																		<Property Name="Weight" Type="Real64">
-																			<ValueList>
-																				<Value>30</Value>
-																			</ValueList>
-																		</Property>
-																	</PropertyList>
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																		</Reference>
-																		<Reference Name="UserAuxSend0">
-																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="Snow_Icicle_02" ID="{8677C4AC-68F8-49D0-B477-83CC7B65B105}">
-																			<Language>SFX</Language>
-																			<AudioFile>Snow_Icicle_02.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="39169374"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="Snow_Icicle_02" ID="{8677C4AC-68F8-49D0-B477-83CC7B65B105}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
@@ -3017,6 +2960,11 @@
 															<ChildrenList>
 																<Sound Name="EXT_AMB_Rain_Light" ID="{DB6DA85A-31CD-45C8-B31A-812E59A913D9}" ShortID="389939056">
 																	<PropertyList>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-6</Value>
+																			</ValueList>
+																		</Property>
 																		<Property Name="Weight" Type="Real64">
 																			<ValueList>
 																				<Value>20</Value>
@@ -3045,56 +2993,6 @@
 																	</ChildrenList>
 																	<ActiveSourceList>
 																		<ActiveSource Name="EXT_AMB_Rain_Light" ID="{39CE73B9-3AEE-42F2-B479-1862F3FDE228}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
-																<Sound Name="Rain" ID="{0D793CE6-7383-48A1-90DB-16D05BC34DAE}" ShortID="142938486">
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																		</Reference>
-																		<Reference Name="UserAuxSend0">
-																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="Rain" ID="{945B5189-29AD-4B0C-963D-795599CD09A4}">
-																			<Language>SFX</Language>
-																			<AudioFile>Rain.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="309298276"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="Rain" ID="{945B5189-29AD-4B0C-963D-795599CD09A4}" Platform="Linked"/>
-																	</ActiveSourceList>
-																</Sound>
-																<Sound Name="Rain_Heavy" ID="{4CE18665-F3FC-4897-A4C0-8C4E044CFB48}" ShortID="549243156">
-																	<ReferenceList>
-																		<Reference Name="Conversion">
-																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																		</Reference>
-																		<Reference Name="OutputBus">
-																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																		</Reference>
-																		<Reference Name="UserAuxSend0">
-																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<ChildrenList>
-																		<AudioFileSource Name="Rain_Heavy" ID="{96A5AF73-630F-45CC-916F-90FB1FDA50BE}">
-																			<Language>SFX</Language>
-																			<AudioFile>Rain_Heavy.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="800130255"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																	</ChildrenList>
-																	<ActiveSourceList>
-																		<ActiveSource Name="Rain_Heavy" ID="{96A5AF73-630F-45CC-916F-90FB1FDA50BE}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
@@ -5241,11 +5139,6 @@
 										</Property>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>12</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -5271,7 +5164,427 @@
 										<ActiveSource Name="bbc_crickets-s_nhu0509310 [chan 1]" ID="{900CD0DC-F32E-4C5C-A1A2-3CB5A6CEC575}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Folder Name="Time" ID="{1B8CBCB6-165A-4E96-A634-0648BDA4B4EA}" ShortID="575927980"/>
+								<Folder Name="Time" ID="{1B8CBCB6-165A-4E96-A634-0648BDA4B4EA}" ShortID="575927980">
+									<ChildrenList>
+										<SwitchContainer Name="Time_Switch" ID="{E05581DB-9BF5-4F0B-B8EC-659CB7F17740}" ShortID="480221832">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="Morning" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}" WorkUnitID="{AE6099E3-F78F-4A6A-A984-B357DEED8900}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="Time" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}" WorkUnitID="{AE6099E3-F78F-4A6A-A984-B357DEED8900}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SwitchContainer Name="T_Season_2D" ID="{ED265203-E171-4FF8-9A47-810D00682C5B}" ShortID="828020733">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+														</Reference>
+														<Reference Name="DefaultSwitchOrState">
+															<ObjectRef Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}" WorkUnitID="{AE6099E3-F78F-4A6A-A984-B357DEED8900}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+														</Reference>
+														<Reference Name="SwitchGroupOrStateGroup">
+															<ObjectRef Name="Seasons_2D" ID="{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}" WorkUnitID="{AE6099E3-F78F-4A6A-A984-B357DEED8900}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="T_S2D_Rain" ID="{B2C7F75A-8DAB-43CD-BEE2-3CDA81DB5813}" ShortID="442351343">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Rain" ID="{0D793CE6-7383-48A1-90DB-16D05BC34DAE}" ShortID="142938486">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-6</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Rain" ID="{945B5189-29AD-4B0C-963D-795599CD09A4}">
+																			<Language>SFX</Language>
+																			<AudioFile>Rain.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="309298276"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Rain" ID="{945B5189-29AD-4B0C-963D-795599CD09A4}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Rain_Heavy" ID="{4CE18665-F3FC-4897-A4C0-8C4E044CFB48}" ShortID="549243156">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Rain_Heavy" ID="{96A5AF73-630F-45CC-916F-90FB1FDA50BE}">
+																			<Language>SFX</Language>
+																			<AudioFile>Rain_Heavy.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="800130255"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Rain_Heavy" ID="{96A5AF73-630F-45CC-916F-90FB1FDA50BE}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="T_S2D_Snow" ID="{0E1F8D85-2E81-43F1-BF3E-4ED387AB33FA}" ShortID="670370943">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Snow_Icicle" ID="{9FD6CA72-9C03-46DD-9CD2-ACD4A4AC342E}" ShortID="516986298">
+																	<PropertyList>
+																		<Property Name="Weight" Type="Real64">
+																			<ValueList>
+																				<Value>20</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Snow_Icicle" ID="{3AFBA743-4770-4D08-83E9-3C58D8042902}">
+																			<Language>SFX</Language>
+																			<AudioFile>Snow_Icicle.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="249259965"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Snow_Icicle" ID="{3AFBA743-4770-4D08-83E9-3C58D8042902}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Snow_Icicle_02" ID="{88159EFE-2C0A-4C29-AC0B-AE8BB19601C3}" ShortID="630500301">
+																	<PropertyList>
+																		<Property Name="Weight" Type="Real64">
+																			<ValueList>
+																				<Value>30</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Snow_Icicle_02" ID="{8677C4AC-68F8-49D0-B477-83CC7B65B105}">
+																			<Language>SFX</Language>
+																			<AudioFile>Snow_Icicle_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="39169374"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Snow_Icicle_02" ID="{8677C4AC-68F8-49D0-B477-83CC7B65B105}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+													<GroupingInfo>
+														<GroupingBehaviorList>
+															<GroupingBehavior>
+																<ItemRef Name="T_S2D_Rain" ID="{B2C7F75A-8DAB-43CD-BEE2-3CDA81DB5813}"/>
+															</GroupingBehavior>
+															<GroupingBehavior>
+																<ItemRef Name="T_S2D_Snow" ID="{0E1F8D85-2E81-43F1-BF3E-4ED387AB33FA}"/>
+															</GroupingBehavior>
+														</GroupingBehaviorList>
+														<GroupingList>
+															<Grouping>
+																<SwitchRef Name="Winter" ID="{D874A809-6B76-4605-9F8D-585B18CF2E97}"/>
+																<ItemList>
+																	<ItemRef Name="T_S2D_Snow" ID="{0E1F8D85-2E81-43F1-BF3E-4ED387AB33FA}"/>
+																</ItemList>
+															</Grouping>
+															<Grouping>
+																<SwitchRef Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
+																<ItemList>
+																	<ItemRef Name="T_S2D_Rain" ID="{B2C7F75A-8DAB-43CD-BEE2-3CDA81DB5813}"/>
+																</ItemList>
+															</Grouping>
+														</GroupingList>
+													</GroupingInfo>
+												</SwitchContainer>
+												<Sound Name="T_NIGHT_Cricket_Bird" ID="{0F19EE8E-58E6-44B1-9841-053EAFD37B0A}" ShortID="598346008">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SPR_NIGHT_Cricket_Bird" ID="{925C99AB-56DF-4E23-9237-CEF13697A03F}">
+															<Language>SFX</Language>
+															<AudioFile>SPR_NIGHT_Cricket_Bird.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="133194170"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SPR_NIGHT_Cricket_Bird" ID="{925C99AB-56DF-4E23-9237-CEF13697A03F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="T_MORN_Bird_Wind" ID="{8BFD3841-D242-44F8-BB07-36B96B908247}" ShortID="470321606">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SPR_Morning_Bird_Wind" ID="{1FE59D8F-430C-4A4A-ABA2-E43AD165FA1B}">
+															<Language>SFX</Language>
+															<AudioFile>SPR_Morning_Bird_Wind.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="495630565"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SPR_Morning_Bird_Wind" ID="{1FE59D8F-430C-4A4A-ABA2-E43AD165FA1B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="T_Season_2D" ID="{ED265203-E171-4FF8-9A47-810D00682C5B}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="T_MORN_Bird_Wind" ID="{8BFD3841-D242-44F8-BB07-36B96B908247}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="T_NIGHT_Cricket_Bird" ID="{0F19EE8E-58E6-44B1-9841-053EAFD37B0A}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Weather" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
+														<ItemList>
+															<ItemRef Name="T_Season_2D" ID="{ED265203-E171-4FF8-9A47-810D00682C5B}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Night" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
+														<ItemList>
+															<ItemRef Name="T_NIGHT_Cricket_Bird" ID="{0F19EE8E-58E6-44B1-9841-053EAFD37B0A}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Morning" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+														<ItemList>
+															<ItemRef Name="T_MORN_Bird_Wind" ID="{8BFD3841-D242-44F8-BB07-36B96B908247}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Fall" ID="{7A746F49-E34A-4B7A-981A-31EB931CC77E}" ShortID="539313404">
+									<ChildrenList>
+										<Folder Name="Morning" ID="{38E6F070-33C8-4F59-8D10-1449CA263127}" ShortID="105600165">
+											<ChildrenList>
+												<Sound Name="F_Wind_Tree" ID="{8239DF86-7955-4FFD-B157-6339B2BFFABF}" ShortID="487006016">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="F_Wind_Tree" ID="{FEF95355-E26E-4015-8DEF-165ADD5E7287}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>F_Wind_Tree.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="560470397"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="F_Wind_Tree" ID="{FEF95355-E26E-4015-8DEF-165ADD5E7287}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Night" ID="{570C9AFC-2F75-4390-8482-5EB156D21CA2}" ShortID="1053459460"/>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Spring" ID="{253C205C-3F2B-4347-9C42-3DB844948BF7}" ShortID="403193894">
+									<ChildrenList>
+										<Folder Name="Morning" ID="{3769B813-9A39-428A-A077-3B20287036B4}" ShortID="787839633"/>
+										<Folder Name="Night" ID="{B377198C-9CD8-4832-862C-4A94F4CB1DB5}" ShortID="929873518">
+											<ChildrenList>
+												<Sound Name="S_Breeze" ID="{813F4612-F384-4846-B90A-DE0873294CE1}" ShortID="856767030">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="S_Breeze" ID="{2798E29B-EE88-4915-AAAF-B0820A151BD2}">
+															<Language>SFX</Language>
+															<AudioFile>S_Breeze.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="3382213"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="S_Breeze" ID="{2798E29B-EE88-4915-AAAF-B0820A151BD2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Summer" ID="{83409590-EFE9-45D1-A84A-03A578040962}" ShortID="259530207">
+									<ChildrenList>
+										<Folder Name="Morning" ID="{18980A4C-F759-4E89-B149-7649B5210C68}" ShortID="852707631"/>
+										<Folder Name="Night" ID="{EFB800F9-5130-438B-A0C7-D11D61F1C6F8}" ShortID="248278638"/>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Winter" ID="{BA29793A-F5AA-4F06-9CB9-054200A45DDE}" ShortID="745833243">
+									<ChildrenList>
+										<Folder Name="Monring" ID="{FC468DDD-8EB4-4627-BED5-F0BF98B0A76E}" ShortID="903034910"/>
+										<Folder Name="Night" ID="{F11C6C3F-E11F-4F71-B75E-0CFD77729BFE}" ShortID="739949970">
+											<ChildrenList>
+												<Sound Name="W_Breeze" ID="{CDD95969-5B46-4275-BF98-E1EDC2E7E6EF}" ShortID="193065966">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="W_Breeze" ID="{F3FC4BF5-D393-4F7D-A7EA-F49A0F027721}">
+															<Language>SFX</Language>
+															<AudioFile>W_Breeze.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1073417417"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="W_Breeze" ID="{F3FC4BF5-D393-4F7D-A7EA-F49A0F027721}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="W_Wind" ID="{6F094F13-C080-4152-8115-B0D42D54F2D3}" ShortID="17082275">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="W_Wind" ID="{D8FF1C60-037C-4C81-B778-2EAA922F1163}">
+															<Language>SFX</Language>
+															<AudioFile>W_Wind.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="730623601"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="W_Wind" ID="{D8FF1C60-037C-4C81-B778-2EAA922F1163}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="First_Person_Audio" ID="{41801DA6-A1FE-4D79-A93D-F96639DB8964}" ShortID="449243092">
@@ -9408,6 +9721,31 @@
 										</ActorMixer>
 									</ChildrenList>
 								</Folder>
+								<Sound Name="AMB_Tree_Rustling" ID="{88890286-23E9-4AD6-9DA7-F7C7BFAF5BC2}" ShortID="19353470">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Tree" ID="{4EE87BFE-0C7A-473B-A6E2-23DE5951240B}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Tree.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="20582504"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Tree" ID="{4EE87BFE-0C7A-473B-A6E2-23DE5951240B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
