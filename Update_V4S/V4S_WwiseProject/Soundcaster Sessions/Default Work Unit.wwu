@@ -10,11 +10,11 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="E_Objects_Apple" ID="{7A8AC8BC-7CD9-48C4-8E24-4622D1325923}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
+							<ObjectRef Name="3D_A_OBJ_E_Objects_Apple" ID="{7A8AC8BC-7CD9-48C4-8E24-4622D1325923}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="E_Objects_Ice_Cream_Truck" ID="{FA4099E4-3D41-4C67-AB3E-0654C5C3DC7B}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
+							<ObjectRef Name="3D_A_OBJ_E_Objects_Ice_Cream_Truck" ID="{FA4099E4-3D41-4C67-AB3E-0654C5C3DC7B}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
@@ -22,11 +22,11 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="E_Animals_Rodent_Acorn" ID="{BA84C117-E7BE-47E0-A647-7DB553DDC1E5}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
+							<ObjectRef Name="3D_A_OBJ_E_Animals_Rodent_Acorn" ID="{BA84C117-E7BE-47E0-A647-7DB553DDC1E5}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="E_Objects_Shells" ID="{D7739BB4-6C6B-4673-927B-D70A0FBDA652}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
+							<ObjectRef Name="3D_A_OBJ_E_Objects_Shells" ID="{D7739BB4-6C6B-4673-927B-D70A0FBDA652}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
@@ -34,19 +34,19 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="E_Objects_Breaking Wood" ID="{6D74D648-1EE3-49DB-AA4E-36CFFCB3A116}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
+							<ObjectRef Name="3D_A_OBJ_E_Objects_Breaking Wood" ID="{6D74D648-1EE3-49DB-AA4E-36CFFCB3A116}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="E_Objects_Fireplace" ID="{A8F9DBED-2632-497E-87FC-4BC947758698}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
+							<ObjectRef Name="3D_A_OBJ_E_Objects_Fireplace" ID="{A8F9DBED-2632-497E-87FC-4BC947758698}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Water_Waterfall" ID="{FC73D419-F372-4B25-9831-35611318CA8A}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
+							<ObjectRef Name="3D_A_P_Water_Waterfall" ID="{FC73D419-F372-4B25-9831-35611318CA8A}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Water_Ocean" ID="{2FF29502-5BEC-4498-AE21-5FAB67651C2C}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
+							<ObjectRef Name="3D_A_P_Water_Ocean" ID="{2FF29502-5BEC-4498-AE21-5FAB67651C2C}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
 							<Position X="3" Y="1"/>
 						</Module>
 					</ModuleList>

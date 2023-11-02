@@ -1,0 +1,49 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Reverb	
+	1320557582	Seasons_2D			\Default Work Unit\Seasons_2D	
+	2424359524	Seasons_Tree			\Default Work Unit\Seasons_Tree	
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	529034928	INT	Reverb			
+	748895195	None	Reverb			
+	898834102	EXT	Reverb			
+	748895195	None	Seasons_2D			
+	1296465106	Spring	Seasons_2D			
+	2512384458	Fall	Seasons_2D			
+	2965343494	Winter	Seasons_2D			
+	3924562482	Summer	Seasons_2D			
+	748895195	None	Seasons_Tree			
+	1296465106	Spring	Seasons_Tree			
+	2512384458	Fall	Seasons_Tree			
+	2965343494	Winter	Seasons_Tree			
+	3924562482	Summer	Seasons_Tree			
+	748895195	None	Music			
+	788884573	Stop	Music			
+	1296465106	Spring	Music			
+	2077253480	Room	Music			
+	2512384458	Fall	Music			
+	2965343494	Winter	Music			
+	3924562482	Summer	Music			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\M&E\SFX	
+	1117531639	AMB			\Default Work Unit\Master Audio Bus\M&E\AMB	
+	2004773781	M&E			\Default Work Unit\Master Audio Bus\M&E	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	712897226	MUS			\Default Work Unit\Master Audio Bus\M&E\AMB\MUS	
+	898834102	EXT			\Default Work Unit\Master Audio Bus\M&E\AMB\EXT	
+	1233317514	FX_Reverb_Outside			\Default Work Unit\Master Audio Bus\Reverb\FX_Reverb_Outside	
+	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\M&E\SFX\Footsteps	
+	2802899749	Emitter			\Default Work Unit\Master Audio Bus\M&E\SFX\Emitter	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2098287461	Reverb_Outside	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

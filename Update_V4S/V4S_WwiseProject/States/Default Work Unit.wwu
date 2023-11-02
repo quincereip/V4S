@@ -230,6 +230,38 @@
 						</Transition>
 					</TransitionList>
 				</StateGroup>
+				<StateGroup Name="Time" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{70D54A14-A650-462E-A2A5-9FF4802C321F}"/>
+						<State Name="Weather" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
+						<State Name="Morning" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+						<State Name="Night" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Morning" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+							<EndState Name="Weather" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Night" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
+							<EndState Name="Morning" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Weather" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
+							<EndState Name="Night" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
