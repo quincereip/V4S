@@ -6,7 +6,7 @@
 				<SoundcasterSession Name="Audio_Mix" ID="{6A546C41-1C6D-450F-A299-346937DB3FFA}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="2D_Ambience_AnimalsCrickets" ID="{7F33F9DA-48B3-4E45-9C95-9DDF19DC2B14}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
+							<ObjectRef Name="S2D_AMB_AnimalsCrickets" ID="{7F33F9DA-48B3-4E45-9C95-9DDF19DC2B14}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>

@@ -569,12 +569,13 @@
 										</Effect>
 										<Effect Name="Dialog_Through_AC_Vents" ID="{897297F0-8419-4DF6-AD6F-AFA7B93E0989}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 											<PropertyList>
-												<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+												<Property Name="FilterTypeBand1" Type="int32" Value="5"/>
 												<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
-												<Property Name="FrequencyBand1" Type="Real32" Value="80"/>
-												<Property Name="FrequencyBand2" Type="Real32" Value="691"/>
-												<Property Name="FrequencyBand3" Type="Real32" Value="100"/>
+												<Property Name="FrequencyBand1" Type="Real32" Value="20"/>
+												<Property Name="FrequencyBand2" Type="Real32" Value="5200"/>
+												<Property Name="FrequencyBand3" Type="Real32" Value="700"/>
 												<Property Name="GainBand2" Type="Real32" Value="12"/>
+												<Property Name="OnOffBand1" Type="bool" Value="False"/>
 											</PropertyList>
 										</Effect>
 									</ChildrenList>
@@ -1852,7 +1853,7 @@
 								<Property Name="DryLevel" Type="Real32" Value="-96"/>
 								<Property Name="EnableCrossFeed" Type="bool" Value="True"/>
 								<Property Name="EnableFeedback" Type="bool" Value="True"/>
-								<Property Name="FilterFrequency" Type="Real32" Value="333"/>
+								<Property Name="FilterFrequency" Type="Real32" Value="420"/>
 								<Property Name="FilterGain" Type="Real32" Value="7"/>
 								<Property Name="FilterType" Type="int32" Value="4"/>
 								<Property Name="LeftCrossfeed" Type="Real32" Value="-3"/>
@@ -1866,10 +1867,10 @@
 								<Property Name="DryLevel" Type="Real32" Value="-96"/>
 								<Property Name="EnableCrossFeed" Type="bool" Value="True"/>
 								<Property Name="EnableFeedback" Type="bool" Value="True"/>
-								<Property Name="FilterFrequency" Type="Real32" Value="2507"/>
+								<Property Name="FilterFrequency" Type="Real32" Value="620"/>
 								<Property Name="FilterGain" Type="Real32" Value="-24"/>
 								<Property Name="FilterType" Type="int32" Value="3"/>
-								<Property Name="LeftCrossfeed" Type="Real32" Value="-10"/>
+								<Property Name="LeftCrossfeed" Type="Real32" Value="-14.3"/>
 								<Property Name="LeftDelayTime" Type="Real32" Value="0.29"/>
 								<Property Name="RightCrossfeed" Type="Real32" Value="-8"/>
 								<Property Name="RightDelayTime" Type="Real32" Value="0.43"/>

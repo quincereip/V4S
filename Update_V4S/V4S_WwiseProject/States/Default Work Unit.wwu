@@ -63,37 +63,25 @@
 				</StateGroup>
 				<StateGroup Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}">
 					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{F3544A33-E96D-4075-AEB3-FA937893CDCB}"/>
-						<State Name="Fall" ID="{7BD3DDCB-659C-43D0-BFD0-E30D4FFAEA22}"/>
-						<State Name="Spring" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
-						<State Name="Summer" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
-						<State Name="Winter" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
+						<State Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
+						<State Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
+						<State Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
-							<StartState Name="Fall" ID="{7BD3DDCB-659C-43D0-BFD0-E30D4FFAEA22}"/>
-							<EndState Name="Spring" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
+							<StartState Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
+							<EndState Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
 							<Time>1</Time>
 							<IsShared>true</IsShared>
 						</Transition>
 						<Transition>
-							<StartState Name="Spring" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
-							<EndState Name="Summer" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
-							<Time>1</Time>
-							<IsShared>true</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="Summer" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
-							<EndState Name="Winter" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
-							<Time>1</Time>
-							<IsShared>true</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="Winter" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
-							<EndState Name="Fall" ID="{7BD3DDCB-659C-43D0-BFD0-E30D4FFAEA22}"/>
+							<StartState Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
+							<EndState Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
 							<Time>1</Time>
 							<IsShared>true</IsShared>
 						</Transition>
@@ -237,26 +225,26 @@
 					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{70D54A14-A650-462E-A2A5-9FF4802C321F}"/>
-						<State Name="Weather" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
-						<State Name="Morning" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
-						<State Name="Night" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
+						<State Name="Snow" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
+						<State Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+						<State Name="Rain" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
-							<StartState Name="Morning" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
-							<EndState Name="Weather" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
+							<StartState Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+							<EndState Name="Snow" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
 							<Time>1</Time>
 							<IsShared>true</IsShared>
 						</Transition>
 						<Transition>
-							<StartState Name="Night" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
-							<EndState Name="Morning" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+							<StartState Name="Rain" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
+							<EndState Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
 							<Time>1</Time>
 							<IsShared>true</IsShared>
 						</Transition>
 						<Transition>
-							<StartState Name="Weather" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
-							<EndState Name="Night" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
+							<StartState Name="Snow" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
+							<EndState Name="Rain" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
 							<Time>1</Time>
 							<IsShared>true</IsShared>
 						</Transition>
