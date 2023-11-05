@@ -110,7 +110,7 @@
 							<IsShared>true</IsShared>
 						</Transition>
 						<Transition>
-							<StartState Name="None" ID="{F3544A33-E96D-4075-AEB3-FA937893CDCB}"/>
+							<StartState Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
 							<EndState Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
 							<Time>1</Time>
 							<IsShared>true</IsShared>
@@ -124,6 +124,12 @@
 						<Transition>
 							<StartState Name="None" ID="{F3544A33-E96D-4075-AEB3-FA937893CDCB}"/>
 							<EndState Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{F3544A33-E96D-4075-AEB3-FA937893CDCB}"/>
+							<EndState Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
 							<Time>1</Time>
 							<IsShared>true</IsShared>
 						</Transition>
