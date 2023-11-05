@@ -74,7 +74,9 @@ State	ID	Name	State Group			Notes
 
 Custom State	ID	Name	State Group	Owner		Notes
 	5962300	Stop	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Room		
+	13646250	Soft	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Tree\3D_A_P_Seasons_Tree\ST_Tree_Dry		
 	47070557	Room	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Summer		
+	53383729	Soft	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Tree\3D_A_P_Seasons_Tree\ST_Tree_Dense		
 	53800273	Summer	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Room		
 	78517513	Room	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Fall		
 	104137718	Spring	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D_Bird\S2D_Bird_Fall		
@@ -83,11 +85,17 @@ Custom State	ID	Name	State Group	Owner		Notes
 	124135360	Spring	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Winter		
 	148176617	Room	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Winter		
 	154797689	Fall	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D_Bird\S2D_Bird_Winter		
+	182982495	Dense	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Tree\3D_A_P_Seasons_Tree\ST_Tree_Soft		
 	199988232	Winter	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Stop		
 	214487171	Summer	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D_Bird\S2D_Bird_Summer		
+	217442840	Rain	Atmosphere	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Atmosphere\Atmos_3D\A_S3D_Windy		
 	227063935	Fall	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D_Bird\S2D_Bird_Spring		
+	250947312	Rain	Atmosphere	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Atmosphere\Atmos_3D\A_S3D_Snow		
+	268209756	Dry	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Tree\3D_A_P_Seasons_Tree\ST_Tree_Dense		
 	280492319	Spring	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Room		
 	289275110	Stop	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Summer		
+	307565138	Wiindy	Atmosphere	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Atmosphere\Atmos_3D\A_S3D_Snow		
+	349164520	Dense	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Tree\3D_A_P_Seasons_Tree\ST_Tree_Dry		
 	368115524	Fall	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Winter		
 	369849833	Summer	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D_Bird\S2D_Bird_Fall		
 	379968268	Fall	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Room		
@@ -95,11 +103,14 @@ Custom State	ID	Name	State Group	Owner		Notes
 	448267371	Fall	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D_Bird\S2D_Bird_Summer		
 	467193366	Winter	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Spring		
 	494936010	Summer	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Spring		
+	495953232	Snow	Atmosphere	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Atmosphere\Atmos_3D\A_S3D_Windy		
 	496210470	Room	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Room		
 	502630340	Summer	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Fall		
+	503242948	Wiindy	Atmosphere	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Atmosphere\Atmos_3D\A_S3D_Rain		
 	504362899	Fall	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Fall		
 	516134271	Fall	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Summer		
 	522548519	Winter	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Summer		
+	534817077	Snow	Atmosphere	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Atmosphere\Atmos_3D\A_S3D_Rain		
 	560260504	Summer	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D_Bird\S2D_Bird_Spring		
 	607714605	Fall	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D_Bird\S2D_Bird_Fall		
 	616205804	Spring	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D_Bird\S2D_Bird_Spring		
@@ -118,6 +129,7 @@ Custom State	ID	Name	State Group	Owner		Notes
 	889063421	Spring	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D_Bird\S2D_Bird_Winter		
 	894206595	Summer	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Winter		
 	909929353	Fall	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Stop		
+	920061951	Dry	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Tree\3D_A_P_Seasons_Tree\ST_Tree_Soft		
 	955178598	Winter	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D_Bird\S2D_Bird_Summer		
 	961197441	Winter	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D_Bird\S2D_Bird_Fall		
 	1002358805	Spring	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Fall		

@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>E:\Quin\V4S\Update_V4S\V4S_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{E19EE910-4431-421A-82C4-6214E7842FE1}" Language="SFX" Hash="3574443732">
+		<SoundBank Id="3161908922" GUID="{E19EE910-4431-421A-82C4-6214E7842FE1}" Language="SFX" Hash="2546178586">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>

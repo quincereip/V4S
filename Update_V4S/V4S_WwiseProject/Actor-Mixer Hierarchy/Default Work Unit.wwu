@@ -8785,6 +8785,35 @@
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
+													<StateInfo>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="Atmosphere" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}"/>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="Snow" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
+																<CustomState Name="" ID="{82BE3381-A95B-43F2-8DA2-1B28903980DC}" ShortID="534817077">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+																<CustomState Name="" ID="{B832785A-EA59-4D36-917C-E3A73BD7DFE6}" ShortID="503242948">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Rain" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
+																<CustomState Name="" ID="{031B2C7E-E72B-4945-80A0-E931C830CC86}" ShortID="340185020"/>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="A_S3D_Snow" ID="{0E1F8D85-2E81-43F1-BF3E-4ED387AB33FA}" ShortID="670370943">
 													<PropertyList>
@@ -8912,6 +8941,35 @@
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
+													<StateInfo>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="Atmosphere" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}"/>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="Snow" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
+																<CustomState Name="" ID="{F0CE1D51-ABE5-4876-BB2B-440CE3B042DC}" ShortID="994955272"/>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+																<CustomState Name="" ID="{1D95ECF4-07AE-4C0B-AB17-4BBEEE1C64B4}" ShortID="307565138">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Rain" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
+																<CustomState Name="" ID="{A663795E-23F0-4AA7-BD4D-8C4A2568419D}" ShortID="250947312">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="A_S3D_Windy" ID="{FBC109BA-3065-4D96-B81A-DC49413B263E}" ShortID="206653362">
 													<PropertyList>
@@ -9155,6 +9213,35 @@
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
+													<StateInfo>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="Atmosphere" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}"/>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="Snow" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
+																<CustomState Name="" ID="{00C4DB5A-11DE-44CD-AF8F-30FD6B4587DE}" ShortID="495953232">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+																<CustomState Name="" ID="{6726968D-A1E6-4923-8FE7-E00935C333FE}" ShortID="12370239"/>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Rain" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
+																<CustomState Name="" ID="{E61735E6-9927-44C5-B579-714A24632F0F}" ShortID="217442840">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
 												</RandomSequenceContainer>
 											</ChildrenList>
 											<PositioningInfo>
@@ -9239,6 +9326,27 @@
 													</ChildrenList>
 												</Position>
 											</PositioningInfo>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Atmosphere" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Snow" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
+														<CustomState Name="" ID="{63D66332-B173-473B-9D6D-0C37D8589E36}" ShortID="205017188"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+														<CustomState Name="" ID="{F6B7C539-8D67-4D75-AAC4-D58DD8F6737A}" ShortID="754690325"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Rain" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
+														<CustomState Name="" ID="{C1F040DA-24FF-4F87-9D3B-A23A89378CA9}" ShortID="126983378"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
@@ -9279,8 +9387,18 @@
 									<ChildrenList>
 										<SwitchContainer Name="3D_A_P_Seasons_Tree" ID="{EDF31BA0-4AE5-4C51-8357-3967752523CE}" ShortID="912132975">
 											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -9669,6 +9787,35 @@
 															</BlendTrackList>
 														</BlendContainer>
 													</ChildrenList>
+													<StateInfo>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
+																<CustomState Name="" ID="{5EC6BDC2-32D9-4B55-A195-B0C4DDD81FB6}" ShortID="53383729">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
+																<CustomState Name="" ID="{5E07D0D8-8328-402A-97CF-3C45340BE89B}" ShortID="268209756">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
+																<CustomState Name="" ID="{7A6766F5-FE04-4221-A8B6-D228BEDDA936}" ShortID="1010761522"/>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
 												</BlendContainer>
 												<BlendContainer Name="ST_Tree_Soft" ID="{06B7107E-7545-40D9-A9AD-4DD7A3D4D17A}" ShortID="493842301">
 													<PropertyList>
@@ -10094,6 +10241,35 @@
 															</ChildrenList>
 														</RandomSequenceContainer>
 													</ChildrenList>
+													<StateInfo>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
+																<CustomState Name="" ID="{1D3D5CAB-CED9-4FC1-A200-4B819F6B1F65}" ShortID="1056498269"/>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
+																<CustomState Name="" ID="{AFBEB7C1-D9AC-4725-9908-03189BA633E8}" ShortID="920061951">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
+																<CustomState Name="" ID="{9FC21F7E-8D3B-4A1E-A0B3-334A3169B4B6}" ShortID="182982495">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
 												</BlendContainer>
 												<BlendContainer Name="ST_Tree_Dry" ID="{3275FD81-5CE1-4FFD-A8F6-AD058140708C}" ShortID="264726249">
 													<PropertyList>
@@ -10507,8 +10683,174 @@
 															</ChildrenList>
 														</RandomSequenceContainer>
 													</ChildrenList>
+													<StateInfo>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
+																<CustomState Name="" ID="{CAB94898-4214-4135-807F-3788FD893A8E}" ShortID="13646250">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
+																<CustomState Name="" ID="{ECFE062E-3C6D-4900-9206-B10C66B35780}" ShortID="735140579"/>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
+																<CustomState Name="" ID="{D7F58EA1-AEA0-4764-9DF2-4FF5466355A8}" ShortID="349164520">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
 												</BlendContainer>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{A39142A7-9F59-49F8-ADFF-6B63CC7AE425}"/>
+												<Position Name="" ID="{A1885563-FED0-4E8F-AD30-8800F0F1DE26}">
+													<PropertyList>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3.5"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="3D_A_P_Seasons_Tree_Path" ID="{C9A38C92-6C4D-4822-B8BC-98B21DFBA647}">
+															<PropertyList>
+																<Property Name="RandomZ" Type="Real64" Value="100"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-0</XPos>
+																	<YPos>100</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="3D_A_P_Seasons_Tree_Path_01" ID="{076C54DD-46D6-4204-B65E-51BCC8888846}">
+															<PropertyList>
+																<Property Name="RandomZ" Type="Real64" Value="50"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-100</XPos>
+																	<YPos>100</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="3D_A_P_Seasons_Tree_Path_02" ID="{E85B3347-7F1C-4F4D-8681-661908DF4214}">
+															<PropertyList>
+																<Property Name="RandomZ" Type="Real64" Value="50"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>100</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="3D_A_P_Seasons_Tree_Path_03" ID="{47DA1DA8-2375-4B45-9770-2639C91F05EB}">
+															<PropertyList>
+																<Property Name="RandomY" Type="Real64" Value="100"/>
+																<Property Name="RandomZ" Type="Real64" Value="50"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-100</XPos>
+																	<YPos>0</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="3D_A_P_Seasons_Tree_Path_04" ID="{162BF95E-AF78-4F39-9BE3-DA19DE915EE6}">
+															<PropertyList>
+																<Property Name="RandomY" Type="Real64" Value="100"/>
+																<Property Name="RandomZ" Type="Real64" Value="50"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>0</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="3D_A_P_Seasons_Tree_Path_05" ID="{3A2329AD-826A-4BD8-9EEC-E8F05F298F2A}">
+															<PropertyList>
+																<Property Name="AppendOffset" Type="Uint32" Value="500"/>
+																<Property Name="LinearTime" Type="bool" Value="False"/>
+																<Property Name="RandomZ" Type="Real64" Value="50"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-100</XPos>
+																	<YPos>-100</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="3D_A_P_Seasons_Tree_Path_06" ID="{B2845907-2EA3-4E37-8B3A-A20FC40B7918}">
+															<PropertyList>
+																<Property Name="RandomZ" Type="Real64" Value="50"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>-100</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="3D_A_P_Seasons_Tree_Path_07" ID="{7110CA79-054D-4D75-AED1-FC2752AA5B09}">
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
+														<CustomState Name="" ID="{1E13027A-ECE8-4FCC-992D-D879E77ED9A1}" ShortID="380351373"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
+														<CustomState Name="" ID="{23A11D61-A43C-4915-9DA5-D7660B689719}" ShortID="163169422"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
+														<CustomState Name="" ID="{90A10F0E-9531-4938-94C6-25B41FA463A9}" ShortID="313286525"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
