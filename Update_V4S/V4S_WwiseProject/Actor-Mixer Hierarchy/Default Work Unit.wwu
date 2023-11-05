@@ -23,7 +23,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<SwitchContainer Name="Seasons_2D" ID="{985155B4-8D83-4124-91A1-CE18E4590242}" ShortID="529946912">
+								<SwitchContainer Name="Seasons_2D_Bird" ID="{985155B4-8D83-4124-91A1-CE18E4590242}" ShortID="529946912">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
@@ -149,7 +149,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<BlendContainer Name="EXT_Fall" ID="{21CB224F-40A7-426D-9A79-F8CCAF96AE75}" ShortID="455596685">
+										<BlendContainer Name="S2D_Bird_Fall" ID="{21CB224F-40A7-426D-9A79-F8CCAF96AE75}" ShortID="455596685">
 											<PropertyList>
 												<Property Name="BlendBehavior" Type="int16" Value="1"/>
 											</PropertyList>
@@ -980,7 +980,7 @@
 												</CustomStateList>
 											</StateInfo>
 										</BlendContainer>
-										<BlendContainer Name="EXT_Winter" ID="{98ED77EF-5E8D-4F06-9AFC-D63D37E06D3F}" ShortID="180292736">
+										<BlendContainer Name="S2D_Bird_Winter" ID="{98ED77EF-5E8D-4F06-9AFC-D63D37E06D3F}" ShortID="180292736">
 											<PropertyList>
 												<Property Name="BlendBehavior" Type="int16" Value="1"/>
 											</PropertyList>
@@ -1008,11 +1008,20 @@
 													<ChildrenList>
 														<RandomSequenceContainer Name="EXT_Birds_Winter" ID="{1C57F0CE-A76F-4BE0-9735-2FDFD7E8A40A}" ShortID="473288465">
 															<PropertyList>
+																<Property Name="3DPosition" Type="int16" Value="2"/>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="CenterPercentage" Type="int32">
+																	<ValueList>
+																		<Value>50</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 																<Property Name="InitialDelay" Type="Real64">
 																	<ValueList>
 																		<Value>3</Value>
 																	</ValueList>
 																</Property>
+																<Property Name="OverridePositioning" Type="bool" Value="True"/>
 																<Property Name="Pitch" Type="int32">
 																	<ModifierList>
 																		<ModifierInfo>
@@ -1029,6 +1038,7 @@
 																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
 																		<Value>3</Value>
@@ -1049,6 +1059,21 @@
 															<ChildrenList>
 																<RandomSequenceContainer Name="EXT_Birds_LR" ID="{0811E7E7-D106-4B0E-A11F-7DA1192D5355}" ShortID="453151749">
 																	<PropertyList>
+																		<Property Name="Highpass" Type="int16">
+																			<ValueList>
+																				<Value>20</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="Lowpass" Type="int16">
+																			<ValueList>
+																				<Value>30</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>-3</Value>
+																			</ValueList>
+																		</Property>
 																		<Property Name="Weight" Type="Real64">
 																			<ValueList>
 																				<Value>20</Value>
@@ -1112,6 +1137,18 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="EXT_Birds_Owl_03" ID="{1F45537D-54AF-4A33-BBBA-01245042451F}" ShortID="976576781">
+																			<PropertyList>
+																				<Property Name="Highpass" Type="int16">
+																					<ValueList>
+																						<Value>30</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="Lowpass" Type="int16">
+																					<ValueList>
+																						<Value>35</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -1134,6 +1171,18 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="EXT_Birds_Owl_04" ID="{32038B03-80EB-4BCD-94C9-8079C69321A4}" ShortID="440190164">
+																			<PropertyList>
+																				<Property Name="Highpass" Type="int16">
+																					<ValueList>
+																						<Value>30</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="Lowpass" Type="int16">
+																					<ValueList>
+																						<Value>30</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -1156,6 +1205,18 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="EXT_Birds_Owl_05" ID="{0241F871-00CB-4D86-9246-CD0CB054E293}" ShortID="1001489245">
+																			<PropertyList>
+																				<Property Name="Highpass" Type="int16">
+																					<ValueList>
+																						<Value>20</Value>
+																					</ValueList>
+																				</Property>
+																				<Property Name="Lowpass" Type="int16">
+																					<ValueList>
+																						<Value>30</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -1205,6 +1266,20 @@
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="EXT_Birds_Silence_01" ID="{FDA75D70-727F-48F7-99E2-9059226159FD}" ShortID="372403021">
+																	<PropertyList>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{25F8209D-954A-4CA8-941C-722AF10115DD}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Min" Type="Real64" Value="-200"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -1230,14 +1305,130 @@
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
+															<PositioningInfo>
+																<Panner Name="" ID="{7A378670-767C-4FAB-8D61-E26F8954061A}"/>
+																<Position Name="" ID="{8B7436D0-C5D7-4264-AAB0-877337947B79}">
+																	<PropertyList>
+																		<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																		<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																		<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="1.5"/>
+																	</PropertyList>
+																	<ChildrenList>
+																		<Path2D Name="EXT_Birds_Winter_Path" ID="{DC5099A6-E714-496B-9ED6-6F2650E0E829}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="20"/>
+																				<Property Name="RandomY" Type="Real64" Value="50"/>
+																				<Property Name="RandomZ" Type="Real64" Value="9"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>-100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="EXT_Birds_Winter_Path_01" ID="{5B80BC02-E4C1-4E89-B6B1-79CEB30B7141}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="20"/>
+																				<Property Name="RandomY" Type="Real64" Value="50"/>
+																				<Property Name="RandomZ" Type="Real64" Value="9"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="EXT_Birds_Winter_Path_02" ID="{1C181C26-EDC4-45CB-B70A-799324092A82}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="20"/>
+																				<Property Name="RandomY" Type="Real64" Value="50"/>
+																				<Property Name="RandomZ" Type="Real64" Value="9"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>-100</XPos>
+																					<YPos>-100</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="EXT_Birds_Winter_Path_03" ID="{24BACA0D-0AB2-4F6D-9170-3F0FEB022055}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="20"/>
+																				<Property Name="RandomY" Type="Real64" Value="50"/>
+																				<Property Name="RandomZ" Type="Real64" Value="9"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>-100</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																	</ChildrenList>
+																</Position>
+															</PositioningInfo>
 														</RandomSequenceContainer>
 														<Sound Name="EXT_Birds_1" ID="{86A9D1BD-F5A7-437E-9EF2-E270CA77B52E}" ShortID="10608766">
 															<PropertyList>
+																<Property Name="3DPosition" Type="int16" Value="2"/>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="CenterPercentage" Type="int32">
+																	<ValueList>
+																		<Value>100</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+																<Property Name="Highpass" Type="int16">
+																	<ValueList>
+																		<Value>35</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="InitialDelay" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{78D8677C-E77D-4498-93A0-06D20447FCD7}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="1"/>
+																					<Property Name="Min" Type="Real64" Value="-1"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+																<Property Name="LoopCount" Type="int32" Value="5"/>
 																<Property Name="Lowpass" Type="int16">
 																	<ValueList>
 																		<Value>41</Value>
 																	</ValueList>
 																</Property>
+																<Property Name="OverrideEffect" Type="bool" Value="True"/>
+																<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{D3ACBCDE-4A8D-40DC-88A2-DDD55CF437AF}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-6"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
 																		<Value>-9</Value>
@@ -1247,6 +1438,24 @@
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="Effect0">
+																	<Custom CreatedFrom="{ABFA9875-521E-451F-AAB9-AB148847B9C0}">
+																		<Effect Name="Blue_Distant_Echoes_(Custom)" ID="{F9DE73E1-EB7B-47AC-ABCB-3427D4769409}" ShortID="975119530" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
+																			<PropertyList>
+																				<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																				<Property Name="EnableCrossFeed" Type="bool" Value="True"/>
+																				<Property Name="EnableFeedback" Type="bool" Value="True"/>
+																				<Property Name="FilterFrequency" Type="Real32" Value="70"/>
+																				<Property Name="FilterGain" Type="Real32" Value="-24"/>
+																				<Property Name="FilterType" Type="int32" Value="3"/>
+																				<Property Name="LeftCrossfeed" Type="Real32" Value="-14.3"/>
+																				<Property Name="LeftDelayTime" Type="Real32" Value="0.29"/>
+																				<Property Name="RightCrossfeed" Type="Real32" Value="-8"/>
+																				<Property Name="RightDelayTime" Type="Real32" Value="0.43"/>
+																			</PropertyList>
+																		</Effect>
+																	</Custom>
 																</Reference>
 																<Reference Name="OutputBus">
 																	<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
@@ -1269,6 +1478,111 @@
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
+															<PositioningInfo>
+																<Panner Name="" ID="{463A46F0-8573-4C5E-B65D-6BCF21D7C6DA}"/>
+																<Position Name="" ID="{255D60C8-F8EA-46D4-AA4B-CDE41969F9EC}">
+																	<PropertyList>
+																		<Property Name="PanX" Type="Real64">
+																			<RTPCList>
+																				<RTPC Name="" ID="{4B4111C2-46E0-44BB-A78F-C9F82BB52B7E}" ShortID="694709649">
+																					<ReferenceList>
+																						<Reference Name="ControlInput">
+																							<Custom>
+																								<ModulatorTime Name="Modulator Time (Custom)" ID="{473E59F2-BC90-4056-9951-8E2F6D9F8A79}" ShortID="1025967343">
+																									<PropertyList>
+																										<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+																										<Property Name="TimeModDuration" Type="Real64" Value="15.3"/>
+																										<Property Name="TimeModInitialDelay" Type="Real64" Value="0.2"/>
+																										<Property Name="TimeModPlaybackRate" Type="Real64" Value="1.5"/>
+																									</PropertyList>
+																								</ModulatorTime>
+																							</Custom>
+																						</Reference>
+																					</ReferenceList>
+																					<Curve Name="" ID="{5E70A3FB-237B-4B59-B7CD-823C46B59816}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>200</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>15.3</XPos>
+																								<YPos>-200</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</RTPC>
+																			</RTPCList>
+																		</Property>
+																		<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																		<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																		<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="2.5"/>
+																	</PropertyList>
+																	<ChildrenList>
+																		<Path2D Name="EXT_Birds_1_Path" ID="{E27A1BE7-C56B-433A-ACFB-15DDC0D4511E}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="100"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>-100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="EXT_Birds_1_Path_01" ID="{8C351A21-796C-43D4-A696-0BF504092EBD}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="100"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>100</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="EXT_Birds_1_Path_02" ID="{6D36E825-EA14-44F2-A6F6-46AF4868F26C}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="100"/>
+																				<Property Name="RandomY" Type="Real64" Value="50"/>
+																				<Property Name="RandomZ" Type="Real64" Value="50"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>-100</XPos>
+																					<YPos>0</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="EXT_Birds_1_Path_03" ID="{0AFBA6FD-2F78-45AD-87B2-43988BF52D5B}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="100"/>
+																				<Property Name="RandomY" Type="Real64" Value="50"/>
+																				<Property Name="RandomZ" Type="Real64" Value="50"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>0</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																	</ChildrenList>
+																</Position>
+															</PositioningInfo>
 															<ActiveSourceList>
 																<ActiveSource Name="EXT_Birds-001" ID="{0619869F-009E-47A3-BCDF-79318C40BD90}" Platform="Linked"/>
 															</ActiveSourceList>
@@ -1277,7 +1591,42 @@
 												</BlendContainer>
 												<Sound Name="W_Wind" ID="{6F094F13-C080-4152-8115-B0D42D54F2D3}" ShortID="17082275">
 													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{35AB4A12-B557-4A44-823A-1B8D91875671}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="25"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{A4E6CE31-2D13-47A9-958D-066572A45812}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{C38C7F19-881E-466F-8E11-996F44C697DF}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Min" Type="Real64" Value="-200"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -1346,7 +1695,7 @@
 												</CustomStateList>
 											</StateInfo>
 										</BlendContainer>
-										<BlendContainer Name="EXT_Spring" ID="{64A15D6E-9729-4809-86A7-1F5FB4F0D40F}" ShortID="834803590">
+										<BlendContainer Name="S2D_Bird_Spring" ID="{64A15D6E-9729-4809-86A7-1F5FB4F0D40F}" ShortID="834803590">
 											<PropertyList>
 												<Property Name="BlendBehavior" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
@@ -2047,7 +2396,7 @@
 												</CustomStateList>
 											</StateInfo>
 										</BlendContainer>
-										<BlendContainer Name="EXT_Summer" ID="{4601D31F-369E-404B-9EA9-C1A4BFF532E4}" ShortID="111064095">
+										<BlendContainer Name="S2D_Bird_Summer" ID="{4601D31F-369E-404B-9EA9-C1A4BFF532E4}" ShortID="111064095">
 											<PropertyList>
 												<Property Name="BlendBehavior" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
@@ -2555,8 +2904,43 @@
 													<PropertyList>
 														<Property Name="3DPosition" Type="int16" Value="2"/>
 														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>50</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{B84758E0-043F-42E1-A054-61F8B427AE06}" ShortID="427123260">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<Custom>
+																				<ModulatorLfo Name="Modulator LFO (Custom)" ID="{1A8316F8-15F5-4FCD-84D8-0B3901D1EB5C}" ShortID="555683257"/>
+																			</Custom>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{B01C164B-5E3D-4B8B-A114-13226888B1EE}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>50</YPos>
+																				<Flags>21</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>53</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
 														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="OverrideEffect" Type="bool" Value="True"/>
 														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
@@ -2624,6 +3008,34 @@
 																		<Point>
 																			<XPos>0</XPos>
 																			<YPos>-100</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="T_MORN_Bird_Wind_Path_02" ID="{929B2655-1E85-4094-932D-57DCA48A7F4E}">
+																	<PropertyList>
+																		<Property Name="RandomX" Type="Real64" Value="50"/>
+																		<Property Name="RandomZ" Type="Real64" Value="50"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-100</XPos>
+																			<YPos>100</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="T_MORN_Bird_Wind_Path_03" ID="{A8562B76-EAA5-4A8C-B6F8-A9F7FCED9019}">
+																	<PropertyList>
+																		<Property Name="RandomX" Type="Real64" Value="50"/>
+																		<Property Name="RandomZ" Type="Real64" Value="50"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>100</YPos>
 																			<Flags>12</Flags>
 																			<Time>0</Time>
 																		</Point>
@@ -2708,41 +3120,41 @@
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
-												<ItemRef Name="EXT_Summer" ID="{4601D31F-369E-404B-9EA9-C1A4BFF532E4}"/>
+												<ItemRef Name="S2D_Bird_Summer" ID="{4601D31F-369E-404B-9EA9-C1A4BFF532E4}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="EXT_Fall" ID="{21CB224F-40A7-426D-9A79-F8CCAF96AE75}"/>
+												<ItemRef Name="S2D_Bird_Fall" ID="{21CB224F-40A7-426D-9A79-F8CCAF96AE75}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="EXT_Spring" ID="{64A15D6E-9729-4809-86A7-1F5FB4F0D40F}"/>
+												<ItemRef Name="S2D_Bird_Spring" ID="{64A15D6E-9729-4809-86A7-1F5FB4F0D40F}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="EXT_Winter" ID="{98ED77EF-5E8D-4F06-9AFC-D63D37E06D3F}"/>
+												<ItemRef Name="S2D_Bird_Winter" ID="{98ED77EF-5E8D-4F06-9AFC-D63D37E06D3F}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
 											<Grouping>
 												<SwitchRef Name="Winter" ID="{D874A809-6B76-4605-9F8D-585B18CF2E97}"/>
 												<ItemList>
-													<ItemRef Name="EXT_Winter" ID="{98ED77EF-5E8D-4F06-9AFC-D63D37E06D3F}"/>
+													<ItemRef Name="S2D_Bird_Winter" ID="{98ED77EF-5E8D-4F06-9AFC-D63D37E06D3F}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
 												<SwitchRef Name="Summer" ID="{B2F6DCC2-0296-439A-8847-FB4C5D483B19}"/>
 												<ItemList>
-													<ItemRef Name="EXT_Summer" ID="{4601D31F-369E-404B-9EA9-C1A4BFF532E4}"/>
+													<ItemRef Name="S2D_Bird_Summer" ID="{4601D31F-369E-404B-9EA9-C1A4BFF532E4}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
 												<SwitchRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
 												<ItemList>
-													<ItemRef Name="EXT_Fall" ID="{21CB224F-40A7-426D-9A79-F8CCAF96AE75}"/>
+													<ItemRef Name="S2D_Bird_Fall" ID="{21CB224F-40A7-426D-9A79-F8CCAF96AE75}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
 												<SwitchRef Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
 												<ItemList>
-													<ItemRef Name="EXT_Spring" ID="{64A15D6E-9729-4809-86A7-1F5FB4F0D40F}"/>
+													<ItemRef Name="S2D_Bird_Spring" ID="{64A15D6E-9729-4809-86A7-1F5FB4F0D40F}"/>
 												</ItemList>
 											</Grouping>
 										</GroupingList>
@@ -7169,6 +7581,10 @@
 							</PropertyList>
 							<ChildrenList>
 								<Folder Name="3D_Audio_P_Water" ID="{68376DDA-5098-4FC3-94B6-3319A9F11FDA}" ShortID="317184368">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="2"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
 									<ChildrenList>
 										<ActorMixer Name="3D_A_P_Water" ID="{0D6A2497-3641-4023-A00A-8823C7D88605}" ShortID="2760142">
 											<PropertyList>
@@ -8132,14 +8548,98 @@
 										</ActorMixer>
 									</ChildrenList>
 								</Folder>
-								<Folder Name="Time" ID="{1B8CBCB6-165A-4E96-A634-0648BDA4B4EA}" ShortID="575927980">
+								<Folder Name="3D_Audio_P_Atmosphere" ID="{1B8CBCB6-165A-4E96-A634-0648BDA4B4EA}" ShortID="575927980">
 									<ChildrenList>
-										<SwitchContainer Name="Time_Switch" ID="{E05581DB-9BF5-4F0B-B8EC-659CB7F17740}" ShortID="480221832">
+										<SwitchContainer Name="Atmos_3D" ID="{E05581DB-9BF5-4F0B-B8EC-659CB7F17740}" ShortID="480221832">
 											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>50</Value>
+													</ValueList>
+												</Property>
 												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<Custom>
+														<Attenuation Name="Attenuation (Custom)" ID="{AE9A5060-1372-4082-BC62-C0517A637498}" ShortID="258495279">
+															<PropertyList>
+																<Property Name="ConeInnerAngle" Type="int32" Value="350"/>
+																<Property Name="ConeOuterAngle" Type="int32" Value="350"/>
+																<Property Name="ConeUse" Type="bool">
+																	<ValueList>
+																		<Value>True</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="RadiusMax" Type="Real64" Value="3000"/>
+															</PropertyList>
+															<CurveUsageInfoList>
+																<VolumeDryUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="VolumeDry" ID="{10A4DAD6-E487-442E-B45B-18C78FB53D16}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="3"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>0</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>3000</XPos>
+																					<YPos>-12</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</VolumeDryUsage>
+																<VolumeWetGameUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetGameUsage>
+																<VolumeWetUserUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetUserUsage>
+																<LowPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</LowPassFilterUsage>
+																<HighPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</HighPassFilterUsage>
+																<SpreadUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="Spread" ID="{0CF2093C-0132-44E5-B849-F94D7EFA2BB4}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="1"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>100</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>3000</XPos>
+																					<YPos>50</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</SpreadUsage>
+																<FocusUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</FocusUsage>
+															</CurveUsageInfoList>
+														</Attenuation>
+													</Custom>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
 												</Reference>
@@ -8150,14 +8650,26 @@
 													<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
 												</Reference>
 												<Reference Name="SwitchGroupOrStateGroup">
-													<ObjectRef Name="Time" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}" WorkUnitID="{AE6099E3-F78F-4A6A-A984-B357DEED8900}"/>
+													<ObjectRef Name="Atmosphere" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}" WorkUnitID="{AE6099E3-F78F-4A6A-A984-B357DEED8900}"/>
 												</Reference>
 												<Reference Name="UserAuxSend0">
 													<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<RandomSequenceContainer Name="T_S3D_Rain" ID="{B2C7F75A-8DAB-43CD-BEE2-3CDA81DB5813}" ShortID="442351343">
+												<RandomSequenceContainer Name="A_S3D_Rain" ID="{B2C7F75A-8DAB-43CD-BEE2-3CDA81DB5813}" ShortID="442351343">
+													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -8167,7 +8679,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Rain" ID="{0D793CE6-7383-48A1-90DB-16D05BC34DAE}" ShortID="142938486">
+														<Sound Name="A_S3D_Rain_Thunder" ID="{0D793CE6-7383-48A1-90DB-16D05BC34DAE}" ShortID="142938486">
 															<PropertyList>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
@@ -8188,6 +8700,10 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="Rain" ID="{945B5189-29AD-4B0C-963D-795599CD09A4}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="34.0378524546342"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Rain.wav</AudioFile>
 																	<MediaIDList>
@@ -8199,7 +8715,14 @@
 																<ActiveSource Name="Rain" ID="{945B5189-29AD-4B0C-963D-795599CD09A4}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Rain_Heavy" ID="{4CE18665-F3FC-4897-A4C0-8C4E044CFB48}" ShortID="549243156">
+														<Sound Name="A_S3D_Rain_Heavy" ID="{4CE18665-F3FC-4897-A4C0-8C4E044CFB48}" ShortID="549243156">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-3</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -8224,11 +8747,11 @@
 																<ActiveSource Name="Rain_Heavy" ID="{96A5AF73-630F-45CC-916F-90FB1FDA50BE}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="EXT_AMB_Rain_Light" ID="{DB6DA85A-31CD-45C8-B31A-812E59A913D9}" ShortID="389939056">
+														<Sound Name="A_S3D_Rain_Light" ID="{DB6DA85A-31CD-45C8-B31A-812E59A913D9}" ShortID="389939056">
 															<PropertyList>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
-																		<Value>-6</Value>
+																		<Value>-3</Value>
 																	</ValueList>
 																</Property>
 																<Property Name="Weight" Type="Real64">
@@ -8263,7 +8786,19 @@
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="T_S3D_Snow" ID="{0E1F8D85-2E81-43F1-BF3E-4ED387AB33FA}" ShortID="670370943">
+												<RandomSequenceContainer Name="A_S3D_Snow" ID="{0E1F8D85-2E81-43F1-BF3E-4ED387AB33FA}" ShortID="670370943">
+													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-9</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -8273,8 +8808,13 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Snow_Icicle" ID="{9FD6CA72-9C03-46DD-9CD2-ACD4A4AC342E}" ShortID="516986298">
+														<Sound Name="A_S3D_Snow_Icicle" ID="{9FD6CA72-9C03-46DD-9CD2-ACD4A4AC342E}" ShortID="516986298">
 															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-9</Value>
+																	</ValueList>
+																</Property>
 																<Property Name="Weight" Type="Real64">
 																	<ValueList>
 																		<Value>20</Value>
@@ -8294,6 +8834,10 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="Snow_Icicle" ID="{3AFBA743-4770-4D08-83E9-3C58D8042902}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="19.9745264239976"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Snow_Icicle.wav</AudioFile>
 																	<MediaIDList>
@@ -8305,7 +8849,7 @@
 																<ActiveSource Name="Snow_Icicle" ID="{3AFBA743-4770-4D08-83E9-3C58D8042902}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Snow_Icicle_02" ID="{88159EFE-2C0A-4C29-AC0B-AE8BB19601C3}" ShortID="630500301">
+														<Sound Name="A_S3D_Snow_Icicle_02" ID="{88159EFE-2C0A-4C29-AC0B-AE8BB19601C3}" ShortID="630500301">
 															<PropertyList>
 																<Property Name="Weight" Type="Real64">
 																	<ValueList>
@@ -8337,7 +8881,7 @@
 																<ActiveSource Name="Snow_Icicle_02" ID="{8677C4AC-68F8-49D0-B477-83CC7B65B105}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Snow_Icicle_03" ID="{D6C32EA9-B03E-4A18-BAA9-38000B04B0E5}" ShortID="55326511">
+														<Sound Name="A_S3D_Snow_Icicle_03" ID="{D6C32EA9-B03E-4A18-BAA9-38000B04B0E5}" ShortID="55326511">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -8351,6 +8895,11 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="Snow_Icicle_03" ID="{8F3684D3-88E7-4E38-9126-B330917A06B2}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="19.9657534246575"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Snow_Icicle_03.wav</AudioFile>
 																	<MediaIDList>
@@ -8364,7 +8913,19 @@
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="T_S3D_Windy" ID="{FBC109BA-3065-4D96-B81A-DC49413B263E}" ShortID="206653362">
+												<RandomSequenceContainer Name="A_S3D_Windy" ID="{FBC109BA-3065-4D96-B81A-DC49413B263E}" ShortID="206653362">
+													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -8374,7 +8935,29 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="EXT_Wind_Soft" ID="{D418CE4B-D933-4A08-AA50-15E1D14668B5}" ShortID="277167551">
+														<Sound Name="A_S3D_Wind_Pressure" ID="{D418CE4B-D933-4A08-AA50-15E1D14668B5}" ShortID="277167551">
+															<PropertyList>
+																<Property Name="Highpass" Type="int16">
+																	<ValueList>
+																		<Value>15</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Lowpass" Type="int16">
+																	<ValueList>
+																		<Value>70</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Pitch" Type="int32">
+																	<ValueList>
+																		<Value>-50</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-12</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -8401,8 +8984,13 @@
 																<ActiveSource Name="EXT_Wind_Soft" ID="{97AD7343-C3BD-4D93-AE92-4A2BDB638BCB}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="EXT_Wind_Fly" ID="{59679673-1AF4-494D-A44E-7DCD0D2B1D28}" ShortID="683396649">
+														<Sound Name="A_S3D_Wind_Harsh" ID="{59679673-1AF4-494D-A44E-7DCD0D2B1D28}" ShortID="683396649">
 															<PropertyList>
+																<Property Name="Lowpass" Type="int16">
+																	<ValueList>
+																		<Value>50</Value>
+																	</ValueList>
+																</Property>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
 																		<Value>-6</Value>
@@ -8434,9 +9022,103 @@
 																<ActiveSource Name="EXT_Wind_Fly" ID="{B98839D2-077D-438B-ACC0-40587C41DAEA}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="EXT_Wind_Breeze" ID="{8A5BC899-7F76-4E05-ACF1-DA2493F5BAB3}" ShortID="304831020">
+														<Sound Name="A_S3D_Wind_Pulse" ID="{8A5BC899-7F76-4E05-ACF1-DA2493F5BAB3}" ShortID="304831020">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wind_Breeze" ID="{1AC3540D-3663-4C59-9698-7397F3E001A2}">
+																	<Language>SFX</Language>
+																	<AudioFile>Wind_Breeze.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="789962799"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wind_Breeze" ID="{1AC3540D-3663-4C59-9698-7397F3E001A2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="A_S3D_Wind_Gust" ID="{28960863-6E75-4D73-AC65-3A32B835C8D2}" ShortID="424153808">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-12</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="EXT_Wind_Harsh" ID="{F6A282E6-54DC-4D01-A953-B87195DD0CE3}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="10.9811643835616"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>EXT_Wind_Harsh.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="788324523"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="EXT_Wind_Harsh" ID="{F6A282E6-54DC-4D01-A953-B87195DD0CE3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="A_S3D_Wind_Soft" ID="{CDD95969-5B46-4275-BF98-E1EDC2E7E6EF}" ShortID="193065966">
 															<PropertyList>
 																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="W_Breeze" ID="{F3FC4BF5-D393-4F7D-A7EA-F49A0F027721}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="13.9280821917808"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>W_Breeze.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1073417417"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="W_Breeze" ID="{F3FC4BF5-D393-4F7D-A7EA-F49A0F027721}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="A_S3D_Wind_Breeze" ID="{813F4612-F384-4846-B90A-DE0873294CE1}" ShortID="856767030">
+															<PropertyList>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
 																		<Value>-3</Value>
@@ -8455,93 +9137,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Wind_Breeze" ID="{1AC3540D-3663-4C59-9698-7397F3E001A2}">
-																	<Language>SFX</Language>
-																	<AudioFile>Wind_Breeze.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="439622629"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Wind_Breeze" ID="{1AC3540D-3663-4C59-9698-7397F3E001A2}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="EXT_Wind_Harsh" ID="{28960863-6E75-4D73-AC65-3A32B835C8D2}" ShortID="424153808">
-															<PropertyList>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-																<Reference Name="UserAuxSend0">
-																	<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="EXT_Wind_Harsh" ID="{F6A282E6-54DC-4D01-A953-B87195DD0CE3}">
-																	<Language>SFX</Language>
-																	<AudioFile>EXT_Wind_Harsh.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="444396471"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="EXT_Wind_Harsh" ID="{F6A282E6-54DC-4D01-A953-B87195DD0CE3}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="W_Breeze" ID="{CDD95969-5B46-4275-BF98-E1EDC2E7E6EF}" ShortID="193065966">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-																<Reference Name="UserAuxSend0">
-																	<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="W_Breeze" ID="{F3FC4BF5-D393-4F7D-A7EA-F49A0F027721}">
-																	<Language>SFX</Language>
-																	<AudioFile>W_Breeze.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="1073417417"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="W_Breeze" ID="{F3FC4BF5-D393-4F7D-A7EA-F49A0F027721}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="S_Breeze" ID="{813F4612-F384-4846-B90A-DE0873294CE1}" ShortID="856767030">
-															<PropertyList>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-																<Property Name="Volume" Type="Real64">
-																	<ValueList>
-																		<Value>-6</Value>
-																	</ValueList>
-																</Property>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-																<Reference Name="UserAuxSend0">
-																	<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
 																<AudioFileSource Name="S_Breeze" ID="{2798E29B-EE88-4915-AAAF-B0820A151BD2}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="20.9640410958904"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>S_Breeze.wav</AudioFile>
 																	<MediaIDList>
@@ -8556,35 +9157,117 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{38900CB9-A4D2-4601-A5F4-061E54EEA292}"/>
+												<Position Name="" ID="{C68F30B3-6D46-4ECB-8086-CCB87EA11386}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="2.5"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="Time_Switch_Path" ID="{571842FA-4B65-4391-BB20-E7136B743F3D}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="100"/>
+																<Property Name="RandomY" Type="Real64" Value="100"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-100</XPos>
+																	<YPos>100</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Time_Switch_Path_01" ID="{906D4ECE-E6AA-4CD6-80CD-77B0379FFF89}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="99"/>
+																<Property Name="RandomY" Type="Real64" Value="100"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>100</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Time_Switch_Path_02" ID="{EFC75563-06E7-48E9-95D9-4356B7164B84}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="100"/>
+																<Property Name="RandomY" Type="Real64" Value="100"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-100</XPos>
+																	<YPos>-100</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Time_Switch_Path_03" ID="{6A442577-5092-4C2B-BB10-86CC9994E7D2}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="100"/>
+																<Property Name="RandomY" Type="Real64" Value="100"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>-100</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Time_Switch_Path_04" ID="{C656847D-EF36-4A3E-81B5-1C9390E32386}">
+															<PropertyList>
+																<Property Name="RandomY" Type="Real64" Value="100"/>
+																<Property Name="RandomZ" Type="Real64" Value="100"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>100</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
-														<ItemRef Name="T_S3D_Rain" ID="{B2C7F75A-8DAB-43CD-BEE2-3CDA81DB5813}"/>
+														<ItemRef Name="A_S3D_Rain" ID="{B2C7F75A-8DAB-43CD-BEE2-3CDA81DB5813}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="T_S3D_Snow" ID="{0E1F8D85-2E81-43F1-BF3E-4ED387AB33FA}"/>
+														<ItemRef Name="A_S3D_Snow" ID="{0E1F8D85-2E81-43F1-BF3E-4ED387AB33FA}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="T_S3D_Windy" ID="{FBC109BA-3065-4D96-B81A-DC49413B263E}"/>
+														<ItemRef Name="A_S3D_Windy" ID="{FBC109BA-3065-4D96-B81A-DC49413B263E}"/>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
 												<GroupingList>
 													<Grouping>
 														<SwitchRef Name="Snow" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
 														<ItemList>
-															<ItemRef Name="T_S3D_Snow" ID="{0E1F8D85-2E81-43F1-BF3E-4ED387AB33FA}"/>
+															<ItemRef Name="A_S3D_Snow" ID="{0E1F8D85-2E81-43F1-BF3E-4ED387AB33FA}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
 														<SwitchRef Name="Rain" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
 														<ItemList>
-															<ItemRef Name="T_S3D_Rain" ID="{B2C7F75A-8DAB-43CD-BEE2-3CDA81DB5813}"/>
+															<ItemRef Name="A_S3D_Rain" ID="{B2C7F75A-8DAB-43CD-BEE2-3CDA81DB5813}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
 														<SwitchRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
 														<ItemList>
-															<ItemRef Name="T_S3D_Windy" ID="{FBC109BA-3065-4D96-B81A-DC49413B263E}"/>
+															<ItemRef Name="A_S3D_Windy" ID="{FBC109BA-3065-4D96-B81A-DC49413B263E}"/>
 														</ItemList>
 													</Grouping>
 												</GroupingList>
@@ -8592,9 +9275,9 @@
 										</SwitchContainer>
 									</ChildrenList>
 								</Folder>
-								<Folder Name="Trees" ID="{0BCADB0C-2BD4-496C-A7EE-7C88AC9786F6}" ShortID="125767130">
+								<Folder Name="3D_Audio_P_Tree" ID="{0BCADB0C-2BD4-496C-A7EE-7C88AC9786F6}" ShortID="125767130">
 									<ChildrenList>
-										<SwitchContainer Name="Seasons_2D_Tree" ID="{EDF31BA0-4AE5-4C51-8357-3967752523CE}" ShortID="912132975">
+										<SwitchContainer Name="3D_A_P_Seasons_Tree" ID="{EDF31BA0-4AE5-4C51-8357-3967752523CE}" ShortID="912132975">
 											<PropertyList>
 												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
@@ -8617,99 +9300,22 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<BlendContainer Name="ST_Trees_Winter" ID="{6BE96C0B-6A27-4CD0-B665-0A6A5377A536}" ShortID="58415284">
+												<BlendContainer Name="ST_Tree_Dense" ID="{C1604979-F69B-4AA6-9E83-0004802E8653}" ShortID="589730345">
 													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="BlendBehavior" Type="int16" Value="1"/>
-														<Property Name="Lowpass" Type="int16">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{89CA2B5C-D73F-4541-B5A6-27B9668EEFBA}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Max" Type="Real64" Value="23"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-														<Property Name="OverridePositioning" Type="bool" Value="True"/>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-150</Value>
-															</ValueList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<Custom>
-																<Attenuation Name="Attenuation (Custom)" ID="{819E4846-8382-4AFB-8F57-56C13A43B1FA}" ShortID="146307475">
-																	<PropertyList>
-																		<Property Name="RadiusMax" Type="Real64" Value="7000"/>
-																	</PropertyList>
-																	<CurveUsageInfoList>
-																		<VolumeDryUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																				<Curve Name="VolumeDry" ID="{60C02252-623A-48DD-A09B-85DCD3F612B8}">
-																					<PropertyList>
-																						<Property Name="Flags" Type="int32" Value="3"/>
-																					</PropertyList>
-																					<PointList>
-																						<Point>
-																							<XPos>0</XPos>
-																							<YPos>0</YPos>
-																							<Flags>5</Flags>
-																						</Point>
-																						<Point>
-																							<XPos>7000</XPos>
-																							<YPos>-200</YPos>
-																							<Flags>37</Flags>
-																						</Point>
-																					</PointList>
-																				</Curve>
-																			</CurveUsageInfo>
-																		</VolumeDryUsage>
-																		<VolumeWetGameUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																		</VolumeWetGameUsage>
-																		<VolumeWetUserUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																		</VolumeWetUserUsage>
-																		<LowPassFilterUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																		</LowPassFilterUsage>
-																		<HighPassFilterUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																		</HighPassFilterUsage>
-																		<SpreadUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																		</SpreadUsage>
-																		<FocusUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																		</FocusUsage>
-																	</CurveUsageInfoList>
-																</Attenuation>
-															</Custom>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-														</Reference>
-														<Reference Name="UserAuxSend0">
-															<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Leaves_Dry_Crunch_02" ID="{77D86707-6A62-42B6-9415-58F3231C1933}" ShortID="991340028">
+														<BlendContainer Name="ST_Tree_Dense_Blend_01" ID="{C122182E-7E27-4E60-8FF1-99B78A78A77D}" ShortID="344310671">
 															<PropertyList>
-																<Property Name="InitialDelay" Type="Real64">
-																	<ValueList>
-																		<Value>9</Value>
-																	</ValueList>
-																</Property>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="BlendBehavior" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -8720,92 +9326,181 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Leaves_Dry_Crunch_02" ID="{A7BCCCB1-3F44-4912-876F-90BD175ECFED}">
-																	<Language>SFX</Language>
-																	<AudioFile>Leaves\Leaves_Dry_Crunch_02.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="274121632"/>
-																	</MediaIDList>
-																</AudioFileSource>
+																<Sound Name="AMB_Tree_Rustling" ID="{88890286-23E9-4AD6-9DA7-F7C7BFAF5BC2}" ShortID="19353470">
+																	<PropertyList>
+																		<Property Name="Highpass" Type="int16">
+																			<ValueList>
+																				<Value>30</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																		<Property Name="Lowpass" Type="int16">
+																			<ValueList>
+																				<Value>35</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="AMB_Tree" ID="{4EE87BFE-0C7A-473B-A6E2-23DE5951240B}">
+																			<Language>SFX</Language>
+																			<AudioFile>AMB_Tree.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="20582504"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="AMB_Tree" ID="{4EE87BFE-0C7A-473B-A6E2-23DE5951240B}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Grass_Leaves_Step" ID="{CECAE2D3-81FA-4843-8AC6-909B28BAB501}" ShortID="124700443">
+																	<PropertyList>
+																		<Property Name="InitialDelay" Type="Real64">
+																			<ValueList>
+																				<Value>2</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Grass_Leaves_Step" ID="{A0708DD6-CC06-43AB-8D47-8DD502CF3B88}">
+																			<PropertyList>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.452054794520549"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="4.90536725719767"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>Grass_Other\Grass_Leaves_Step.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="172158003"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Grass_Leaves_Step" ID="{A0708DD6-CC06-43AB-8D47-8DD502CF3B88}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Grass_Movement_Leaves" ID="{7BEF7692-7833-4BAB-B270-30C7BF770BA5}" ShortID="407195982">
+																	<PropertyList>
+																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>3</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Grass_Movement_Leaves" ID="{0E95716C-39A4-4E49-9022-E4050ED673F7}">
+																			<Language>SFX</Language>
+																			<AudioFile>Grass_Other\Grass_Movement_Leaves.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="674690314"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Grass_Movement_Leaves" ID="{0E95716C-39A4-4E49-9022-E4050ED673F7}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Grass_Movement_Leaves_Harsh" ID="{A0A9E1DA-1D55-4C84-8D71-0246687A92C0}" ShortID="714321804">
+																	<PropertyList>
+																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>6</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Grass_Movement_Leaves" ID="{CF8FD618-925C-446F-A87B-A34A79678352}">
+																			<Language>SFX</Language>
+																			<AudioFile>Grass_Other\Grass_Movement_Leaves.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="674690314"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Grass_Movement_Leaves" ID="{CF8FD618-925C-446F-A87B-A34A79678352}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
 															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Leaves_Dry_Crunch_02" ID="{A7BCCCB1-3F44-4912-876F-90BD175ECFED}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Grass_Crunch" ID="{13EC4B9C-EB29-4354-B223-36C4AC0B3AEE}" ShortID="58932876">
+														</BlendContainer>
+														<BlendContainer Name="ST_Tree_Dense_Blend_02" ID="{D4821843-3A0F-4A67-8F03-C87D2E3A35B1}" ShortID="172042810">
 															<PropertyList>
+																<Property Name="BlendBehavior" Type="int16" Value="1"/>
 																<Property Name="InitialDelay" Type="Real64">
 																	<ModifierList>
 																		<ModifierInfo>
-																			<Modifier Name="" ID="{F000EFA6-3AD6-4ACF-B2AD-FCE50F08F6D8}">
+																			<Modifier Name="" ID="{0D963C4C-CC4E-451B-9A1F-8FAABBB64E2E}">
 																				<PropertyList>
 																					<Property Name="Enabled" Type="bool" Value="True"/>
-																					<Property Name="Max" Type="Real64" Value="3"/>
+																					<Property Name="Max" Type="Real64" Value="2"/>
 																					<Property Name="Min" Type="Real64" Value="-1"/>
 																				</PropertyList>
 																			</Modifier>
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Grass_Crunch" ID="{03CE24CD-1BA3-488B-A808-1395830A79A4}">
-																	<Language>SFX</Language>
-																	<AudioFile>Grass_Other\Grass_Crunch.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="763508518"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Grass_Crunch" ID="{03CE24CD-1BA3-488B-A808-1395830A79A4}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Leaves_Dry_Crunch_01" ID="{6CD5B0B9-EA79-4F81-AED8-DF4A353799A3}" ShortID="470407431">
-															<PropertyList>
-																<Property Name="InitialDelay" Type="Real64">
-																	<ValueList>
-																		<Value>3</Value>
-																	</ValueList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{F4D89D4A-8D0A-4864-80FF-0C97D849B6B9}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-330"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
 																</Property>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Leaves_Dry_Crunch_01" ID="{D18E73B2-F7E9-4F8C-AD4F-3C94AD8F0B21}">
-																	<Language>SFX</Language>
-																	<AudioFile>Leaves\Leaves_Dry_Crunch_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="78922643"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Leaves_Dry_Crunch_01" ID="{D18E73B2-F7E9-4F8C-AD4F-3C94AD8F0B21}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Grass_Movement_Leaves_Harsh" ID="{A0A9E1DA-1D55-4C84-8D71-0246687A92C0}" ShortID="714321804">
-															<PropertyList>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
-																		<Value>6</Value>
+																		<Value>-3</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -8818,239 +9513,232 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Grass_Movement_Leaves" ID="{CF8FD618-925C-446F-A87B-A34A79678352}">
-																	<Language>SFX</Language>
-																	<AudioFile>Grass_Other\Grass_Movement_Leaves.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="674690314"/>
-																	</MediaIDList>
-																</AudioFileSource>
+																<Sound Name="Grass_Crunch" ID="{13EC4B9C-EB29-4354-B223-36C4AC0B3AEE}" ShortID="58932876">
+																	<PropertyList>
+																		<Property Name="InitialDelay" Type="Real64">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{F000EFA6-3AD6-4ACF-B2AD-FCE50F08F6D8}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="3"/>
+																							<Property Name="Min" Type="Real64" Value="-1"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Grass_Crunch" ID="{03CE24CD-1BA3-488B-A808-1395830A79A4}">
+																			<Language>SFX</Language>
+																			<AudioFile>Grass_Other\Grass_Crunch.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="763508518"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Grass_Crunch" ID="{03CE24CD-1BA3-488B-A808-1395830A79A4}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Grass_Tree_Falling" ID="{45EAF002-E9A6-4D3C-8BB0-A189DF32B58B}" ShortID="505117586">
+																	<PropertyList>
+																		<Property Name="InitialDelay" Type="Real64">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{8CCB3D93-7142-433E-8199-900BA8F7ACFB}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Min" Type="Real64" Value="-1"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Grass_Tree_Falling" ID="{7D1220E7-9FDC-4F64-AEA9-136C84AAEF7A}">
+																			<Language>SFX</Language>
+																			<AudioFile>Grass_Other\Grass_Tree_Falling.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="40429813"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Grass_Tree_Falling" ID="{7D1220E7-9FDC-4F64-AEA9-136C84AAEF7A}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Leaves_Flap_Harsh" ID="{B457E3A2-6F32-42E7-BF50-9738339B8CE0}" ShortID="594187175">
+																	<PropertyList>
+																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Leaves_Flap_Harsh" ID="{D56E3235-01D1-41B1-8584-E1A1AD0B0900}">
+																			<Language>SFX</Language>
+																			<AudioFile>Leaves\Leaves_Flap_Harsh.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="30607187"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Leaves_Flap_Harsh" ID="{D56E3235-01D1-41B1-8584-E1A1AD0B0900}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
 															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Grass_Movement_Leaves" ID="{CF8FD618-925C-446F-A87B-A34A79678352}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
+															<BlendTrackList>
+																<BlendTrack Name="New Blend Track" ID="{FB2EDB6A-2F94-48D3-A98A-9FDBE8EDA35F}" ShortID="28913882">
+																	<PropertyList>
+																		<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+																		<Property Name="Pitch" Type="int32">
+																			<RTPCList>
+																				<RTPC Name="" ID="{2C98B1F5-CD1D-4FC8-944B-37CC64415221}" ShortID="522110332">
+																					<ReferenceList>
+																						<Reference Name="ControlInput">
+																							<Custom>
+																								<ModulatorLfo Name="Modulator LFO (Custom)" ID="{6B6C99DC-128E-4F5E-B919-E10F3AA5EFAA}" ShortID="703231915"/>
+																							</Custom>
+																						</Reference>
+																					</ReferenceList>
+																					<Curve Name="" ID="{66E6A875-077A-4717-B180-2661120E1064}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="65537"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>4800</YPos>
+																								<Flags>21</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>1</XPos>
+																								<YPos>0</YPos>
+																								<Flags>53</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</RTPC>
+																			</RTPCList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="LayerCrossFadeControlInput">
+																			<Custom>
+																				<ModulatorLfo Name="Modulator LFO (Custom)" ID="{01B06005-D23F-4798-BD11-419784E25798}" ShortID="224981179"/>
+																			</Custom>
+																		</Reference>
+																	</ReferenceList>
+																</BlendTrack>
+															</BlendTrackList>
+														</BlendContainer>
 													</ChildrenList>
-													<StateInfo>
-														<StateGroupList>
-															<StateGroupInfo>
-																<StateGroupRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
-															</StateGroupInfo>
-														</StateGroupList>
-														<CustomStateList>
-															<CustomState>
-																<StateRef Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
-																<CustomState Name="" ID="{E5FE1E2A-9A3C-4053-9FDC-E21E9AC2AF57}" ShortID="544196619">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="12"/>
-																	</PropertyList>
-																</CustomState>
-															</CustomState>
-															<CustomState>
-																<StateRef Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
-																<CustomState Name="" ID="{D4761F97-92BF-4FA2-AE46-803AA777AA71}" ShortID="909666619">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="-108"/>
-																	</PropertyList>
-																</CustomState>
-															</CustomState>
-															<CustomState>
-																<StateRef Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
-																<CustomState Name="" ID="{72CDC434-5067-47B6-89E8-0178994619D7}" ShortID="474647767">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="-10"/>
-																	</PropertyList>
-																</CustomState>
-															</CustomState>
-														</CustomStateList>
-													</StateInfo>
-													<BlendTrackList>
-														<BlendTrack Name="New Blend Track" ID="{B4DE55E8-7C16-4314-A66A-A306707EA3F2}" ShortID="738152801">
-															<BlendTrackAssocList>
-																<BlendTrackAssoc>
-																	<ItemRef Name="Grass_Crunch" ID="{13EC4B9C-EB29-4354-B223-36C4AC0B3AEE}"/>
-																</BlendTrackAssoc>
-																<BlendTrackAssoc>
-																	<ItemRef Name="Leaves_Dry_Crunch_01" ID="{6CD5B0B9-EA79-4F81-AED8-DF4A353799A3}"/>
-																</BlendTrackAssoc>
-																<BlendTrackAssoc>
-																	<ItemRef Name="Leaves_Dry_Crunch_02" ID="{77D86707-6A62-42B6-9415-58F3231C1933}"/>
-																</BlendTrackAssoc>
-															</BlendTrackAssocList>
-														</BlendTrack>
-													</BlendTrackList>
 												</BlendContainer>
-												<BlendContainer Name="ST_Trees_Summer" ID="{95221402-A0E0-4AF7-A107-8E8D4D4F3472}" ShortID="768059801">
+												<BlendContainer Name="ST_Tree_Soft" ID="{06B7107E-7545-40D9-A9AD-4DD7A3D4D17A}" ShortID="493842301">
 													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="BlendBehavior" Type="int16" Value="1"/>
-														<Property Name="OverridePositioning" Type="bool" Value="True"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>3</Value>
-															</ValueList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<Custom>
-																<Attenuation Name="Attenuation (Custom)" ID="{1A003051-EA0E-491C-8B79-DC8B1F614BA2}" ShortID="899562677">
-																	<PropertyList>
-																		<Property Name="RadiusMax" Type="Real64" Value="5000"/>
-																	</PropertyList>
-																	<CurveUsageInfoList>
-																		<VolumeDryUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																				<Curve Name="VolumeDry" ID="{B768F3AD-6676-4361-9689-76E338778B05}">
-																					<PropertyList>
-																						<Property Name="Flags" Type="int32" Value="3"/>
-																					</PropertyList>
-																					<PointList>
-																						<Point>
-																							<XPos>0</XPos>
-																							<YPos>-2.40588</YPos>
-																							<Flags>5</Flags>
-																						</Point>
-																						<Point>
-																							<XPos>5000</XPos>
-																							<YPos>-200</YPos>
-																							<Flags>37</Flags>
-																						</Point>
-																					</PointList>
-																				</Curve>
-																			</CurveUsageInfo>
-																		</VolumeDryUsage>
-																		<VolumeWetGameUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																		</VolumeWetGameUsage>
-																		<VolumeWetUserUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																		</VolumeWetUserUsage>
-																		<LowPassFilterUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																		</LowPassFilterUsage>
-																		<HighPassFilterUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																		</HighPassFilterUsage>
-																		<SpreadUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																		</SpreadUsage>
-																		<FocusUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																		</FocusUsage>
-																	</CurveUsageInfoList>
-																</Attenuation>
-															</Custom>
-														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-														</Reference>
-														<Reference Name="UserAuxSend0">
-															<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Leaves_Soft" ID="{8B757D52-C3DC-4C7F-AB07-100D50F8A2F1}" ShortID="418959815">
-															<PropertyList>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Leaves_Soft" ID="{305E70ED-0ECA-427B-ACE0-DB510D7C5DB4}">
-																	<Language>SFX</Language>
-																	<AudioFile>Leaves\Leaves_Soft.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="629825764"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Leaves_Soft" ID="{305E70ED-0ECA-427B-ACE0-DB510D7C5DB4}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Leaves_Flap_Soft" ID="{834A8FE4-ADF4-4E66-8673-9F95F4C870E5}" ShortID="907660897">
-															<PropertyList>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Leaves_Flap_Soft" ID="{195F0246-D839-40A0-A556-EDCF32AD3BF6}">
-																	<Language>SFX</Language>
-																	<AudioFile>Leaves\Leaves_Flap_Soft.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="75865247"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Leaves_Flap_Soft" ID="{195F0246-D839-40A0-A556-EDCF32AD3BF6}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Grass_Movement_Leaves_Low" ID="{1E2CD698-1A86-49D3-A743-8279506CCC0D}" ShortID="468558508">
-															<PropertyList>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Grass_Movement_Leaves" ID="{208E81EE-A238-4A63-AC36-267A50E07D80}">
-																	<Language>SFX</Language>
-																	<AudioFile>Grass_Other\Grass_Movement_Leaves.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="674690314"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Grass_Movement_Leaves" ID="{208E81EE-A238-4A63-AC36-267A50E07D80}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Leaves_Flap_Harsh" ID="{B457E3A2-6F32-42E7-BF50-9738339B8CE0}" ShortID="594187175">
+														<Sound Name="Leaves_Against_Leaves" ID="{E952D3F3-26B8-484B-876C-FDAAC1A68763}" ShortID="738625022">
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="InitialDelay" Type="Real64">
+																	<ValueList>
+																		<Value>1.5</Value>
+																	</ValueList>
+																</Property>
 																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+																<Property Name="LoopCount" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{E3FAD838-4725-4D79-B7C2-5C212AB0DDA6}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="3"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="Lowpass" Type="int16">
+																	<ValueList>
+																		<Value>30</Value>
+																	</ValueList>
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{177463F2-0085-4CEC-9D8D-57151EDC7997}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="10"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
 																	<Custom>
-																		<Attenuation Name="Attenuation (Custom)" ID="{735C66D2-0B02-40A7-9172-FB06B7B544EC}" ShortID="622005093">
+																		<Attenuation Name="Attenuation (Custom)" ID="{495AF29F-41A3-4C74-95AB-0C50B7050952}" ShortID="5849358">
 																			<PropertyList>
 																				<Property Name="RadiusMax" Type="Real64" Value="7000"/>
 																			</PropertyList>
 																			<CurveUsageInfoList>
 																				<VolumeDryUsage>
 																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="VolumeDry" ID="{184EEFCF-B06D-431A-BADF-A895DC1DF1E8}">
+																						<Curve Name="VolumeDry" ID="{52E87CF1-E338-471C-9CBF-04A6905947B9}">
 																							<PropertyList>
 																								<Property Name="Flags" Type="int32" Value="3"/>
 																							</PropertyList>
 																							<PointList>
 																								<Point>
 																									<XPos>0</XPos>
-																									<YPos>0</YPos>
+																									<YPos>-2.4677</YPos>
 																									<Flags>5</Flags>
 																								</Point>
 																								<Point>
@@ -9095,18 +9783,331 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Leaves_Flap_Harsh" ID="{D56E3235-01D1-41B1-8584-E1A1AD0B0900}">
+																<AudioFileSource Name="Leaves_Against_Leaves" ID="{93381DCE-FBCB-42F1-9947-89EFA1322E4E}">
 																	<Language>SFX</Language>
-																	<AudioFile>Leaves\Leaves_Flap_Harsh.wav</AudioFile>
+																	<AudioFile>Leaves\Leaves_Against_Leaves.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="30607187"/>
+																		<MediaID ID="820204544"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Leaves_Flap_Harsh" ID="{D56E3235-01D1-41B1-8584-E1A1AD0B0900}" Platform="Linked"/>
+																<ActiveSource Name="Leaves_Against_Leaves" ID="{93381DCE-FBCB-42F1-9947-89EFA1322E4E}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
+														<Sound Name="Grass_Crush" ID="{63F40063-7C6C-4D1E-9F7C-F21E2397CF1F}" ShortID="1071196870">
+															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+																<Property Name="LoopCount" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{4CCD41E2-DE4C-4C42-99FB-5862A6966D2F}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="4"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<Custom>
+																		<Attenuation Name="Attenuation (Custom)" ID="{FFDB0581-7407-458B-BD35-59F818B49333}" ShortID="1030215569">
+																			<PropertyList>
+																				<Property Name="RadiusMax" Type="Real64" Value="7000"/>
+																			</PropertyList>
+																			<CurveUsageInfoList>
+																				<VolumeDryUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																						<Curve Name="VolumeDry" ID="{D2E3AF87-A2C6-46F0-B72F-BEB870F89310}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="3"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>-2.4677</YPos>
+																									<Flags>5</Flags>
+																								</Point>
+																								<Point>
+																									<XPos>7000</XPos>
+																									<YPos>-200</YPos>
+																									<Flags>37</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</CurveUsageInfo>
+																				</VolumeDryUsage>
+																				<VolumeWetGameUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																				</VolumeWetGameUsage>
+																				<VolumeWetUserUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																				</VolumeWetUserUsage>
+																				<LowPassFilterUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																				</LowPassFilterUsage>
+																				<HighPassFilterUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																				</HighPassFilterUsage>
+																				<SpreadUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																				</SpreadUsage>
+																				<FocusUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																				</FocusUsage>
+																			</CurveUsageInfoList>
+																		</Attenuation>
+																	</Custom>
+																</Reference>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Grass_Crush" ID="{B56CB1C1-EF71-4662-8995-1E661C884DFA}">
+																	<Language>SFX</Language>
+																	<AudioFile>Grass_Other\Grass_Crush.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="457156708"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Grass_Crush" ID="{B56CB1C1-EF71-4662-8995-1E661C884DFA}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Grass_Movement_Leaves_Low" ID="{1E2CD698-1A86-49D3-A743-8279506CCC0D}" ShortID="468558508">
+															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+																<Property Name="LoopCount" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{64BCAECA-F311-4F74-9CB7-99F5F8B41643}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="6"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<Custom>
+																		<Attenuation Name="Attenuation (Custom)" ID="{2F01FA4E-0BA7-4BD0-BF54-AFDFE2AE262A}" ShortID="775770350">
+																			<PropertyList>
+																				<Property Name="RadiusMax" Type="Real64" Value="5000"/>
+																			</PropertyList>
+																			<CurveUsageInfoList>
+																				<VolumeDryUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																						<Curve Name="VolumeDry" ID="{75ACB078-6DE2-411F-B91E-8782E6A021B2}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="3"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>-2.40588</YPos>
+																									<Flags>5</Flags>
+																								</Point>
+																								<Point>
+																									<XPos>5000</XPos>
+																									<YPos>-200</YPos>
+																									<Flags>37</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</CurveUsageInfo>
+																				</VolumeDryUsage>
+																				<VolumeWetGameUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																				</VolumeWetGameUsage>
+																				<VolumeWetUserUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																				</VolumeWetUserUsage>
+																				<LowPassFilterUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																				</LowPassFilterUsage>
+																				<HighPassFilterUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																				</HighPassFilterUsage>
+																				<SpreadUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																				</SpreadUsage>
+																				<FocusUsage>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																				</FocusUsage>
+																			</CurveUsageInfoList>
+																		</Attenuation>
+																	</Custom>
+																</Reference>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Grass_Movement_Leaves" ID="{208E81EE-A238-4A63-AC36-267A50E07D80}">
+																	<Language>SFX</Language>
+																	<AudioFile>Grass_Other\Grass_Movement_Leaves.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="674690314"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Grass_Movement_Leaves" ID="{208E81EE-A238-4A63-AC36-267A50E07D80}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<RandomSequenceContainer Name="ST_Tree_Soft_Rand" ID="{375F9C98-C736-4233-B5EE-F0D923E22C2C}" ShortID="863422545">
+															<PropertyList>
+																<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Leaves_Soft" ID="{8B757D52-C3DC-4C7F-AB07-100D50F8A2F1}" ShortID="418959815">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Leaves_Soft" ID="{305E70ED-0ECA-427B-ACE0-DB510D7C5DB4}">
+																			<Language>SFX</Language>
+																			<AudioFile>Leaves\Leaves_Soft.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="629825764"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Leaves_Soft" ID="{305E70ED-0ECA-427B-ACE0-DB510D7C5DB4}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="F_Wind_Tree" ID="{8239DF86-7955-4FFD-B157-6339B2BFFABF}" ShortID="487006016">
+																	<PropertyList>
+																		<Property Name="Highpass" Type="int16">
+																			<ValueList>
+																				<Value>70</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="F_Wind_Tree" ID="{FEF95355-E26E-4015-8DEF-165ADD5E7287}">
+																			<PropertyList>
+																				<Property Name="FadeInDuration" Type="Real64" Value="0.0513698630136986"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.256849315068492"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="5.27703984208317"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>F_Wind_Tree.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="560470397"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="F_Wind_Tree" ID="{FEF95355-E26E-4015-8DEF-165ADD5E7287}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Grass_Movement_Leaves_Soft" ID="{8E6C6672-4F4E-4AFD-93FC-F2B9D8AC0D3D}" ShortID="326873340">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>3</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Grass_Movement_Leaves" ID="{AF6FE33E-5173-4765-A00B-347BE26898E7}">
+																			<Language>SFX</Language>
+																			<AudioFile>Grass_Other\Grass_Movement_Leaves.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="848106366"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Grass_Movement_Leaves" ID="{AF6FE33E-5173-4765-A00B-347BE26898E7}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+												</BlendContainer>
+												<BlendContainer Name="ST_Tree_Dry" ID="{3275FD81-5CE1-4FFD-A8F6-AD058140708C}" ShortID="264726249">
+													<PropertyList>
+														<Property Name="BlendBehavior" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
 														<Sound Name="Leaves_Dry_Falling" ID="{105935F6-233D-4524-9914-723B3FD3B586}" ShortID="730225326">
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
@@ -9125,25 +10126,25 @@
 															<ReferenceList>
 																<Reference Name="Attenuation">
 																	<Custom>
-																		<Attenuation Name="Attenuation (Custom)" ID="{587F2241-D840-4663-8B3C-869B1BE8413E}" ShortID="965413255">
+																		<Attenuation Name="Attenuation (Custom)" ID="{170537A9-F749-48EB-9E5B-0EBEDBB6CBE2}" ShortID="29295000">
 																			<PropertyList>
-																				<Property Name="RadiusMax" Type="Real64" Value="7000"/>
+																				<Property Name="RadiusMax" Type="Real64" Value="5000"/>
 																			</PropertyList>
 																			<CurveUsageInfoList>
 																				<VolumeDryUsage>
 																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="VolumeDry" ID="{5E727758-F1DC-42F4-9F47-BC24D83BA8A0}">
+																						<Curve Name="VolumeDry" ID="{E4745CFC-9D9E-4506-AB73-B05BB8265A60}">
 																							<PropertyList>
 																								<Property Name="Flags" Type="int32" Value="3"/>
 																							</PropertyList>
 																							<PointList>
 																								<Point>
 																									<XPos>0</XPos>
-																									<YPos>0</YPos>
+																									<YPos>-2.40588</YPos>
 																									<Flags>5</Flags>
 																								</Point>
 																								<Point>
-																									<XPos>7000</XPos>
+																									<XPos>5000</XPos>
 																									<YPos>-200</YPos>
 																									<Flags>37</Flags>
 																								</Point>
@@ -9196,356 +10197,59 @@
 																<ActiveSource Name="Leaves_Dry_Falling" ID="{16D18C45-5E4D-4964-8CB8-D37E6EB61157}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-													</ChildrenList>
-													<StateInfo>
-														<StateGroupList>
-															<StateGroupInfo>
-																<StateGroupRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
-															</StateGroupInfo>
-														</StateGroupList>
-														<CustomStateList>
-															<CustomState>
-																<StateRef Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
-																<CustomState Name="" ID="{D1E4CAE1-0ACE-4E71-9E5F-B196391199FC}" ShortID="696383670">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="-52"/>
-																	</PropertyList>
-																</CustomState>
-															</CustomState>
-															<CustomState>
-																<StateRef Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
-																<CustomState Name="" ID="{9C5BA238-9CE8-49D8-99D6-209E3B9D0525}" ShortID="790427869">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="12"/>
-																	</PropertyList>
-																</CustomState>
-															</CustomState>
-															<CustomState>
-																<StateRef Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
-																<CustomState Name="" ID="{25389DE7-082F-4058-AA59-3164389FE108}" ShortID="1054903534">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="-108"/>
-																	</PropertyList>
-																</CustomState>
-															</CustomState>
-														</CustomStateList>
-													</StateInfo>
-												</BlendContainer>
-												<BlendContainer Name="ST_Trees_Spring" ID="{42FD5BED-C837-4091-B3E9-AC9E9CF99ECF}" ShortID="701257550">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-														<Property Name="BlendBehavior" Type="int16" Value="1"/>
-														<Property Name="Lowpass" Type="int16">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{D509FDFC-1993-480B-B843-F57FCA581257}">
-																		<PropertyList>
-																			<Property Name="Max" Type="Real64" Value="24"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-														<Property Name="OverridePositioning" Type="bool" Value="True"/>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-60</Value>
-															</ValueList>
-														</Property>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>6</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<Custom>
-																<Attenuation Name="Attenuation (Custom)" ID="{EC6988A7-7776-42B4-B3F4-4DC521467D0D}" ShortID="696633385">
-																	<PropertyList>
-																		<Property Name="RadiusMax" Type="Real64" Value="7000"/>
-																	</PropertyList>
-																	<CurveUsageInfoList>
-																		<VolumeDryUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																				<Curve Name="VolumeDry" ID="{E37DDC0A-B5DF-421F-A9DF-DC17DB1027CE}">
-																					<PropertyList>
-																						<Property Name="Flags" Type="int32" Value="3"/>
-																					</PropertyList>
-																					<PointList>
-																						<Point>
-																							<XPos>0</XPos>
-																							<YPos>-2.4677</YPos>
-																							<Flags>5</Flags>
-																						</Point>
-																						<Point>
-																							<XPos>7000</XPos>
-																							<YPos>-200</YPos>
-																							<Flags>37</Flags>
-																						</Point>
-																					</PointList>
-																				</Curve>
-																			</CurveUsageInfo>
-																		</VolumeDryUsage>
-																		<VolumeWetGameUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																		</VolumeWetGameUsage>
-																		<VolumeWetUserUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																		</VolumeWetUserUsage>
-																		<LowPassFilterUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																		</LowPassFilterUsage>
-																		<HighPassFilterUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																		</HighPassFilterUsage>
-																		<SpreadUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																		</SpreadUsage>
-																		<FocusUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																		</FocusUsage>
-																	</CurveUsageInfoList>
-																</Attenuation>
-															</Custom>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-														</Reference>
-														<Reference Name="UserAuxSend0">
-															<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="Leaves_Against_Leaves" ID="{E952D3F3-26B8-484B-876C-FDAAC1A68763}" ShortID="738625022">
+														<Sound Name="Leaves_Flap_Soft" ID="{834A8FE4-ADF4-4E66-8673-9F95F4C870E5}" ShortID="907660897">
 															<PropertyList>
-																<Property Name="InitialDelay" Type="Real64">
-																	<ValueList>
-																		<Value>1.5</Value>
-																	</ValueList>
-																</Property>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-																<Property Name="Lowpass" Type="int16">
+																<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+																<Property Name="LoopCount" Type="int32" Value="1">
 																	<ModifierList>
 																		<ModifierInfo>
-																			<Modifier Name="" ID="{177463F2-0085-4CEC-9D8D-57151EDC7997}">
+																			<Modifier Name="" ID="{C0465863-B79F-49C3-BDB9-D7F6C5136382}">
 																				<PropertyList>
 																					<Property Name="Enabled" Type="bool" Value="True"/>
-																					<Property Name="Max" Type="Real64" Value="10"/>
+																					<Property Name="Max" Type="Real64" Value="7"/>
 																				</PropertyList>
 																			</Modifier>
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
-																<Property Name="Volume" Type="Real64">
-																	<ValueList>
-																		<Value>-6</Value>
-																	</ValueList>
-																</Property>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Leaves_Against_Leaves" ID="{93381DCE-FBCB-42F1-9947-89EFA1322E4E}">
-																	<Language>SFX</Language>
-																	<AudioFile>Leaves\Leaves_Against_Leaves.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="820204544"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Leaves_Against_Leaves" ID="{93381DCE-FBCB-42F1-9947-89EFA1322E4E}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Grass_Crush" ID="{63F40063-7C6C-4D1E-9F7C-F21E2397CF1F}" ShortID="1071196870">
-															<PropertyList>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Grass_Crush" ID="{B56CB1C1-EF71-4662-8995-1E661C884DFA}">
-																	<Language>SFX</Language>
-																	<AudioFile>Grass_Other\Grass_Crush.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="457156708"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Grass_Crush" ID="{B56CB1C1-EF71-4662-8995-1E661C884DFA}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Grass_Movement_Leaves_Soft" ID="{8E6C6672-4F4E-4AFD-93FC-F2B9D8AC0D3D}" ShortID="326873340">
-															<PropertyList>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-																<Property Name="Volume" Type="Real64">
-																	<ValueList>
-																		<Value>3</Value>
-																	</ValueList>
-																</Property>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Grass_Movement_Leaves" ID="{AF6FE33E-5173-4765-A00B-347BE26898E7}">
-																	<Language>SFX</Language>
-																	<AudioFile>Grass_Other\Grass_Movement_Leaves.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="674690314"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Grass_Movement_Leaves" ID="{AF6FE33E-5173-4765-A00B-347BE26898E7}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-													<StateInfo>
-														<StateGroupList>
-															<StateGroupInfo>
-																<StateGroupRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
-															</StateGroupInfo>
-														</StateGroupList>
-														<CustomStateList>
-															<CustomState>
-																<StateRef Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
-																<CustomState Name="" ID="{2D2A935B-81A6-4BA7-A010-65E473B18AFC}" ShortID="184817225">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="-11"/>
-																	</PropertyList>
-																</CustomState>
-															</CustomState>
-															<CustomState>
-																<StateRef Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
-																<CustomState Name="" ID="{76883359-3CB6-4F10-B1E6-B2DECD3E549F}" ShortID="630892101">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="-108"/>
-																	</PropertyList>
-																</CustomState>
-															</CustomState>
-															<CustomState>
-																<StateRef Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
-																<CustomState Name="" ID="{62DE215C-FFFE-49EC-AB35-937CA4F00F99}" ShortID="492675803">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="12"/>
-																	</PropertyList>
-																</CustomState>
-															</CustomState>
-														</CustomStateList>
-													</StateInfo>
-													<BlendTrackList>
-														<BlendTrack Name="New Blend Track" ID="{4E542FE1-BC74-421A-8193-34621949A2A6}" ShortID="261917056">
-															<BlendTrackAssocList>
-																<BlendTrackAssoc>
-																	<ItemRef Name="Leaves_Against_Leaves" ID="{E952D3F3-26B8-484B-876C-FDAAC1A68763}"/>
-																</BlendTrackAssoc>
-															</BlendTrackAssocList>
-														</BlendTrack>
-													</BlendTrackList>
-												</BlendContainer>
-												<BlendContainer Name="ST_Trees_Fall" ID="{3A960F10-25FB-4ACD-A78B-9A26B458853E}" ShortID="939811884">
-													<PropertyList>
-														<Property Name="BlendBehavior" Type="int16" Value="1"/>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{21A9D381-03D8-4A31-A128-B9A3A077E811}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Max" Type="Real64" Value="1"/>
-																			<Property Name="Min" Type="Real64" Value="-3"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>6</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-														</Reference>
-														<Reference Name="UserAuxSend0">
-															<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="Grass_Tree_Falling" ID="{45EAF002-E9A6-4D3C-8BB0-A189DF32B58B}" ShortID="505117586">
-															<PropertyList>
-																<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																<Property Name="InitialDelay" Type="Real64">
+																<Property Name="Pitch" Type="int32">
 																	<ModifierList>
 																		<ModifierInfo>
-																			<Modifier Name="" ID="{8CCB3D93-7142-433E-8199-900BA8F7ACFB}">
+																			<Modifier Name="" ID="{52835C04-9968-4181-A19A-48CA821DF18E}">
 																				<PropertyList>
 																					<Property Name="Enabled" Type="bool" Value="True"/>
-																					<Property Name="Min" Type="Real64" Value="-1"/>
+																					<Property Name="Min" Type="Real64" Value="-330"/>
 																				</PropertyList>
 																			</Modifier>
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
 																	<Custom>
-																		<Attenuation Name="Attenuation (Custom)" ID="{7F3C3981-7E1B-4F5F-BD23-2A7DF83EC570}" ShortID="766802397">
+																		<Attenuation Name="Attenuation (Custom)" ID="{4600954A-E018-4BFD-91DC-1E7845FBB203}" ShortID="484047280">
 																			<PropertyList>
-																				<Property Name="ConeOuterAngle" Type="int32" Value="280"/>
-																				<Property Name="ConeUse" Type="bool">
-																					<ValueList>
-																						<Value>True</Value>
-																					</ValueList>
-																				</Property>
-																				<Property Name="RadiusMax" Type="Real64" Value="3000"/>
+																				<Property Name="RadiusMax" Type="Real64" Value="5000"/>
 																			</PropertyList>
 																			<CurveUsageInfoList>
 																				<VolumeDryUsage>
 																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="VolumeDry" ID="{ED90C0D3-F1F0-430E-94A2-8E0EA88FF223}">
+																						<Curve Name="VolumeDry" ID="{C3FF2BC4-FF68-4981-BF49-49F53D3BDDFE}">
 																							<PropertyList>
 																								<Property Name="Flags" Type="int32" Value="3"/>
 																							</PropertyList>
 																							<PointList>
 																								<Point>
 																									<XPos>0</XPos>
-																									<YPos>0</YPos>
+																									<YPos>-2.40588</YPos>
 																									<Flags>5</Flags>
 																								</Point>
 																								<Point>
-																									<XPos>3000</XPos>
-																									<YPos>-6.30541</YPos>
+																									<XPos>5000</XPos>
+																									<YPos>-200</YPos>
 																									<Flags>37</Flags>
 																								</Point>
 																							</PointList>
@@ -9565,46 +10269,10 @@
 																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 																				</HighPassFilterUsage>
 																				<SpreadUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="Spread" ID="{F9181255-F2F4-4C81-98A9-B5216B5A71F7}">
-																							<PropertyList>
-																								<Property Name="Flags" Type="int32" Value="1"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>0</XPos>
-																									<YPos>1.6129</YPos>
-																									<Flags>5</Flags>
-																								</Point>
-																								<Point>
-																									<XPos>3000</XPos>
-																									<YPos>35.48385</YPos>
-																									<Flags>37</Flags>
-																								</Point>
-																							</PointList>
-																						</Curve>
-																					</CurveUsageInfo>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 																				</SpreadUsage>
 																				<FocusUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="Focus" ID="{977B369C-F6D3-40EE-A72E-150E2F37E254}">
-																							<PropertyList>
-																								<Property Name="Flags" Type="int32" Value="1"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>0</XPos>
-																									<YPos>60.75272</YPos>
-																									<Flags>5</Flags>
-																								</Point>
-																								<Point>
-																									<XPos>3000</XPos>
-																									<YPos>24.19353</YPos>
-																									<Flags>37</Flags>
-																								</Point>
-																							</PointList>
-																						</Curve>
-																					</CurveUsageInfo>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 																				</FocusUsage>
 																			</CurveUsageInfoList>
 																		</Attenuation>
@@ -9614,398 +10282,27 @@
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
 																</Reference>
 																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																	<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Grass_Tree_Falling" ID="{7D1220E7-9FDC-4F64-AEA9-136C84AAEF7A}">
+																<AudioFileSource Name="Leaves_Flap_Soft" ID="{195F0246-D839-40A0-A556-EDCF32AD3BF6}">
 																	<Language>SFX</Language>
-																	<AudioFile>Grass_Other\Grass_Tree_Falling.wav</AudioFile>
+																	<AudioFile>Leaves\Leaves_Flap_Soft.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="40429813"/>
+																		<MediaID ID="75865247"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Grass_Tree_Falling" ID="{7D1220E7-9FDC-4F64-AEA9-136C84AAEF7A}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Grass_Movement_Leaves" ID="{7BEF7692-7833-4BAB-B270-30C7BF770BA5}" ShortID="407195982">
-															<PropertyList>
-																<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-																<Property Name="Volume" Type="Real64">
-																	<ValueList>
-																		<Value>3</Value>
-																	</ValueList>
-																</Property>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Attenuation">
-																	<Custom>
-																		<Attenuation Name="Attenuation (Custom)" ID="{8805BFC9-92A4-4805-B96F-0545D60C6E11}" ShortID="557898229">
-																			<PropertyList>
-																				<Property Name="ConeOuterAngle" Type="int32" Value="280"/>
-																				<Property Name="ConeUse" Type="bool">
-																					<ValueList>
-																						<Value>True</Value>
-																					</ValueList>
-																				</Property>
-																				<Property Name="RadiusMax" Type="Real64" Value="3000"/>
-																			</PropertyList>
-																			<CurveUsageInfoList>
-																				<VolumeDryUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="VolumeDry" ID="{E6F3C2BC-CC84-46BA-86FA-3795DA51F212}">
-																							<PropertyList>
-																								<Property Name="Flags" Type="int32" Value="3"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>0</XPos>
-																									<YPos>0</YPos>
-																									<Flags>5</Flags>
-																								</Point>
-																								<Point>
-																									<XPos>3000</XPos>
-																									<YPos>-6.30541</YPos>
-																									<Flags>37</Flags>
-																								</Point>
-																							</PointList>
-																						</Curve>
-																					</CurveUsageInfo>
-																				</VolumeDryUsage>
-																				<VolumeWetGameUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																				</VolumeWetGameUsage>
-																				<VolumeWetUserUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																				</VolumeWetUserUsage>
-																				<LowPassFilterUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																				</LowPassFilterUsage>
-																				<HighPassFilterUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																				</HighPassFilterUsage>
-																				<SpreadUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="Spread" ID="{5BCF9DA0-671C-4E37-8577-7F385AF64345}">
-																							<PropertyList>
-																								<Property Name="Flags" Type="int32" Value="1"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>0</XPos>
-																									<YPos>1.6129</YPos>
-																									<Flags>5</Flags>
-																								</Point>
-																								<Point>
-																									<XPos>3000</XPos>
-																									<YPos>35.48385</YPos>
-																									<Flags>37</Flags>
-																								</Point>
-																							</PointList>
-																						</Curve>
-																					</CurveUsageInfo>
-																				</SpreadUsage>
-																				<FocusUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="Focus" ID="{F3FDF996-2F8E-48B4-80C7-587D9C872735}">
-																							<PropertyList>
-																								<Property Name="Flags" Type="int32" Value="1"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>0</XPos>
-																									<YPos>60.75272</YPos>
-																									<Flags>5</Flags>
-																								</Point>
-																								<Point>
-																									<XPos>3000</XPos>
-																									<YPos>24.19353</YPos>
-																									<Flags>37</Flags>
-																								</Point>
-																							</PointList>
-																						</Curve>
-																					</CurveUsageInfo>
-																				</FocusUsage>
-																			</CurveUsageInfoList>
-																		</Attenuation>
-																	</Custom>
-																</Reference>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Grass_Movement_Leaves" ID="{0E95716C-39A4-4E49-9022-E4050ED673F7}">
-																	<Language>SFX</Language>
-																	<AudioFile>Grass_Other\Grass_Movement_Leaves.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="674690314"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Grass_Movement_Leaves" ID="{0E95716C-39A4-4E49-9022-E4050ED673F7}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Grass_Leaves_Step" ID="{CECAE2D3-81FA-4843-8AC6-909B28BAB501}" ShortID="124700443">
-															<PropertyList>
-																<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																<Property Name="InitialDelay" Type="Real64">
-																	<ValueList>
-																		<Value>2</Value>
-																	</ValueList>
-																</Property>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Attenuation">
-																	<Custom>
-																		<Attenuation Name="Attenuation (Custom)" ID="{FE81FE6F-0835-457C-AA6F-1B7A8E24142A}" ShortID="547960099">
-																			<PropertyList>
-																				<Property Name="ConeOuterAngle" Type="int32" Value="280"/>
-																				<Property Name="ConeUse" Type="bool">
-																					<ValueList>
-																						<Value>True</Value>
-																					</ValueList>
-																				</Property>
-																				<Property Name="RadiusMax" Type="Real64" Value="3000"/>
-																			</PropertyList>
-																			<CurveUsageInfoList>
-																				<VolumeDryUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="VolumeDry" ID="{37AD08B7-DAE1-40DC-9BE4-593593D4454C}">
-																							<PropertyList>
-																								<Property Name="Flags" Type="int32" Value="3"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>0</XPos>
-																									<YPos>0</YPos>
-																									<Flags>5</Flags>
-																								</Point>
-																								<Point>
-																									<XPos>3000</XPos>
-																									<YPos>-6.30541</YPos>
-																									<Flags>37</Flags>
-																								</Point>
-																							</PointList>
-																						</Curve>
-																					</CurveUsageInfo>
-																				</VolumeDryUsage>
-																				<VolumeWetGameUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																				</VolumeWetGameUsage>
-																				<VolumeWetUserUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																				</VolumeWetUserUsage>
-																				<LowPassFilterUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																				</LowPassFilterUsage>
-																				<HighPassFilterUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																				</HighPassFilterUsage>
-																				<SpreadUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="Spread" ID="{443E3A5C-EDBB-4B81-91EE-33F9DAC2B1DE}">
-																							<PropertyList>
-																								<Property Name="Flags" Type="int32" Value="1"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>0</XPos>
-																									<YPos>1.6129</YPos>
-																									<Flags>5</Flags>
-																								</Point>
-																								<Point>
-																									<XPos>3000</XPos>
-																									<YPos>35.48385</YPos>
-																									<Flags>37</Flags>
-																								</Point>
-																							</PointList>
-																						</Curve>
-																					</CurveUsageInfo>
-																				</SpreadUsage>
-																				<FocusUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="Focus" ID="{D61FD5CA-6667-4CC3-A5F7-F95BA37EA8C9}">
-																							<PropertyList>
-																								<Property Name="Flags" Type="int32" Value="1"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>0</XPos>
-																									<YPos>60.75272</YPos>
-																									<Flags>5</Flags>
-																								</Point>
-																								<Point>
-																									<XPos>3000</XPos>
-																									<YPos>24.19353</YPos>
-																									<Flags>37</Flags>
-																								</Point>
-																							</PointList>
-																						</Curve>
-																					</CurveUsageInfo>
-																				</FocusUsage>
-																			</CurveUsageInfoList>
-																		</Attenuation>
-																	</Custom>
-																</Reference>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Grass_Leaves_Step" ID="{A0708DD6-CC06-43AB-8D47-8DD502CF3B88}">
-																	<PropertyList>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="5.70673712021137"/>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>Grass_Other\Grass_Leaves_Step.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="172158003"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Grass_Leaves_Step" ID="{A0708DD6-CC06-43AB-8D47-8DD502CF3B88}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Leaves_Dry_Drop" ID="{B9A31567-C9FF-436D-8B11-CE5219B1DDE0}" ShortID="561590628">
-															<PropertyList>
-																<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																<Property Name="InitialDelay" Type="Real64">
-																	<ValueList>
-																		<Value>0.5</Value>
-																	</ValueList>
-																</Property>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Attenuation">
-																	<Custom>
-																		<Attenuation Name="Attenuation (Custom)" ID="{B2B63CCA-6593-4C2D-B4CF-5DC0931F3422}" ShortID="480596656">
-																			<PropertyList>
-																				<Property Name="ConeOuterAngle" Type="int32" Value="280"/>
-																				<Property Name="ConeUse" Type="bool">
-																					<ValueList>
-																						<Value>True</Value>
-																					</ValueList>
-																				</Property>
-																				<Property Name="RadiusMax" Type="Real64" Value="3000"/>
-																			</PropertyList>
-																			<CurveUsageInfoList>
-																				<VolumeDryUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="VolumeDry" ID="{29767982-2765-438D-92B9-632C0A503FF2}">
-																							<PropertyList>
-																								<Property Name="Flags" Type="int32" Value="3"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>0</XPos>
-																									<YPos>0</YPos>
-																									<Flags>5</Flags>
-																								</Point>
-																								<Point>
-																									<XPos>3000</XPos>
-																									<YPos>-6.30541</YPos>
-																									<Flags>37</Flags>
-																								</Point>
-																							</PointList>
-																						</Curve>
-																					</CurveUsageInfo>
-																				</VolumeDryUsage>
-																				<VolumeWetGameUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																				</VolumeWetGameUsage>
-																				<VolumeWetUserUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																				</VolumeWetUserUsage>
-																				<LowPassFilterUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																				</LowPassFilterUsage>
-																				<HighPassFilterUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																				</HighPassFilterUsage>
-																				<SpreadUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="Spread" ID="{CBA5EECC-89A0-486C-8DBD-7EFE5EF89CFD}">
-																							<PropertyList>
-																								<Property Name="Flags" Type="int32" Value="1"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>0</XPos>
-																									<YPos>1.6129</YPos>
-																									<Flags>5</Flags>
-																								</Point>
-																								<Point>
-																									<XPos>3000</XPos>
-																									<YPos>35.48385</YPos>
-																									<Flags>37</Flags>
-																								</Point>
-																							</PointList>
-																						</Curve>
-																					</CurveUsageInfo>
-																				</SpreadUsage>
-																				<FocusUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="Focus" ID="{D055F05E-12AF-47D3-A3F5-CCE88DED758C}">
-																							<PropertyList>
-																								<Property Name="Flags" Type="int32" Value="1"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>0</XPos>
-																									<YPos>60.75272</YPos>
-																									<Flags>5</Flags>
-																								</Point>
-																								<Point>
-																									<XPos>3000</XPos>
-																									<YPos>24.19353</YPos>
-																									<Flags>37</Flags>
-																								</Point>
-																							</PointList>
-																						</Curve>
-																					</CurveUsageInfo>
-																				</FocusUsage>
-																			</CurveUsageInfoList>
-																		</Attenuation>
-																	</Custom>
-																</Reference>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Leaves_Dry_Drop" ID="{CA5C35CE-68FD-4C20-AD36-4D5F0A7D065C}">
-																	<Language>SFX</Language>
-																	<AudioFile>Leaves\Leaves_Dry_Drop.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="657069852"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Leaves_Dry_Drop" ID="{CA5C35CE-68FD-4C20-AD36-4D5F0A7D065C}" Platform="Linked"/>
+																<ActiveSource Name="Leaves_Flap_Soft" ID="{195F0246-D839-40A0-A556-EDCF32AD3BF6}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Leaves_Crush" ID="{9064B3D6-B786-4100-9E32-EB02E56E138E}" ShortID="629074899">
 															<PropertyList>
-																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="InitialDelay" Type="Real64">
 																	<ValueList>
 																		<Value>1.5</Value>
@@ -10013,105 +10310,29 @@
 																</Property>
 																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+																<Property Name="LoopCount" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{148E209C-CFE6-4678-86B8-0628E426124F}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="5"/>
+																					<Property Name="Min" Type="Real64" Value="-1"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
-																<Reference Name="Attenuation">
-																	<Custom>
-																		<Attenuation Name="Attenuation (Custom)" ID="{292BB39B-CFA2-41B5-BBFA-75394C704C79}" ShortID="894759035">
-																			<PropertyList>
-																				<Property Name="ConeOuterAngle" Type="int32" Value="280"/>
-																				<Property Name="ConeUse" Type="bool">
-																					<ValueList>
-																						<Value>True</Value>
-																					</ValueList>
-																				</Property>
-																				<Property Name="RadiusMax" Type="Real64" Value="3000"/>
-																			</PropertyList>
-																			<CurveUsageInfoList>
-																				<VolumeDryUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="VolumeDry" ID="{9E76C34B-2FC9-45F4-B3FC-7CC3D8D868B9}">
-																							<PropertyList>
-																								<Property Name="Flags" Type="int32" Value="3"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>0</XPos>
-																									<YPos>0</YPos>
-																									<Flags>5</Flags>
-																								</Point>
-																								<Point>
-																									<XPos>3000</XPos>
-																									<YPos>-6.30541</YPos>
-																									<Flags>37</Flags>
-																								</Point>
-																							</PointList>
-																						</Curve>
-																					</CurveUsageInfo>
-																				</VolumeDryUsage>
-																				<VolumeWetGameUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																				</VolumeWetGameUsage>
-																				<VolumeWetUserUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-																				</VolumeWetUserUsage>
-																				<LowPassFilterUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																				</LowPassFilterUsage>
-																				<HighPassFilterUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-																				</HighPassFilterUsage>
-																				<SpreadUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="Spread" ID="{25B86013-4CD2-4766-A548-5A8C84664C4C}">
-																							<PropertyList>
-																								<Property Name="Flags" Type="int32" Value="1"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>0</XPos>
-																									<YPos>1.6129</YPos>
-																									<Flags>5</Flags>
-																								</Point>
-																								<Point>
-																									<XPos>3000</XPos>
-																									<YPos>35.48385</YPos>
-																									<Flags>37</Flags>
-																								</Point>
-																							</PointList>
-																						</Curve>
-																					</CurveUsageInfo>
-																				</SpreadUsage>
-																				<FocusUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																						<Curve Name="Focus" ID="{4DA7F693-C0F8-4FBD-B824-5C7B0F9A5A07}">
-																							<PropertyList>
-																								<Property Name="Flags" Type="int32" Value="1"/>
-																							</PropertyList>
-																							<PointList>
-																								<Point>
-																									<XPos>0</XPos>
-																									<YPos>60.75272</YPos>
-																									<Flags>5</Flags>
-																								</Point>
-																								<Point>
-																									<XPos>3000</XPos>
-																									<YPos>24.19353</YPos>
-																									<Flags>37</Flags>
-																								</Point>
-																							</PointList>
-																						</Curve>
-																					</CurveUsageInfo>
-																				</FocusUsage>
-																			</CurveUsageInfoList>
-																		</Attenuation>
-																	</Custom>
-																</Reference>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
 																</Reference>
 																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																	<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
@@ -10131,120 +10352,197 @@
 																<ActiveSource Name="Leaves_Crush" ID="{D169FFBB-F118-4500-B2EF-6C91C8F8EE73}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
+														<RandomSequenceContainer Name="ST_Tree_Dry_Rand" ID="{3CED6BE8-2F76-4017-834A-CEB96744B7DE}" ShortID="572009967">
+															<PropertyList>
+																<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Leaves_Dry_Crunch_02" ID="{77D86707-6A62-42B6-9415-58F3231C1933}" ShortID="991340028">
+																	<PropertyList>
+																		<Property Name="InitialDelay" Type="Real64">
+																			<ValueList>
+																				<Value>1</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="Volume" Type="Real64">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{14C397CA-9A0D-4F2A-874D-D7F02B724FD3}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Min" Type="Real64" Value="-3"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Leaves_Dry_Crunch_02" ID="{A7BCCCB1-3F44-4912-876F-90BD175ECFED}">
+																			<Language>SFX</Language>
+																			<AudioFile>Leaves\Leaves_Dry_Crunch_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="274121632"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Leaves_Dry_Crunch_02" ID="{A7BCCCB1-3F44-4912-876F-90BD175ECFED}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Leaves_Dry_Drop" ID="{B9A31567-C9FF-436D-8B11-CE5219B1DDE0}" ShortID="561590628">
+																	<PropertyList>
+																		<Property Name="InitialDelay" Type="Real64">
+																			<ValueList>
+																				<Value>0.5</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{601F86BB-502F-4C74-917B-B5B939E5CAE0}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="510"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Leaves_Dry_Drop" ID="{CA5C35CE-68FD-4C20-AD36-4D5F0A7D065C}">
+																			<Language>SFX</Language>
+																			<AudioFile>Leaves\Leaves_Dry_Drop.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="657069852"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Leaves_Dry_Drop" ID="{CA5C35CE-68FD-4C20-AD36-4D5F0A7D065C}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Leaves_Dry_Crunch_01" ID="{6CD5B0B9-EA79-4F81-AED8-DF4A353799A3}" ShortID="470407431">
+																	<PropertyList>
+																		<Property Name="InitialDelay" Type="Real64">
+																			<ValueList>
+																				<Value>3</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="Lowpass" Type="int16">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{405AA671-5B31-4861-9524-359D4E384EFF}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="49"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Leaves_Dry_Crunch_01" ID="{D18E73B2-F7E9-4F8C-AD4F-3C94AD8F0B21}">
+																			<Language>SFX</Language>
+																			<AudioFile>Leaves\Leaves_Dry_Crunch_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="78922643"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Leaves_Dry_Crunch_01" ID="{D18E73B2-F7E9-4F8C-AD4F-3C94AD8F0B21}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
 													</ChildrenList>
-													<StateInfo>
-														<StateGroupList>
-															<StateGroupInfo>
-																<StateGroupRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
-															</StateGroupInfo>
-														</StateGroupList>
-														<CustomStateList>
-															<CustomState>
-																<StateRef Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
-																<CustomState Name="" ID="{B867FB2B-980A-4B10-A18C-2097C1D02E42}" ShortID="753004402">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="-10"/>
-																	</PropertyList>
-																</CustomState>
-															</CustomState>
-															<CustomState>
-																<StateRef Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
-																<CustomState Name="" ID="{3FDD8C6C-E599-44A5-8511-6778B0F15098}" ShortID="361984687">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="-108"/>
-																	</PropertyList>
-																</CustomState>
-															</CustomState>
-															<CustomState>
-																<StateRef Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
-																<CustomState Name="" ID="{CA5D3B25-D052-49F6-8225-6CC60916C5AA}" ShortID="838701666">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="-10"/>
-																	</PropertyList>
-																</CustomState>
-															</CustomState>
-														</CustomStateList>
-													</StateInfo>
-													<BlendTrackList>
-														<BlendTrack Name="New Blend Track" ID="{75F70EA2-1891-44B3-A45E-7CC6698EEF3F}" ShortID="61998196"/>
-													</BlendTrackList>
 												</BlendContainer>
 											</ChildrenList>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
-														<ItemRef Name="ST_Trees_Summer" ID="{95221402-A0E0-4AF7-A107-8E8D4D4F3472}"/>
+														<ItemRef Name="ST_Tree_Dense" ID="{C1604979-F69B-4AA6-9E83-0004802E8653}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="ST_Trees_Winter" ID="{6BE96C0B-6A27-4CD0-B665-0A6A5377A536}"/>
+														<ItemRef Name="ST_Tree_Soft" ID="{06B7107E-7545-40D9-A9AD-4DD7A3D4D17A}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="ST_Trees_Fall" ID="{3A960F10-25FB-4ACD-A78B-9A26B458853E}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="ST_Trees_Spring" ID="{42FD5BED-C837-4091-B3E9-AC9E9CF99ECF}"/>
+														<ItemRef Name="ST_Tree_Dry" ID="{3275FD81-5CE1-4FFD-A8F6-AD058140708C}"/>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
+														<ItemList>
+															<ItemRef Name="ST_Tree_Dense" ID="{C1604979-F69B-4AA6-9E83-0004802E8653}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
+														<ItemList>
+															<ItemRef Name="ST_Tree_Dry" ID="{3275FD81-5CE1-4FFD-A8F6-AD058140708C}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
+														<ItemList>
+															<ItemRef Name="ST_Tree_Soft" ID="{06B7107E-7545-40D9-A9AD-4DD7A3D4D17A}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
 											</GroupingInfo>
 										</SwitchContainer>
-										<Sound Name="AMB_Tree_Rustling" ID="{88890286-23E9-4AD6-9DA7-F7C7BFAF5BC2}" ShortID="19353470">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="AMB_Tree" ID="{4EE87BFE-0C7A-473B-A6E2-23DE5951240B}">
-													<Language>SFX</Language>
-													<AudioFile>AMB_Tree.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="20582504"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="AMB_Tree" ID="{4EE87BFE-0C7A-473B-A6E2-23DE5951240B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="F_Wind_Tree" ID="{8239DF86-7955-4FFD-B157-6339B2BFFABF}" ShortID="487006016">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-												</Reference>
-												<Reference Name="UserAuxSend0">
-													<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="F_Wind_Tree" ID="{FEF95355-E26E-4015-8DEF-165ADD5E7287}">
-													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.575342465753425"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.616438356164384"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>F_Wind_Tree.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="560470397"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="F_Wind_Tree" ID="{FEF95355-E26E-4015-8DEF-165ADD5E7287}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>

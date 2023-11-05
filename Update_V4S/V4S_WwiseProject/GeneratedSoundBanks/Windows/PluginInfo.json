@@ -5,9 +5,19 @@
   "BasePlatform": "Windows",
   "Plugins": [
    {
+    "Name": "Wwise Parametric EQ",
+    "ID": "6881283",
+    "DLL": "AkParametricEQ"
+   },
+   {
     "Name": "Wwise RoomVerb",
     "ID": "7733251",
     "DLL": "AkRoomVerb"
+   },
+   {
+    "Name": "Wwise Stereo Delay",
+    "ID": "8847363",
+    "DLL": "AkStereoDelay"
    },
    {
     "Name": "System",

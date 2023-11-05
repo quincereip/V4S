@@ -1,6 +1,7 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	348963605	Reverb			\Default Work Unit\Reverb	
 	1320557582	Seasons_2D			\Default Work Unit\Seasons_2D	
+	2145253833	Atmosphere			\Default Work Unit\Atmosphere	
 	2424359524	Seasons_Tree			\Default Work Unit\Seasons_Tree	
 	3991942870	Music			\Default Work Unit\Music	
 
@@ -13,11 +14,14 @@ State	ID	Name	State Group			Notes
 	2512384458	Fall	Seasons_2D			
 	2965343494	Winter	Seasons_2D			
 	3924562482	Summer	Seasons_2D			
+	748895195	None	Atmosphere			
+	787898836	Snow	Atmosphere			
+	1474160869	Wiindy	Atmosphere			
+	2043403999	Rain	Atmosphere			
+	630539344	Dry	Seasons_Tree			
+	670602561	Soft	Seasons_Tree			
 	748895195	None	Seasons_Tree			
-	1296465106	Spring	Seasons_Tree			
-	2512384458	Fall	Seasons_Tree			
-	2965343494	Winter	Seasons_Tree			
-	3924562482	Summer	Seasons_Tree			
+	794231178	Dense	Seasons_Tree			
 	748895195	None	Music			
 	788884573	Stop	Music			
 	1296465106	Spring	Music			

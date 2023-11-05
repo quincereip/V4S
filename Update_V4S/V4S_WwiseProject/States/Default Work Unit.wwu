@@ -40,6 +40,30 @@
 							<Time>1</Time>
 							<IsShared>true</IsShared>
 						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{3CEB32E6-C52B-439C-BDB6-979183F2E492}"/>
+							<EndState Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{3CEB32E6-C52B-439C-BDB6-979183F2E492}"/>
+							<EndState Name="Winter" ID="{D874A809-6B76-4605-9F8D-585B18CF2E97}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{3CEB32E6-C52B-439C-BDB6-979183F2E492}"/>
+							<EndState Name="Summer" ID="{B2F6DCC2-0296-439A-8847-FB4C5D483B19}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{3CEB32E6-C52B-439C-BDB6-979183F2E492}"/>
+							<EndState Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
 					</TransitionList>
 				</StateGroup>
 				<StateGroup Name="Reverb" ID="{D7F124D0-A607-4E30-A569-5F6E60774AE6}">
@@ -81,6 +105,24 @@
 						</Transition>
 						<Transition>
 							<StartState Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
+							<EndState Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{F3544A33-E96D-4075-AEB3-FA937893CDCB}"/>
+							<EndState Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{F3544A33-E96D-4075-AEB3-FA937893CDCB}"/>
+							<EndState Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{F3544A33-E96D-4075-AEB3-FA937893CDCB}"/>
 							<EndState Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
 							<Time>1</Time>
 							<IsShared>true</IsShared>
@@ -218,7 +260,7 @@
 						</Transition>
 					</TransitionList>
 				</StateGroup>
-				<StateGroup Name="Time" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}">
+				<StateGroup Name="Atmosphere" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="4"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -244,6 +286,24 @@
 						</Transition>
 						<Transition>
 							<StartState Name="Snow" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
+							<EndState Name="Rain" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{70D54A14-A650-462E-A2A5-9FF4802C321F}"/>
+							<EndState Name="Snow" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{70D54A14-A650-462E-A2A5-9FF4802C321F}"/>
+							<EndState Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{70D54A14-A650-462E-A2A5-9FF4802C321F}"/>
 							<EndState Name="Rain" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
 							<Time>1</Time>
 							<IsShared>true</IsShared>

@@ -18,7 +18,7 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Seasons_2D" ID="{985155B4-8D83-4124-91A1-CE18E4590242}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
+							<ObjectRef Name="Seasons_2D_Bird" ID="{985155B4-8D83-4124-91A1-CE18E4590242}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
@@ -67,6 +67,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{F3544A33-E96D-4075-AEB3-FA937893CDCB}"/>
 						<CurrentStateRef Name="None" ID="{34213144-279D-4225-8E82-F502BD43E2C8}"/>
+						<CurrentStateRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
 						<CurrentStateRef Name="None" ID="{3CEB32E6-C52B-439C-BDB6-979183F2E492}"/>
 						<CurrentStateRef Name="None" ID="{2810BA7A-BEC0-440D-A8EE-53D5E100B1F9}"/>
 					</CurrentStateList>
@@ -77,7 +78,7 @@
 				<SoundcasterSession Name="Event_Mix" ID="{DC594198-FD76-4B04-81C3-D21FA2E8EAFA}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_Seasons_2D" ID="{53D034A3-88C2-4F64-8520-4368ED41F007}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}"/>
+							<ObjectRef Name="Play_Seasons_2D_Bird" ID="{53D034A3-88C2-4F64-8520-4368ED41F007}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
@@ -101,7 +102,7 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_EXT_Wind_Breeze" ID="{0C50345F-362F-46B8-81E2-5DA4D0E50A42}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}"/>
+							<ObjectRef Name="Play_A_S3D_Wind_Pulse" ID="{0C50345F-362F-46B8-81E2-5DA4D0E50A42}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>

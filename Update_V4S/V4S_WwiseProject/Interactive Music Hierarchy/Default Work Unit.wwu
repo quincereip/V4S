@@ -1486,12 +1486,16 @@
 					<ArgumentList>
 						<ArgumentRef Name="Music" ID="{475CFF01-5F51-4371-A68B-D735737A2C23}"/>
 						<ArgumentRef Name="Seasons_2D" ID="{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}"/>
+						<ArgumentRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
+						<ArgumentRef Name="Atmosphere" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}"/>
 					</ArgumentList>
 					<EntryList>
 						<Entry>
 							<Path>
 								<PathElementRef Name="Fall" ID="{8A310035-D314-4994-9C44-086F31CD9288}"/>
 								<PathElementRef Name="Seasons_2D" ID="{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}"/>
+								<PathElementRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
+								<PathElementRef Name="Atmosphere" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Seasons_2D_Fall" ID="{F35F3B52-DBC8-4F0C-AEDD-AB31A5A63DD0}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
@@ -1501,6 +1505,8 @@
 							<Path>
 								<PathElementRef Name="Room" ID="{BB1FF06B-807D-4905-B6D1-9688FD62BCF1}"/>
 								<PathElementRef Name="Seasons_2D" ID="{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}"/>
+								<PathElementRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
+								<PathElementRef Name="Atmosphere" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Seasons_2D_Room" ID="{98A46FED-E215-4148-AAA2-FC71A4DF1635}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
@@ -1510,6 +1516,8 @@
 							<Path>
 								<PathElementRef Name="Spring" ID="{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}"/>
 								<PathElementRef Name="Seasons_2D" ID="{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}"/>
+								<PathElementRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
+								<PathElementRef Name="Atmosphere" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Seasons_2D_Spring" ID="{66D367D7-A338-44B7-93A1-D01EC4798586}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
@@ -1519,6 +1527,8 @@
 							<Path>
 								<PathElementRef Name="Summer" ID="{A37533DF-9D04-4261-9F0F-E8C57838412A}"/>
 								<PathElementRef Name="Seasons_2D" ID="{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}"/>
+								<PathElementRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
+								<PathElementRef Name="Atmosphere" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Seasons_2D_Summer" ID="{9D05EB07-86EF-43CA-87CA-E206B0FDB19E}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
@@ -1528,6 +1538,8 @@
 							<Path>
 								<PathElementRef Name="Winter" ID="{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}"/>
 								<PathElementRef Name="Seasons_2D" ID="{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}"/>
+								<PathElementRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
+								<PathElementRef Name="Atmosphere" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Seasons_2D_Winter" ID="{BFEF8538-368A-438F-AD3E-B0475D913524}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
@@ -1537,6 +1549,8 @@
 							<Path>
 								<PathElementRef Name="Stop" ID="{AB3BFD53-AE84-44BC-B083-9BBE5424864E}"/>
 								<PathElementRef Name="Seasons_2D" ID="{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}"/>
+								<PathElementRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
+								<PathElementRef Name="Atmosphere" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Seasons_2D_Stop" ID="{362B4FD9-A359-451F-A0E5-2106D386F8AC}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
@@ -1546,6 +1560,8 @@
 							<Path>
 								<PathElementRef Name="Music" ID="{475CFF01-5F51-4371-A68B-D735737A2C23}"/>
 								<PathElementRef Name="Seasons_2D" ID="{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}"/>
+								<PathElementRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
+								<PathElementRef Name="Atmosphere" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}"/>
 							</Path>
 							<AudioNodeInfo>
 								<NoObject Platform="Linked"/>
@@ -1555,6 +1571,8 @@
 							<Path>
 								<PathElementRef Name="None" ID="{34213144-279D-4225-8E82-F502BD43E2C8}"/>
 								<PathElementRef Name="Seasons_2D" ID="{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}"/>
+								<PathElementRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
+								<PathElementRef Name="Atmosphere" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}"/>
 							</Path>
 							<AudioNodeInfo>
 								<NoObject Platform="Linked"/>
@@ -1564,6 +1582,8 @@
 							<Path>
 								<PathElementRef Name="Fall" ID="{8A310035-D314-4994-9C44-086F31CD9288}"/>
 								<PathElementRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
+								<PathElementRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
+								<PathElementRef Name="Atmosphere" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Seasons_2D_Fall" ID="{F35F3B52-DBC8-4F0C-AEDD-AB31A5A63DD0}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
@@ -1573,6 +1593,8 @@
 							<Path>
 								<PathElementRef Name="Spring" ID="{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}"/>
 								<PathElementRef Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
+								<PathElementRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
+								<PathElementRef Name="Atmosphere" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Seasons_2D_Spring" ID="{66D367D7-A338-44B7-93A1-D01EC4798586}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
@@ -1582,6 +1604,8 @@
 							<Path>
 								<PathElementRef Name="Summer" ID="{A37533DF-9D04-4261-9F0F-E8C57838412A}"/>
 								<PathElementRef Name="Summer" ID="{B2F6DCC2-0296-439A-8847-FB4C5D483B19}"/>
+								<PathElementRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
+								<PathElementRef Name="Atmosphere" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Seasons_2D_Summer" ID="{9D05EB07-86EF-43CA-87CA-E206B0FDB19E}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
@@ -1591,6 +1615,217 @@
 							<Path>
 								<PathElementRef Name="Winter" ID="{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}"/>
 								<PathElementRef Name="Winter" ID="{D874A809-6B76-4605-9F8D-585B18CF2E97}"/>
+								<PathElementRef Name="Seasons_Tree" ID="{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}"/>
+								<PathElementRef Name="Atmosphere" ID="{010B5356-AB18-4CC1-8E3D-48D21DA2368A}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Seasons_2D_Winter" ID="{BFEF8538-368A-438F-AD3E-B0475D913524}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Fall" ID="{8A310035-D314-4994-9C44-086F31CD9288}"/>
+								<PathElementRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
+								<PathElementRef Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
+								<PathElementRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Seasons_2D_Fall" ID="{F35F3B52-DBC8-4F0C-AEDD-AB31A5A63DD0}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Fall" ID="{8A310035-D314-4994-9C44-086F31CD9288}"/>
+								<PathElementRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
+								<PathElementRef Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
+								<PathElementRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Seasons_2D_Fall" ID="{F35F3B52-DBC8-4F0C-AEDD-AB31A5A63DD0}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Fall" ID="{8A310035-D314-4994-9C44-086F31CD9288}"/>
+								<PathElementRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
+								<PathElementRef Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
+								<PathElementRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Seasons_2D_Fall" ID="{F35F3B52-DBC8-4F0C-AEDD-AB31A5A63DD0}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="None" ID="{34213144-279D-4225-8E82-F502BD43E2C8}"/>
+								<PathElementRef Name="None" ID="{3CEB32E6-C52B-439C-BDB6-979183F2E492}"/>
+								<PathElementRef Name="None" ID="{F3544A33-E96D-4075-AEB3-FA937893CDCB}"/>
+								<PathElementRef Name="None" ID="{70D54A14-A650-462E-A2A5-9FF4802C321F}"/>
+							</Path>
+							<AudioNodeInfo>
+								<NoObject Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Spring" ID="{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}"/>
+								<PathElementRef Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
+								<PathElementRef Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
+								<PathElementRef Name="Rain" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Seasons_2D_Spring" ID="{66D367D7-A338-44B7-93A1-D01EC4798586}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Spring" ID="{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}"/>
+								<PathElementRef Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
+								<PathElementRef Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
+								<PathElementRef Name="Rain" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Seasons_2D_Spring" ID="{66D367D7-A338-44B7-93A1-D01EC4798586}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Spring" ID="{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}"/>
+								<PathElementRef Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
+								<PathElementRef Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
+								<PathElementRef Name="Rain" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Seasons_2D_Spring" ID="{66D367D7-A338-44B7-93A1-D01EC4798586}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Spring" ID="{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}"/>
+								<PathElementRef Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
+								<PathElementRef Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
+								<PathElementRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Seasons_2D_Spring" ID="{66D367D7-A338-44B7-93A1-D01EC4798586}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Spring" ID="{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}"/>
+								<PathElementRef Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
+								<PathElementRef Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
+								<PathElementRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Seasons_2D_Spring" ID="{66D367D7-A338-44B7-93A1-D01EC4798586}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Spring" ID="{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}"/>
+								<PathElementRef Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
+								<PathElementRef Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
+								<PathElementRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Seasons_2D_Spring" ID="{66D367D7-A338-44B7-93A1-D01EC4798586}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Summer" ID="{A37533DF-9D04-4261-9F0F-E8C57838412A}"/>
+								<PathElementRef Name="Summer" ID="{B2F6DCC2-0296-439A-8847-FB4C5D483B19}"/>
+								<PathElementRef Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
+								<PathElementRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Seasons_2D_Summer" ID="{9D05EB07-86EF-43CA-87CA-E206B0FDB19E}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Summer" ID="{A37533DF-9D04-4261-9F0F-E8C57838412A}"/>
+								<PathElementRef Name="Summer" ID="{B2F6DCC2-0296-439A-8847-FB4C5D483B19}"/>
+								<PathElementRef Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
+								<PathElementRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Seasons_2D_Summer" ID="{9D05EB07-86EF-43CA-87CA-E206B0FDB19E}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Summer" ID="{A37533DF-9D04-4261-9F0F-E8C57838412A}"/>
+								<PathElementRef Name="Summer" ID="{B2F6DCC2-0296-439A-8847-FB4C5D483B19}"/>
+								<PathElementRef Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
+								<PathElementRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Seasons_2D_Summer" ID="{9D05EB07-86EF-43CA-87CA-E206B0FDB19E}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Winter" ID="{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}"/>
+								<PathElementRef Name="Winter" ID="{D874A809-6B76-4605-9F8D-585B18CF2E97}"/>
+								<PathElementRef Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
+								<PathElementRef Name="Snow" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Seasons_2D_Winter" ID="{BFEF8538-368A-438F-AD3E-B0475D913524}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Winter" ID="{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}"/>
+								<PathElementRef Name="Winter" ID="{D874A809-6B76-4605-9F8D-585B18CF2E97}"/>
+								<PathElementRef Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
+								<PathElementRef Name="Snow" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Seasons_2D_Winter" ID="{BFEF8538-368A-438F-AD3E-B0475D913524}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Winter" ID="{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}"/>
+								<PathElementRef Name="Winter" ID="{D874A809-6B76-4605-9F8D-585B18CF2E97}"/>
+								<PathElementRef Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
+								<PathElementRef Name="Snow" ID="{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Seasons_2D_Winter" ID="{BFEF8538-368A-438F-AD3E-B0475D913524}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Winter" ID="{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}"/>
+								<PathElementRef Name="Winter" ID="{D874A809-6B76-4605-9F8D-585B18CF2E97}"/>
+								<PathElementRef Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
+								<PathElementRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Seasons_2D_Winter" ID="{BFEF8538-368A-438F-AD3E-B0475D913524}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Winter" ID="{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}"/>
+								<PathElementRef Name="Winter" ID="{D874A809-6B76-4605-9F8D-585B18CF2E97}"/>
+								<PathElementRef Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
+								<PathElementRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Seasons_2D_Winter" ID="{BFEF8538-368A-438F-AD3E-B0475D913524}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Winter" ID="{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}"/>
+								<PathElementRef Name="Winter" ID="{D874A809-6B76-4605-9F8D-585B18CF2E97}"/>
+								<PathElementRef Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
+								<PathElementRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Seasons_2D_Winter" ID="{BFEF8538-368A-438F-AD3E-B0475D913524}" WorkUnitID="{8393BE7A-B8A2-498B-9615-53AFF5D75BBF}" Platform="Linked"/>
