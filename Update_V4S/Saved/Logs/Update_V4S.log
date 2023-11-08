@@ -2843,3 +2843,39 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2023.11.08-23.01.10:540][311]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update0AC59E9A421B8956B531519F5271A7BA.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
 [2023.11.08-23.01.10:603][311]AssetCheck: New page: Asset Save: V4S_Update
 [2023.11.08-23.01.10:603][311]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.11.08-23.02.08:669][549]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2023.11.08-23.06.30:381][385]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.11.08-23.07.44:381][865]Cmd: TRANSACTION UNDO
+[2023.11.08-23.07.44:381][865]LogEditorTransaction: Undo Move Actors
+[2023.11.08-23.08.35:236][470]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.11.08-23.08.58:351][261]Cmd: DUPLICATE
+[2023.11.08-23.08.58:351][261]Cmd: ACTOR DUPLICATE
+[2023.11.08-23.10.06:838][979]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.11.08-23.12.05:764][821]Cmd: DELETE
+[2023.11.08-23.12.05:764][821]Cmd: ACTOR DELETE
+[2023.11.08-23.12.06:282][821]LogEditorActor: Deleted Actor: AkAcousticPortal
+[2023.11.08-23.12.06:301][821]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2023.11.08-23.12.06:318][821]LogEditorActor: Deleted 1 Actors (0.554 secs)
+[2023.11.08-23.13.24:480][462]LogHttp: Warning: 0000018A0A34B900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9E5C9D64-4911-A0DA-A43A-2CA019B427EA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.11.08-23.13.24:480][462]LogHttp: Warning: 0000018A0A34B900: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2023.11.08-23.13.24:480][462]LogHttp: Warning: 0000018A0A34B900: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x187f25fd450 [can pipeline])
+[2023.11.08-23.13.24:480][462]LogHttp: Warning: 0000018A0A34B900: libcurl info message cache 1 (Re-using existing connection! (#3) with host datarouter.ol.epicgames.com)
+[2023.11.08-23.13.24:480][462]LogHttp: Warning: 0000018A0A34B900: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.87.75.35) port 443 (#3))
+[2023.11.08-23.13.24:480][462]LogHttp: Warning: 0000018A0A34B900: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.11.08-23.13.24:480][462]LogHttp: Warning: 0000018A0A34B900: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2023.11.08-23.13.24:480][462]LogHttp: Warning: 0000018A0A34B900: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.11.08-23.13.24:480][462]LogHttp: Warning: 0000018A0A34B900: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.11.08-23.13.24:480][462]LogHttp: Warning: 0000018A0A34B900: libcurl info message cache 7 (Closing connection 3)
+[2023.11.08-23.13.24:480][462]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9E5C9D64-4911-A0DA-A43A-2CA019B427EA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=f2da94c64dc2ecc074e51f9cfdd23359%7Cf71e20ea13e145a1b299de7bbbd37642%7C1c668462-5c07-4117-a2cc-a8f3c7945d76&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.11.08-23.15.51:890][486]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.11.08-23.15.59:494][630]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.11.08-23.16.47:727][984]Cmd: TRANSACTION UNDO
+[2023.11.08-23.16.47:727][984]LogEditorTransaction: Undo Move Actors
+[2023.11.08-23.16.50:365][ 70]Cmd: TRANSACTION UNDO
+[2023.11.08-23.16.50:365][ 70]LogEditorTransaction: Undo Move Actors
+[2023.11.08-23.17.08:483][205]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2023.11.08-23.19.39:898][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.08-23.19.39:914][320]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2023.11.08-23.19.49:403][320]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update17603B63443A44B85643F3BD6ABF2F12.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.11.08-23.19.49:470][320]AssetCheck: New page: Asset Save: V4S_Update
+[2023.11.08-23.19.49:470][320]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
