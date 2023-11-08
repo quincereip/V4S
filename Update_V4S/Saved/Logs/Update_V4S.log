@@ -2794,3 +2794,52 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2023.11.08-22.57.30:792][670]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update818B5A3E49B74EDEFEB329BA7258D21F.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
 [2023.11.08-22.57.30:857][670]AssetCheck: New page: Asset Save: V4S_Update
 [2023.11.08-22.57.30:857][670]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.11.08-22.59.03:856][ 38]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2023.11.08-22.59.05:000][ 38]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2023.11.08-22.59.05:007][ 38]LogActorComponent: UnregisterComponent: (/Game/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.Default__WaterMeshActor_Blueprint_C:WaterMesh) Not registered. Aborting.
+[2023.11.08-22.59.05:026][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2023.11.08-22.59.05:058][ 38]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.WaterMeshActor_Blueprint
+[2023.11.08-22.59.27:716][167]BlueprintLog: New page: Compile WaterMeshActor_Blueprint
+[2023.11.08-22.59.28:298][167]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2023.11.08-22.59.29:778][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.uasset" SILENT=true
+[2023.11.08-22.59.29:782][171]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/WaterMeshActor_BlueprintB82B2DF442AD92264D3E9FA2578D39B5.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.uasset'
+[2023.11.08-22.59.29:795][171]AssetCheck: New page: Asset Save: WaterMeshActor_Blueprint
+[2023.11.08-22.59.29:795][171]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.WaterMeshActor_Blueprint
+[2023.11.08-22.59.31:368][184]LogSlate: Window 'WaterMeshActor_Blueprint' being destroyed
+[2023.11.08-22.59.31:380][184]LogSlate: Window 'WaterMeshActor_Blueprint' being destroyed
+[2023.11.08-22.59.31:383][184]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2023.11.08-22.59.31:383][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.08-22.59.56:039][280]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.WaterMeshActor_Blueprint
+[2023.11.08-23.00.30:072][674]BlueprintLog: New page: Compile WaterMeshActor_Blueprint
+[2023.11.08-23.00.30:648][674]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2023.11.08-23.00.31:244][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.uasset" SILENT=true
+[2023.11.08-23.00.31:249][678]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/WaterMeshActor_Blueprint3B9FA4FA4F1430C9793E44994F673301.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.uasset'
+[2023.11.08-23.00.31:258][678]AssetCheck: New page: Asset Save: WaterMeshActor_Blueprint
+[2023.11.08-23.00.31:258][678]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.WaterMeshActor_Blueprint
+[2023.11.08-23.00.33:459][693]LogSlate: Window 'WaterMeshActor_Blueprint' being destroyed
+[2023.11.08-23.00.33:463][693]LogSlate: Window 'WaterMeshActor_Blueprint' being destroyed
+[2023.11.08-23.00.33:466][693]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2023.11.08-23.00.33:466][693]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.08-23.00.47:745][222]LogMetaData: Removing '/Game/Wwise/Blueprints/WaterMeshActor_Blueprint.WaterMeshActor_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.PackageMetaData'
+[2023.11.08-23.00.47:745][222]LogMetaData: Removing '/Game/Wwise/Blueprints/WaterMeshActor_Blueprint.WaterMeshActor_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.PackageMetaData'
+[2023.11.08-23.00.47:745][222]LogMetaData: Removing '/Game/Wwise/Blueprints/WaterMeshActor_Blueprint.SKEL_WaterMeshActor_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.PackageMetaData'
+[2023.11.08-23.00.47:745][222]LogMetaData: Removing '/Game/Wwise/Blueprints/WaterMeshActor_Blueprint.WaterMeshActor_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.PackageMetaData'
+[2023.11.08-23.00.47:745][222]LogMetaData: Removing '/Game/Wwise/Blueprints/WaterMeshActor_Blueprint.WaterMeshActor_Blueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.PackageMetaData'
+[2023.11.08-23.00.47:745][222]LogMetaData: Removing '/Game/Wwise/Blueprints/WaterMeshActor_Blueprint.WaterMeshActor_Blueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.PackageMetaData'
+[2023.11.08-23.00.47:745][222]LogMetaData: Removing '/Game/Wwise/Blueprints/WaterMeshActor_Blueprint.WaterMeshActor_Blueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.PackageMetaData'
+[2023.11.08-23.00.47:745][222]LogMetaData: Removing '/Game/Wwise/Blueprints/WaterMeshActor_Blueprint.SKEL_WaterMeshActor_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.PackageMetaData'
+[2023.11.08-23.00.47:745][222]LogMetaData: Removing '/Game/Wwise/Blueprints/WaterMeshActor_Blueprint.SKEL_WaterMeshActor_Blueprint_C:ReceiveTick' ref from Metadata '/Game/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.PackageMetaData'
+[2023.11.08-23.00.47:745][222]LogMetaData: Removing '/Game/Wwise/Blueprints/WaterMeshActor_Blueprint.SKEL_WaterMeshActor_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.PackageMetaData'
+[2023.11.08-23.00.47:745][222]LogMetaData: Removing '/Game/Wwise/Blueprints/WaterMeshActor_Blueprint.SKEL_WaterMeshActor_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/Wwise/Events/AMB/Place/WaterMeshActor_Blueprint.PackageMetaData'
+[2023.11.08-23.00.48:259][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Blueprints/WaterMeshActor_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/WaterMeshActor_Blueprint.uasset" SILENT=true
+[2023.11.08-23.00.48:264][222]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/WaterMeshActor_Blueprint93F392314FF497D5459F559061E8095D.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/WaterMeshActor_Blueprint.uasset'
+[2023.11.08-23.00.48:345][222]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2023.11.08-23.00.48:367][222]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2023.11.08-23.00.48:379][222]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.11.08-23.00.49:529][222]AssetCheck: New page: Asset Save: WaterMeshActor_Blueprint
+[2023.11.08-23.00.49:529][222]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Blueprints/WaterMeshActor_Blueprint.WaterMeshActor_Blueprint
+[2023.11.08-23.01.01:131][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.08-23.01.01:147][311]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2023.11.08-23.01.10:540][311]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update0AC59E9A421B8956B531519F5271A7BA.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.11.08-23.01.10:603][311]AssetCheck: New page: Asset Save: V4S_Update
+[2023.11.08-23.01.10:603][311]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
