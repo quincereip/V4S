@@ -2464,3 +2464,333 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2023.11.08-22.41.30:074][507]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update3DEBC60B4A9E67558490D6B2C22CD5DB.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
 [2023.11.08-22.41.30:137][507]AssetCheck: New page: Asset Save: V4S_Update
 [2023.11.08-22.41.30:137][507]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.11.08-22.45.30:261][349]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2023.11.08-22.45.31:451][349]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2023.11.08-22.45.31:457][349]LogActorComponent: UnregisterComponent: (/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple_Blueprint.Default__SM_MERGED_Apple_Blueprint_C:StaticMeshComponent0) Not registered. Aborting.
+[2023.11.08-22.45.31:474][349]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2023.11.08-22.45.31:509][349]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Wwise/Events/AMB/Place/SM_MERGED_Apple_Blueprint.SM_MERGED_Apple_Blueprint
+[2023.11.08-22.47.21:709][493]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2023.11.08-22.47.22:885][493]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2023.11.08-22.47.22:892][493]LogActorComponent: UnregisterComponent: (/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple2_Blueprint.Default__SM_MERGED_Apple2_Blueprint_C:StaticMeshComponent0) Not registered. Aborting.
+[2023.11.08-22.47.22:915][493]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2023.11.08-22.47.22:943][493]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Wwise/Events/AMB/Place/SM_MERGED_Apple2_Blueprint.SM_MERGED_Apple2_Blueprint
+[2023.11.08-22.47.26:761][519]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2023.11.08-22.47.27:626][519]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2023.11.08-22.47.27:632][519]LogActorComponent: UnregisterComponent: (/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple3_Blueprint.Default__SM_MERGED_Apple3_Blueprint_C:StaticMeshComponent0) Not registered. Aborting.
+[2023.11.08-22.47.27:654][519]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2023.11.08-22.47.27:692][519]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Wwise/Events/AMB/Place/SM_MERGED_Apple3_Blueprint.SM_MERGED_Apple3_Blueprint
+[2023.11.08-22.47.39:560][802]BlueprintLog: New page: Compile SM_MERGED_Apple2_Blueprint
+[2023.11.08-22.47.39:641][802]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2023.11.08-22.47.40:273][806]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_MERGED_Apple2_Blueprint4D8B6EF644999C3B7BE605B3E2CFAE7D.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/SM_MERGED_Apple2_Blueprint.uasset'
+[2023.11.08-22.47.40:289][806]AssetCheck: New page: Asset Save: SM_MERGED_Apple2_Blueprint
+[2023.11.08-22.47.40:289][806]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Events/AMB/Place/SM_MERGED_Apple2_Blueprint.SM_MERGED_Apple2_Blueprint
+[2023.11.08-22.47.48:283][ 73]BlueprintLog: New page: Compile SM_MERGED_Apple3_Blueprint
+[2023.11.08-22.47.48:335][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2023.11.08-22.47.48:957][ 77]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_MERGED_Apple3_BlueprintA8384FE3412601294F10E5B1260F3107.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/SM_MERGED_Apple3_Blueprint.uasset'
+[2023.11.08-22.47.48:972][ 77]AssetCheck: New page: Asset Save: SM_MERGED_Apple3_Blueprint
+[2023.11.08-22.47.48:972][ 77]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Events/AMB/Place/SM_MERGED_Apple3_Blueprint.SM_MERGED_Apple3_Blueprint
+[2023.11.08-22.47.53:133][137]BlueprintLog: New page: Compile SM_MERGED_Apple_Blueprint
+[2023.11.08-22.47.53:213][137]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2023.11.08-22.47.53:957][142]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_MERGED_Apple_Blueprint385CE0E64FA8FA824CC0CDA4D9C2498A.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/SM_MERGED_Apple_Blueprint.uasset'
+[2023.11.08-22.47.53:968][142]AssetCheck: New page: Asset Save: SM_MERGED_Apple_Blueprint
+[2023.11.08-22.47.53:968][142]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Events/AMB/Place/SM_MERGED_Apple_Blueprint.SM_MERGED_Apple_Blueprint
+[2023.11.08-22.48.26:453][337]BlueprintLog: New page: Compile SM_MERGED_Apple_Blueprint
+[2023.11.08-22.48.26:487][337]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2023.11.08-22.48.27:224][343]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_MERGED_Apple_Blueprint73107B12475B9D55CE35E4A18DA56E71.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/SM_MERGED_Apple_Blueprint.uasset'
+[2023.11.08-22.48.27:236][343]AssetCheck: New page: Asset Save: SM_MERGED_Apple_Blueprint
+[2023.11.08-22.48.27:236][343]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Events/AMB/Place/SM_MERGED_Apple_Blueprint.SM_MERGED_Apple_Blueprint
+[2023.11.08-22.48.47:601][564]BlueprintLog: New page: Compile SM_MERGED_Apple2_Blueprint
+[2023.11.08-22.48.47:635][564]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2023.11.08-22.48.48:256][569]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_MERGED_Apple2_Blueprint271FA69C48C7D82F9D03F89007D83BCF.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/SM_MERGED_Apple2_Blueprint.uasset'
+[2023.11.08-22.48.48:267][569]AssetCheck: New page: Asset Save: SM_MERGED_Apple2_Blueprint
+[2023.11.08-22.48.48:267][569]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Events/AMB/Place/SM_MERGED_Apple2_Blueprint.SM_MERGED_Apple2_Blueprint
+[2023.11.08-22.48.57:632][664]BlueprintLog: New page: Compile SM_MERGED_Apple3_Blueprint
+[2023.11.08-22.48.57:685][664]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2023.11.08-22.48.58:424][669]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_MERGED_Apple3_BlueprintC35CF863451A9448656E9DA72C640EBB.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/SM_MERGED_Apple3_Blueprint.uasset'
+[2023.11.08-22.48.58:434][669]AssetCheck: New page: Asset Save: SM_MERGED_Apple3_Blueprint
+[2023.11.08-22.48.58:434][669]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Events/AMB/Place/SM_MERGED_Apple3_Blueprint.SM_MERGED_Apple3_Blueprint
+[2023.11.08-22.49.01:066][690]LogSlate: Window 'SM_MERGED_Apple3_Blueprint' being destroyed
+[2023.11.08-22.49.01:069][690]LogSlate: Window 'SM_MERGED_Apple3_Blueprint' being destroyed
+[2023.11.08-22.49.01:071][690]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2023.11.08-22.49.01:071][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.08-22.49.01:123][690]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.11.08-22.49.01:123][690]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2023.11.08-22.49.01:123][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.08-22.49.01:164][690]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.11.08-22.49.01:164][690]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2023.11.08-22.49.01:164][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.08-22.49.19:579][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple2_Blueprint.SM_MERGED_Apple2_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple2_Blueprint.PackageMetaData'
+[2023.11.08-22.49.19:579][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple2_Blueprint.SM_MERGED_Apple2_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple2_Blueprint.PackageMetaData'
+[2023.11.08-22.49.19:579][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple2_Blueprint.SKEL_SM_MERGED_Apple2_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple2_Blueprint.PackageMetaData'
+[2023.11.08-22.49.19:579][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple2_Blueprint.SM_MERGED_Apple2_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple2_Blueprint.PackageMetaData'
+[2023.11.08-22.49.19:579][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple2_Blueprint.SM_MERGED_Apple2_Blueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple2_Blueprint.PackageMetaData'
+[2023.11.08-22.49.19:579][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple2_Blueprint.SM_MERGED_Apple2_Blueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple2_Blueprint.PackageMetaData'
+[2023.11.08-22.49.19:579][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple2_Blueprint.SM_MERGED_Apple2_Blueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple2_Blueprint.PackageMetaData'
+[2023.11.08-22.49.19:579][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple2_Blueprint.SKEL_SM_MERGED_Apple2_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple2_Blueprint.PackageMetaData'
+[2023.11.08-22.49.19:579][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple2_Blueprint.SKEL_SM_MERGED_Apple2_Blueprint_C:ReceiveTick' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple2_Blueprint.PackageMetaData'
+[2023.11.08-22.49.19:579][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple2_Blueprint.SKEL_SM_MERGED_Apple2_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple2_Blueprint.PackageMetaData'
+[2023.11.08-22.49.19:579][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple2_Blueprint.SKEL_SM_MERGED_Apple2_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple2_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:079][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple3_Blueprint.SM_MERGED_Apple3_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple3_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:079][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple3_Blueprint.SM_MERGED_Apple3_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple3_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:079][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple3_Blueprint.SKEL_SM_MERGED_Apple3_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple3_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:079][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple3_Blueprint.SM_MERGED_Apple3_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple3_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:079][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple3_Blueprint.SM_MERGED_Apple3_Blueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple3_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:079][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple3_Blueprint.SM_MERGED_Apple3_Blueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple3_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:079][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple3_Blueprint.SM_MERGED_Apple3_Blueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple3_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:079][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple3_Blueprint.SKEL_SM_MERGED_Apple3_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple3_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:079][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple3_Blueprint.SKEL_SM_MERGED_Apple3_Blueprint_C:ReceiveTick' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple3_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:079][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple3_Blueprint.SKEL_SM_MERGED_Apple3_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple3_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:079][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple3_Blueprint.SKEL_SM_MERGED_Apple3_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple3_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:575][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple_Blueprint.SM_MERGED_Apple_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:575][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple_Blueprint.SM_MERGED_Apple_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:575][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple_Blueprint.SKEL_SM_MERGED_Apple_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:575][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple_Blueprint.SM_MERGED_Apple_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:575][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple_Blueprint.SM_MERGED_Apple_Blueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:575][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple_Blueprint.SM_MERGED_Apple_Blueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:575][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple_Blueprint.SM_MERGED_Apple_Blueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:575][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple_Blueprint.SKEL_SM_MERGED_Apple_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:575][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple_Blueprint.SKEL_SM_MERGED_Apple_Blueprint_C:ReceiveTick' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:575][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple_Blueprint.SKEL_SM_MERGED_Apple_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple_Blueprint.PackageMetaData'
+[2023.11.08-22.49.20:575][218]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_MERGED_Apple_Blueprint.SKEL_SM_MERGED_Apple_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_MERGED_Apple_Blueprint.PackageMetaData'
+[2023.11.08-22.49.21:105][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Blueprints/SM_MERGED_Apple2_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/SM_MERGED_Apple2_Blueprint.uasset" SILENT=true
+[2023.11.08-22.49.21:112][218]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_MERGED_Apple2_Blueprint50625F054418094D0990D6BE7B0B2137.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/SM_MERGED_Apple2_Blueprint.uasset'
+[2023.11.08-22.49.21:122][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Blueprints/SM_MERGED_Apple3_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/SM_MERGED_Apple3_Blueprint.uasset" SILENT=true
+[2023.11.08-22.49.21:129][218]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_MERGED_Apple3_BlueprintDE7BE1424D955F7A5F69ABBBA43CA4CC.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/SM_MERGED_Apple3_Blueprint.uasset'
+[2023.11.08-22.49.21:138][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Blueprints/SM_MERGED_Apple_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/SM_MERGED_Apple_Blueprint.uasset" SILENT=true
+[2023.11.08-22.49.21:146][218]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_MERGED_Apple_Blueprint749AE9CD4D07F8EBCB7208BBE191447D.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/SM_MERGED_Apple_Blueprint.uasset'
+[2023.11.08-22.49.21:247][218]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2023.11.08-22.49.21:266][218]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2023.11.08-22.49.21:278][218]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.11.08-22.49.21:299][218]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.11.08-22.49.21:312][218]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.11.08-22.49.22:465][218]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.08-22.49.22:465][218]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Blueprints/SM_MERGED_Apple3_Blueprint.SM_MERGED_Apple3_Blueprint
+[2023.11.08-22.49.22:465][218]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Blueprints/SM_MERGED_Apple2_Blueprint.SM_MERGED_Apple2_Blueprint
+[2023.11.08-22.49.22:465][218]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Blueprints/SM_MERGED_Apple_Blueprint.SM_MERGED_Apple_Blueprint
+[2023.11.08-22.49.27:816][338]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2023.11.08-22.49.29:142][338]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2023.11.08-22.49.29:149][338]LogActorComponent: UnregisterComponent: (/Game/Wwise/Events/AMB/Place/SM_Tree_Autumn_06_Blueprint.Default__SM_Tree_Autumn_06_Blueprint_C:StaticMeshComponent0) Not registered. Aborting.
+[2023.11.08-22.49.29:165][338]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2023.11.08-22.49.29:193][338]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Wwise/Events/AMB/Place/SM_Tree_Autumn_06_Blueprint.SM_Tree_Autumn_06_Blueprint
+[2023.11.08-22.50.11:862][622]BlueprintLog: New page: Compile SM_Tree_Autumn_06_Blueprint
+[2023.11.08-22.50.11:911][622]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2023.11.08-22.50.12:541][627]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Tree_Autumn_06_Blueprint7A0624D94FD424A39229468836415A50.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/SM_Tree_Autumn_06_Blueprint.uasset'
+[2023.11.08-22.50.12:553][627]AssetCheck: New page: Asset Save: SM_Tree_Autumn_06_Blueprint
+[2023.11.08-22.50.12:553][627]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Events/AMB/Place/SM_Tree_Autumn_06_Blueprint.SM_Tree_Autumn_06_Blueprint
+[2023.11.08-22.50.13:575][635]LogSlate: Window 'SM_Tree_Autumn_06_Blueprint' being destroyed
+[2023.11.08-22.50.13:651][635]LogSlate: Window 'SM_Tree_Autumn_06_Blueprint' being destroyed
+[2023.11.08-22.50.13:653][635]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2023.11.08-22.50.13:653][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.08-22.50.22:029][ 59]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Tree_Autumn_06_Blueprint.SM_Tree_Autumn_06_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Tree_Autumn_06_Blueprint.PackageMetaData'
+[2023.11.08-22.50.22:029][ 59]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Tree_Autumn_06_Blueprint.SKEL_SM_Tree_Autumn_06_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Tree_Autumn_06_Blueprint.PackageMetaData'
+[2023.11.08-22.50.22:029][ 59]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Tree_Autumn_06_Blueprint.SM_Tree_Autumn_06_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Tree_Autumn_06_Blueprint.PackageMetaData'
+[2023.11.08-22.50.22:029][ 59]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Tree_Autumn_06_Blueprint.SM_Tree_Autumn_06_Blueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Tree_Autumn_06_Blueprint.PackageMetaData'
+[2023.11.08-22.50.22:029][ 59]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Tree_Autumn_06_Blueprint.SM_Tree_Autumn_06_Blueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Tree_Autumn_06_Blueprint.PackageMetaData'
+[2023.11.08-22.50.22:029][ 59]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Tree_Autumn_06_Blueprint.SM_Tree_Autumn_06_Blueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Tree_Autumn_06_Blueprint.PackageMetaData'
+[2023.11.08-22.50.22:029][ 59]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Tree_Autumn_06_Blueprint.SKEL_SM_Tree_Autumn_06_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Tree_Autumn_06_Blueprint.PackageMetaData'
+[2023.11.08-22.50.22:029][ 59]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Tree_Autumn_06_Blueprint.SKEL_SM_Tree_Autumn_06_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Tree_Autumn_06_Blueprint.PackageMetaData'
+[2023.11.08-22.50.22:029][ 59]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Tree_Autumn_06_Blueprint.SKEL_SM_Tree_Autumn_06_Blueprint_C:ReceiveTick' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Tree_Autumn_06_Blueprint.PackageMetaData'
+[2023.11.08-22.50.22:029][ 59]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Tree_Autumn_06_Blueprint.SKEL_SM_Tree_Autumn_06_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Tree_Autumn_06_Blueprint.PackageMetaData'
+[2023.11.08-22.50.22:029][ 59]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Tree_Autumn_06_Blueprint.SM_Tree_Autumn_06_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Tree_Autumn_06_Blueprint.PackageMetaData'
+[2023.11.08-22.50.22:553][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Blueprints/SM_Tree_Autumn_06_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/SM_Tree_Autumn_06_Blueprint.uasset" SILENT=true
+[2023.11.08-22.50.22:562][ 59]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Tree_Autumn_06_Blueprint3DCA9A8B43EE57BA611C89A69775BEB5.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/SM_Tree_Autumn_06_Blueprint.uasset'
+[2023.11.08-22.50.22:646][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2023.11.08-22.50.22:671][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.11.08-22.50.22:685][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.11.08-22.50.23:827][ 59]AssetCheck: New page: Asset Save: SM_Tree_Autumn_06_Blueprint
+[2023.11.08-22.50.23:827][ 59]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Blueprints/SM_Tree_Autumn_06_Blueprint.SM_Tree_Autumn_06_Blueprint
+[2023.11.08-22.50.48:211][250]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2023.11.08-22.50.49:181][250]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2023.11.08-22.50.49:187][250]LogActorComponent: UnregisterComponent: (/Game/Wwise/Events/AMB/Place/Van_Vehicle2_AnimBP_Blueprint.Default__Van_Vehicle2_AnimBP_Blueprint_C:SkeletalMeshComponent0) Not registered. Aborting.
+[2023.11.08-22.50.49:206][250]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2023.11.08-22.50.49:241][250]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Wwise/Events/AMB/Place/Van_Vehicle2_AnimBP_Blueprint.Van_Vehicle2_AnimBP_Blueprint
+[2023.11.08-22.51.13:184][961]BlueprintLog: New page: Compile Van_Vehicle2_AnimBP_Blueprint
+[2023.11.08-22.51.13:261][961]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2023.11.08-22.51.14:141][968]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/Van_Vehicle2_AnimBP_Blueprint906093534A7906B079AD1D97350EE43C.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/Van_Vehicle2_AnimBP_Blueprint.uasset'
+[2023.11.08-22.51.14:154][968]AssetCheck: New page: Asset Save: Van_Vehicle2_AnimBP_Blueprint
+[2023.11.08-22.51.14:154][968]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Events/AMB/Place/Van_Vehicle2_AnimBP_Blueprint.Van_Vehicle2_AnimBP_Blueprint
+[2023.11.08-22.51.26:548][367]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/Van_Vehicle2_AnimBP_BlueprintD972AE4A46DFF06B13C5179DAB4AE3D5.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/Van_Vehicle2_AnimBP_Blueprint.uasset'
+[2023.11.08-22.51.26:558][367]AssetCheck: New page: Asset Save: Van_Vehicle2_AnimBP_Blueprint
+[2023.11.08-22.51.26:558][367]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Events/AMB/Place/Van_Vehicle2_AnimBP_Blueprint.Van_Vehicle2_AnimBP_Blueprint
+[2023.11.08-22.51.27:593][375]LogSlate: Window 'Van_Vehicle2_AnimBP_Blueprint' being destroyed
+[2023.11.08-22.51.27:672][375]LogSlate: Window 'Van_Vehicle2_AnimBP_Blueprint' being destroyed
+[2023.11.08-22.51.27:675][375]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2023.11.08-22.51.27:675][375]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.08-22.51.39:080][512]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2023.11.08-22.51.40:046][512]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2023.11.08-22.51.40:052][512]LogActorComponent: UnregisterComponent: (/Game/Wwise/Events/AMB/Place/SM_BeachUmb_1_Blueprint.Default__SM_BeachUmb_1_Blueprint_C:StaticMeshComponent0) Not registered. Aborting.
+[2023.11.08-22.51.40:071][512]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2023.11.08-22.51.40:108][512]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Wwise/Events/AMB/Place/SM_BeachUmb_1_Blueprint.SM_BeachUmb_1_Blueprint
+[2023.11.08-22.52.48:632][ 75]BlueprintLog: New page: Compile SM_BeachUmb_1_Blueprint
+[2023.11.08-22.52.48:682][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2023.11.08-22.52.49:317][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Events/AMB/Place/SM_BeachUmb_1_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/SM_BeachUmb_1_Blueprint.uasset" SILENT=true
+[2023.11.08-22.52.49:324][ 79]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_BeachUmb_1_BlueprintF789A11B4B74D872CBE4D2A4E1A94537.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/SM_BeachUmb_1_Blueprint.uasset'
+[2023.11.08-22.52.49:339][ 79]AssetCheck: New page: Asset Save: SM_BeachUmb_1_Blueprint
+[2023.11.08-22.52.49:339][ 79]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Events/AMB/Place/SM_BeachUmb_1_Blueprint.SM_BeachUmb_1_Blueprint
+[2023.11.08-22.52.50:292][ 87]LogSlate: Window 'SM_BeachUmb_1_Blueprint' being destroyed
+[2023.11.08-22.52.50:296][ 87]LogSlate: Window 'SM_BeachUmb_1_Blueprint' being destroyed
+[2023.11.08-22.52.50:299][ 87]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2023.11.08-22.52.50:299][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.08-22.52.56:547][178]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2023.11.08-22.52.57:301][178]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2023.11.08-22.52.57:307][178]LogActorComponent: UnregisterComponent: (/Game/Wwise/Events/AMB/Place/SM_BeachUmb_2_Blueprint.Default__SM_BeachUmb_2_Blueprint_C:StaticMeshComponent0) Not registered. Aborting.
+[2023.11.08-22.52.57:325][178]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2023.11.08-22.52.57:361][178]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Wwise/Events/AMB/Place/SM_BeachUmb_2_Blueprint.SM_BeachUmb_2_Blueprint
+[2023.11.08-22.53.40:079][141]BlueprintLog: New page: Compile SM_BeachUmb_2_Blueprint
+[2023.11.08-22.53.40:911][141]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2023.11.08-22.53.42:857][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Events/AMB/Place/SM_BeachUmb_2_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/SM_BeachUmb_2_Blueprint.uasset" SILENT=true
+[2023.11.08-22.53.42:864][144]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_BeachUmb_2_Blueprint42B601E3449C3238441FB0B239BE545F.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/SM_BeachUmb_2_Blueprint.uasset'
+[2023.11.08-22.53.42:882][144]AssetCheck: New page: Asset Save: SM_BeachUmb_2_Blueprint
+[2023.11.08-22.53.42:882][144]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Events/AMB/Place/SM_BeachUmb_2_Blueprint.SM_BeachUmb_2_Blueprint
+[2023.11.08-22.53.44:457][150]LogSlate: Window 'SM_BeachUmb_2_Blueprint' being destroyed
+[2023.11.08-22.53.45:293][150]LogSlate: Window 'SM_BeachUmb_2_Blueprint' being destroyed
+[2023.11.08-22.53.45:297][150]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2023.11.08-22.53.45:297][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.08-22.53.57:062][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_1_Blueprint.SM_BeachUmb_1_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_1_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:062][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_1_Blueprint.SKEL_SM_BeachUmb_1_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_1_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:062][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_1_Blueprint.SM_BeachUmb_1_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_1_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:062][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_1_Blueprint.SM_BeachUmb_1_Blueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_1_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:062][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_1_Blueprint.SM_BeachUmb_1_Blueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_1_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:062][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_1_Blueprint.SM_BeachUmb_1_Blueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_1_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:062][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_1_Blueprint.SKEL_SM_BeachUmb_1_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_1_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:062][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_1_Blueprint.SKEL_SM_BeachUmb_1_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_1_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:062][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_1_Blueprint.SKEL_SM_BeachUmb_1_Blueprint_C:ReceiveTick' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_1_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:062][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_1_Blueprint.SKEL_SM_BeachUmb_1_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_1_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:062][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_1_Blueprint.SM_BeachUmb_1_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_1_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:558][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_2_Blueprint.SM_BeachUmb_2_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_2_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:558][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_2_Blueprint.SKEL_SM_BeachUmb_2_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_2_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:558][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_2_Blueprint.SM_BeachUmb_2_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_2_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:558][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_2_Blueprint.SM_BeachUmb_2_Blueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_2_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:558][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_2_Blueprint.SM_BeachUmb_2_Blueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_2_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:558][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_2_Blueprint.SM_BeachUmb_2_Blueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_2_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:558][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_2_Blueprint.SKEL_SM_BeachUmb_2_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_2_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:558][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_2_Blueprint.SKEL_SM_BeachUmb_2_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_2_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:558][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_2_Blueprint.SKEL_SM_BeachUmb_2_Blueprint_C:ReceiveTick' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_2_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:558][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_2_Blueprint.SKEL_SM_BeachUmb_2_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_2_Blueprint.PackageMetaData'
+[2023.11.08-22.53.57:558][559]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_BeachUmb_2_Blueprint.SM_BeachUmb_2_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_BeachUmb_2_Blueprint.PackageMetaData'
+[2023.11.08-22.53.58:064][559]LogMetaData: Removing '/Game/Wwise/Blueprints/Van_Vehicle2_AnimBP_Blueprint.Van_Vehicle2_AnimBP_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/Van_Vehicle2_AnimBP_Blueprint.PackageMetaData'
+[2023.11.08-22.53.58:064][559]LogMetaData: Removing '/Game/Wwise/Blueprints/Van_Vehicle2_AnimBP_Blueprint.SKEL_Van_Vehicle2_AnimBP_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/Van_Vehicle2_AnimBP_Blueprint.PackageMetaData'
+[2023.11.08-22.53.58:064][559]LogMetaData: Removing '/Game/Wwise/Blueprints/Van_Vehicle2_AnimBP_Blueprint.Van_Vehicle2_AnimBP_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/Van_Vehicle2_AnimBP_Blueprint.PackageMetaData'
+[2023.11.08-22.53.58:064][559]LogMetaData: Removing '/Game/Wwise/Blueprints/Van_Vehicle2_AnimBP_Blueprint.Van_Vehicle2_AnimBP_Blueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/Van_Vehicle2_AnimBP_Blueprint.PackageMetaData'
+[2023.11.08-22.53.58:065][559]LogMetaData: Removing '/Game/Wwise/Blueprints/Van_Vehicle2_AnimBP_Blueprint.Van_Vehicle2_AnimBP_Blueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Wwise/Events/AMB/Place/Van_Vehicle2_AnimBP_Blueprint.PackageMetaData'
+[2023.11.08-22.53.58:065][559]LogMetaData: Removing '/Game/Wwise/Blueprints/Van_Vehicle2_AnimBP_Blueprint.Van_Vehicle2_AnimBP_Blueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Wwise/Events/AMB/Place/Van_Vehicle2_AnimBP_Blueprint.PackageMetaData'
+[2023.11.08-22.53.58:065][559]LogMetaData: Removing '/Game/Wwise/Blueprints/Van_Vehicle2_AnimBP_Blueprint.SKEL_Van_Vehicle2_AnimBP_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/Wwise/Events/AMB/Place/Van_Vehicle2_AnimBP_Blueprint.PackageMetaData'
+[2023.11.08-22.53.58:065][559]LogMetaData: Removing '/Game/Wwise/Blueprints/Van_Vehicle2_AnimBP_Blueprint.SKEL_Van_Vehicle2_AnimBP_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/Van_Vehicle2_AnimBP_Blueprint.PackageMetaData'
+[2023.11.08-22.53.58:065][559]LogMetaData: Removing '/Game/Wwise/Blueprints/Van_Vehicle2_AnimBP_Blueprint.SKEL_Van_Vehicle2_AnimBP_Blueprint_C:ReceiveTick' ref from Metadata '/Game/Wwise/Events/AMB/Place/Van_Vehicle2_AnimBP_Blueprint.PackageMetaData'
+[2023.11.08-22.53.58:065][559]LogMetaData: Removing '/Game/Wwise/Blueprints/Van_Vehicle2_AnimBP_Blueprint.SKEL_Van_Vehicle2_AnimBP_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/Wwise/Events/AMB/Place/Van_Vehicle2_AnimBP_Blueprint.PackageMetaData'
+[2023.11.08-22.53.58:065][559]LogMetaData: Removing '/Game/Wwise/Blueprints/Van_Vehicle2_AnimBP_Blueprint.Van_Vehicle2_AnimBP_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/Van_Vehicle2_AnimBP_Blueprint.PackageMetaData'
+[2023.11.08-22.53.58:586][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Blueprints/SM_BeachUmb_1_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/SM_BeachUmb_1_Blueprint.uasset" SILENT=true
+[2023.11.08-22.53.58:593][559]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_BeachUmb_1_BlueprintD778402649D08485DA665D8E34D1EEB1.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/SM_BeachUmb_1_Blueprint.uasset'
+[2023.11.08-22.53.58:602][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Blueprints/SM_BeachUmb_2_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/SM_BeachUmb_2_Blueprint.uasset" SILENT=true
+[2023.11.08-22.53.58:608][559]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_BeachUmb_2_BlueprintB74B8B7340EB9D4465D98DA9C0E49AB5.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/SM_BeachUmb_2_Blueprint.uasset'
+[2023.11.08-22.53.58:619][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Blueprints/Van_Vehicle2_AnimBP_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/Van_Vehicle2_AnimBP_Blueprint.uasset" SILENT=true
+[2023.11.08-22.53.58:625][559]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/Van_Vehicle2_AnimBP_BlueprintF029FCD64C8FFC7EDCAF7C832FA8A2D5.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/Van_Vehicle2_AnimBP_Blueprint.uasset'
+[2023.11.08-22.53.58:711][559]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2023.11.08-22.53.58:728][559]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.11.08-22.53.58:741][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.11.08-22.53.58:762][559]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2023.11.08-22.53.58:775][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.11.08-22.53.59:924][559]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.08-22.53.59:924][559]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Blueprints/SM_BeachUmb_2_Blueprint.SM_BeachUmb_2_Blueprint
+[2023.11.08-22.53.59:924][559]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Blueprints/SM_BeachUmb_1_Blueprint.SM_BeachUmb_1_Blueprint
+[2023.11.08-22.53.59:924][559]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Blueprints/Van_Vehicle2_AnimBP_Blueprint.Van_Vehicle2_AnimBP_Blueprint
+[2023.11.08-22.54.22:318][127]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.11.08-22.54.40:265][218]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2023.11.08-22.54.41:262][218]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2023.11.08-22.54.41:269][218]LogActorComponent: UnregisterComponent: (/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire_Blueprint.Default__SM_Stylized_Campfire_Blueprint_C:StaticMeshComponent0) Not registered. Aborting.
+[2023.11.08-22.54.41:286][218]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2023.11.08-22.54.41:326][218]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire_Blueprint.SM_Stylized_Campfire_Blueprint
+[2023.11.08-22.54.57:145][ 19]BlueprintLog: New page: Compile SM_Stylized_Campfire_Blueprint
+[2023.11.08-22.54.57:195][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2023.11.08-22.54.57:838][ 26]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Stylized_Campfire_Blueprint39A84B014FB86D1FB9FE389D7D9CE4B6.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/SM_Stylized_Campfire_Blueprint.uasset'
+[2023.11.08-22.54.57:852][ 26]AssetCheck: New page: Asset Save: SM_Stylized_Campfire_Blueprint
+[2023.11.08-22.54.57:852][ 26]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire_Blueprint.SM_Stylized_Campfire_Blueprint
+[2023.11.08-22.54.59:338][ 42]LogSlate: Window 'SM_Stylized_Campfire_Blueprint' being destroyed
+[2023.11.08-22.54.59:342][ 42]LogSlate: Window 'SM_Stylized_Campfire_Blueprint' being destroyed
+[2023.11.08-22.54.59:345][ 42]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2023.11.08-22.54.59:345][ 42]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.08-22.55.35:523][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Stylized_Campfire3)
+[2023.11.08-22.55.37:997][175]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2023.11.08-22.55.38:833][175]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2023.11.08-22.55.38:839][175]LogActorComponent: UnregisterComponent: (/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire3_Blueprint.Default__SM_Stylized_Campfire3_Blueprint_C:StaticMeshComponent0) Not registered. Aborting.
+[2023.11.08-22.55.38:858][175]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2023.11.08-22.55.38:894][175]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire3_Blueprint.SM_Stylized_Campfire3_Blueprint
+[2023.11.08-22.56.07:612][437]BlueprintLog: New page: Compile SM_Stylized_Campfire3_Blueprint
+[2023.11.08-22.56.07:665][437]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2023.11.08-22.56.08:369][443]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Stylized_Campfire3_Blueprint88B8C0D4411C466A9331548742CAC5F9.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/SM_Stylized_Campfire3_Blueprint.uasset'
+[2023.11.08-22.56.08:381][443]AssetCheck: New page: Asset Save: SM_Stylized_Campfire3_Blueprint
+[2023.11.08-22.56.08:381][443]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire3_Blueprint.SM_Stylized_Campfire3_Blueprint
+[2023.11.08-22.56.09:565][453]LogSlate: Window 'SM_Stylized_Campfire3_Blueprint' being destroyed
+[2023.11.08-22.56.09:597][453]LogSlate: Window 'SM_Stylized_Campfire3_Blueprint' being destroyed
+[2023.11.08-22.56.09:600][453]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2023.11.08-22.56.09:600][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.08-22.56.15:348][496]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2023.11.08-22.56.16:490][496]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2023.11.08-22.56.16:496][496]LogActorComponent: UnregisterComponent: (/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire2_Blueprint.Default__SM_Stylized_Campfire2_Blueprint_C:StaticMeshComponent0) Not registered. Aborting.
+[2023.11.08-22.56.16:515][496]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2023.11.08-22.56.16:541][496]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire2_Blueprint.SM_Stylized_Campfire2_Blueprint
+[2023.11.08-22.56.27:454][962]BlueprintLog: New page: Compile SM_Stylized_Campfire2_Blueprint
+[2023.11.08-22.56.27:503][962]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2023.11.08-22.56.28:195][967]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Stylized_Campfire2_BlueprintD7FB8ABC46D551895E43D487179F7353.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Place/SM_Stylized_Campfire2_Blueprint.uasset'
+[2023.11.08-22.56.28:206][967]AssetCheck: New page: Asset Save: SM_Stylized_Campfire2_Blueprint
+[2023.11.08-22.56.28:206][967]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire2_Blueprint.SM_Stylized_Campfire2_Blueprint
+[2023.11.08-22.56.30:389][984]LogSlate: Window 'SM_Stylized_Campfire2_Blueprint' being destroyed
+[2023.11.08-22.56.30:397][984]LogSlate: Window 'SM_Stylized_Campfire2_Blueprint' being destroyed
+[2023.11.08-22.56.30:400][984]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2023.11.08-22.56.30:400][984]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.08-22.56.39:363][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire2_Blueprint.SM_Stylized_Campfire2_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire2_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:363][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire2_Blueprint.SKEL_SM_Stylized_Campfire2_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire2_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:363][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire2_Blueprint.SM_Stylized_Campfire2_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire2_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:363][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire2_Blueprint.SM_Stylized_Campfire2_Blueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire2_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:363][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire2_Blueprint.SM_Stylized_Campfire2_Blueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire2_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:363][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire2_Blueprint.SM_Stylized_Campfire2_Blueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire2_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:363][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire2_Blueprint.SKEL_SM_Stylized_Campfire2_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire2_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:363][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire2_Blueprint.SKEL_SM_Stylized_Campfire2_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire2_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:363][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire2_Blueprint.SKEL_SM_Stylized_Campfire2_Blueprint_C:ReceiveTick' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire2_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:363][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire2_Blueprint.SKEL_SM_Stylized_Campfire2_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire2_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:363][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire2_Blueprint.SM_Stylized_Campfire2_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire2_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:859][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire3_Blueprint.SM_Stylized_Campfire3_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire3_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:859][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire3_Blueprint.SKEL_SM_Stylized_Campfire3_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire3_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:859][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire3_Blueprint.SM_Stylized_Campfire3_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire3_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:859][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire3_Blueprint.SM_Stylized_Campfire3_Blueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire3_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:859][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire3_Blueprint.SM_Stylized_Campfire3_Blueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire3_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:859][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire3_Blueprint.SM_Stylized_Campfire3_Blueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire3_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:859][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire3_Blueprint.SKEL_SM_Stylized_Campfire3_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire3_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:859][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire3_Blueprint.SKEL_SM_Stylized_Campfire3_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire3_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:859][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire3_Blueprint.SKEL_SM_Stylized_Campfire3_Blueprint_C:ReceiveTick' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire3_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:859][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire3_Blueprint.SKEL_SM_Stylized_Campfire3_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire3_Blueprint.PackageMetaData'
+[2023.11.08-22.56.39:859][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire3_Blueprint.SM_Stylized_Campfire3_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire3_Blueprint.PackageMetaData'
+[2023.11.08-22.56.40:359][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire_Blueprint.SM_Stylized_Campfire_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire_Blueprint.PackageMetaData'
+[2023.11.08-22.56.40:359][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire_Blueprint.SKEL_SM_Stylized_Campfire_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire_Blueprint.PackageMetaData'
+[2023.11.08-22.56.40:359][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire_Blueprint.SM_Stylized_Campfire_Blueprint_C' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire_Blueprint.PackageMetaData'
+[2023.11.08-22.56.40:359][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire_Blueprint.SM_Stylized_Campfire_Blueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire_Blueprint.PackageMetaData'
+[2023.11.08-22.56.40:359][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire_Blueprint.SM_Stylized_Campfire_Blueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire_Blueprint.PackageMetaData'
+[2023.11.08-22.56.40:359][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire_Blueprint.SM_Stylized_Campfire_Blueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire_Blueprint.PackageMetaData'
+[2023.11.08-22.56.40:359][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire_Blueprint.SKEL_SM_Stylized_Campfire_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire_Blueprint.PackageMetaData'
+[2023.11.08-22.56.40:359][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire_Blueprint.SKEL_SM_Stylized_Campfire_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire_Blueprint.PackageMetaData'
+[2023.11.08-22.56.40:359][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire_Blueprint.SKEL_SM_Stylized_Campfire_Blueprint_C:ReceiveTick' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire_Blueprint.PackageMetaData'
+[2023.11.08-22.56.40:359][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire_Blueprint.SKEL_SM_Stylized_Campfire_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire_Blueprint.PackageMetaData'
+[2023.11.08-22.56.40:359][397]LogMetaData: Removing '/Game/Wwise/Blueprints/SM_Stylized_Campfire_Blueprint.SM_Stylized_Campfire_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Wwise/Events/AMB/Place/SM_Stylized_Campfire_Blueprint.PackageMetaData'
+[2023.11.08-22.56.40:893][397]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Stylized_Campfire2_Blueprint5B21F7A34420774A0AF44FB759C90576.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/SM_Stylized_Campfire2_Blueprint.uasset'
+[2023.11.08-22.56.40:909][397]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Stylized_Campfire3_Blueprint11EFC86C403A6641B0BCC195CE65F463.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/SM_Stylized_Campfire3_Blueprint.uasset'
+[2023.11.08-22.56.40:919][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Blueprints/SM_Stylized_Campfire_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/SM_Stylized_Campfire_Blueprint.uasset" SILENT=true
+[2023.11.08-22.56.40:925][397]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/SM_Stylized_Campfire_Blueprint2904768F4EE97CC48766939B357E0822.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Blueprints/SM_Stylized_Campfire_Blueprint.uasset'
+[2023.11.08-22.56.41:009][397]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2023.11.08-22.56.41:028][397]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.11.08-22.56.41:041][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.11.08-22.56.41:063][397]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.11.08-22.56.41:076][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.11.08-22.56.42:222][397]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.08-22.56.42:222][397]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Blueprints/SM_Stylized_Campfire2_Blueprint.SM_Stylized_Campfire2_Blueprint
+[2023.11.08-22.56.42:223][397]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Blueprints/SM_Stylized_Campfire3_Blueprint.SM_Stylized_Campfire3_Blueprint
+[2023.11.08-22.56.42:223][397]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Blueprints/SM_Stylized_Campfire_Blueprint.SM_Stylized_Campfire_Blueprint
+[2023.11.08-22.56.51:247][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.08-22.56.51:264][519]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2023.11.08-22.57.00:820][519]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update2950A2674F003F695800C9B93F4BC854.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.11.08-22.57.00:886][519]AssetCheck: New page: Asset Save: V4S_Update
+[2023.11.08-22.57.00:886][519]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.11.08-22.57.21:164][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.08-22.57.21:181][670]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2023.11.08-22.57.30:792][670]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update818B5A3E49B74EDEFEB329BA7258D21F.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.11.08-22.57.30:857][670]AssetCheck: New page: Asset Save: V4S_Update
+[2023.11.08-22.57.30:857][670]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
