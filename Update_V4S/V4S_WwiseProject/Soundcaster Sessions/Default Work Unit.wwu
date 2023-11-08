@@ -209,14 +209,14 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Player_Distance" ID="{9C09E92B-3F2F-4D23-A540-BA8D0EA7ADC2}"/>
-							<Value>150</Value>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
-						<CurrentStateRef Name="Spring" ID="{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}"/>
-						<CurrentStateRef Name="Rain" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
-						<CurrentStateRef Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
+						<CurrentStateRef Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
+						<CurrentStateRef Name="Fall" ID="{8A310035-D314-4994-9C44-086F31CD9288}"/>
+						<CurrentStateRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+						<CurrentStateRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
 						<CurrentStateRef Name="None" ID="{2810BA7A-BEC0-440D-A8EE-53D5E100B1F9}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>E:\Quin\V4S\Update_V4S\V4S_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{E19EE910-4431-421A-82C4-6214E7842FE1}" Language="SFX" Hash="2546178586">
+		<SoundBank Id="3161908922" GUID="{E19EE910-4431-421A-82C4-6214E7842FE1}" Language="SFX" Hash="599314738">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -47,7 +47,7 @@
 						</File>
 						<File Id="172158003" Language="SFX">
 							<ShortName>Grass_Other\Grass_Leaves_Step.wav</ShortName>
-							<Path>SFX\Grass_Other\Grass_Leaves_Step_1FE59107.wem</Path>
+							<Path>SFX\Grass_Other\Grass_Leaves_Step_9CBC74D6.wem</Path>
 						</File>
 						<File Id="182790339" Language="SFX">
 							<ShortName>Leaves\Leaves_Crush.wav</ShortName>
@@ -63,7 +63,7 @@
 						</File>
 						<File Id="560470397" Language="SFX">
 							<ShortName>F_Wind_Tree.wav</ShortName>
-							<Path>SFX\F_Wind_Tree_0BEAFB8F.wem</Path>
+							<Path>SFX\F_Wind_Tree_270A8E5D.wem</Path>
 						</File>
 						<File Id="564832675" Language="SFX">
 							<ShortName>Leaves\Leaves_Dry_Falling.wav</ShortName>
@@ -102,7 +102,7 @@
 					<IncludedMemoryFiles>
 						<File Id="309298276" Language="SFX">
 							<ShortName>Rain.wav</ShortName>
-							<Path>SFX\Rain_01B86A18.wem</Path>
+							<Path>SFX\Rain_1E67B99E.wem</Path>
 						</File>
 						<File Id="800130255" Language="SFX">
 							<ShortName>Rain_Heavy.wav</ShortName>
@@ -125,11 +125,11 @@
 						</File>
 						<File Id="249259965" Language="SFX">
 							<ShortName>Snow_Icicle.wav</ShortName>
-							<Path>SFX\Snow_Icicle_59E00648.wem</Path>
+							<Path>SFX\Snow_Icicle_BFF22AF0.wem</Path>
 						</File>
 						<File Id="505044048" Language="SFX">
 							<ShortName>Snow_Icicle_03.wav</ShortName>
-							<Path>SFX\Snow_Icicle_03_38E1BD3C.wem</Path>
+							<Path>SFX\Snow_Icicle_03_B0E7408A.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -151,7 +151,7 @@
 					<IncludedMemoryFiles>
 						<File Id="3382213" Language="SFX">
 							<ShortName>S_Breeze.wav</ShortName>
-							<Path>SFX\S_Breeze_7AE11A25.wem</Path>
+							<Path>SFX\S_Breeze_C497CCAC.wem</Path>
 						</File>
 						<File Id="316658623" Language="SFX">
 							<ShortName>EXT_Wind_Fly.wav</ShortName>
@@ -163,7 +163,7 @@
 						</File>
 						<File Id="788324523" Language="SFX">
 							<ShortName>EXT_Wind_Harsh.wav</ShortName>
-							<Path>SFX\EXT_Wind_Harsh_7A224ECD.wem</Path>
+							<Path>SFX\EXT_Wind_Harsh_2F1CD354.wem</Path>
 						</File>
 						<File Id="789962799" Language="SFX">
 							<ShortName>Wind_Breeze.wav</ShortName>
@@ -171,7 +171,7 @@
 						</File>
 						<File Id="1073417417" Language="SFX">
 							<ShortName>W_Breeze.wav</ShortName>
-							<Path>SFX\W_Breeze_92F751E7.wem</Path>
+							<Path>SFX\W_Breeze_F35E212B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -217,7 +217,7 @@
 					<IncludedMemoryFiles>
 						<File Id="3382213" Language="SFX">
 							<ShortName>S_Breeze.wav</ShortName>
-							<Path>SFX\S_Breeze_7AE11A25.wem</Path>
+							<Path>SFX\S_Breeze_C497CCAC.wem</Path>
 						</File>
 						<File Id="39169374" Language="SFX">
 							<ShortName>Snow_Icicle_02.wav</ShortName>
@@ -225,11 +225,11 @@
 						</File>
 						<File Id="249259965" Language="SFX">
 							<ShortName>Snow_Icicle.wav</ShortName>
-							<Path>SFX\Snow_Icicle_59E00648.wem</Path>
+							<Path>SFX\Snow_Icicle_BFF22AF0.wem</Path>
 						</File>
 						<File Id="309298276" Language="SFX">
 							<ShortName>Rain.wav</ShortName>
-							<Path>SFX\Rain_01B86A18.wem</Path>
+							<Path>SFX\Rain_1E67B99E.wem</Path>
 						</File>
 						<File Id="316658623" Language="SFX">
 							<ShortName>EXT_Wind_Fly.wav</ShortName>
@@ -241,11 +241,11 @@
 						</File>
 						<File Id="505044048" Language="SFX">
 							<ShortName>Snow_Icicle_03.wav</ShortName>
-							<Path>SFX\Snow_Icicle_03_38E1BD3C.wem</Path>
+							<Path>SFX\Snow_Icicle_03_B0E7408A.wem</Path>
 						</File>
 						<File Id="788324523" Language="SFX">
 							<ShortName>EXT_Wind_Harsh.wav</ShortName>
-							<Path>SFX\EXT_Wind_Harsh_7A224ECD.wem</Path>
+							<Path>SFX\EXT_Wind_Harsh_2F1CD354.wem</Path>
 						</File>
 						<File Id="789962799" Language="SFX">
 							<ShortName>Wind_Breeze.wav</ShortName>
@@ -261,7 +261,7 @@
 						</File>
 						<File Id="1073417417" Language="SFX">
 							<ShortName>W_Breeze.wav</ShortName>
-							<Path>SFX\W_Breeze_92F751E7.wem</Path>
+							<Path>SFX\W_Breeze_F35E212B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -1317,7 +1317,7 @@
 						</File>
 						<File Id="172158003" Language="SFX">
 							<ShortName>Grass_Other\Grass_Leaves_Step.wav</ShortName>
-							<Path>SFX\Grass_Other\Grass_Leaves_Step_1FE59107.wem</Path>
+							<Path>SFX\Grass_Other\Grass_Leaves_Step_9CBC74D6.wem</Path>
 						</File>
 						<File Id="674690314" Language="SFX">
 							<ShortName>Grass_Other\Grass_Movement_Leaves.wav</ShortName>
@@ -1371,7 +1371,7 @@
 						</File>
 						<File Id="560470397" Language="SFX">
 							<ShortName>F_Wind_Tree.wav</ShortName>
-							<Path>SFX\F_Wind_Tree_0BEAFB8F.wem</Path>
+							<Path>SFX\F_Wind_Tree_270A8E5D.wem</Path>
 						</File>
 						<File Id="629825764" Language="SFX">
 							<ShortName>Leaves\Leaves_Soft.wav</ShortName>
