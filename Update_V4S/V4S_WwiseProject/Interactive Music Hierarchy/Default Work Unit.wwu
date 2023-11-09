@@ -6,11 +6,6 @@
 				<MusicSwitchContainer Name="Seasons_2D" ID="{3F0E18E5-69BE-4C73-80F5-495DD580429C}" ShortID="7684445">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="60"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>3</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

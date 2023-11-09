@@ -45,6 +45,11 @@
 							<ChildrenList>
 								<Bus Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}">
 									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Color" Type="int16" Value="4"/>
 										<Property Name="OutputBusVolume" Type="Real64">
 											<ValueList>
@@ -53,6 +58,11 @@
 										</Property>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ChildrenList>
 										<AuxBus Name="MUS" ID="{C6BE419B-B20D-4B06-A018-2DBECC86D745}">
@@ -64,7 +74,15 @@
 												</Property>
 											</PropertyList>
 										</AuxBus>
-										<AuxBus Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}"/>
+										<AuxBus Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>50</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+										</AuxBus>
 									</ChildrenList>
 									<DuckingList>
 										<DuckItem>

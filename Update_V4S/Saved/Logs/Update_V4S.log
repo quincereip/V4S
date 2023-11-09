@@ -2525,3 +2525,62 @@ Process completed successfully.
 [2023.11.09-19.43.23:579][619]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update89A927734AE7621450395CB4AAAC9DC2.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
 [2023.11.09-19.43.23:660][619]AssetCheck: New page: Asset Save: V4S_Update
 [2023.11.09-19.43.23:660][619]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.11.09-20.02.40:714][736]LogWwiseProjectParser: Could not parse the Cache directory from the Wwise project file. Using default value : .cache
+[2023.11.09-20.02.41:934][745]LogSlate: Window 'Generate Sound Data' being destroyed
+[2023.11.09-20.02.42:048][745]LogWwiseProjectParser: Could not parse the Cache directory from the Wwise project file. Using default value : .cache
+[2023.11.09-20.02.42:049][745]LogWwiseProjectParser: Could not parse the Cache directory from the Wwise project file. Using default value : .cache
+[2023.11.09-20.02.42:165][746]LogAkSoundData: Display: Running E:\Program\Audiokinetic\Authoring\x64\Release\bin\WwiseConsole.exe generate-soundbank "E:/Quin/V4S/Update_V4S/V4S_WwiseProject/V4S_WwiseProject.wproj" --use-stable-guid --import-definition-file "C:/Users/Joseph/AppData/Local/Temp/CookUAkAudioEvent280404F04722741A2A486B913FC69C93.txt" --platform "Mac" --soundbank-path Mac "E:/Quin/V4S/Update_V4S/Content/WwiseAudio/Mac" --platform "Windows" --soundbank-path Windows "E:/Quin/V4S/Update_V4S/Content/WwiseAudio/Windows" --bank "C:/Users/Joseph/AppData/Local/Temp/WwiseConsoleBankList4E607FEA496BEDE5CC5892A9C78628CF.txt"
+[2023.11.09-20.02.42:566][747]LogAkSoundData: Display: 
+Wwise | v2019.2.15 | Build no.7667 | (C) 2006-2022. Audiokinetic Inc. All rights reserved.
+
+
+*** Loading Project ***
+
+
+*** Importing SoundBank definition ***
+
+Main	Event Missing	Play_EXT_Wind_Pulse
+
+*** Bank Generation ***
+
+
+[2023.11.09-20.02.42:958][750]LogAkSoundData: Display: 
+Process completed successfully.
+
+[2023.11.09-20.02.42:958][750]LogAkSoundData: Display: WwiseConsole successfully completed.
+[2023.11.09-20.02.42:958][750]LogDirectoryWatcher: Display: A directory notification failed, and we were unable to create a new request. GetLastError code [6] Handle [FFFFFFFFFFFFFFFF], Path [E:/Quin/V4S/Update_V4S/Content/WwiseAudio] 
+[2023.11.09-20.02.42:958][750]LogAkSoundData: Display: WwiseConsole Sound Data Builder task was successful and took 0.934031 seconds.
+[2023.11.09-20.04.15:594][468]LogWwiseProjectParser: Could not parse the Cache directory from the Wwise project file. Using default value : .cache
+[2023.11.09-20.04.17:034][479]LogSlate: Window 'Generate Sound Data' being destroyed
+[2023.11.09-20.04.17:148][479]LogWwiseProjectParser: Could not parse the Cache directory from the Wwise project file. Using default value : .cache
+[2023.11.09-20.04.17:148][479]LogWwiseProjectParser: Could not parse the Cache directory from the Wwise project file. Using default value : .cache
+[2023.11.09-20.04.17:265][480]LogAkSoundData: Display: Running E:\Program\Audiokinetic\Authoring\x64\Release\bin\WwiseConsole.exe generate-soundbank "E:/Quin/V4S/Update_V4S/V4S_WwiseProject/V4S_WwiseProject.wproj" --use-stable-guid --import-definition-file "C:/Users/Joseph/AppData/Local/Temp/CookUAkAudioEvent2F8A0E6C458F568622CF8EBC45E91AA0.txt" --platform "Mac" --soundbank-path Mac "E:/Quin/V4S/Update_V4S/Content/WwiseAudio/Mac" --platform "Windows" --soundbank-path Windows "E:/Quin/V4S/Update_V4S/Content/WwiseAudio/Windows" --bank "C:/Users/Joseph/AppData/Local/Temp/WwiseConsoleBankListB2D8623D4532426090FE1EB733AE39FC.txt"
+[2023.11.09-20.04.17:915][481]LogAkSoundData: Display: 
+Wwise | v2019.2.15 | Build no.7667 | (C) 2006-2022. Audiokinetic Inc. All rights reserved.
+
+
+*** Loading Project ***
+
+
+*** Importing SoundBank definition ***
+
+Main	Event Missing	Play_EXT_Wind_Pulse
+
+*** Bank Generation ***
+
+
+Process completed successfully.
+
+[2023.11.09-20.04.17:915][481]LogAkSoundData: Display: WwiseConsole successfully completed.
+[2023.11.09-20.04.17:915][481]LogDirectoryWatcher: Display: A directory notification failed, and we were unable to create a new request. GetLastError code [6] Handle [FFFFFFFFFFFFFFFF], Path [E:/Quin/V4S/Update_V4S/Content/WwiseAudio] 
+[2023.11.09-20.04.17:915][481]LogAkSoundData: Display: WwiseConsole Sound Data Builder task was successful and took 0.446537 seconds.
+[2023.11.09-20.04.33:067][598]Cmd: MAP CHECK
+[2023.11.09-20.04.33:067][598]MapCheck: New page: V4S_Update - Nov. 9, 2023, 10:04:33 a.m.
+[2023.11.09-20.04.33:068][598]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.39ms to complete.
+[2023.11.09-20.04.49:336][725]LogSlate: Window 'Message Log' being destroyed
+[2023.11.09-20.04.49:391][725]LogSlate: Window 'Message Log' being destroyed
+[2023.11.09-20.04.53:768][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.09-20.04.53:784][757]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.11.09-20.05.03:213][757]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update298A4E824BB061DC4325E3A16B86A353.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.11.09-20.05.03:281][757]AssetCheck: New page: Asset Save: V4S_Update
+[2023.11.09-20.05.03:281][757]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
