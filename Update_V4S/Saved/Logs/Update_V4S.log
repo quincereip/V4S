@@ -2341,3 +2341,187 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2023.11.09-19.22.51:114][640]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update4FDB186445700F8A168F8B983A692F56.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
 [2023.11.09-19.22.51:179][640]AssetCheck: New page: Asset Save: V4S_Update
 [2023.11.09-19.22.51:179][640]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.11.09-19.29.55:240][ 59]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.11.09-19.30.06:727][148]LogEditorViewport: Clicking on Actor (LMB): AkSpatialAudioVolume (AkSpatialAudioVolume_Spring)
+[2023.11.09-19.31.34:289][787]LogEditorViewport: Clicking on Actor (LMB): AkAcousticPortal (AkAcousticPortal_F_S)
+[2023.11.09-19.34.10:089][968]Cmd: DELETE
+[2023.11.09-19.34.10:089][968]Cmd: ACTOR DELETE
+[2023.11.09-19.34.10:602][968]LogEditorActor: Deleted Actor: PointLight
+[2023.11.09-19.34.10:620][968]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2023.11.09-19.34.10:629][968]LogEditorActor: Deleted 1 Actors (0.540 secs)
+[2023.11.09-19.35.18:878][494]Cmd: EDIT COPY
+[2023.11.09-19.35.19:223][496]Cmd: EDIT PASTE
+[2023.11.09-19.36.04:722][778]Cmd: EDIT COPY
+[2023.11.09-19.36.05:072][780]Cmd: EDIT PASTE
+[2023.11.09-19.37.59:823][555]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2023.11.09-19.37.59:831][555]LogActorComponent: UnregisterComponent: (/Game/S_Music_TriggerBox_Blueprint.Default__S_Music_TriggerBox_Blueprint_C:CollisionComp) Not registered. Aborting.
+[2023.11.09-19.37.59:849][555]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2023.11.09-19.37.59:883][555]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/S_Music_TriggerBox_Blueprint.S_Music_TriggerBox_Blueprint
+[2023.11.09-19.39.20:735][175]BlueprintLog: New page: Compile S_Music_TriggerBox_Blueprint
+[2023.11.09-19.39.20:788][175]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2023.11.09-19.39.21:519][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/S_Music_TriggerBox_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/S_Music_TriggerBox_Blueprint.uasset" SILENT=true
+[2023.11.09-19.39.21:523][180]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/S_Music_TriggerBox_BlueprintB933CC324B13C9435C04A59CE918A95A.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/S_Music_TriggerBox_Blueprint.uasset'
+[2023.11.09-19.39.21:547][180]AssetCheck: New page: Asset Save: S_Music_TriggerBox_Blueprint
+[2023.11.09-19.39.21:547][180]LogContentValidation: Display: Validating Blueprint /Game/S_Music_TriggerBox_Blueprint.S_Music_TriggerBox_Blueprint
+[2023.11.09-19.39.26:293][217]LogSlate: Window 'S_Music_TriggerBox_Blueprint' being destroyed
+[2023.11.09-19.39.26:351][217]LogSlate: Window 'S_Music_TriggerBox_Blueprint' being destroyed
+[2023.11.09-19.39.26:353][217]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2023.11.09-19.39.26:353][217]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.09-19.39.29:917][242]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2023.11.09-19.39.31:012][242]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2023.11.09-19.39.31:021][242]LogActorComponent: UnregisterComponent: (/Game/Sum_Music_TriggerBox_Blueprint.Default__Sum_Music_TriggerBox_Blueprint_C:CollisionComp) Not registered. Aborting.
+[2023.11.09-19.39.31:040][242]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2023.11.09-19.39.31:067][242]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Sum_Music_TriggerBox_Blueprint.Sum_Music_TriggerBox_Blueprint
+[2023.11.09-19.39.48:481][370]BlueprintLog: New page: Compile Sum_Music_TriggerBox_Blueprint
+[2023.11.09-19.39.48:536][370]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2023.11.09-19.39.49:678][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sum_Music_TriggerBox_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Sum_Music_TriggerBox_Blueprint.uasset" SILENT=true
+[2023.11.09-19.39.49:682][378]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/Sum_Music_TriggerBox_BlueprintDB8C88304A1FAE5D094681A7EDF6A91F.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Sum_Music_TriggerBox_Blueprint.uasset'
+[2023.11.09-19.39.49:693][378]AssetCheck: New page: Asset Save: Sum_Music_TriggerBox_Blueprint
+[2023.11.09-19.39.49:693][378]LogContentValidation: Display: Validating Blueprint /Game/Sum_Music_TriggerBox_Blueprint.Sum_Music_TriggerBox_Blueprint
+[2023.11.09-19.39.50:781][387]LogSlate: Window 'Sum_Music_TriggerBox_Blueprint' being destroyed
+[2023.11.09-19.39.50:832][387]LogSlate: Window 'Sum_Music_TriggerBox_Blueprint' being destroyed
+[2023.11.09-19.39.50:836][387]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2023.11.09-19.39.50:836][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.09-19.39.54:317][412]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2023.11.09-19.39.55:696][412]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2023.11.09-19.39.55:704][412]LogActorComponent: UnregisterComponent: (/Game/W_Music_TriggerBox_Blueprint.Default__W_Music_TriggerBox_Blueprint_C:CollisionComp) Not registered. Aborting.
+[2023.11.09-19.39.55:724][412]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2023.11.09-19.39.55:753][412]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/W_Music_TriggerBox_Blueprint.W_Music_TriggerBox_Blueprint
+[2023.11.09-19.40.07:641][500]BlueprintLog: New page: Compile W_Music_TriggerBox_Blueprint
+[2023.11.09-19.40.07:695][500]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2023.11.09-19.40.08:684][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/W_Music_TriggerBox_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/W_Music_TriggerBox_Blueprint.uasset" SILENT=true
+[2023.11.09-19.40.08:688][507]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/W_Music_TriggerBox_BlueprintEE3AFF0B4109F709EE5438A6E1415755.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/W_Music_TriggerBox_Blueprint.uasset'
+[2023.11.09-19.40.08:702][507]AssetCheck: New page: Asset Save: W_Music_TriggerBox_Blueprint
+[2023.11.09-19.40.08:702][507]LogContentValidation: Display: Validating Blueprint /Game/W_Music_TriggerBox_Blueprint.W_Music_TriggerBox_Blueprint
+[2023.11.09-19.40.10:119][518]LogSlate: Window 'W_Music_TriggerBox_Blueprint' being destroyed
+[2023.11.09-19.40.10:176][518]LogSlate: Window 'W_Music_TriggerBox_Blueprint' being destroyed
+[2023.11.09-19.40.10:179][518]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2023.11.09-19.40.10:179][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.09-19.40.35:320][707]LogMetaData: Removing '/Game/Wwise/Trigger/S_Music_TriggerBox_Blueprint.S_Music_TriggerBox_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/S_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:320][707]LogMetaData: Removing '/Game/Wwise/Trigger/S_Music_TriggerBox_Blueprint.SKEL_S_Music_TriggerBox_Blueprint_C' ref from Metadata '/Game/S_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:320][707]LogMetaData: Removing '/Game/Wwise/Trigger/S_Music_TriggerBox_Blueprint.S_Music_TriggerBox_Blueprint_C' ref from Metadata '/Game/S_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:320][707]LogMetaData: Removing '/Game/Wwise/Trigger/S_Music_TriggerBox_Blueprint.S_Music_TriggerBox_Blueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/S_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:320][707]LogMetaData: Removing '/Game/Wwise/Trigger/S_Music_TriggerBox_Blueprint.S_Music_TriggerBox_Blueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/S_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:320][707]LogMetaData: Removing '/Game/Wwise/Trigger/S_Music_TriggerBox_Blueprint.S_Music_TriggerBox_Blueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/S_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:320][707]LogMetaData: Removing '/Game/Wwise/Trigger/S_Music_TriggerBox_Blueprint.SKEL_S_Music_TriggerBox_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/S_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:320][707]LogMetaData: Removing '/Game/Wwise/Trigger/S_Music_TriggerBox_Blueprint.SKEL_S_Music_TriggerBox_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/S_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:320][707]LogMetaData: Removing '/Game/Wwise/Trigger/S_Music_TriggerBox_Blueprint.SKEL_S_Music_TriggerBox_Blueprint_C:ReceiveTick' ref from Metadata '/Game/S_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:320][707]LogMetaData: Removing '/Game/Wwise/Trigger/S_Music_TriggerBox_Blueprint.SKEL_S_Music_TriggerBox_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/S_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:320][707]LogMetaData: Removing '/Game/Wwise/Trigger/S_Music_TriggerBox_Blueprint.S_Music_TriggerBox_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/S_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:807][707]LogMetaData: Removing '/Game/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint.Sum_Music_TriggerBox_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Sum_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:807][707]LogMetaData: Removing '/Game/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint.SKEL_Sum_Music_TriggerBox_Blueprint_C' ref from Metadata '/Game/Sum_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:807][707]LogMetaData: Removing '/Game/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint.Sum_Music_TriggerBox_Blueprint_C' ref from Metadata '/Game/Sum_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:807][707]LogMetaData: Removing '/Game/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint.Sum_Music_TriggerBox_Blueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Sum_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:807][707]LogMetaData: Removing '/Game/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint.Sum_Music_TriggerBox_Blueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Sum_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:807][707]LogMetaData: Removing '/Game/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint.Sum_Music_TriggerBox_Blueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Sum_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:807][707]LogMetaData: Removing '/Game/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint.SKEL_Sum_Music_TriggerBox_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/Sum_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:807][707]LogMetaData: Removing '/Game/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint.SKEL_Sum_Music_TriggerBox_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Sum_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:807][707]LogMetaData: Removing '/Game/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint.SKEL_Sum_Music_TriggerBox_Blueprint_C:ReceiveTick' ref from Metadata '/Game/Sum_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:807][707]LogMetaData: Removing '/Game/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint.SKEL_Sum_Music_TriggerBox_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/Sum_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.35:807][707]LogMetaData: Removing '/Game/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint.Sum_Music_TriggerBox_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/Sum_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.36:295][707]LogMetaData: Removing '/Game/Wwise/Trigger/W_Music_TriggerBox_Blueprint.W_Music_TriggerBox_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/W_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.36:296][707]LogMetaData: Removing '/Game/Wwise/Trigger/W_Music_TriggerBox_Blueprint.SKEL_W_Music_TriggerBox_Blueprint_C' ref from Metadata '/Game/W_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.36:296][707]LogMetaData: Removing '/Game/Wwise/Trigger/W_Music_TriggerBox_Blueprint.W_Music_TriggerBox_Blueprint_C' ref from Metadata '/Game/W_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.36:296][707]LogMetaData: Removing '/Game/Wwise/Trigger/W_Music_TriggerBox_Blueprint.W_Music_TriggerBox_Blueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/W_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.36:296][707]LogMetaData: Removing '/Game/Wwise/Trigger/W_Music_TriggerBox_Blueprint.W_Music_TriggerBox_Blueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/W_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.36:296][707]LogMetaData: Removing '/Game/Wwise/Trigger/W_Music_TriggerBox_Blueprint.W_Music_TriggerBox_Blueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/W_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.36:296][707]LogMetaData: Removing '/Game/Wwise/Trigger/W_Music_TriggerBox_Blueprint.SKEL_W_Music_TriggerBox_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/W_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.36:296][707]LogMetaData: Removing '/Game/Wwise/Trigger/W_Music_TriggerBox_Blueprint.SKEL_W_Music_TriggerBox_Blueprint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/W_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.36:296][707]LogMetaData: Removing '/Game/Wwise/Trigger/W_Music_TriggerBox_Blueprint.SKEL_W_Music_TriggerBox_Blueprint_C:ReceiveTick' ref from Metadata '/Game/W_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.36:296][707]LogMetaData: Removing '/Game/Wwise/Trigger/W_Music_TriggerBox_Blueprint.SKEL_W_Music_TriggerBox_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/W_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.36:296][707]LogMetaData: Removing '/Game/Wwise/Trigger/W_Music_TriggerBox_Blueprint.W_Music_TriggerBox_Blueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/W_Music_TriggerBox_Blueprint.PackageMetaData'
+[2023.11.09-19.40.36:800][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Trigger/S_Music_TriggerBox_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Trigger/S_Music_TriggerBox_Blueprint.uasset" SILENT=true
+[2023.11.09-19.40.36:804][707]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/S_Music_TriggerBox_Blueprint7C3459EE4D2EBA4596EC7C8CC8FB7BC7.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Trigger/S_Music_TriggerBox_Blueprint.uasset'
+[2023.11.09-19.40.36:805][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint.uasset" SILENT=true
+[2023.11.09-19.40.36:808][707]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/Sum_Music_TriggerBox_Blueprint6F1854F04ADECC8C1B2CBC83D3036482.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint.uasset'
+[2023.11.09-19.40.36:808][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Trigger/W_Music_TriggerBox_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Trigger/W_Music_TriggerBox_Blueprint.uasset" SILENT=true
+[2023.11.09-19.40.36:812][707]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/W_Music_TriggerBox_Blueprint72B047DA4829E8C0B73F25921884DECF.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Trigger/W_Music_TriggerBox_Blueprint.uasset'
+[2023.11.09-19.40.36:900][707]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2023.11.09-19.40.36:917][707]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2023.11.09-19.40.36:931][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.11.09-19.40.36:951][707]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.11.09-19.40.36:965][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.11.09-19.40.38:142][707]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.09-19.40.38:142][707]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Trigger/S_Music_TriggerBox_Blueprint.S_Music_TriggerBox_Blueprint
+[2023.11.09-19.40.38:143][707]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Trigger/W_Music_TriggerBox_Blueprint.W_Music_TriggerBox_Blueprint
+[2023.11.09-19.40.38:143][707]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint.Sum_Music_TriggerBox_Blueprint
+[2023.11.09-19.41.28:713][962]LogContentBrowser: Deferred new asset file creation: NewAkAudioEvent
+[2023.11.09-19.41.28:836][962]LogContentBrowser: Creating deferred item: NewAkAudioEvent
+[2023.11.09-19.41.37:938][ 34]LogContentBrowser: Attempting asset rename: NewAkAudioEvent -> Play_Music_Seasons_2D
+[2023.11.09-19.41.37:940][ 34]LogContentBrowser: End creating deferred item NewAkAudioEvent
+[2023.11.09-19.41.45:109][ 71]LogAssetEditorSubsystem: Opening Asset editor for AkAudioEvent /Game/Wwise/Events/AMB/Play_Music_Seasons_2D.Play_Music_Seasons_2D
+[2023.11.09-19.41.47:495][ 88]LogUObjectBase: Warning: NULL object
+[2023.11.09-19.41.49:092][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Events/AMB/Play_Music_Seasons_2D" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Play_Music_Seasons_2D.uasset" SILENT=true
+[2023.11.09-19.41.49:092][100]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/Play_Music_Seasons_2DE18A80D34CED046BF37605B26B6C7DC7.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Events/AMB/Play_Music_Seasons_2D.uasset'
+[2023.11.09-19.41.49:104][100]AssetCheck: New page: Asset Save: Play_Music_Seasons_2D
+[2023.11.09-19.41.49:104][100]LogContentValidation: Display: Validating AkAudioEvent /Game/Wwise/Events/AMB/Play_Music_Seasons_2D.Play_Music_Seasons_2D
+[2023.11.09-19.41.50:242][109]LogSlate: Window 'Play_Music_Seasons_2D' being destroyed
+[2023.11.09-19.41.50:304][109]LogSlate: Window 'Play_Music_Seasons_2D' being destroyed
+[2023.11.09-19.41.56:055][152]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Wwise/Trigger/S_Music_TriggerBox_Blueprint.S_Music_TriggerBox_Blueprint
+[2023.11.09-19.42.07:406][236]BlueprintLog: New page: Compile S_Music_TriggerBox_Blueprint
+[2023.11.09-19.42.07:444][236]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2023.11.09-19.42.08:187][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Trigger/S_Music_TriggerBox_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Trigger/S_Music_TriggerBox_Blueprint.uasset" SILENT=true
+[2023.11.09-19.42.08:191][241]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/S_Music_TriggerBox_BlueprintD59C8202427722FE0C15F9BC32A36838.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Trigger/S_Music_TriggerBox_Blueprint.uasset'
+[2023.11.09-19.42.08:200][241]AssetCheck: New page: Asset Save: S_Music_TriggerBox_Blueprint
+[2023.11.09-19.42.08:200][241]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Trigger/S_Music_TriggerBox_Blueprint.S_Music_TriggerBox_Blueprint
+[2023.11.09-19.42.12:167][272]LogSlate: Window 'S_Music_TriggerBox_Blueprint' being destroyed
+[2023.11.09-19.42.12:226][272]LogSlate: Window 'S_Music_TriggerBox_Blueprint' being destroyed
+[2023.11.09-19.42.12:228][272]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2023.11.09-19.42.12:228][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.09-19.42.13:229][278]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint.Sum_Music_TriggerBox_Blueprint
+[2023.11.09-19.42.28:980][384]BlueprintLog: New page: Compile Sum_Music_TriggerBox_Blueprint
+[2023.11.09-19.42.29:084][384]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2023.11.09-19.42.29:575][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint.uasset" SILENT=true
+[2023.11.09-19.42.29:579][387]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/Sum_Music_TriggerBox_BlueprintAA82E5274DD29DB1A266278B3935F480.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint.uasset'
+[2023.11.09-19.42.29:588][387]AssetCheck: New page: Asset Save: Sum_Music_TriggerBox_Blueprint
+[2023.11.09-19.42.29:588][387]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Trigger/Sum_Music_TriggerBox_Blueprint.Sum_Music_TriggerBox_Blueprint
+[2023.11.09-19.42.30:591][395]LogSlate: Window 'Sum_Music_TriggerBox_Blueprint' being destroyed
+[2023.11.09-19.42.30:648][395]LogSlate: Window 'Sum_Music_TriggerBox_Blueprint' being destroyed
+[2023.11.09-19.42.30:651][395]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2023.11.09-19.42.30:651][395]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.09-19.42.31:607][401]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Wwise/Trigger/W_Music_TriggerBox_Blueprint.W_Music_TriggerBox_Blueprint
+[2023.11.09-19.42.44:803][498]BlueprintLog: New page: Compile W_Music_TriggerBox_Blueprint
+[2023.11.09-19.42.44:906][498]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2023.11.09-19.42.45:513][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wwise/Trigger/W_Music_TriggerBox_Blueprint" FILE="../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Trigger/W_Music_TriggerBox_Blueprint.uasset" SILENT=true
+[2023.11.09-19.42.45:516][502]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/W_Music_TriggerBox_Blueprint452431F445B692F56C6CB287429F5136.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/Wwise/Trigger/W_Music_TriggerBox_Blueprint.uasset'
+[2023.11.09-19.42.45:530][502]AssetCheck: New page: Asset Save: W_Music_TriggerBox_Blueprint
+[2023.11.09-19.42.45:530][502]LogContentValidation: Display: Validating Blueprint /Game/Wwise/Trigger/W_Music_TriggerBox_Blueprint.W_Music_TriggerBox_Blueprint
+[2023.11.09-19.42.46:546][510]LogSlate: Window 'W_Music_TriggerBox_Blueprint' being destroyed
+[2023.11.09-19.42.46:602][510]LogSlate: Window 'W_Music_TriggerBox_Blueprint' being destroyed
+[2023.11.09-19.42.46:605][510]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2023.11.09-19.42.46:605][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.09-19.42.58:121][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.09-19.42.58:141][581]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.11.09-19.43.07:714][581]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update8CB414D74DE49E331A856FB0A485BAFC.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.11.09-19.43.07:782][581]AssetCheck: New page: Asset Save: V4S_Update
+[2023.11.09-19.43.07:782][581]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.11.09-19.43.10:185][597]LogWwiseProjectParser: Could not parse the Cache directory from the Wwise project file. Using default value : .cache
+[2023.11.09-19.43.11:776][608]LogSlate: Window 'Generate Sound Data' being destroyed
+[2023.11.09-19.43.11:914][608]LogWwiseProjectParser: Could not parse the Cache directory from the Wwise project file. Using default value : .cache
+[2023.11.09-19.43.11:914][608]LogWwiseProjectParser: Could not parse the Cache directory from the Wwise project file. Using default value : .cache
+[2023.11.09-19.43.12:031][609]LogAkSoundData: Display: Running E:\Program\Audiokinetic\Authoring\x64\Release\bin\WwiseConsole.exe generate-soundbank "E:/Quin/V4S/Update_V4S/V4S_WwiseProject/V4S_WwiseProject.wproj" --use-stable-guid --import-definition-file "C:/Users/Joseph/AppData/Local/Temp/CookUAkAudioEvent1607B6444E2E48BBFB55B8B414A19747.txt" --platform "Mac" --soundbank-path Mac "E:/Quin/V4S/Update_V4S/Content/WwiseAudio/Mac" --platform "Windows" --soundbank-path Windows "E:/Quin/V4S/Update_V4S/Content/WwiseAudio/Windows" --bank "C:/Users/Joseph/AppData/Local/Temp/WwiseConsoleBankList3360915E48704ED167B58D974954A8B7.txt"
+[2023.11.09-19.43.12:449][610]LogAkSoundData: Display: 
+Wwise | v2019.2.15 | Build no.7667 | (C) 2006-2022. Audiokinetic Inc. All rights reserved.
+
+
+*** Loading Project ***
+
+
+*** Importing SoundBank definition ***
+
+Main	Event Missing	Play_EXT_Wind_Pulse
+
+*** Bank Generation ***
+
+
+[2023.11.09-19.43.12:699][611]LogAkSoundData: Display: 
+Process completed successfully.
+
+[2023.11.09-19.43.12:699][611]LogAkSoundData: Display: WwiseConsole successfully completed.
+[2023.11.09-19.43.12:699][611]LogDirectoryWatcher: Display: A directory notification failed, and we were unable to create a new request. GetLastError code [6] Handle [FFFFFFFFFFFFFFFF], Path [E:/Quin/V4S/Update_V4S/Content/WwiseAudio] 
+[2023.11.09-19.43.12:699][611]LogAkSoundData: Display: WwiseConsole Sound Data Builder task was successful and took 0.740415 seconds.
+[2023.11.09-19.43.13:954][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.09-19.43.13:972][619]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2023.11.09-19.43.23:579][619]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update89A927734AE7621450395CB4AAAC9DC2.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.11.09-19.43.23:660][619]AssetCheck: New page: Asset Save: V4S_Update
+[2023.11.09-19.43.23:660][619]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
