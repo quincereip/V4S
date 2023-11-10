@@ -3809,3 +3809,26 @@ Process completed successfully.
 [2023.11.10-00.03.19:728][674]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_UpdateF23C554B49DE267CDCDB269457BCAEBF.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
 [2023.11.10-00.03.19:808][674]AssetCheck: New page: Asset Save: V4S_Update
 [2023.11.10-00.03.19:808][674]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.11.10-00.08.50:683][444]LogRendererCore: Warning: Query 'Unaccounted' not ready.
+[2023.11.10-00.43.47:517][697]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2023.11.10-00.43.47:850][698]LogAkAudio: Audio thread resumed, audio restarts.
+[2023.11.10-01.55.05:491][449]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2023.11.10-01.55.06:384][452]LogAkAudio: Audio thread resumed, audio restarts.
+[2023.11.10-01.55.07:843][456]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2023.11.10-01.55.08:447][458]LogAkAudio: Audio thread resumed, audio restarts.
+[2023.11.10-01.55.12:754][471]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.11.10-02.30.11:652][102]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2023.11.10-02.30.11:765][102]LogAkAudio: Audio thread resumed, audio restarts.
+[2023.11.10-03.16.51:835][293]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_MatPreviewMesh_01)
+[2023.11.10-03.16.51:881][293]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2023.11.10-03.16.52:200][293]LogAkAudio: Audio thread resumed, audio restarts.
+[2023.11.10-03.16.52:452][293]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2023.11.10-03.16.52:907][293]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_MatPreviewMesh_01)
+[2023.11.10-03.16.53:173][296]LogAkAudio: Audio thread resumed, audio restarts.
+[2023.11.10-03.16.54:256][357]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2023.11.10-03.16.55:154][451]LogAkAudio: Audio thread resumed, audio restarts.
+[2023.11.10-03.50.19:190][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.10-03.50.19:210][560]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2023.11.10-03.50.28:904][560]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update2F1A2E774696C33E4AD77596641EAE83.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.11.10-03.50.28:979][560]AssetCheck: New page: Asset Save: V4S_Update
+[2023.11.10-03.50.28:979][560]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
