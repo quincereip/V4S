@@ -98,6 +98,10 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_ST_Tree_Dense" ID="{26CAC672-E2CC-4042-B958-6802C8C68133}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Seasons_2D_Bird" ID="{53D034A3-88C2-4F64-8520-4368ED41F007}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -110,6 +114,10 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_ST_Tree_Dry" ID="{6A6BFE13-6A27-4835-A89E-F5D20CC1E65F}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Apple" ID="{B9468113-2F62-4918-B9C6-B96FB3F557CD}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -120,6 +128,10 @@
 						<Module>
 							<ObjectRef Name="Play_Rodent_Acorn" ID="{ED76452B-DCD7-493C-80F4-3F4C1A5E182F}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}"/>
 							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_ST_Tree_Soft" ID="{835AFA51-6ED1-4B53-AF1A-E59B8CB2AF99}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}"/>
+							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Waterfall" ID="{34B2BFBB-8D93-4619-AF2A-38C0BB8CDC4C}" WorkUnitID="{CAA1696C-82B7-43D8-A7F4-CCB66BE199F1}"/>
@@ -159,7 +171,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{F3544A33-E96D-4075-AEB3-FA937893CDCB}"/>
 						<CurrentStateRef Name="Fall" ID="{8A310035-D314-4994-9C44-086F31CD9288}"/>
-						<CurrentStateRef Name="None" ID="{70D54A14-A650-462E-A2A5-9FF4802C321F}"/>
+						<CurrentStateRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
 						<CurrentStateRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
 						<CurrentStateRef Name="None" ID="{2810BA7A-BEC0-440D-A8EE-53D5E100B1F9}"/>
 					</CurrentStateList>

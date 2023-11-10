@@ -9399,6 +9399,11 @@
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -9812,7 +9817,11 @@
 															</CustomState>
 															<CustomState>
 																<StateRef Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
-																<CustomState Name="" ID="{7A6766F5-FE04-4221-A8B6-D228BEDDA936}" ShortID="1010761522"/>
+																<CustomState Name="" ID="{7A6766F5-FE04-4221-A8B6-D228BEDDA936}" ShortID="1010761522">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="3"/>
+																	</PropertyList>
+																</CustomState>
 															</CustomState>
 														</CustomStateList>
 													</StateInfo>
@@ -10250,7 +10259,11 @@
 														<CustomStateList>
 															<CustomState>
 																<StateRef Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
-																<CustomState Name="" ID="{1D3D5CAB-CED9-4FC1-A200-4B819F6B1F65}" ShortID="1056498269"/>
+																<CustomState Name="" ID="{1D3D5CAB-CED9-4FC1-A200-4B819F6B1F65}" ShortID="1056498269">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-3"/>
+																	</PropertyList>
+																</CustomState>
 															</CustomState>
 															<CustomState>
 																<StateRef Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
@@ -10700,7 +10713,11 @@
 															</CustomState>
 															<CustomState>
 																<StateRef Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
-																<CustomState Name="" ID="{ECFE062E-3C6D-4900-9206-B10C66B35780}" ShortID="735140579"/>
+																<CustomState Name="" ID="{ECFE062E-3C6D-4900-9206-B10C66B35780}" ShortID="735140579">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-3"/>
+																	</PropertyList>
+																</CustomState>
 															</CustomState>
 															<CustomState>
 																<StateRef Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>

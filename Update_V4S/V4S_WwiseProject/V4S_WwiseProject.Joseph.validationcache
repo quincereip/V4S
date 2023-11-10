@@ -2,11 +2,11 @@
 <ValidationCache Version="1" SchemaVersion="97">
 	<ValidationCacheItem File="E:\Quin\V4S\Update_V4S\V4S_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1698444898" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Quin\V4S\Update_V4S\V4S_WwiseProject\V4S_WwiseProject.wproj" DateLow="1698444898" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Quin\V4S\Update_V4S\V4S_WwiseProject\V4S_WwiseProject.Joseph.wsettings" DateLow="1699484391" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Quin\V4S\Update_V4S\V4S_WwiseProject\V4S_WwiseProject.Joseph.wsettings" DateLow="1699560155" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Quin\V4S\Update_V4S\V4S_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1698444898" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Quin\V4S\Update_V4S\V4S_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1698444898" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Quin\V4S\Update_V4S\V4S_WwiseProject\States\Default Work Unit.wwu" DateLow="1699152977" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Quin\V4S\Update_V4S\V4S_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1699402884" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Quin\V4S\Update_V4S\V4S_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1699572076" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Quin\V4S\Update_V4S\V4S_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1699151374" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Quin\V4S\Update_V4S\V4S_WwiseProject\Queries\Factory Queries.wwu" DateLow="1698444898" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Quin\V4S\Update_V4S\V4S_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1698444898" DateHigh="0"/>
@@ -26,5 +26,5 @@
 	<ValidationCacheItem File="E:\Quin\V4S\Update_V4S\V4S_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1698444898" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Quin\V4S\Update_V4S\V4S_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1698444898" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Quin\V4S\Update_V4S\V4S_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1698444898" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Quin\V4S\Update_V4S\V4S_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1699560146" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Quin\V4S\Update_V4S\V4S_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1699572076" DateHigh="0"/>
 </ValidationCache>

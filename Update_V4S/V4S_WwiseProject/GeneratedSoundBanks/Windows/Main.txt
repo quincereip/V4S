@@ -120,6 +120,7 @@ Custom State	ID	Name	State Group	Owner		Notes
 	672931492	Stop	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Winter		
 	709880797	Fall	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Spring		
 	723320251	Summer	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Stop		
+	735140579	Dry	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Tree\3D_A_P_Seasons_Tree\ST_Tree_Dry		
 	739804604	Stop	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Fall		
 	745910222	Summer	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D_Bird\S2D_Bird_Winter		
 	747484378	Stop	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Spring		
@@ -133,9 +134,11 @@ Custom State	ID	Name	State Group	Owner		Notes
 	955178598	Winter	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D_Bird\S2D_Bird_Summer		
 	961197441	Winter	Seasons_2D	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D_Bird\S2D_Bird_Fall		
 	1002358805	Spring	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Fall		
+	1010761522	Dense	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Tree\3D_A_P_Seasons_Tree\ST_Tree_Dense		
 	1012752579	Winter	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Winter		
 	1015287507	Spring	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Stop		
 	1044764008	Spring	Music	\Interactive Music Hierarchy\Default Work Unit\Seasons_2D\Seasons_2D_Spring		
+	1056498269	Soft	Seasons_Tree	\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Tree\3D_A_P_Seasons_Tree\ST_Tree_Soft		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	487587012	Player_Distance			\Default Work Unit\Player_Distance	
@@ -251,7 +254,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	657069852	Leaves_Dry_Drop	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Windows\SFX\Leaves\Leaves_Dry_Drop_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Tree\3D_A_P_Seasons_Tree\ST_Tree_Dry\ST_Tree_Dry_Rand\Leaves_Dry_Drop		96064
 	657254767	3D_Audio_Animals_Animal_Sniffing	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Windows\SFX\Animal_Sniffing_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_OBJ\Idle\Animals\3D_Audio_Animals_Animal_Sniffing		384064
 	673167724	LF_Cloth	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Windows\SFX\Life_Layer\LF_Cloth_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Life_Layer\Life_Layer\LF_Cloth		1248064
-	674690314	Grass_Movement_Leaves_Low	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Windows\SFX\Grass_Other\Grass_Movement_Leaves_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Tree\3D_A_P_Seasons_Tree\ST_Tree_Soft\Grass_Movement_Leaves_Low		964000
+	674690314	Grass_Movement_Leaves	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Windows\SFX\Grass_Other\Grass_Movement_Leaves_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Tree\3D_A_P_Seasons_Tree\ST_Tree_Dense\ST_Tree_Dense_Blend_01\Grass_Movement_Leaves		964000
 	677174587	3D_Audio_Animals_Animal_Eating	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Windows\SFX\Animal_Eating_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_OBJ\Idle\Animals\3D_Audio_Animals_Animal_Eating		528064
 	705460172	EXT_Birds_Cry_04	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Windows\SFX\EXT_Birds_Cry_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D_Bird\S2D_Bird_Spring\EXT_Birds_Spring\EXT_Birds_Spring\EXT_Birds_LR\EXT_Birds_Cry_04		1632064
 	719933676	Fox_Imitation_Talk	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Windows\SFX\Fox_Imitation_Talk_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_OBJ\Idle\Animals\3D_Audio_Animals_Fox\Fox_Imitation_Talk		240064

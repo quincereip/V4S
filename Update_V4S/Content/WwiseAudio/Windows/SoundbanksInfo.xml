@@ -23,7 +23,7 @@
 				<AuxBus Id="2802899749" Name="Emitter" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\M&amp;E\SFX\Emitter" GUID="{49953334-5AB5-462F-B68B-4F88ECD72A6E}"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{E19EE910-4431-421A-82C4-6214E7842FE1}" Language="SFX" Hash="1653613380">
+		<SoundBank Id="3161908922" GUID="{E19EE910-4431-421A-82C4-6214E7842FE1}" Language="SFX" Hash="3211221031">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
