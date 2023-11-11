@@ -147,6 +147,19 @@ Modulator LFO	ID	Name			Wwise Object Path	Notes
 Modulator Time	ID	Name			Wwise Object Path	Notes
 	1025967343	Modulator Time (Custom)				
 
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\M&E\SFX	
+	1117531639	AMB			\Default Work Unit\Master Audio Bus\M&E\AMB	
+	2004773781	M&E			\Default Work Unit\Master Audio Bus\M&E	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	712897226	MUS			\Default Work Unit\Master Audio Bus\M&E\AMB\MUS	
+	898834102	EXT			\Default Work Unit\Master Audio Bus\M&E\AMB\EXT	
+	1233317514	FX_Reverb_Outside			\Default Work Unit\Master Audio Bus\Reverb\FX_Reverb_Outside	
+	2802899749	Emitter			\Default Work Unit\Master Audio Bus\M&E\SFX\Emitter	
+
 Effect plug-ins	ID	Name	Type				Notes
 	28519600	High_Freq_Cut_8_(Custom)	Wwise Parametric EQ			
 	488317248	Dialog_Through_AC_Vents_(Custom)	Wwise Parametric EQ			
@@ -154,6 +167,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	976194053	Have_U_Ever_Been_Outside_(Custom)	Wwise RoomVerb			
 	1110677034	Underwater_Echoes	Wwise Stereo Delay			
 	1125262053	Blue_Distant_Echoes	Wwise Stereo Delay			
+	2098287461	Reverb_Outside	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	496452	FT_Wood_04	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Wood\FT_Wood_04_D1DD4874.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Wood\FT_Wood_04		192064
@@ -205,7 +219,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	309298276	A_S3D_Rain_Thunder	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Rain_1E67B99E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Atmosphere\Atmos_3D\A_S3D_Rain\A_S3D_Rain_Thunder		6535328
 	313219139	FT_Rocks_01	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Rocks\FT_Rocks_01_58609EF3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Rocks\FT_Rocks_01		192064
 	316658623	A_S3D_Wind_Harsh	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Wind_Fly_115E39A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Atmosphere\Atmos_3D\A_S3D_Windy\A_S3D_Wind_Harsh		3055916
-	318610343	Apple_Droppimg	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Apple\Apple_Droppimg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_OBJ\3D_Audio_OBJ_Emitters\3D_A_OBJ_E_Objects_Apple\Apple_Droppimg		192064
+	318610343	Apple_Droppimg	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Apple\Apple_Droppimg_11F7713F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_OBJ\3D_Audio_OBJ_Emitters\3D_A_OBJ_E_Objects_Apple\Apple_Droppimg		192064
 	338371126	FT_Grass_04	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_04_78B5E67A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_04		240064
 	339225625	FT_Grass_Harsh_05	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass\FT_Grass_Harsh_05_4C1945A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Footsteps\Grass\FT_Grass_Harsh_05		288064
 	346491810	EXT_Birds	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D_Bird\S2D_Bird_Spring\EXT_Birds_Spring\EXT_Birds		672048
@@ -247,7 +261,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	657069852	Leaves_Dry_Drop	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Leaves\Leaves_Dry_Drop_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Tree\3D_A_P_Seasons_Tree\ST_Tree_Dry\ST_Tree_Dry_Rand\Leaves_Dry_Drop		96064
 	657254767	3D_Audio_Animals_Animal_Sniffing	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Animal_Sniffing_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_OBJ\Idle\Animals\3D_Audio_Animals_Animal_Sniffing		384064
 	673167724	LF_Cloth	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Life_Layer\LF_Cloth_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Life_Layer\Life_Layer\LF_Cloth		1248064
-	674690314	Grass_Movement_Leaves_Low	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass_Other\Grass_Movement_Leaves_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Tree\3D_A_P_Seasons_Tree\ST_Tree_Soft\Grass_Movement_Leaves_Low		964000
+	674690314	Grass_Movement_Leaves	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Grass_Other\Grass_Movement_Leaves_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Tree\3D_A_P_Seasons_Tree\ST_Tree_Dense\ST_Tree_Dense_Blend_01\Grass_Movement_Leaves		964000
 	677174587	3D_Audio_Animals_Animal_Eating	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Animal_Eating_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_OBJ\Idle\Animals\3D_Audio_Animals_Animal_Eating		528064
 	705460172	EXT_Birds_Cry_04	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Cry_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D_Bird\S2D_Bird_Spring\EXT_Birds_Spring\EXT_Birds_Spring\EXT_Birds_LR\EXT_Birds_Cry_04		1632064
 	719933676	Fox_Imitation_Talk	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Fox_Imitation_Talk_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_OBJ\Idle\Animals\3D_Audio_Animals_Fox\Fox_Imitation_Talk		240064
@@ -269,7 +283,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	851513767	EXT_Birds_Cry_03	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_Birds_Cry_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\2D_Ambience\Seasons_2D_Bird\S2D_Bird_Spring\EXT_Birds_Spring\EXT_Birds_Spring\EXT_Birds_LR\EXT_Birds_Cry_03		1632064
 	857467946	Fox_Imitation_Laugh	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Fox_Imitation_Laugh_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_OBJ\Idle\Animals\3D_Audio_Animals_Fox\Fox_Imitation_Laugh		384064
 	864683368	A_S3D_Rain_Light	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\EXT_AMB_Rain_Light_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_Place\3D_Audio_P_Atmosphere\Atmos_3D\A_S3D_Rain\A_S3D_Rain_Light		3072064
-	866778322	3D_A_OBJ_E_Animals_Rodent_Acorn	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Rodent_Acorn_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_OBJ\3D_Audio_OBJ_Emitters\3D_A_OBJ_E_Animals_Rodent_Acorn		2112064
+	866778322	3D_A_OBJ_E_Animals_Rodent_Acorn	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Rodent_Acorn_C5579977.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_OBJ\3D_Audio_OBJ_Emitters\3D_A_OBJ_E_Animals_Rodent_Acorn		2112064
 	869033472	Branch_Breaking_05	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Branch_Breaking\Branch_Breaking_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Branch_Breaking\Branch_Breaking_05		96064
 	886497636	Branch_Breaking_01	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Branch_Breaking\Branch_Breaking_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\First_Person_Audio\Footsteps\Branch_Breaking\Branch_Breaking_01		240064
 	897365529	Apple_Drop_02	E:\Quin\V4S\Update_V4S\V4S_WwiseProject\.cache\Mac\SFX\Apple\Apple_Drop_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mixer\3D_Audio_OBJ\3D_Audio_OBJ_Emitters\3D_A_OBJ_E_Objects_Apple\Apple_Drop_02		51744

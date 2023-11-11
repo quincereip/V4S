@@ -19,7 +19,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "58964481",
+    "Hash": "1481562333",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -60,7 +60,7 @@
     "Id": "3161908922",
     "GUID": "{E19EE910-4431-421A-82C4-6214E7842FE1}",
     "Language": "SFX",
-    "Hash": "86537779",
+    "Hash": "2116834959",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -422,13 +422,14 @@
       "Name": "Play_Apple",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Apple",
       "GUID": "{B9468113-2F62-4918-B9C6-B96FB3F557CD}",
+      "MaxAttenuation": "3000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
         "Id": "318610343",
         "Language": "SFX",
         "ShortName": "Apple\\Apple_Droppimg.wav",
-        "Path": "SFX\\Apple\\Apple_Droppimg_10C4C929.wem"
+        "Path": "SFX\\Apple\\Apple_Droppimg_11F7713F.wem"
        },
        {
         "Id": "774997628",
@@ -708,6 +709,7 @@
       "Name": "Play_Fireplace",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Fireplace",
       "GUID": "{261D421A-89A2-43C5-83C3-88D0F574828B}",
+      "MaxAttenuation": "3000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -1131,6 +1133,7 @@
       "Name": "Play_Ice_Cream_Truck",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Ice_Cream_Truck",
       "GUID": "{75A62336-6F7F-4772-91FC-ED381DA964B1}",
+      "MaxAttenuation": "3000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -1406,7 +1409,7 @@
         "Id": "866778322",
         "Language": "SFX",
         "ShortName": "Rodent_Acorn.wav",
-        "Path": "SFX\\Rodent_Acorn_D79FB2B7.wem"
+        "Path": "SFX\\Rodent_Acorn_C5579977.wem"
        }
       ],
       "AuxBusSends": [
@@ -1629,6 +1632,7 @@
       "Name": "Play_Shells",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Shells",
       "GUID": "{59DB6D5E-9096-4EA9-BC62-4C259FAF4858}",
+      "MaxAttenuation": "3000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {

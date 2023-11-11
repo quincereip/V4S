@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>E:\Quin\V4S\Update_V4S\V4S_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{E19EE910-4431-421A-82C4-6214E7842FE1}" Language="SFX" Hash="86537779">
+		<SoundBank Id="3161908922" GUID="{E19EE910-4431-421A-82C4-6214E7842FE1}" Language="SFX" Hash="2116834959">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -194,11 +194,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2782109158" Name="Play_Apple" ObjectPath="\Events\Default Work Unit\SFX\Play_Apple" GUID="{B9468113-2F62-4918-B9C6-B96FB3F557CD}" DurationType="Infinite">
+				<Event Id="2782109158" Name="Play_Apple" ObjectPath="\Events\Default Work Unit\SFX\Play_Apple" GUID="{B9468113-2F62-4918-B9C6-B96FB3F557CD}" MaxAttenuation="3000." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="318610343" Language="SFX">
 							<ShortName>Apple\Apple_Droppimg.wav</ShortName>
-							<Path>SFX\Apple\Apple_Droppimg_10C4C929.wem</Path>
+							<Path>SFX\Apple\Apple_Droppimg_11F7713F.wem</Path>
 						</File>
 						<File Id="774997628" Language="SFX">
 							<ShortName>Apple\Apple_Drop_01.wav</ShortName>
@@ -358,7 +358,7 @@
 						<AuxBus Id="898834102" Name="EXT" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\M&amp;E\AMB\EXT" GUID="{07373D9E-9413-4A07-8D5D-50D786C3488D}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1501216439" Name="Play_Fireplace" ObjectPath="\Events\Default Work Unit\SFX\Play_Fireplace" GUID="{261D421A-89A2-43C5-83C3-88D0F574828B}" DurationType="Infinite">
+				<Event Id="1501216439" Name="Play_Fireplace" ObjectPath="\Events\Default Work Unit\SFX\Play_Fireplace" GUID="{261D421A-89A2-43C5-83C3-88D0F574828B}" MaxAttenuation="3000." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="174091285" Language="SFX">
 							<ShortName>bbc_fire---clo_nhu0500808 [chan 1].wav</ShortName>
@@ -597,7 +597,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2063432232" Name="Play_Ice_Cream_Truck" ObjectPath="\Events\Default Work Unit\SFX\Play_Ice_Cream_Truck" GUID="{75A62336-6F7F-4772-91FC-ED381DA964B1}" DurationType="Infinite">
+				<Event Id="2063432232" Name="Play_Ice_Cream_Truck" ObjectPath="\Events\Default Work Unit\SFX\Play_Ice_Cream_Truck" GUID="{75A62336-6F7F-4772-91FC-ED381DA964B1}" MaxAttenuation="3000." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="2632873" Language="SFX">
 							<ShortName>674237__kevingambleaudio__ice-cream-truck.wav</ShortName>
@@ -756,7 +756,7 @@
 					<IncludedMemoryFiles>
 						<File Id="866778322" Language="SFX">
 							<ShortName>Rodent_Acorn.wav</ShortName>
-							<Path>SFX\Rodent_Acorn_D79FB2B7.wem</Path>
+							<Path>SFX\Rodent_Acorn_C5579977.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -891,7 +891,7 @@
 						<AuxBus Id="898834102" Name="EXT" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\M&amp;E\AMB\EXT" GUID="{07373D9E-9413-4A07-8D5D-50D786C3488D}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1966481595" Name="Play_Shells" ObjectPath="\Events\Default Work Unit\SFX\Play_Shells" GUID="{59DB6D5E-9096-4EA9-BC62-4C259FAF4858}" DurationType="Infinite">
+				<Event Id="1966481595" Name="Play_Shells" ObjectPath="\Events\Default Work Unit\SFX\Play_Shells" GUID="{59DB6D5E-9096-4EA9-BC62-4C259FAF4858}" MaxAttenuation="3000." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="819845612" Language="SFX">
 							<ShortName>Shells.wav</ShortName>

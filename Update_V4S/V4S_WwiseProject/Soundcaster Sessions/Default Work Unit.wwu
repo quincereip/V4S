@@ -165,7 +165,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Player_Distance" ID="{9C09E92B-3F2F-4D23-A540-BA8D0EA7ADC2}"/>
-							<Value>150</Value>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
