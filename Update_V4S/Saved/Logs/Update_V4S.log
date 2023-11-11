@@ -4388,3 +4388,8 @@ Process completed successfully.
 [2023.11.11-03.18.39:929][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2023.11.11-03.18.39:929][733]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
 [2023.11.11-03.18.39:929][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.11-03.44.24:793][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.11-03.44.24:873][805]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2023.11.11-03.44.34:575][805]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update69C945B84606DDE5C98DE4B1F51FBD19.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.11.11-03.44.34:635][805]AssetCheck: New page: Asset Save: V4S_Update
+[2023.11.11-03.44.34:635][805]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
