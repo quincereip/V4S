@@ -60,7 +60,7 @@
     "Id": "3161908922",
     "GUID": "{E19EE910-4431-421A-82C4-6214E7842FE1}",
     "Language": "SFX",
-    "Hash": "3211221031",
+    "Hash": "86537779",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -118,6 +118,7 @@
       "Name": "Play_3D_A_P_Seasons_Tree",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Place\\Trees\\Play_3D_A_P_Seasons_Tree",
       "GUID": "{EE93FC82-5F37-4CAC-A2F2-51FE46668157}",
+      "MaxAttenuation": "3000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -1196,12 +1197,6 @@
         "Path": "SFX\\573376__johnloser__cyber-punch-01_D79FB2B7.wem"
        },
        {
-        "Id": "655501665",
-        "Language": "SFX",
-        "ShortName": "RoomTone_AC.wav",
-        "Path": "SFX\\RoomTone_AC_D79FB2B7.wem"
-       },
-       {
         "Id": "945945044",
         "Language": "SFX",
         "ShortName": "10-Fall-230922_1725.wav",
@@ -1222,644 +1217,117 @@
       ],
       "SwitchContainers": [
        {
-        "SwitchValue": "{8A310035-D314-4994-9C44-086F31CD9288}",
+        "SwitchValue": "{010571C9-B37C-46C3-A4B1-54CBCA20C71B}",
         "Children": [
          {
-          "SwitchValue": "{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}",
-          "Children": [
+          "SwitchValue": "{8A310035-D314-4994-9C44-086F31CD9288}",
+          "Media": [
            {
-            "SwitchValue": "{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}",
-            "Children": [
-             {
-              "SwitchValue": "{010B5356-AB18-4CC1-8E3D-48D21DA2368A}",
-              "Media": [
-               {
-                "Id": "945945044"
-               }
-              ]
-             }
-            ]
+            "Id": "945945044"
            }
           ]
          }
         ]
        },
        {
-        "SwitchValue": "{BB1FF06B-807D-4905-B6D1-9688FD62BCF1}",
+        "SwitchValue": "{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}",
         "Children": [
          {
-          "SwitchValue": "{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}",
-          "Children": [
+          "SwitchValue": "{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}",
+          "Media": [
            {
-            "SwitchValue": "{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}",
-            "Children": [
-             {
-              "SwitchValue": "{010B5356-AB18-4CC1-8E3D-48D21DA2368A}",
-              "Media": [
-               {
-                "Id": "655501665"
-               }
-              ]
-             }
-            ]
+            "Id": "961384065"
            }
           ]
          }
         ]
        },
        {
-        "SwitchValue": "{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}",
+        "SwitchValue": "{D874A809-6B76-4605-9F8D-585B18CF2E97}",
         "Children": [
          {
-          "SwitchValue": "{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}",
-          "Children": [
+          "SwitchValue": "{AB3BFD53-AE84-44BC-B083-9BBE5424864E}",
+          "Media": [
            {
-            "SwitchValue": "{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}",
-            "Children": [
-             {
-              "SwitchValue": "{010B5356-AB18-4CC1-8E3D-48D21DA2368A}",
-              "Media": [
-               {
-                "Id": "961384065"
-               }
-              ]
-             }
-            ]
+            "Id": "475318142"
            }
           ]
          }
         ]
        },
        {
-        "SwitchValue": "{A37533DF-9D04-4261-9F0F-E8C57838412A}",
+        "SwitchValue": "{B2F6DCC2-0296-439A-8847-FB4C5D483B19}",
         "Children": [
          {
-          "SwitchValue": "{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}",
-          "Children": [
+          "SwitchValue": "{A37533DF-9D04-4261-9F0F-E8C57838412A}",
+          "Media": [
            {
-            "SwitchValue": "{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}",
-            "Children": [
-             {
-              "SwitchValue": "{010B5356-AB18-4CC1-8E3D-48D21DA2368A}",
-              "Media": [
-               {
-                "Id": "470758310"
-               }
-              ]
-             }
-            ]
+            "Id": "470758310"
            }
           ]
          }
         ]
        },
        {
-        "SwitchValue": "{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}",
+        "SwitchValue": "{D874A809-6B76-4605-9F8D-585B18CF2E97}",
         "Children": [
          {
-          "SwitchValue": "{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}",
-          "Children": [
+          "SwitchValue": "{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}",
+          "Media": [
            {
-            "SwitchValue": "{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}",
-            "Children": [
-             {
-              "SwitchValue": "{010B5356-AB18-4CC1-8E3D-48D21DA2368A}",
-              "Media": [
-               {
-                "Id": "1056231946"
-               }
-              ]
-             }
-            ]
+            "Id": "1056231946"
            }
           ]
          }
         ]
        },
        {
-        "SwitchValue": "{AB3BFD53-AE84-44BC-B083-9BBE5424864E}",
+        "SwitchValue": "{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}",
         "Children": [
          {
-          "SwitchValue": "{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}",
-          "Children": [
+          "SwitchValue": "{8A310035-D314-4994-9C44-086F31CD9288}",
+          "Media": [
            {
-            "SwitchValue": "{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}",
-            "Children": [
-             {
-              "SwitchValue": "{010B5356-AB18-4CC1-8E3D-48D21DA2368A}",
-              "Media": [
-               {
-                "Id": "475318142"
-               }
-              ]
-             }
-            ]
+            "Id": "945945044"
            }
           ]
          }
         ]
        },
        {
-        "SwitchValue": "{8A310035-D314-4994-9C44-086F31CD9288}",
+        "SwitchValue": "{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}",
         "Children": [
          {
-          "SwitchValue": "{010571C9-B37C-46C3-A4B1-54CBCA20C71B}",
-          "Children": [
+          "SwitchValue": "{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}",
+          "Media": [
            {
-            "SwitchValue": "{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}",
-            "Children": [
-             {
-              "SwitchValue": "{010B5356-AB18-4CC1-8E3D-48D21DA2368A}",
-              "Media": [
-               {
-                "Id": "945945044"
-               }
-              ]
-             }
-            ]
+            "Id": "961384065"
            }
           ]
          }
         ]
        },
        {
-        "SwitchValue": "{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}",
+        "SwitchValue": "{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}",
         "Children": [
          {
-          "SwitchValue": "{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}",
-          "Children": [
+          "SwitchValue": "{A37533DF-9D04-4261-9F0F-E8C57838412A}",
+          "Media": [
            {
-            "SwitchValue": "{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}",
-            "Children": [
-             {
-              "SwitchValue": "{010B5356-AB18-4CC1-8E3D-48D21DA2368A}",
-              "Media": [
-               {
-                "Id": "961384065"
-               }
-              ]
-             }
-            ]
+            "Id": "470758310"
            }
           ]
          }
         ]
        },
        {
-        "SwitchValue": "{A37533DF-9D04-4261-9F0F-E8C57838412A}",
+        "SwitchValue": "{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}",
         "Children": [
          {
-          "SwitchValue": "{B2F6DCC2-0296-439A-8847-FB4C5D483B19}",
-          "Children": [
+          "SwitchValue": "{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}",
+          "Media": [
            {
-            "SwitchValue": "{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}",
-            "Children": [
-             {
-              "SwitchValue": "{010B5356-AB18-4CC1-8E3D-48D21DA2368A}",
-              "Media": [
-               {
-                "Id": "470758310"
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}",
-        "Children": [
-         {
-          "SwitchValue": "{D874A809-6B76-4605-9F8D-585B18CF2E97}",
-          "Children": [
-           {
-            "SwitchValue": "{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}",
-            "Children": [
-             {
-              "SwitchValue": "{010B5356-AB18-4CC1-8E3D-48D21DA2368A}",
-              "Media": [
-               {
-                "Id": "1056231946"
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{8A310035-D314-4994-9C44-086F31CD9288}",
-        "Children": [
-         {
-          "SwitchValue": "{010571C9-B37C-46C3-A4B1-54CBCA20C71B}",
-          "Children": [
-           {
-            "SwitchValue": "{1A52D020-DA23-4B51-A4F6-7CA2048504CF}",
-            "Children": [
-             {
-              "SwitchValue": "{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}",
-              "Media": [
-               {
-                "Id": "945945044"
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{8A310035-D314-4994-9C44-086F31CD9288}",
-        "Children": [
-         {
-          "SwitchValue": "{010571C9-B37C-46C3-A4B1-54CBCA20C71B}",
-          "Children": [
-           {
-            "SwitchValue": "{4C8E80BE-462D-4655-9995-934F090BFAA9}",
-            "Children": [
-             {
-              "SwitchValue": "{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}",
-              "Media": [
-               {
-                "Id": "945945044"
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{8A310035-D314-4994-9C44-086F31CD9288}",
-        "Children": [
-         {
-          "SwitchValue": "{010571C9-B37C-46C3-A4B1-54CBCA20C71B}",
-          "Children": [
-           {
-            "SwitchValue": "{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}",
-            "Children": [
-             {
-              "SwitchValue": "{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}",
-              "Media": [
-               {
-                "Id": "945945044"
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}",
-        "Children": [
-         {
-          "SwitchValue": "{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}",
-          "Children": [
-           {
-            "SwitchValue": "{1A52D020-DA23-4B51-A4F6-7CA2048504CF}",
-            "Children": [
-             {
-              "SwitchValue": "{76F86B91-88D4-4E91-A275-AFE886DA7C04}",
-              "Media": [
-               {
-                "Id": "961384065"
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}",
-        "Children": [
-         {
-          "SwitchValue": "{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}",
-          "Children": [
-           {
-            "SwitchValue": "{4C8E80BE-462D-4655-9995-934F090BFAA9}",
-            "Children": [
-             {
-              "SwitchValue": "{76F86B91-88D4-4E91-A275-AFE886DA7C04}",
-              "Media": [
-               {
-                "Id": "961384065"
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}",
-        "Children": [
-         {
-          "SwitchValue": "{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}",
-          "Children": [
-           {
-            "SwitchValue": "{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}",
-            "Children": [
-             {
-              "SwitchValue": "{76F86B91-88D4-4E91-A275-AFE886DA7C04}",
-              "Media": [
-               {
-                "Id": "961384065"
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}",
-        "Children": [
-         {
-          "SwitchValue": "{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}",
-          "Children": [
-           {
-            "SwitchValue": "{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}",
-            "Children": [
-             {
-              "SwitchValue": "{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}",
-              "Media": [
-               {
-                "Id": "961384065"
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}",
-        "Children": [
-         {
-          "SwitchValue": "{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}",
-          "Children": [
-           {
-            "SwitchValue": "{4C8E80BE-462D-4655-9995-934F090BFAA9}",
-            "Children": [
-             {
-              "SwitchValue": "{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}",
-              "Media": [
-               {
-                "Id": "961384065"
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}",
-        "Children": [
-         {
-          "SwitchValue": "{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}",
-          "Children": [
-           {
-            "SwitchValue": "{1A52D020-DA23-4B51-A4F6-7CA2048504CF}",
-            "Children": [
-             {
-              "SwitchValue": "{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}",
-              "Media": [
-               {
-                "Id": "961384065"
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{A37533DF-9D04-4261-9F0F-E8C57838412A}",
-        "Children": [
-         {
-          "SwitchValue": "{B2F6DCC2-0296-439A-8847-FB4C5D483B19}",
-          "Children": [
-           {
-            "SwitchValue": "{1A52D020-DA23-4B51-A4F6-7CA2048504CF}",
-            "Children": [
-             {
-              "SwitchValue": "{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}",
-              "Media": [
-               {
-                "Id": "470758310"
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{A37533DF-9D04-4261-9F0F-E8C57838412A}",
-        "Children": [
-         {
-          "SwitchValue": "{B2F6DCC2-0296-439A-8847-FB4C5D483B19}",
-          "Children": [
-           {
-            "SwitchValue": "{4C8E80BE-462D-4655-9995-934F090BFAA9}",
-            "Children": [
-             {
-              "SwitchValue": "{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}",
-              "Media": [
-               {
-                "Id": "470758310"
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{A37533DF-9D04-4261-9F0F-E8C57838412A}",
-        "Children": [
-         {
-          "SwitchValue": "{B2F6DCC2-0296-439A-8847-FB4C5D483B19}",
-          "Children": [
-           {
-            "SwitchValue": "{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}",
-            "Children": [
-             {
-              "SwitchValue": "{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}",
-              "Media": [
-               {
-                "Id": "470758310"
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}",
-        "Children": [
-         {
-          "SwitchValue": "{D874A809-6B76-4605-9F8D-585B18CF2E97}",
-          "Children": [
-           {
-            "SwitchValue": "{1A52D020-DA23-4B51-A4F6-7CA2048504CF}",
-            "Children": [
-             {
-              "SwitchValue": "{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}",
-              "Media": [
-               {
-                "Id": "1056231946"
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}",
-        "Children": [
-         {
-          "SwitchValue": "{D874A809-6B76-4605-9F8D-585B18CF2E97}",
-          "Children": [
-           {
-            "SwitchValue": "{4C8E80BE-462D-4655-9995-934F090BFAA9}",
-            "Children": [
-             {
-              "SwitchValue": "{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}",
-              "Media": [
-               {
-                "Id": "1056231946"
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}",
-        "Children": [
-         {
-          "SwitchValue": "{D874A809-6B76-4605-9F8D-585B18CF2E97}",
-          "Children": [
-           {
-            "SwitchValue": "{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}",
-            "Children": [
-             {
-              "SwitchValue": "{F5A52868-385F-45F8-A9C7-4059B8A9F2B8}",
-              "Media": [
-               {
-                "Id": "1056231946"
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}",
-        "Children": [
-         {
-          "SwitchValue": "{D874A809-6B76-4605-9F8D-585B18CF2E97}",
-          "Children": [
-           {
-            "SwitchValue": "{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}",
-            "Children": [
-             {
-              "SwitchValue": "{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}",
-              "Media": [
-               {
-                "Id": "1056231946"
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}",
-        "Children": [
-         {
-          "SwitchValue": "{D874A809-6B76-4605-9F8D-585B18CF2E97}",
-          "Children": [
-           {
-            "SwitchValue": "{4C8E80BE-462D-4655-9995-934F090BFAA9}",
-            "Children": [
-             {
-              "SwitchValue": "{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}",
-              "Media": [
-               {
-                "Id": "1056231946"
-               }
-              ]
-             }
-            ]
-           }
-          ]
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{BB8E5AA3-587A-40E0-8EA4-233F7AB30C36}",
-        "Children": [
-         {
-          "SwitchValue": "{D874A809-6B76-4605-9F8D-585B18CF2E97}",
-          "Children": [
-           {
-            "SwitchValue": "{1A52D020-DA23-4B51-A4F6-7CA2048504CF}",
-            "Children": [
-             {
-              "SwitchValue": "{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}",
-              "Media": [
-               {
-                "Id": "1056231946"
-               }
-              ]
-             }
-            ]
+            "Id": "1056231946"
            }
           ]
          }
@@ -2184,6 +1652,7 @@
       "Name": "Play_ST_Tree_Dense",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Place\\Trees\\Play_ST_Tree_Dense",
       "GUID": "{26CAC672-E2CC-4042-B958-6802C8C68133}",
+      "MaxAttenuation": "3000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -2237,6 +1706,7 @@
       "Name": "Play_ST_Tree_Dry",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Place\\Trees\\Play_ST_Tree_Dry",
       "GUID": "{6A6BFE13-6A27-4835-A89E-F5D20CC1E65F}",
+      "MaxAttenuation": "3000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -2290,6 +1760,7 @@
       "Name": "Play_ST_Tree_Soft",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Place\\Trees\\Play_ST_Tree_Soft",
       "GUID": "{835AFA51-6ED1-4B53-AF1A-E59B8CB2AF99}",
+      "MaxAttenuation": "3000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {

@@ -171,8 +171,8 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{F3544A33-E96D-4075-AEB3-FA937893CDCB}"/>
 						<CurrentStateRef Name="Fall" ID="{8A310035-D314-4994-9C44-086F31CD9288}"/>
-						<CurrentStateRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
-						<CurrentStateRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
+						<CurrentStateRef Name="None" ID="{70D54A14-A650-462E-A2A5-9FF4802C321F}"/>
+						<CurrentStateRef Name="None" ID="{3CEB32E6-C52B-439C-BDB6-979183F2E492}"/>
 						<CurrentStateRef Name="None" ID="{2810BA7A-BEC0-440D-A8EE-53D5E100B1F9}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

@@ -9387,14 +9387,13 @@
 									<ChildrenList>
 										<SwitchContainer Name="3D_A_P_Seasons_Tree" ID="{EDF31BA0-4AE5-4C51-8357-3967752523CE}" ShortID="912132975">
 											<PropertyList>
-												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
 												</Property>
-												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
@@ -9406,6 +9405,78 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<Custom>
+														<Attenuation Name="Attenuation (Custom)" ID="{4D061A8D-EF03-428C-9F9D-B9B6C9169439}" ShortID="259268537">
+															<PropertyList>
+																<Property Name="ConeAttenuation" Type="Real64">
+																	<ValueList>
+																		<Value>-3</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="ConeHighPassFilterValue" Type="int32">
+																	<ValueList>
+																		<Value>20</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="ConeInnerAngle" Type="int32" Value="180"/>
+																<Property Name="ConeLowPassFilterValue" Type="int32">
+																	<ValueList>
+																		<Value>20</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="ConeOuterAngle" Type="int32" Value="210"/>
+																<Property Name="ConeUse" Type="bool">
+																	<ValueList>
+																		<Value>True</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="RadiusMax" Type="Real64" Value="3000"/>
+															</PropertyList>
+															<CurveUsageInfoList>
+																<VolumeDryUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="VolumeDry" ID="{DCF4A2C0-ED6B-41D3-BB70-51F617103622}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="3"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>0</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>3000</XPos>
+																					<YPos>-12</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</VolumeDryUsage>
+																<VolumeWetGameUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetGameUsage>
+																<VolumeWetUserUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetUserUsage>
+																<LowPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</LowPassFilterUsage>
+																<HighPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</HighPassFilterUsage>
+																<SpreadUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</SpreadUsage>
+																<FocusUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</FocusUsage>
+															</CurveUsageInfoList>
+														</Attenuation>
+													</Custom>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
 												</Reference>
@@ -9829,6 +9900,11 @@
 												<BlendContainer Name="ST_Tree_Soft" ID="{06B7107E-7545-40D9-A9AD-4DD7A3D4D17A}" ShortID="493842301">
 													<PropertyList>
 														<Property Name="BlendBehavior" Type="int16" Value="1"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>6</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -10261,7 +10337,7 @@
 																<StateRef Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
 																<CustomState Name="" ID="{1D3D5CAB-CED9-4FC1-A200-4B819F6B1F65}" ShortID="1056498269">
 																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="-3"/>
+																		<Property Name="Volume" Type="Real64" Value="6"/>
 																	</PropertyList>
 																</CustomState>
 															</CustomState>
@@ -10287,6 +10363,11 @@
 												<BlendContainer Name="ST_Tree_Dry" ID="{3275FD81-5CE1-4FFD-A8F6-AD058140708C}" ShortID="264726249">
 													<PropertyList>
 														<Property Name="BlendBehavior" Type="int16" Value="1"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>3</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -10715,7 +10796,7 @@
 																<StateRef Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
 																<CustomState Name="" ID="{ECFE062E-3C6D-4900-9206-B10C66B35780}" ShortID="735140579">
 																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="-3"/>
+																		<Property Name="Volume" Type="Real64" Value="3"/>
 																	</PropertyList>
 																</CustomState>
 															</CustomState>
