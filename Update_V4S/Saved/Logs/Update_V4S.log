@@ -2223,3 +2223,135 @@ Process completed successfully.
 [2023.11.11-21.44.19:834][472]LogAkSoundData: Display: WwiseConsole successfully completed.
 [2023.11.11-21.44.19:834][472]LogDirectoryWatcher: Display: A directory notification failed, and we were unable to create a new request. GetLastError code [6] Handle [FFFFFFFFFFFFFFFF], Path [E:/Quin/V4S/Update_V4S/Content/WwiseAudio] 
 [2023.11.11-21.44.19:834][472]LogAkSoundData: Display: WwiseConsole Sound Data Builder task was successful and took 0.954700 seconds.
+[2023.11.11-21.53.16:767][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InitBank" FILE="../../../../../../Quin/V4S/Update_V4S/Content/InitBank.uasset" SILENT=true
+[2023.11.11-21.53.16:768][145]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/InitBank44712E164C0C197BF58F78B116A09C28.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/InitBank.uasset'
+[2023.11.11-21.53.16:784][145]AssetCheck: New page: Asset Save: InitBank
+[2023.11.11-21.53.16:784][145]LogContentValidation: Display: Validating AkInitBank /Game/InitBank.InitBank
+[2023.11.11-21.53.30:202][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.11-21.53.30:242][216]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2023.11.11-21.53.40:163][216]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update01FE6ED342F50A0D0938C7925807CFAA.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.11.11-21.53.40:232][216]AssetCheck: New page: Asset Save: V4S_Update
+[2023.11.11-21.53.40:232][216]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.11.11-22.25.16:678][717]AssetReimport: New page: Outstanding source content changes 12:25:16 p.m.
+[2023.11.11-22.25.21:095][737]LogWwiseProjectParser: Could not parse the Cache directory from the Wwise project file. Using default value : .cache
+[2023.11.11-22.25.23:310][749]LogSlate: Window 'Generate Sound Data' being destroyed
+[2023.11.11-22.25.23:982][749]LogWwiseProjectParser: Could not parse the Cache directory from the Wwise project file. Using default value : .cache
+[2023.11.11-22.25.23:982][749]LogWwiseProjectParser: Could not parse the Cache directory from the Wwise project file. Using default value : .cache
+[2023.11.11-22.25.24:097][750]LogAkSoundData: Display: Running E:\Program\Audiokinetic\Authoring\x64\Release\bin\WwiseConsole.exe generate-soundbank "E:/Quin/V4S/Update_V4S/V4S_WwiseProject/V4S_WwiseProject.wproj" --use-stable-guid --import-definition-file "C:/Users/Joseph/AppData/Local/Temp/CookUAkAudioEvent21F3E8C746C5E4581BA357B87C742B04.txt" --platform "Mac" --soundbank-path Mac "E:/Quin/V4S/Update_V4S/Content/WwiseAudio/Mac" --platform "Windows" --soundbank-path Windows "E:/Quin/V4S/Update_V4S/Content/WwiseAudio/Windows" --bank "C:/Users/Joseph/AppData/Local/Temp/WwiseConsoleBankListE632DB7E409C52D10D4FFD817669AA40.txt"
+[2023.11.11-22.25.24:500][751]LogAkSoundData: Display: 
+Wwise | v2019.2.15 | Build no.7667 | (C) 2006-2022. Audiokinetic Inc. All rights reserved.
+
+
+*** Loading Project ***
+
+
+*** Importing SoundBank definition ***
+
+Main	Event Missing	Play_EXT_Wind_Pulse
+
+*** Bank Generation ***
+
+
+[2023.11.11-22.25.25:131][753]LogAkSoundData: Display: 
+Process completed successfully.
+
+[2023.11.11-22.25.25:131][753]LogAkSoundData: Display: WwiseConsole successfully completed.
+[2023.11.11-22.25.25:131][753]LogDirectoryWatcher: Display: A directory notification failed, and we were unable to create a new request. GetLastError code [6] Handle [FFFFFFFFFFFFFFFF], Path [E:/Quin/V4S/Update_V4S/Content/WwiseAudio] 
+[2023.11.11-22.25.25:131][753]LogAkSoundData: Display: WwiseConsole Sound Data Builder task was successful and took 0.898288 seconds.
+[2023.11.11-22.25.30:297][776]AssetReimport: New page: Outstanding source content changes 12:25:30 p.m.
+[2023.11.11-22.25.34:861][794]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.11-22.25.34:970][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.11-22.25.34:970][794]PIE: New page: PIE session: V4S_Update (Nov. 11, 2023, 12:25:34 p.m.)
+[2023.11.11-22.25.34:970][794]LogPlayLevel: Creating play world package: /Game/V4S/UEDPIE_0_V4S_Update
+[2023.11.11-22.25.36:992][794]LogPlayLevel: PIE: StaticDuplicateObject took: (2.022363s)
+[2023.11.11-22.25.36:992][794]LogAIModule: Creating AISystem for world V4S_Update
+[2023.11.11-22.25.36:993][794]LogPlayLevel: PIE: World Init took: (0.001032s)
+[2023.11.11-22.25.36:993][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/V4S/V4S_Update.V4S_Update to /Game/V4S/UEDPIE_0_V4S_Update.V4S_Update (2.023521s)
+[2023.11.11-22.25.37:032][794]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2023.11.11-22.25.37:039][794]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.11.11-22.25.37:039][794]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.11-22.25.37:039][794]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.11-22.25.37:039][794]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.11-22.25.37:039][794]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.11-22.25.37:039][794]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.11-22.25.37:039][794]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.11-22.25.37:039][794]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.11-22.25.37:039][794]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.11-22.25.37:040][794]LogAudio: Display: Using built-in audio occlusion.
+[2023.11.11-22.25.37:040][794]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.11-22.25.37:045][794]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.11-22.25.37:045][794]LogAudioMixer: Display: 1: FrontRight
+[2023.11.11-22.25.37:055][794]LogAudioMixer: Display: Using Audio Device Speakers (Dell USB Audio)
+[2023.11.11-22.25.37:055][794]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.11-22.25.37:055][794]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.11-22.25.37:055][794]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.11-22.25.37:055][794]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.11-22.25.37:055][794]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.11-22.25.37:055][794]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.11-22.25.37:067][794]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.11-22.25.37:067][794]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.11-22.25.37:067][794]LogInit: FAudioDevice initialized.
+[2023.11.11-22.25.37:067][794]LogAudio: Display: Audio Device (ID: 6) registered with world 'V4S_Update'.
+[2023.11.11-22.25.37:078][794]LogLoad: Game class is 'GameMode'
+[2023.11.11-22.25.37:391][794]LogWorld: Bringing World /Game/V4S/UEDPIE_0_V4S_Update.V4S_Update up for play (max tick rate 0) at 2023.11.11-17.25.37
+[2023.11.11-22.25.37:393][794]LogWorld: Bringing up level for play took: 0.314724
+[2023.11.11-22.25.37:393][794]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2023.11.11-22.25.37:414][794]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.11-22.25.37:414][794]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.11-22.25.37:414][794]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.11.11-22.25.37:459][794]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.11.11-22.25.37:459][794]PIE: Server logged in
+[2023.11.11-22.25.37:459][794]PIE: Play in editor total start time 2.491 seconds.
+[2023.11.11-22.25.37:534][795]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.11-22.25.37:535][795]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.11-22.25.37:535][795]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.11-22.25.37:565][795]LogAkAudio: Error: Cross-Fade transition ignored: Estimated length not available. Make sure sounds with Cross-Fade transitions virtual mode are set to "Play from elapsed time" and that only sounds with finite duration are used.
+[2023.11.11-22.25.37:565][795]LogAkAudio: Error: Cross-Fade transition ignored: Estimated length not available. Make sure sounds with Cross-Fade transitions virtual mode are set to "Play from elapsed time" and that only sounds with finite duration are used.
+[2023.11.11-22.25.37:565][795]LogAkAudio: Error: Cross-Fade transition ignored: Estimated length not available. Make sure sounds with Cross-Fade transitions virtual mode are set to "Play from elapsed time" and that only sounds with finite duration are used.
+[2023.11.11-22.25.37:565][795]LogAkAudio: Error: Cross-Fade transition ignored: Estimated length not available. Make sure sounds with Cross-Fade transitions virtual mode are set to "Play from elapsed time" and that only sounds with finite duration are used.
+[2023.11.11-22.25.37:565][795]LogAkAudio: Error: Cross-Fade transition ignored: Estimated length not available. Make sure sounds with Cross-Fade transitions virtual mode are set to "Play from elapsed time" and that only sounds with finite duration are used.
+[2023.11.11-22.25.42:608][838]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.11-22.25.42:608][838]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.11-22.25.42:608][838]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.11-22.25.47:708][874]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.11-22.25.47:708][874]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.11-22.25.47:708][874]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.11-22.25.52:998][909]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.11-22.25.52:998][909]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.11-22.25.52:998][909]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.11-22.25.57:021][919]LogAkAudio: Error: Cross-Fade transition ignored: Estimated length not available. Make sure sounds with Cross-Fade transitions virtual mode are set to "Play from elapsed time" and that only sounds with finite duration are used.
+[2023.11.11-22.25.57:021][919]LogAkAudio: Error: Cross-Fade transition ignored: Estimated length not available. Make sure sounds with Cross-Fade transitions virtual mode are set to "Play from elapsed time" and that only sounds with finite duration are used.
+[2023.11.11-22.25.58:010][924]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.11-22.25.58:011][924]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.11-22.25.58:011][924]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.11-22.26.03:127][964]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.11-22.26.03:127][964]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.11-22.26.03:128][964]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.11-22.26.08:351][  0]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.11-22.26.08:351][  0]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.11-22.26.08:351][  0]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.11-22.26.13:574][ 33]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.11-22.26.13:574][ 33]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.11-22.26.13:574][ 33]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.11-22.26.15:781][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.11-22.26.15:781][ 37]LogWorld: BeginTearingDown for /Game/V4S/UEDPIE_0_V4S_Update
+[2023.11.11-22.26.15:782][ 37]LogWorld: UWorld::CleanupWorld for V4S_Update, bSessionEnded=true, bCleanupResources=true
+[2023.11.11-22.26.15:916][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.11-22.26.16:488][ 37]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.11-22.26.16:514][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.11-22.26.16:548][ 37]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.11-22.26.16:548][ 37]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.11-22.26.16:548][ 37]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.11-22.26.16:561][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.11-22.26.16:746][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2023.11.11-22.26.19:262][ 38]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.11.11-22.26.21:757][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.11-22.26.21:790][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2023.11.11-22.26.31:521][ 47]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update7A90699948E11A26805361AE6B889001.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.11.11-22.26.31:591][ 47]AssetCheck: New page: Asset Save: V4S_Update
+[2023.11.11-22.26.31:591][ 47]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update
+[2023.11.11-22.28.08:472][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/V4S/V4S_Update" FILE="../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.11-22.28.08:501][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.11.11-22.28.18:457][604]LogSavePackage: Moving '../../../../../../Quin/V4S/Update_V4S/Saved/V4S_Update8C0A364A42DDCEBD5DF7C0809B2E2534.tmp' to '../../../../../../Quin/V4S/Update_V4S/Content/V4S/V4S_Update.umap'
+[2023.11.11-22.28.18:528][604]AssetCheck: New page: Asset Save: V4S_Update
+[2023.11.11-22.28.18:528][604]LogContentValidation: Display: Validating World /Game/V4S/V4S_Update.V4S_Update

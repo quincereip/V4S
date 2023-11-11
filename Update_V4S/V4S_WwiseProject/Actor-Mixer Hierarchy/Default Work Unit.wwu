@@ -184,7 +184,13 @@
 															<PropertyList>
 																<Property Name="3DPosition" Type="int16" Value="2"/>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="CenterPercentage" Type="int32">
+																	<ValueList>
+																		<Value>100</Value>
+																	</ValueList>
+																</Property>
 																<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+																<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 																<Property Name="InitialDelay" Type="Real64">
 																	<ValueList>
 																		<Value>0.2</Value>
@@ -600,6 +606,7 @@
 																		<Value>50</Value>
 																	</ValueList>
 																</Property>
+																<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																<Property Name="Lowpass" Type="int16">
 																	<ValueList>
@@ -766,12 +773,23 @@
 												</BlendContainer>
 												<RandomSequenceContainer Name="S2D_AMB_Fall" ID="{AAC4CE7A-CD34-462F-B045-0C033DC4DE41}" ShortID="323556698">
 													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
 														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.5"/>
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -936,6 +954,69 @@
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{F8CA92C2-1984-4D69-AE72-80E9AB1172A8}"/>
+														<Position Name="" ID="{25CD244A-A669-4669-BF2F-41865505CC8D}">
+															<PropertyList>
+																<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+															</PropertyList>
+															<ChildrenList>
+																<Path2D Name="S2D_AMB_Fall_Path" ID="{54755C72-2746-4EC1-966E-F6C936025ADB}">
+																	<PropertyList>
+																		<Property Name="RandomZ" Type="Real64" Value="100"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-100</XPos>
+																			<YPos>100</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="S2D_AMB_Fall_Path_01" ID="{9A7DF439-1AC1-489D-A3F3-B7E2C95FACC3}">
+																	<PropertyList>
+																		<Property Name="RandomZ" Type="Real64" Value="100"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>100</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="S2D_AMB_Fall_Path_02" ID="{8C5B9976-29D3-4B8F-8BE1-B91B7D9F83D9}">
+																	<PropertyList>
+																		<Property Name="RandomZ" Type="Real64" Value="100"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-100</XPos>
+																			<YPos>-100</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="S2D_AMB_Fall_Path_03" ID="{B8E75439-3689-4ED8-A092-B5240DAC36F2}">
+																	<PropertyList>
+																		<Property Name="RandomZ" Type="Real64" Value="100"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-100</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+															</ChildrenList>
+														</Position>
+													</PositioningInfo>
 												</RandomSequenceContainer>
 											</ChildrenList>
 											<StateInfo>
@@ -1016,6 +1097,7 @@
 																	</ValueList>
 																</Property>
 																<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+																<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 																<Property Name="InitialDelay" Type="Real64">
 																	<ValueList>
 																		<Value>3</Value>
@@ -1393,6 +1475,7 @@
 																		<Value>35</Value>
 																	</ValueList>
 																</Property>
+																<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 																<Property Name="InitialDelay" Type="Real64">
 																	<ModifierList>
 																		<ModifierInfo>
@@ -1733,7 +1816,13 @@
 															<PropertyList>
 																<Property Name="3DPosition" Type="int16" Value="2"/>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="CenterPercentage" Type="int32">
+																	<ValueList>
+																		<Value>100</Value>
+																	</ValueList>
+																</Property>
 																<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+																<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 																<Property Name="Lowpass" Type="int16">
 																	<ValueList>
 																		<Value>3</Value>
@@ -2042,12 +2131,18 @@
 															<PropertyList>
 																<Property Name="3DPosition" Type="int16" Value="2"/>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="CenterPercentage" Type="int32">
+																	<ValueList>
+																		<Value>50</Value>
+																	</ValueList>
+																</Property>
 																<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 																<Property Name="Highpass" Type="int16">
 																	<ValueList>
 																		<Value>50</Value>
 																	</ValueList>
 																</Property>
+																<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																<Property Name="Lowpass" Type="int16">
 																	<ValueList>
@@ -2431,7 +2526,13 @@
 															<PropertyList>
 																<Property Name="3DPosition" Type="int16" Value="2"/>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="CenterPercentage" Type="int32">
+																	<ValueList>
+																		<Value>100</Value>
+																	</ValueList>
+																</Property>
 																<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+																<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 																<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 																<Property Name="OverridePositioning" Type="bool" Value="True"/>
 																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
@@ -2693,6 +2794,11 @@
 																	<PropertyList>
 																		<Property Name="3DPosition" Type="int16" Value="2"/>
 																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="CenterPercentage" Type="int32">
+																			<ValueList>
+																				<Value>100</Value>
+																			</ValueList>
+																		</Property>
 																		<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 																		<Property Name="Highpass" Type="int16">
 																			<ValueList>
@@ -2709,6 +2815,7 @@
 																				</ModifierInfo>
 																			</ModifierList>
 																		</Property>
+																		<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 																		<Property Name="InitialDelay" Type="Real64">
 																			<ValueList>
 																				<Value>3</Value>
@@ -2805,12 +2912,18 @@
 																	<PropertyList>
 																		<Property Name="3DPosition" Type="int16" Value="2"/>
 																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="CenterPercentage" Type="int32">
+																			<ValueList>
+																				<Value>50</Value>
+																			</ValueList>
+																		</Property>
 																		<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 																		<Property Name="Highpass" Type="int16">
 																			<ValueList>
 																				<Value>50</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																		<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 																		<Property Name="LoopCount" Type="int32" Value="3"/>
@@ -8838,9 +8951,10 @@
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
-														<Value>50</Value>
+														<Value>100</Value>
 													</ValueList>
 												</Property>
+												<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>

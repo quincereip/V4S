@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>E:\Quin\V4S\Update_V4S\V4S_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1481562333">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3194417757">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -18,6 +18,7 @@
 				<AuxBus Id="1233317514" Name="FX_Reverb_Outside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\FX_Reverb_Outside" GUID="{B287AFC0-FD91-4A94-9971-FFAFAEF062A5}"/>
 				<AuxBus Id="2385628198" Name="Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\M&amp;E\SFX\Footsteps" GUID="{A549B72C-B68C-4353-986C-9111014EC9C5}"/>
 				<AuxBus Id="2802899749" Name="Emitter" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\M&amp;E\SFX\Emitter" GUID="{49953334-5AB5-462F-B68B-4F88ECD72A6E}"/>
+				<AuxBus Id="3413807678" Name="Room_Auxiliary_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\M&amp;E\Spatial\Room_Auxiliary_Bus" GUID="{8DC218D8-3367-4D67-B456-96C3C64DB579}"/>
 			</IncludedAuxBusses>
 		</SoundBank>
 	</SoundBanks>

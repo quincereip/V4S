@@ -16,7 +16,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "1481562333",
+    "Hash": "3194417757",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -50,6 +50,12 @@
       "Name": "Emitter",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\SFX\\Emitter",
       "GUID": "{49953334-5AB5-462F-B68B-4F88ECD72A6E}"
+     },
+     {
+      "Id": "3413807678",
+      "Name": "Room_Auxiliary_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\M&E\\Spatial\\Room_Auxiliary_Bus",
+      "GUID": "{8DC218D8-3367-4D67-B456-96C3C64DB579}"
      }
     ]
    }

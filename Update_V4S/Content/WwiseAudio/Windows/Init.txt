@@ -32,6 +32,7 @@ State	ID	Name	State Group			Notes
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
+	378350335	Spatial			\Default Work Unit\Master Audio Bus\M&E\Spatial	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\M&E\SFX	
 	1117531639	AMB			\Default Work Unit\Master Audio Bus\M&E\AMB	
 	2004773781	M&E			\Default Work Unit\Master Audio Bus\M&E	
@@ -43,8 +44,10 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	1233317514	FX_Reverb_Outside			\Default Work Unit\Master Audio Bus\Reverb\FX_Reverb_Outside	
 	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\M&E\SFX\Footsteps	
 	2802899749	Emitter			\Default Work Unit\Master Audio Bus\M&E\SFX\Emitter	
+	3413807678	Room_Auxiliary_Bus			\Default Work Unit\Master Audio Bus\M&E\Spatial\Room_Auxiliary_Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
+	1023418270	Wwise_RoomVerb_(Custom)	Wwise RoomVerb			
 	2098287461	Reverb_Outside	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
