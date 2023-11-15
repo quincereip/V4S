@@ -9815,13 +9815,13 @@
 																		<Value>20</Value>
 																	</ValueList>
 																</Property>
-																<Property Name="ConeInnerAngle" Type="int32" Value="180"/>
+																<Property Name="ConeInnerAngle" Type="int32" Value="35"/>
 																<Property Name="ConeLowPassFilterValue" Type="int32">
 																	<ValueList>
 																		<Value>20</Value>
 																	</ValueList>
 																</Property>
-																<Property Name="ConeOuterAngle" Type="int32" Value="210"/>
+																<Property Name="ConeOuterAngle" Type="int32" Value="280"/>
 																<Property Name="ConeUse" Type="bool">
 																	<ValueList>
 																		<Value>True</Value>
@@ -9864,7 +9864,25 @@
 																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 																</HighPassFilterUsage>
 																<SpreadUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="Spread" ID="{D51E6815-1033-4411-90F2-184C21503210}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="1"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>100</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>3000</XPos>
+																					<YPos>75</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
 																</SpreadUsage>
 																<FocusUsage>
 																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -11212,6 +11230,7 @@
 												<Panner Name="" ID="{A39142A7-9F59-49F8-ADFF-6B63CC7AE425}"/>
 												<Position Name="" ID="{A1885563-FED0-4E8F-AD30-8800F0F1DE26}">
 													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 														<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3.5"/>
 													</PropertyList>
