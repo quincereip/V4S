@@ -26,6 +26,7 @@
 								<SwitchContainer Name="Seasons_2D_Bird" ID="{985155B4-8D83-4124-91A1-CE18E4590242}" ShortID="529946912">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 										<Property Name="RenderEffect0" Type="bool">
@@ -93,48 +94,26 @@
 											<ObjectRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}" WorkUnitID="{AE6099E3-F78F-4A6A-A984-B357DEED8900}"/>
 										</Reference>
 										<Reference Name="Effect0">
-											<Custom CreatedFrom="{5F98440F-E248-479B-ACBF-A47EC13A5EBE}">
-												<Effect Name="Reverb_Outside_(Custom)" ID="{155D5B60-385B-430F-81FF-7C1B40D07597}" ShortID="500506637" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<Custom CreatedFrom="{E22DBBB6-7656-4B93-A28D-C003FD416889}">
+												<Effect Name="Room_Medium_High_Absorbtion_(Custom)" ID="{0EB74C77-876F-46BD-9776-C172CB1789C1}" ShortID="826644230" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 													<PropertyList>
-														<Property Name="Density" Type="Real32" Value="40"/>
-														<Property Name="Diffusion" Type="Real32" Value="90"/>
-														<Property Name="ERFrontBackDelay" Type="Real32" Value="10"/>
-														<Property Name="ERPattern" Type="int32" Value="21"/>
-														<Property Name="Filter1Freq" Type="Real32" Value="7960"/>
-														<Property Name="Filter1Q" Type="Real32" Value="5.1"/>
-														<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
-														<Property Name="Filter3InsertPos" Type="int32" Value="0"/>
-														<Property Name="HFDamping" Type="Real32" Value="1.5"/>
-														<Property Name="InputLFELevel" Type="Real32" Value="-40.3"/>
-														<Property Name="Quality" Type="int32" Value="12"/>
-														<Property Name="ReverbLevel" Type="Real32" Value="-12"/>
-														<Property Name="RoomSize" Type="Real32" Value="96"/>
+														<Property Name="Density" Type="Real32" Value="70"/>
+														<Property Name="Diffusion" Type="Real32" Value="50"/>
+														<Property Name="ERFrontBackDelay" Type="Real32" Value="5"/>
+														<Property Name="ERLevel" Type="Real32" Value="-23"/>
+														<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+														<Property Name="Filter2Freq" Type="Real32" Value="10520"/>
+														<Property Name="Filter2Gain" Type="Real32" Value="-12"/>
+														<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+														<Property Name="Filter3Gain" Type="Real32" Value="-12"/>
+														<Property Name="HFDamping" Type="Real32" Value="3.2"/>
+														<Property Name="Quality" Type="int32" Value="10"/>
+														<Property Name="RearLevel" Type="Real32" Value="-3"/>
+														<Property Name="ReverbLevel" Type="Real32" Value="-22"/>
+														<Property Name="RoomShape" Type="Real32" Value="35"/>
+														<Property Name="RoomSize" Type="Real32" Value="15"/>
+														<Property Name="StereoWidth" Type="Real32" Value="115"/>
 													</PropertyList>
-													<StateInfo>
-														<StateGroupList>
-															<StateGroupInfo>
-																<StateGroupRef Name="Seasons_2D" ID="{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}"/>
-															</StateGroupInfo>
-														</StateGroupList>
-														<CustomStateList>
-															<CustomState>
-																<StateRef Name="Summer" ID="{B2F6DCC2-0296-439A-8847-FB4C5D483B19}"/>
-																<CustomState Name="" ID="{3452F1FD-0322-4E10-A5CA-D966150301DF}" ShortID="667352656"/>
-															</CustomState>
-															<CustomState>
-																<StateRef Name="Winter" ID="{D874A809-6B76-4605-9F8D-585B18CF2E97}"/>
-																<CustomState Name="" ID="{FBEC7068-A008-486F-9157-EE700BFFABA3}" ShortID="682961176"/>
-															</CustomState>
-															<CustomState>
-																<StateRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
-																<CustomState Name="" ID="{9D07640D-1071-4FE4-A5B7-7F549122AB76}" ShortID="350716363"/>
-															</CustomState>
-															<CustomState>
-																<StateRef Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
-																<CustomState Name="" ID="{8080A3A5-88DE-4EB4-884C-0717DD51C26E}" ShortID="444566951"/>
-															</CustomState>
-														</CustomStateList>
-													</StateInfo>
 												</Effect>
 											</Custom>
 										</Reference>
@@ -165,11 +144,6 @@
 												<BlendContainer Name="EXT_Birds_Fall" ID="{5B1D6482-F242-41A8-93FE-39383FFEDD15}" ShortID="417557779">
 													<PropertyList>
 														<Property Name="BlendBehavior" Type="int16" Value="1"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-3</Value>
-															</ValueList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -312,6 +286,7 @@
 															<ChildrenList>
 																<RandomSequenceContainer Name="EXT_Birds_LR" ID="{29FC7A9C-14F3-4798-B036-BF2B04206405}" ShortID="447843626">
 																	<PropertyList>
+																		<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 																		<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 																		<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 																		<Property Name="Weight" Type="Real64">
@@ -790,6 +765,11 @@
 														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.5"/>
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>3</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -1046,7 +1026,7 @@
 														<StateRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
 														<CustomState Name="" ID="{685F46F1-FA33-45B9-B4CF-DC7994C4E79A}" ShortID="607714605">
 															<PropertyList>
-																<Property Name="Volume" Type="Real64" Value="-6"/>
+																<Property Name="Volume" Type="Real64" Value="-3"/>
 															</PropertyList>
 														</CustomState>
 													</CustomState>
@@ -1514,7 +1494,7 @@
 																<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
-																		<Value>-9</Value>
+																		<Value>-12</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -1705,11 +1685,6 @@
 																</ModifierInfo>
 															</ModifierList>
 														</Property>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-6</Value>
-															</ValueList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -1753,11 +1728,7 @@
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Winter" ID="{D874A809-6B76-4605-9F8D-585B18CF2E97}"/>
-														<CustomState Name="" ID="{B872A963-9BDA-4D39-9B4C-17135AE0A2D0}" ShortID="119638038">
-															<PropertyList>
-																<Property Name="Volume" Type="Real64" Value="3"/>
-															</PropertyList>
-														</CustomState>
+														<CustomState Name="" ID="{B872A963-9BDA-4D39-9B4C-17135AE0A2D0}" ShortID="119638038"/>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
@@ -2956,7 +2927,7 @@
 																			<Language>SFX</Language>
 																			<AudioFile>EXT_Birds_Summer.wav</AudioFile>
 																			<MediaIDList>
-																				<MediaID ID="494262773"/>
+																				<MediaID ID="200679965"/>
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
@@ -3218,15 +3189,27 @@
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Winter" ID="{D874A809-6B76-4605-9F8D-585B18CF2E97}"/>
-												<CustomState Name="" ID="{3A9534E2-D08B-45B2-B5DB-82C81DCA8F56}" ShortID="519250688"/>
+												<CustomState Name="" ID="{3A9534E2-D08B-45B2-B5DB-82C81DCA8F56}" ShortID="519250688">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-6"/>
+													</PropertyList>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
-												<CustomState Name="" ID="{43D3DF37-3FFE-45BD-B138-F92FF75B9E04}" ShortID="140339977"/>
+												<CustomState Name="" ID="{43D3DF37-3FFE-45BD-B138-F92FF75B9E04}" ShortID="140339977">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-3"/>
+													</PropertyList>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
-												<CustomState Name="" ID="{E34AA9E6-1182-4E8E-829E-4175B154B5CE}" ShortID="167620955"/>
+												<CustomState Name="" ID="{E34AA9E6-1182-4E8E-829E-4175B154B5CE}" ShortID="167620955">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="3"/>
+													</PropertyList>
+												</CustomState>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
