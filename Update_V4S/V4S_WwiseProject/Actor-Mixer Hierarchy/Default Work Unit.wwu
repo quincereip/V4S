@@ -9872,12 +9872,12 @@
 																			<PointList>
 																				<Point>
 																					<XPos>0</XPos>
-																					<YPos>100</YPos>
+																					<YPos>50</YPos>
 																					<Flags>5</Flags>
 																				</Point>
 																				<Point>
 																					<XPos>3000</XPos>
-																					<YPos>75</YPos>
+																					<YPos>-0</YPos>
 																					<Flags>37</Flags>
 																				</Point>
 																			</PointList>
