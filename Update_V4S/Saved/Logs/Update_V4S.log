@@ -1405,3 +1405,183 @@ Script Stack (0 frames):
 [2023.11.15-17.04.17:381][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.11.15-17.04.17:557][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
 [2023.11.15-17.04.17:683][280]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2023.11.15-17.09.28:218][224]LogWwiseProjectParser: Could not parse the Cache directory from the Wwise project file. Using default value : .cache
+[2023.11.15-17.09.29:650][234]LogSlate: Window 'Generate Sound Data' being destroyed
+[2023.11.15-17.09.29:811][234]LogWwiseProjectParser: Could not parse the Cache directory from the Wwise project file. Using default value : .cache
+[2023.11.15-17.09.29:811][234]LogWwiseProjectParser: Could not parse the Cache directory from the Wwise project file. Using default value : .cache
+[2023.11.15-17.09.29:925][235]LogAkSoundData: Display: Running E:\Program\Audiokinetic\Authoring\x64\Release\bin\WwiseConsole.exe generate-soundbank "E:/Quin/V4S/Update_V4S/V4S_WwiseProject/V4S_WwiseProject.wproj" --use-stable-guid --import-definition-file "C:/Users/Joseph/AppData/Local/Temp/CookUAkAudioEventC36C93FB49D3B8946BEB03AD05D24BFF.txt" --platform "Mac" --soundbank-path Mac "E:/Quin/V4S/Update_V4S/Content/WwiseAudio/Mac" --platform "Windows" --soundbank-path Windows "E:/Quin/V4S/Update_V4S/Content/WwiseAudio/Windows" --bank "C:/Users/Joseph/AppData/Local/Temp/WwiseConsoleBankListD97C4AFF47816E7D84973192B12EB710.txt"
+[2023.11.15-17.09.30:309][236]LogAkSoundData: Display: 
+Wwise | v2019.2.15 | Build no.7667 | (C) 2006-2022. Audiokinetic Inc. All rights reserved.
+
+
+*** Loading Project ***
+
+
+[2023.11.15-17.09.30:493][237]LogAkSoundData: Display: 
+*** Importing SoundBank definition ***
+
+Main	Event Missing	Play_EXT_Wind_Pulse
+
+*** Bank Generation ***
+
+
+[2023.11.15-17.09.31:011][239]LogAkSoundData: Display: 
+Process completed successfully.
+
+[2023.11.15-17.09.31:011][239]LogAkSoundData: Display: WwiseConsole successfully completed.
+[2023.11.15-17.09.31:011][239]LogDirectoryWatcher: Display: A directory notification failed, and we were unable to create a new request. GetLastError code [6] Handle [FFFFFFFFFFFFFFFF], Path [E:/Quin/V4S/Update_V4S/Content/WwiseAudio] 
+[2023.11.15-17.09.31:011][239]LogAkSoundData: Display: WwiseConsole Sound Data Builder task was successful and took 0.954901 seconds.
+[2023.11.15-17.09.35:479][271]AssetReimport: New page: Outstanding source content changes 7:09:35 a.m.
+[2023.11.15-17.09.43:218][327]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.15-17.09.43:349][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.15-17.09.43:350][327]PIE: New page: PIE session: V4S_Update (Nov. 15, 2023, 7:09:43 a.m.)
+[2023.11.15-17.09.43:350][327]LogPlayLevel: Creating play world package: /Game/V4S/UEDPIE_0_V4S_Update
+[2023.11.15-17.09.45:365][327]LogPlayLevel: PIE: StaticDuplicateObject took: (2.015490s)
+[2023.11.15-17.09.45:367][327]LogAIModule: Creating AISystem for world V4S_Update
+[2023.11.15-17.09.45:367][327]LogPlayLevel: PIE: World Init took: (0.001764s)
+[2023.11.15-17.09.45:367][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/V4S/V4S_Update.V4S_Update to /Game/V4S/UEDPIE_0_V4S_Update.V4S_Update (2.017445s)
+[2023.11.15-17.09.45:378][327]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.11.15-17.09.45:382][327]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.11.15-17.09.45:382][327]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.15-17.09.45:382][327]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.15-17.09.45:382][327]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.15-17.09.45:382][327]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.15-17.09.45:382][327]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.15-17.09.45:382][327]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.15-17.09.45:382][327]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.15-17.09.45:382][327]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.15-17.09.45:382][327]LogAudio: Display: Using built-in audio occlusion.
+[2023.11.15-17.09.45:382][327]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.15-17.09.45:385][327]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.15-17.09.45:385][327]LogAudioMixer: Display: 1: FrontRight
+[2023.11.15-17.09.45:397][327]LogAudioMixer: Display: Using Audio Device Speakers (Dell USB Audio)
+[2023.11.15-17.09.45:397][327]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.15-17.09.45:397][327]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.15-17.09.45:397][327]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.15-17.09.45:398][327]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.15-17.09.45:398][327]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.15-17.09.45:398][327]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.15-17.09.45:410][327]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.15-17.09.45:411][327]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.15-17.09.45:411][327]LogInit: FAudioDevice initialized.
+[2023.11.15-17.09.45:411][327]LogAudio: Display: Audio Device (ID: 3) registered with world 'V4S_Update'.
+[2023.11.15-17.09.45:420][327]LogLoad: Game class is 'GameMode'
+[2023.11.15-17.09.45:730][327]LogWorld: Bringing World /Game/V4S/UEDPIE_0_V4S_Update.V4S_Update up for play (max tick rate 0) at 2023.11.15-12.09.45
+[2023.11.15-17.09.45:732][327]LogWorld: Bringing up level for play took: 0.311031
+[2023.11.15-17.09.45:732][327]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2023.11.15-17.09.45:733][327]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.15-17.09.45:733][327]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.15-17.09.45:733][327]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.11.15-17.09.45:791][327]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.11.15-17.09.45:791][327]PIE: Server logged in
+[2023.11.15-17.09.45:792][327]PIE: Play in editor total start time 2.444 seconds.
+[2023.11.15-17.09.45:869][328]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.09.45:869][328]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.09.45:869][328]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.09.45:912][328]LogAkAudio: Error: Cross-Fade transition ignored: Estimated length not available. Make sure sounds with Cross-Fade transitions virtual mode are set to "Play from elapsed time" and that only sounds with finite duration are used.
+[2023.11.15-17.09.45:912][328]LogAkAudio: Error: Cross-Fade transition ignored: Estimated length not available. Make sure sounds with Cross-Fade transitions virtual mode are set to "Play from elapsed time" and that only sounds with finite duration are used.
+[2023.11.15-17.09.45:912][328]LogAkAudio: Error: Cross-Fade transition ignored: Estimated length not available. Make sure sounds with Cross-Fade transitions virtual mode are set to "Play from elapsed time" and that only sounds with finite duration are used.
+[2023.11.15-17.09.45:912][328]LogAkAudio: Error: Cross-Fade transition ignored: Estimated length not available. Make sure sounds with Cross-Fade transitions virtual mode are set to "Play from elapsed time" and that only sounds with finite duration are used.
+[2023.11.15-17.09.51:063][358]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.09.51:063][358]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.09.51:063][358]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.09.56:160][388]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.09.56:160][388]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.09.56:160][388]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.10.01:270][409]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.10.01:270][409]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.10.01:270][409]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.10.05:464][433]LogAkAudio: Error: Cross-Fade transition ignored: Estimated length not available. Make sure sounds with Cross-Fade transitions virtual mode are set to "Play from elapsed time" and that only sounds with finite duration are used.
+[2023.11.15-17.10.05:464][433]LogAkAudio: Error: Cross-Fade transition ignored: Estimated length not available. Make sure sounds with Cross-Fade transitions virtual mode are set to "Play from elapsed time" and that only sounds with finite duration are used.
+[2023.11.15-17.10.05:464][433]LogAkAudio: Error: Cross-Fade transition ignored: Estimated length not available. Make sure sounds with Cross-Fade transitions virtual mode are set to "Play from elapsed time" and that only sounds with finite duration are used.
+[2023.11.15-17.10.06:283][439]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.10.06:283][439]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.10.06:283][439]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.10.11:409][473]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.10.11:409][473]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.10.11:409][473]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.10.16:528][500]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.10.16:528][500]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.10.16:528][500]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.10.21:602][528]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.10.21:602][528]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.10.21:602][528]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.10.26:692][558]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.10.26:692][558]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.10.26:692][558]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.10.31:717][587]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.10.31:717][587]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.10.31:717][587]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.10.36:789][619]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.10.36:789][619]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.10.36:789][619]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.10.41:799][655]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.10.41:799][655]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.10.41:799][655]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.10.46:845][692]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.10.46:845][692]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.10.46:845][692]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.10.52:179][712]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.10.52:179][712]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.10.52:179][712]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.10.57:285][730]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.10.57:286][730]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.10.57:286][730]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.11.02:343][767]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.11.02:343][767]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.11.02:343][767]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.11.07:470][804]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.11.07:470][804]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.11.07:470][804]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.11.12:552][841]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.11.12:552][841]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.11.12:552][841]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.11.17:598][878]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.11.17:598][878]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.11.17:598][878]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.11.22:702][915]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.11.22:702][915]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.11.22:702][915]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.11.27:711][951]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.11.27:711][951]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.11.27:712][951]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.11.32:755][987]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.11.32:755][987]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.11.32:755][987]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.11.37:767][ 23]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.11.37:767][ 23]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.11.37:767][ 23]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.11.42:821][ 60]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.11.42:821][ 60]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.11.42:821][ 60]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.11.47:904][ 97]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.11.47:904][ 97]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.11.47:904][ 97]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.11.53:022][134]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.11.53:022][134]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.11.53:022][134]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.11.58:124][171]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.11.58:124][171]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.11.58:124][171]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.12.03:248][208]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.12.03:248][208]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.12.03:248][208]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.12.08:402][243]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.12.08:402][243]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.12.08:402][243]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.12.13:457][255]LogGoogleVRController: Trying to connect to GoogleVR Controller
+[2023.11.15-17.12.13:457][255]LogWindows: Warning: CreateProc failed: The parameter is incorrect. (0x00000057)
+[2023.11.15-17.12.13:457][255]LogWindows: Warning: URL:  forward tcp:7003 tcp:7003
+[2023.11.15-17.12.13:596][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.15-17.12.13:596][255]LogWorld: BeginTearingDown for /Game/V4S/UEDPIE_0_V4S_Update
+[2023.11.15-17.12.13:597][255]LogWorld: UWorld::CleanupWorld for V4S_Update, bSessionEnded=true, bCleanupResources=true
+[2023.11.15-17.12.13:762][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.15-17.12.14:772][255]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.15-17.12.14:777][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.15-17.12.14:807][255]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.15-17.12.14:807][255]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.15-17.12.14:808][255]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.15-17.12.14:820][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.15-17.12.14:989][255]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2023.11.15-17.12.15:636][256]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2023.11.15-17.13.05:528][488]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
