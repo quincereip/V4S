@@ -19,7 +19,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "3194417757",
+    "Hash": "1051207729",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -66,7 +66,7 @@
     "Id": "3161908922",
     "GUID": "{E19EE910-4431-421A-82C4-6214E7842FE1}",
     "Language": "SFX",
-    "Hash": "1898343775",
+    "Hash": "2871615529",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -319,7 +319,7 @@
       "MaxAttenuation": "3000.",
       "DurationType": "OneShot",
       "DurationMin": "14.",
-      "DurationMax": "14.",
+      "DurationMax": "14.008089",
       "IncludedMemoryFiles": [
        {
         "Id": "789962799",
@@ -698,7 +698,7 @@
         "Id": "33037143",
         "Language": "SFX",
         "ShortName": "bbc_crickets-s_nhu0509310 [chan 1].wav",
-        "Path": "SFX\\bbc_crickets-s_nhu0509310 [chan 1]_645FD21B.wem"
+        "Path": "SFX\\bbc_crickets-s_nhu0509310 [chan 1]_030B5364.wem"
        }
       ],
       "AuxBusSends": [
@@ -1447,25 +1447,25 @@
         "Id": "27027360",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Owl_01.wav",
-        "Path": "SFX\\EXT_Birds_Owl_01_3C12E429.wem"
+        "Path": "SFX\\EXT_Birds_Owl_01_D29F0432.wem"
        },
        {
         "Id": "33037143",
         "Language": "SFX",
         "ShortName": "bbc_crickets-s_nhu0509310 [chan 1].wav",
-        "Path": "SFX\\bbc_crickets-s_nhu0509310 [chan 1]_645FD21B.wem"
+        "Path": "SFX\\bbc_crickets-s_nhu0509310 [chan 1]_030B5364.wem"
        },
        {
         "Id": "78225215",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Seagull_03.wav",
-        "Path": "SFX\\EXT_Birds_Seagull_03_3C12E429.wem"
+        "Path": "SFX\\EXT_Birds_Seagull_03_D29F0432.wem"
        },
        {
         "Id": "133194170",
         "Language": "SFX",
         "ShortName": "SPR_NIGHT_Cricket_Bird.wav",
-        "Path": "SFX\\SPR_NIGHT_Cricket_Bird_3C12E429.wem"
+        "Path": "SFX\\SPR_NIGHT_Cricket_Bird_D29F0432.wem"
        },
        {
         "Id": "152405391",
@@ -1477,37 +1477,37 @@
         "Id": "153860606",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Cry_06.wav",
-        "Path": "SFX\\EXT_Birds_Cry_06_3C12E429.wem"
+        "Path": "SFX\\EXT_Birds_Cry_06_D29F0432.wem"
        },
        {
         "Id": "158887276",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Owl_02.wav",
-        "Path": "SFX\\EXT_Birds_Owl_02_3C12E429.wem"
+        "Path": "SFX\\EXT_Birds_Owl_02_D29F0432.wem"
        },
        {
         "Id": "200679965",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Summer.wav",
-        "Path": "SFX\\EXT_Birds_Summer_645FD21B.wem"
+        "Path": "SFX\\EXT_Birds_Summer_030B5364.wem"
        },
        {
         "Id": "235408110",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Owl_03.wav",
-        "Path": "SFX\\EXT_Birds_Owl_03_3C12E429.wem"
+        "Path": "SFX\\EXT_Birds_Owl_03_D29F0432.wem"
        },
        {
         "Id": "273175736",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Seagull_02.wav",
-        "Path": "SFX\\EXT_Birds_Seagull_02_3C12E429.wem"
+        "Path": "SFX\\EXT_Birds_Seagull_02_D29F0432.wem"
        },
        {
         "Id": "304249928",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Owl_04.wav",
-        "Path": "SFX\\EXT_Birds_Owl_04_3C12E429.wem"
+        "Path": "SFX\\EXT_Birds_Owl_04_D29F0432.wem"
        },
        {
         "Id": "346491810",
@@ -1519,13 +1519,13 @@
         "Id": "379451351",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Cry_05.wav",
-        "Path": "SFX\\EXT_Birds_Cry_05_3C12E429.wem"
+        "Path": "SFX\\EXT_Birds_Cry_05_D29F0432.wem"
        },
        {
         "Id": "402933948",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Silence.wav",
-        "Path": "SFX\\EXT_Birds_Silence_3C12E429.wem"
+        "Path": "SFX\\EXT_Birds_Silence_D29F0432.wem"
        },
        {
         "Id": "421581830",
@@ -1537,19 +1537,19 @@
         "Id": "467293222",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Cry_07.wav",
-        "Path": "SFX\\EXT_Birds_Cry_07_3C12E429.wem"
+        "Path": "SFX\\EXT_Birds_Cry_07_D29F0432.wem"
        },
        {
         "Id": "474432727",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Owl_05.wav",
-        "Path": "SFX\\EXT_Birds_Owl_05_3C12E429.wem"
+        "Path": "SFX\\EXT_Birds_Owl_05_D29F0432.wem"
        },
        {
         "Id": "478972068",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Cry_08.wav",
-        "Path": "SFX\\EXT_Birds_Cry_08_3C12E429.wem"
+        "Path": "SFX\\EXT_Birds_Cry_08_D29F0432.wem"
        },
        {
         "Id": "495630565",
@@ -1561,43 +1561,43 @@
         "Id": "579168609",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Seagull_01.wav",
-        "Path": "SFX\\EXT_Birds_Seagull_01_3C12E429.wem"
+        "Path": "SFX\\EXT_Birds_Seagull_01_D29F0432.wem"
        },
        {
         "Id": "642696601",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Cry_01.wav",
-        "Path": "SFX\\EXT_Birds_Cry_01_3C12E429.wem"
+        "Path": "SFX\\EXT_Birds_Cry_01_D29F0432.wem"
        },
        {
         "Id": "705460172",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Cry_04.wav",
-        "Path": "SFX\\EXT_Birds_Cry_04_3C12E429.wem"
+        "Path": "SFX\\EXT_Birds_Cry_04_D29F0432.wem"
        },
        {
         "Id": "730623601",
         "Language": "SFX",
         "ShortName": "W_Wind.wav",
-        "Path": "SFX\\W_Wind_645FD21B.wem"
+        "Path": "SFX\\W_Wind_030B5364.wem"
        },
        {
         "Id": "763990043",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Crowds_Planes.wav",
-        "Path": "SFX\\EXT_Birds_Crowds_Planes_55EF0B00.wem"
+        "Path": "SFX\\EXT_Birds_Crowds_Planes_35CCE58F.wem"
        },
        {
         "Id": "842579147",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Bypass_02.wav",
-        "Path": "SFX\\EXT_Birds_Bypass_02_3C12E429.wem"
+        "Path": "SFX\\EXT_Birds_Bypass_02_D29F0432.wem"
        },
        {
         "Id": "851513767",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Cry_03.wav",
-        "Path": "SFX\\EXT_Birds_Cry_03_3C12E429.wem"
+        "Path": "SFX\\EXT_Birds_Cry_03_D29F0432.wem"
        },
        {
         "Id": "904918402",
@@ -1615,13 +1615,13 @@
         "Id": "944868827",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Cry_02.wav",
-        "Path": "SFX\\EXT_Birds_Cry_02_3C12E429.wem"
+        "Path": "SFX\\EXT_Birds_Cry_02_D29F0432.wem"
        },
        {
         "Id": "955252605",
         "Language": "SFX",
         "ShortName": "EXT_Birds_Bypass_01.wav",
-        "Path": "SFX\\EXT_Birds_Bypass_01_3C12E429.wem"
+        "Path": "SFX\\EXT_Birds_Bypass_01_D29F0432.wem"
        }
       ],
       "AuxBusSends": [
@@ -1840,13 +1840,13 @@
         "Id": "200208802",
         "Language": "SFX",
         "ShortName": "EXT_WaterFall_Wind.wav",
-        "Path": "SFX\\EXT_WaterFall_Wind_D79FB2B7.wem"
+        "Path": "SFX\\EXT_WaterFall_Wind_C5579977.wem"
        },
        {
         "Id": "351054453",
         "Language": "SFX",
         "ShortName": "Water.wav",
-        "Path": "SFX\\Water_D79FB2B7.wem"
+        "Path": "SFX\\Water_D3BE49D8.wem"
        },
        {
         "Id": "739948257",
@@ -1858,7 +1858,7 @@
         "Id": "1047006766",
         "Language": "SFX",
         "ShortName": "Waterfall_INT.wav",
-        "Path": "SFX\\Waterfall_INT_D79FB2B7.wem"
+        "Path": "SFX\\Waterfall_INT_81238AE1.wem"
        }
       ],
       "AuxBusSends": [

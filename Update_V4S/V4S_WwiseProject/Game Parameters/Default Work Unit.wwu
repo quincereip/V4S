@@ -7,11 +7,12 @@
 					<PropertyList>
 						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
 						<Property Name="Color" Type="int16" Value="2"/>
-						<Property Name="FilterTimeDown" Type="Real64" Value="69"/>
-						<Property Name="FilterTimeUp" Type="Real64" Value="42"/>
+						<Property Name="FilterTimeDown" Type="Real64" Value="60"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="15"/>
 						<Property Name="InitialValue" Type="Real64" Value="150"/>
 						<Property Name="Max" Type="Real64" Value="3000"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Emitter_Pan" ID="{352E2A4D-FB2D-49EE-8501-C0A519C2FCC9}">

@@ -97,22 +97,27 @@
 											<Custom CreatedFrom="{E22DBBB6-7656-4B93-A28D-C003FD416889}">
 												<Effect Name="Room_Medium_High_Absorbtion_(Custom)" ID="{0EB74C77-876F-46BD-9776-C172CB1789C1}" ShortID="826644230" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 													<PropertyList>
-														<Property Name="Density" Type="Real32" Value="70"/>
-														<Property Name="Diffusion" Type="Real32" Value="50"/>
+														<Property Name="DecayTime" Type="Real32" Value="3"/>
+														<Property Name="Density" Type="Real32" Value="50"/>
+														<Property Name="Diffusion" Type="Real32" Value="93"/>
+														<Property Name="DryLevel" Type="Real32" Value="-18.3"/>
 														<Property Name="ERFrontBackDelay" Type="Real32" Value="5"/>
 														<Property Name="ERLevel" Type="Real32" Value="-23"/>
+														<Property Name="EnableToneControls" Type="bool" Value="True"/>
 														<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+														<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
 														<Property Name="Filter2Freq" Type="Real32" Value="10520"/>
 														<Property Name="Filter2Gain" Type="Real32" Value="-12"/>
+														<Property Name="Filter2InsertPos" Type="int32" Value="2"/>
 														<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
 														<Property Name="Filter3Gain" Type="Real32" Value="-12"/>
-														<Property Name="HFDamping" Type="Real32" Value="3.2"/>
+														<Property Name="Filter3InsertPos" Type="int32" Value="2"/>
+														<Property Name="HFDamping" Type="Real32" Value="6.75"/>
 														<Property Name="Quality" Type="int32" Value="10"/>
 														<Property Name="RearLevel" Type="Real32" Value="-3"/>
 														<Property Name="ReverbLevel" Type="Real32" Value="-22"/>
-														<Property Name="RoomShape" Type="Real32" Value="35"/>
-														<Property Name="RoomSize" Type="Real32" Value="15"/>
-														<Property Name="StereoWidth" Type="Real32" Value="115"/>
+														<Property Name="RoomSize" Type="Real32" Value="100"/>
+														<Property Name="StereoWidth" Type="Real32" Value="102"/>
 													</PropertyList>
 												</Effect>
 											</Custom>
@@ -305,6 +310,21 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<Sound Name="EXT_Birds_Bypass_01" ID="{21DB17D6-F076-4B60-AD38-6C6FFADFC399}" ShortID="911861283">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{2EBB9BF1-4A17-4116-AB46-5795B5D95E83}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -327,6 +347,21 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="EXT_Birds_Bypass_02" ID="{C03FE599-5230-4DD3-BC44-0FBB8D6CB92A}" ShortID="503404526">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{01DFE117-AC88-436A-9130-9EEB4111B5DA}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -349,6 +384,21 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="EXT_Birds_Cry_05" ID="{EF3BDDFB-5427-46A1-AEC5-6A949F0D4AE3}" ShortID="964022323">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{F4FBA2F4-D96C-410B-8B1B-D4B1F1634BBD}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -371,6 +421,21 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="EXT_Birds_Cry_06" ID="{D7B7CE30-53E5-47AD-A78D-76846FF56543}" ShortID="856470875">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{239BB3AA-1C01-495E-822B-5C7663834815}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -393,6 +458,19 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="EXT_Birds_Cry_07" ID="{DA4B0BBB-BDB0-4F89-9BEE-DFA97FA0F4DC}" ShortID="46028288">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{0B3B28C3-4EDD-4387-A788-92211E632333}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -415,6 +493,20 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="EXT_Birds_Cry_08" ID="{1043F689-1A19-4E0B-AC7C-00E84C00C637}" ShortID="484927930">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{8AD81039-3F63-49DB-AAEA-CEDB14743C20}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -759,6 +851,18 @@
 														<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{2F0B6E2C-B7F9-4E05-9EE6-CD7A83E27736}">
+																		<PropertyList>
+																			<Property Name="Max" Type="Real64" Value="1"/>
+																			<Property Name="Min" Type="Real64" Value="-2"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
 														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
@@ -781,6 +885,21 @@
 													</ReferenceList>
 													<ChildrenList>
 														<Sound Name="T_NIGHT_Cricket_Bird" ID="{0F19EE8E-58E6-44B1-9841-053EAFD37B0A}" ShortID="598346008">
+															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{031FF8B4-3017-49C4-8B00-BC5D4DCA7446}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="1"/>
+																					<Property Name="Min" Type="Real64" Value="-1"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -809,6 +928,19 @@
 															<PropertyList>
 																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																<Property Name="OverrideEffect" Type="bool" Value="True"/>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{342906C8-6B10-4074-AA48-15F5B0112904}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="1"/>
+																					<Property Name="Min" Type="Real64" Value="-2"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
 																		<Value>3</Value>
@@ -1131,11 +1263,6 @@
 																				<Value>30</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="Volume" Type="Real64">
-																			<ValueList>
-																				<Value>-3</Value>
-																			</ValueList>
-																		</Property>
 																		<Property Name="Weight" Type="Real64">
 																			<ValueList>
 																				<Value>20</Value>
@@ -1155,6 +1282,21 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<Sound Name="EXT_Birds_Owl_01" ID="{3B0FC15C-1042-4E7F-A4B3-F29DAE1B7BCD}" ShortID="773988075">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{F433AAB5-93B3-432F-A737-B06349AE46A0}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -1177,6 +1319,21 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="EXT_Birds_Owl_02" ID="{6E12A1EC-4913-42D4-8700-DC079FAE3F15}" ShortID="928832050">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{36F427FD-1DAA-4759-8C93-5BBAD750E01E}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -1209,6 +1366,19 @@
 																					<ValueList>
 																						<Value>35</Value>
 																					</ValueList>
+																				</Property>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{E9EE275F-727E-4408-AA22-E249F5E5B48D}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
 																				</Property>
 																			</PropertyList>
 																			<ReferenceList>
@@ -1244,6 +1414,19 @@
 																						<Value>30</Value>
 																					</ValueList>
 																				</Property>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{DB3200B4-7344-4606-BE1A-B430FF357413}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
 																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
@@ -1277,6 +1460,19 @@
 																					<ValueList>
 																						<Value>30</Value>
 																					</ValueList>
+																				</Property>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{E4B4577D-2099-4E9D-9944-8C19AA6EBD4C}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
 																				</Property>
 																			</PropertyList>
 																			<ReferenceList>
@@ -1805,7 +2001,6 @@
 																		<ModifierInfo>
 																			<Modifier Name="" ID="{2010BB79-C460-4CE4-B278-2779F4ED863A}">
 																				<PropertyList>
-																					<Property Name="Enabled" Type="bool" Value="True"/>
 																					<Property Name="Max" Type="Real64" Value="783"/>
 																					<Property Name="Min" Type="Real64" Value="-707"/>
 																				</PropertyList>
@@ -1856,6 +2051,21 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<Sound Name="EXT_Birds_Bypass_01" ID="{1AC4648A-214E-4FCD-B659-6A9AFE546DDC}" ShortID="651058319">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{4E68022B-3F43-4831-B52B-E975B365B1D1}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -1878,6 +2088,21 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="EXT_Birds_Bypass_02" ID="{EE18320F-B1D2-469B-A786-131A807D59FD}" ShortID="754257154">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{9982282B-32DB-45E4-BEAC-5B8BFDFA64C3}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -1900,6 +2125,21 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="EXT_Birds_Cry_01" ID="{B8AC199B-EDA3-4657-A9F2-47BD76A1F666}" ShortID="324783980">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{5B52FD4A-D740-4AC3-BCFF-0B574AC44407}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -1922,6 +2162,21 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="EXT_Birds_Cry_02" ID="{1A76A779-44A0-4575-B1C6-C1803FD1B2B4}" ShortID="65723378">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{47870468-9078-4602-AA4E-F2FEBC1BD8F2}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -1944,6 +2199,21 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="EXT_Birds_Cry_03" ID="{262E844F-C049-47E1-8808-F99F94B15471}" ShortID="1023781473">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{6CCFA188-6329-430F-9609-50A7CA2DB91F}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -1966,6 +2236,21 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="EXT_Birds_Cry_04" ID="{EB450788-825F-455A-8672-CE065A613A70}" ShortID="311760180">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{4A349EAB-79CC-47E8-953A-8CD3B9A52412}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -2249,6 +2534,18 @@
 															<ValueList>
 																<Value>57</Value>
 															</ValueList>
+														</Property>
+														<Property Name="InitialDelay" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{C2CD6575-25CB-43C6-A543-237189DEDFAE}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="1"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
 														</Property>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 														<Property Name="Lowpass" Type="int16">
@@ -2544,6 +2841,21 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<Sound Name="EXT_Birds_Seagull_01" ID="{094A76A7-F95A-4927-AB7B-EFEE34633892}" ShortID="286666899">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{3E6CFAC6-81C2-472A-8D1A-79562E16CE42}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -2566,6 +2878,21 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="EXT_Birds_Seagull_02" ID="{531B96FD-0BCA-48D6-A6AD-187B93B1982E}" ShortID="793068215">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{9C3A8D31-EDA2-45D5-BDEF-54DA4ADB8779}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -2588,6 +2915,21 @@
 																			</ActiveSourceList>
 																		</Sound>
 																		<Sound Name="EXT_Birds_Seagull_03" ID="{9C472D83-5083-4208-9E57-6C8A227E0AAD}" ShortID="318825180">
+																			<PropertyList>
+																				<Property Name="Pitch" Type="int32">
+																					<ModifierList>
+																						<ModifierInfo>
+																							<Modifier Name="" ID="{E52D7C6C-6BAA-4728-B497-DA9BC9DB5A41}">
+																								<PropertyList>
+																									<Property Name="Enabled" Type="bool" Value="True"/>
+																									<Property Name="Max" Type="Real64" Value="1"/>
+																									<Property Name="Min" Type="Real64" Value="-1"/>
+																								</PropertyList>
+																							</Modifier>
+																						</ModifierInfo>
+																					</ModifierList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -2799,6 +3141,19 @@
 																			</ValueList>
 																		</Property>
 																		<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{F83FDE3A-8E9F-4ACC-8112-2B9D811D0FEE}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="1"/>
+																							<Property Name="Min" Type="Real64" Value="-1"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
 																		<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
@@ -2904,6 +3259,19 @@
 																			</ValueList>
 																		</Property>
 																		<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{2024A6BB-EF81-4647-8AED-39A30186814B}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="1"/>
+																							<Property Name="Min" Type="Real64" Value="-1"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
 																		<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
@@ -6254,6 +6622,21 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="Apple_Drop_01" ID="{1677F4EC-9D38-4ACD-B9BD-E72A39E31809}" ShortID="926064312">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{B2D1D7FE-D899-48DC-A973-7C0E1A2FAD48}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="2"/>
+																			<Property Name="Min" Type="Real64" Value="-2"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -6276,6 +6659,21 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Apple_Drop_02" ID="{11B1B482-9F37-4E70-B696-CCC77D5A22AE}" ShortID="283835843">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{F5A6E7FE-C6EF-469B-9C34-CDCCD0FF2541}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="2"/>
+																			<Property Name="Min" Type="Real64" Value="-2"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -6298,6 +6696,21 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Apple_Droppimg" ID="{184AFFE1-6E50-491E-8984-66CA76E36153}" ShortID="405974773">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{FE2998FA-9FF9-4E68-9438-E8A906B38F62}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="1"/>
+																			<Property Name="Min" Type="Real64" Value="-1"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -8041,6 +8454,12 @@
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="BlendBehavior" Type="int16" Value="1"/>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>10</Value>
+															</ValueList>
+														</Property>
+														<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 														<Property Name="Highpass" Type="int16">
 															<RTPCList>
 																<RTPC Name="" ID="{A816233B-80D2-4D9A-8D84-28AFB27AC97E}" ShortID="669000347">
@@ -8093,12 +8512,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>12.1491</YPos>
+																				<YPos>12</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>3000</XPos>
-																				<YPos>5.30065</YPos>
+																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -8117,7 +8536,7 @@
 																				<Value>-1</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="ConeInnerAngle" Type="int32" Value="55"/>
+																		<Property Name="ConeInnerAngle" Type="int32" Value="130"/>
 																		<Property Name="ConeOuterAngle" Type="int32" Value="360"/>
 																		<Property Name="ConeUse" Type="bool">
 																			<ValueList>
@@ -8174,12 +8593,17 @@
 																					<PointList>
 																						<Point>
 																							<XPos>0</XPos>
-																							<YPos>67.20432</YPos>
+																							<YPos>100</YPos>
 																							<Flags>5</Flags>
 																						</Point>
 																						<Point>
+																							<XPos>987.46082</XPos>
+																							<YPos>100</YPos>
+																							<Flags>0</Flags>
+																						</Point>
+																						<Point>
 																							<XPos>3000</XPos>
-																							<YPos>33.33334</YPos>
+																							<YPos>0</YPos>
 																							<Flags>37</Flags>
 																						</Point>
 																					</PointList>
@@ -8187,7 +8611,30 @@
 																			</CurveUsageInfo>
 																		</SpreadUsage>
 																		<FocusUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																				<Curve Name="Focus" ID="{CB0FE2C6-6A08-4AD0-BD0E-86D34305C21C}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="1"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>0</YPos>
+																							<Flags>5</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>1485.89342</XPos>
+																							<YPos>0</YPos>
+																							<Flags>0</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>3000</XPos>
+																							<YPos>100</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
 																		</FocusUsage>
 																	</CurveUsageInfoList>
 																</Attenuation>
@@ -8337,10 +8784,15 @@
 													<ChildrenList>
 														<Sound Name="Waterfall_INT" ID="{6F1E893B-5EE2-43B0-8226-46F434C0F4B4}" ShortID="35769445">
 															<PropertyList>
+																<Property Name="Highpass" Type="int16">
+																	<ValueList>
+																		<Value>50</Value>
+																	</ValueList>
+																</Property>
 																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
-																		<Value>12</Value>
+																		<Value>9</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -8357,6 +8809,10 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="Waterfall_INT" ID="{3A5A0A35-3329-4AAC-A6D3-A973B2C1A71C}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Waterfall_INT.wav</AudioFile>
 																	<MediaIDList>
@@ -8371,9 +8827,9 @@
 														<Sound Name="Waterfall_INT-001" ID="{8CC4CEA4-D663-4092-9F23-9FE0453F8BFE}" ShortID="1003054414">
 															<PropertyList>
 																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-																<Property Name="Volume" Type="Real64">
+																<Property Name="Lowpass" Type="int16">
 																	<ValueList>
-																		<Value>3</Value>
+																		<Value>70</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -8423,6 +8879,9 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="EXT_WaterFall_Wind" ID="{5CBC4C2C-520A-477D-ACEB-770AA7FE6FDF}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>EXT_WaterFall_Wind.wav</AudioFile>
 																	<MediaIDList>
@@ -8470,6 +8929,10 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="Water" ID="{9DCDEE81-0434-4737-B1F6-1BEFF65F1067}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0873287671232876"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Water.wav</AudioFile>
 																	<MediaIDList>
@@ -8485,6 +8948,13 @@
 												</BlendContainer>
 												<RandomSequenceContainer Name="3D_A_P_Water_Ocean" ID="{2FF29502-5BEC-4498-AE21-5FAB67651C2C}" ShortID="1041333537">
 													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>50</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Color" Type="int16" Value="4"/>
 														<Property Name="EnableAttenuation" Type="bool">
 															<RTPCList>
 																<RTPC Name="" ID="{27B99366-FDEC-4A53-A039-34355852A7C5}" ShortID="831104644">
@@ -8500,8 +8970,13 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>1</YPos>
+																				<YPos>0</YPos>
 																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>750</XPos>
+																				<YPos>1</YPos>
+																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>3000</XPos>
@@ -8513,12 +8988,18 @@
 																</RTPC>
 															</RTPCList>
 														</Property>
+														<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+														<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+														<Property Name="OverrideColor" Type="bool" Value="True"/>
+														<Property Name="OverrideOutput" Type="bool" Value="True"/>
 														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 														<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32">
 															<RTPCList>
 																<RTPC Name="" ID="{AF5C7AD7-93CF-404E-B731-6D73D8011636}" ShortID="114798144">
@@ -8534,8 +9015,13 @@
 																		<PointList>
 																			<Point>
 																				<XPos>-180</XPos>
-																				<YPos>0</YPos>
+																				<YPos>100</YPos>
 																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>180</XPos>
@@ -8562,7 +9048,7 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>0</YPos>
+																				<YPos>-3</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
@@ -8618,10 +9104,46 @@
 																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 																		</HighPassFilterUsage>
 																		<SpreadUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																				<Curve Name="Spread" ID="{69DEC98C-2BDA-4735-A544-5CE88CCFE28E}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="1"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>100</YPos>
+																							<Flags>5</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>3000</XPos>
+																							<YPos>0</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
 																		</SpreadUsage>
 																		<FocusUsage>
-																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																				<Curve Name="Focus" ID="{70EAB8F7-68D1-40E5-9598-A2987B92C52F}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="1"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>0</YPos>
+																							<Flags>5</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>3000</XPos>
+																							<YPos>100</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
 																		</FocusUsage>
 																	</CurveUsageInfoList>
 																</Attenuation>
@@ -8631,7 +9153,10 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+															<ObjectRef Name="AMB" ID="{FFE0CF56-BEB7-41D8-B464-CC2F0089C158}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="EXT" ID="{07373D9E-9413-4A07-8D5D-50D786C3488D}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -8921,6 +9446,57 @@
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{900BBCE8-F021-4EDE-9510-D07AB3C28DE3}"/>
+														<Position Name="" ID="{053BDED7-CABF-4A60-B69B-726667509118}">
+															<PropertyList>
+																<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3"/>
+															</PropertyList>
+															<ChildrenList>
+																<Path2D Name="3D_A_P_Water_Ocean_Path" ID="{9074B64F-E6AD-4389-9831-18B57D336575}">
+																	<PropertyList>
+																		<Property Name="RandomX" Type="Real64" Value="100"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>100</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="3D_A_P_Water_Ocean_Path_01" ID="{CF26D077-6400-4851-BDE8-1574070C62ED}">
+																	<PropertyList>
+																		<Property Name="RandomX" Type="Real64" Value="100"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-100</XPos>
+																			<YPos>100</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="3D_A_P_Water_Ocean_Path_02" ID="{A55BDDF5-2331-4CB8-B56D-A774BB2D25BD}">
+																	<PropertyList>
+																		<Property Name="RandomX" Type="Real64" Value="100"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>100</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+															</ChildrenList>
+														</Position>
+													</PositioningInfo>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</ActorMixer>
@@ -8937,7 +9513,9 @@
 														<Value>100</Value>
 													</ValueList>
 												</Property>
+												<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 												<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
 												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
@@ -8986,10 +9564,46 @@
 																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
 																</VolumeWetUserUsage>
 																<LowPassFilterUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="LowPassFilter" ID="{C79ECA93-BBE7-45A3-85D4-24EB121B0CF2}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="65537"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>0</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>3000</XPos>
+																					<YPos>25</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
 																</LowPassFilterUsage>
 																<HighPassFilterUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None">
+																		<Curve Name="HighPassFilter" ID="{26E2C12F-0F79-425F-B41A-1C3681B3A98F}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="65537"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>0</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>3000</XPos>
+																					<YPos>29</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
 																</HighPassFilterUsage>
 																<SpreadUsage>
 																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -9005,7 +9619,7 @@
 																				</Point>
 																				<Point>
 																					<XPos>3000</XPos>
-																					<YPos>50</YPos>
+																					<YPos>0</YPos>
 																					<Flags>37</Flags>
 																				</Point>
 																			</PointList>
@@ -9353,6 +9967,7 @@
 												<RandomSequenceContainer Name="A_S3D_Windy" ID="{FBC109BA-3065-4D96-B81A-DC49413B263E}" ShortID="206653362">
 													<PropertyList>
 														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="OverrideEffect" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
@@ -9366,6 +9981,114 @@
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
+														</Reference>
+														<Reference Name="Effect0">
+															<Custom CreatedFrom="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}">
+																<Effect Name="Have_U_Ever_Been_Outside_(Custom)" ID="{77471ACC-D915-478F-BFE2-673589CEC077}" ShortID="717576644" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DecayTime" Type="Real32" Value="1"/>
+																		<Property Name="Density" Type="Real32" Value="81"/>
+																		<Property Name="Diffusion" Type="Real32" Value="99"/>
+																		<Property Name="DryLevel" Type="Real32" Value="-25.3">
+																			<RTPCList>
+																				<RTPC Name="" ID="{848F37EC-8BAC-4025-A2EE-03F7711DA019}" ShortID="947285548">
+																					<ReferenceList>
+																						<Reference Name="ControlInput">
+																							<ObjectRef Name="Player_Distance" ID="{9C09E92B-3F2F-4D23-A540-BA8D0EA7ADC2}" WorkUnitID="{E5613AA8-70E4-4AC8-BD0D-1B3F362D7B68}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<Curve Name="" ID="{329F511D-EDC8-4869-9A59-2EDE2AB4C27F}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>38.97604</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>3000</XPos>
+																								<YPos>-6.7319</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</RTPC>
+																			</RTPCList>
+																		</Property>
+																		<Property Name="ERFrontBackDelay" Type="Real32" Value="27"/>
+																		<Property Name="ERLevel" Type="Real32" Value="-18"/>
+																		<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																		<Property Name="Filter1Freq" Type="Real32" Value="210"/>
+																		<Property Name="Filter1Gain" Type="Real32" Value="1.5"/>
+																		<Property Name="Filter2Freq" Type="Real32" Value="6830"/>
+																		<Property Name="Filter2Gain" Type="Real32" Value="-7.5"/>
+																		<Property Name="Filter2Q" Type="Real32" Value="0.65"/>
+																		<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+																		<Property Name="Filter3Gain" Type="Real32" Value="-4"/>
+																		<Property Name="FrontLevel" Type="Real32">
+																			<RTPCList>
+																				<RTPC Name="" ID="{17E9876D-8472-4436-853D-2AB1DE9E55C1}" ShortID="493776195">
+																					<ReferenceList>
+																						<Reference Name="ControlInput">
+																							<ObjectRef Name="Player_Distance" ID="{9C09E92B-3F2F-4D23-A540-BA8D0EA7ADC2}" WorkUnitID="{E5613AA8-70E4-4AC8-BD0D-1B3F362D7B68}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<Curve Name="" ID="{B1361D32-CE91-493A-8FC4-DCA62D9D45B1}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>96.3</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>3000</XPos>
+																								<YPos>-96.3</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</RTPC>
+																			</RTPCList>
+																		</Property>
+																		<Property Name="HFDamping" Type="Real32" Value="3.75"/>
+																		<Property Name="PreDelay" Type="Real32" Value="145"/>
+																		<Property Name="Quality" Type="int32" Value="12"/>
+																		<Property Name="ReverbLevel" Type="Real32" Value="-31"/>
+																		<Property Name="RoomSize" Type="Real32" Value="33"/>
+																		<Property Name="StereoWidth" Type="Real32" Value="90"/>
+																	</PropertyList>
+																	<StateInfo>
+																		<StateGroupList>
+																			<StateGroupInfo>
+																				<StateGroupRef Name="Seasons_2D" ID="{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}"/>
+																			</StateGroupInfo>
+																		</StateGroupList>
+																		<CustomStateList>
+																			<CustomState>
+																				<StateRef Name="Summer" ID="{B2F6DCC2-0296-439A-8847-FB4C5D483B19}"/>
+																				<CustomState Name="" ID="{AC3CDDFF-86DC-4ACB-B005-4CB3E6D9C3B0}" ShortID="832183776"/>
+																			</CustomState>
+																			<CustomState>
+																				<StateRef Name="Winter" ID="{D874A809-6B76-4605-9F8D-585B18CF2E97}"/>
+																				<CustomState Name="" ID="{DDFA691E-8B31-431A-A77B-E4052437067B}" ShortID="177496129"/>
+																			</CustomState>
+																			<CustomState>
+																				<StateRef Name="Fall" ID="{010571C9-B37C-46C3-A4B1-54CBCA20C71B}"/>
+																				<CustomState Name="" ID="{8BC7A346-FC6C-4E30-B04F-59F327404950}" ShortID="501448753"/>
+																			</CustomState>
+																			<CustomState>
+																				<StateRef Name="Spring" ID="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
+																				<CustomState Name="" ID="{4BA683CC-DDF6-420E-8318-5CC0F98142ED}" ShortID="516507583"/>
+																			</CustomState>
+																		</CustomStateList>
+																	</StateInfo>
+																</Effect>
+															</Custom>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{701AEA3C-69D0-4F2E-BBEF-2905C711F761}"/>
@@ -9388,6 +10111,11 @@
 																	<ValueList>
 																		<Value>-50</Value>
 																	</ValueList>
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{3F1B2E5E-01A3-40BE-A304-C360F870AB60}"/>
+																		</ModifierInfo>
+																	</ModifierList>
 																</Property>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
@@ -9428,6 +10156,18 @@
 																		<Value>50</Value>
 																	</ValueList>
 																</Property>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{176BA47F-60E6-4E40-9A14-EE380053691F}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-1"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
 																		<Value>-6</Value>
@@ -9460,6 +10200,20 @@
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="A_S3D_Wind_Pulse" ID="{8A5BC899-7F76-4E05-ACF1-DA2493F5BAB3}" ShortID="304831020">
+															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{50FF0C1C-8D6A-41EE-A577-A86B82335ABC}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-1"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -9486,6 +10240,18 @@
 														</Sound>
 														<Sound Name="A_S3D_Wind_Gust" ID="{28960863-6E75-4D73-AC65-3A32B835C8D2}" ShortID="424153808">
 															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{228A910B-2572-4973-ADC4-2A3420E3ECC2}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-1"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
 																		<Value>-12</Value>
@@ -9525,6 +10291,18 @@
 															<PropertyList>
 																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{7D36A0EF-125E-4237-BF76-A3C4D9BDCA8F}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-1"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -9556,6 +10334,18 @@
 														</Sound>
 														<Sound Name="A_S3D_Wind_Breeze" ID="{813F4612-F384-4846-B90A-DE0873294CE1}" ShortID="856767030">
 															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{2D86F0C4-39D8-4016-87F9-18F9A0D969E8}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-1"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
 																		<Value>-3</Value>
@@ -9629,13 +10419,15 @@
 													<PropertyList>
 														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-														<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="2.5"/>
+														<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="12.5"/>
 													</PropertyList>
 													<ChildrenList>
 														<Path2D Name="Time_Switch_Path" ID="{571842FA-4B65-4391-BB20-E7136B743F3D}">
 															<PropertyList>
+																<Property Name="LinearTime" Type="bool" Value="False"/>
 																<Property Name="RandomX" Type="Real64" Value="100"/>
 																<Property Name="RandomY" Type="Real64" Value="100"/>
+																<Property Name="RandomZ" Type="Real64" Value="50"/>
 															</PropertyList>
 															<PointList>
 																<Point>
@@ -9648,8 +10440,9 @@
 														</Path2D>
 														<Path2D Name="Time_Switch_Path_01" ID="{906D4ECE-E6AA-4CD6-80CD-77B0379FFF89}">
 															<PropertyList>
-																<Property Name="RandomX" Type="Real64" Value="99"/>
+																<Property Name="RandomX" Type="Real64" Value="100"/>
 																<Property Name="RandomY" Type="Real64" Value="100"/>
+																<Property Name="RandomZ" Type="Real64" Value="50"/>
 															</PropertyList>
 															<PointList>
 																<Point>
@@ -9664,6 +10457,7 @@
 															<PropertyList>
 																<Property Name="RandomX" Type="Real64" Value="100"/>
 																<Property Name="RandomY" Type="Real64" Value="100"/>
+																<Property Name="RandomZ" Type="Real64" Value="50"/>
 															</PropertyList>
 															<PointList>
 																<Point>
@@ -9678,6 +10472,7 @@
 															<PropertyList>
 																<Property Name="RandomX" Type="Real64" Value="100"/>
 																<Property Name="RandomY" Type="Real64" Value="100"/>
+																<Property Name="RandomZ" Type="Real64" Value="50"/>
 															</PropertyList>
 															<PointList>
 																<Point>
@@ -9690,6 +10485,7 @@
 														</Path2D>
 														<Path2D Name="Time_Switch_Path_04" ID="{C656847D-EF36-4A3E-81B5-1C9390E32386}">
 															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="50"/>
 																<Property Name="RandomY" Type="Real64" Value="100"/>
 																<Property Name="RandomZ" Type="Real64" Value="100"/>
 															</PropertyList>
@@ -9773,6 +10569,7 @@
 														<Value>100</Value>
 													</ValueList>
 												</Property>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
 												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
@@ -9781,6 +10578,16 @@
 													<ValueList>
 														<Value>-6</Value>
 													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{DCB1619E-1211-426C-94A3-382A09705C5D}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -9827,7 +10634,7 @@
 																				</Point>
 																				<Point>
 																					<XPos>3000</XPos>
-																					<YPos>-12</YPos>
+																					<YPos>-50</YPos>
 																					<Flags>37</Flags>
 																				</Point>
 																			</PointList>
@@ -9876,12 +10683,12 @@
 																			<PointList>
 																				<Point>
 																					<XPos>0</XPos>
-																					<YPos>75</YPos>
+																					<YPos>0</YPos>
 																					<Flags>5</Flags>
 																				</Point>
 																				<Point>
 																					<XPos>3000</XPos>
-																					<YPos>0</YPos>
+																					<YPos>100</YPos>
 																					<Flags>37</Flags>
 																				</Point>
 																			</PointList>
@@ -9948,6 +10755,19 @@
 																				<Value>35</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{92B8E3B5-5801-4EAC-8C40-67B733632BC0}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="1"/>
+																							<Property Name="Min" Type="Real64" Value="-1"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
@@ -9981,6 +10801,19 @@
 																			</ValueList>
 																		</Property>
 																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{4358E009-289E-4F1B-B8E0-99E0AE6FA39D}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="1"/>
+																							<Property Name="Min" Type="Real64" Value="-1"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
@@ -10014,6 +10847,19 @@
 																<Sound Name="Grass_Movement_Leaves" ID="{7BEF7692-7833-4BAB-B270-30C7BF770BA5}" ShortID="407195982">
 																	<PropertyList>
 																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{6E783EA8-F46D-4A72-8793-1C63C6A85BF2}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="1"/>
+																							<Property Name="Min" Type="Real64" Value="-1"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
 																				<Value>3</Value>
@@ -10047,6 +10893,19 @@
 																<Sound Name="Grass_Movement_Leaves_Harsh" ID="{A0A9E1DA-1D55-4C84-8D71-0246687A92C0}" ShortID="714321804">
 																	<PropertyList>
 																		<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{63DF5652-9E4D-405A-AE3F-4B1418F1663F}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="1"/>
+																							<Property Name="Min" Type="Real64" Value="-1"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
 																				<Value>6</Value>
@@ -10644,6 +11503,21 @@
 															</ReferenceList>
 															<ChildrenList>
 																<Sound Name="Leaves_Soft" ID="{8B757D52-C3DC-4C7F-AB07-100D50F8A2F1}" ShortID="418959815">
+																	<PropertyList>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{7520A425-19AC-4296-9B34-3EEFBD3091D9}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="1"/>
+																							<Property Name="Min" Type="Real64" Value="-1"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -10674,6 +11548,19 @@
 																			<ValueList>
 																				<Value>70</Value>
 																			</ValueList>
+																		</Property>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{BA6C9E81-B1F8-4495-9F03-5E8E66A6FC53}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="1"/>
+																							<Property Name="Min" Type="Real64" Value="-1"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
 																		</Property>
 																	</PropertyList>
 																	<ReferenceList>
@@ -10708,6 +11595,19 @@
 																</Sound>
 																<Sound Name="Grass_Movement_Leaves_Soft" ID="{8E6C6672-4F4E-4AFD-93FC-F2B9D8AC0D3D}" ShortID="326873340">
 																	<PropertyList>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{BB510B36-D2BB-4A04-B83E-A6F0C473F9CE}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="1"/>
+																							<Property Name="Min" Type="Real64" Value="-1"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ValueList>
 																				<Value>3</Value>
@@ -10887,7 +11787,7 @@
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
-																<Property Name="LoopCount" Type="int32" Value="1">
+																<Property Name="LoopCount" Type="int32">
 																	<ModifierList>
 																		<ModifierInfo>
 																			<Modifier Name="" ID="{C0465863-B79F-49C3-BDB9-D7F6C5136382}">
@@ -10995,7 +11895,7 @@
 																</Property>
 																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 																<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
-																<Property Name="LoopCount" Type="int32">
+																<Property Name="LoopCount" Type="int32" Value="4">
 																	<ModifierList>
 																		<ModifierInfo>
 																			<Modifier Name="" ID="{148E209C-CFE6-4678-86B8-0628E426124F}">
@@ -11003,6 +11903,18 @@
 																					<Property Name="Enabled" Type="bool" Value="True"/>
 																					<Property Name="Max" Type="Real64" Value="5"/>
 																					<Property Name="Min" Type="Real64" Value="-1"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{A4F70DA0-3031-4304-A48F-AEE0F996B70A}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-3"/>
 																				</PropertyList>
 																			</Modifier>
 																		</ModifierInfo>
@@ -11042,7 +11954,6 @@
 																<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
 																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 															</PropertyList>
 															<ReferenceList>
@@ -11063,6 +11974,19 @@
 																			<ValueList>
 																				<Value>1</Value>
 																			</ValueList>
+																		</Property>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{E3596038-21C6-4F99-A5CD-159A76FA51B9}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="1"/>
+																							<Property Name="Min" Type="Real64" Value="-1"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
 																		</Property>
 																		<Property Name="Volume" Type="Real64">
 																			<ModifierList>
@@ -11103,6 +12027,19 @@
 																</Sound>
 																<Sound Name="Leaves_Dry_Drop" ID="{B9A31567-C9FF-436D-8B11-CE5219B1DDE0}" ShortID="561590628">
 																	<PropertyList>
+																		<Property Name="Highpass" Type="int16">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{4A66E113-7839-444D-9B79-C9701556065B}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="1"/>
+																							<Property Name="Min" Type="Real64" Value="-1"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
 																		<Property Name="InitialDelay" Type="Real64">
 																			<ValueList>
 																				<Value>0.5</Value>
@@ -11159,6 +12096,19 @@
 																						<PropertyList>
 																							<Property Name="Enabled" Type="bool" Value="True"/>
 																							<Property Name="Max" Type="Real64" Value="49"/>
+																						</PropertyList>
+																					</Modifier>
+																				</ModifierInfo>
+																			</ModifierList>
+																		</Property>
+																		<Property Name="Pitch" Type="int32">
+																			<ModifierList>
+																				<ModifierInfo>
+																					<Modifier Name="" ID="{5BEFACF5-B8EE-4502-BE00-DD4496C6BB5C}">
+																						<PropertyList>
+																							<Property Name="Enabled" Type="bool" Value="True"/>
+																							<Property Name="Max" Type="Real64" Value="1"/>
+																							<Property Name="Min" Type="Real64" Value="-1"/>
 																						</PropertyList>
 																					</Modifier>
 																				</ModifierInfo>
