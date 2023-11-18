@@ -9513,6 +9513,7 @@
 														<Value>100</Value>
 													</ValueList>
 												</Property>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 												<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 												<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 												<Property Name="OverrideEffect" Type="bool" Value="True"/>
@@ -9526,8 +9527,8 @@
 													<Custom>
 														<Attenuation Name="Attenuation (Custom)" ID="{AE9A5060-1372-4082-BC62-C0517A637498}" ShortID="258495279">
 															<PropertyList>
-																<Property Name="ConeInnerAngle" Type="int32" Value="350"/>
-																<Property Name="ConeOuterAngle" Type="int32" Value="350"/>
+																<Property Name="ConeInnerAngle" Type="int32" Value="115"/>
+																<Property Name="ConeOuterAngle" Type="int32" Value="250"/>
 																<Property Name="ConeUse" Type="bool">
 																	<ValueList>
 																		<Value>True</Value>
@@ -9652,18 +9653,117 @@
 											<ChildrenList>
 												<RandomSequenceContainer Name="A_S3D_Rain" ID="{B2C7F75A-8DAB-43CD-BEE2-3CDA81DB5813}" ShortID="442351343">
 													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+														<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-3</Value>
+																<Value>6</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<Custom>
+																<Attenuation Name="Attenuation (Custom)" ID="{E77871F7-390D-4516-9F0B-388F9B3CC812}" ShortID="725673637">
+																	<PropertyList>
+																		<Property Name="ConeUse" Type="bool">
+																			<ValueList>
+																				<Value>True</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<CurveUsageInfoList>
+																		<VolumeDryUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																				<Curve Name="VolumeDry" ID="{F6201118-9FD3-4475-BA11-0C2C4B90D8A5}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="3"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>0</YPos>
+																							<Flags>5</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>100</XPos>
+																							<YPos>-200</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
+																		</VolumeDryUsage>
+																		<VolumeWetGameUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																		</VolumeWetGameUsage>
+																		<VolumeWetUserUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																		</VolumeWetUserUsage>
+																		<LowPassFilterUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																		</LowPassFilterUsage>
+																		<HighPassFilterUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																		</HighPassFilterUsage>
+																		<SpreadUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																				<Curve Name="Spread" ID="{DD47A821-C18F-4E0F-A9CA-3F333974F54C}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="1"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>100</YPos>
+																							<Flags>5</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>100</XPos>
+																							<YPos>0</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
+																		</SpreadUsage>
+																		<FocusUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																				<Curve Name="Focus" ID="{BC575E78-C29D-4E0C-8B7C-30B5AA50093D}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="1"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>0</YPos>
+																							<Flags>5</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>100</XPos>
+																							<YPos>100</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
+																		</FocusUsage>
+																	</CurveUsageInfoList>
+																</Attenuation>
+															</Custom>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
 														</Reference>
@@ -9674,9 +9774,9 @@
 													<ChildrenList>
 														<Sound Name="A_S3D_Rain_Thunder" ID="{0D793CE6-7383-48A1-90DB-16D05BC34DAE}" ShortID="142938486">
 															<PropertyList>
-																<Property Name="Volume" Type="Real64">
+																<Property Name="Weight" Type="Real64">
 																	<ValueList>
-																		<Value>-6</Value>
+																		<Value>60</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -9709,13 +9809,6 @@
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="A_S3D_Rain_Heavy" ID="{4CE18665-F3FC-4897-A4C0-8C4E044CFB48}" ShortID="549243156">
-															<PropertyList>
-																<Property Name="Volume" Type="Real64">
-																	<ValueList>
-																		<Value>-3</Value>
-																	</ValueList>
-																</Property>
-															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -9742,14 +9835,24 @@
 														</Sound>
 														<Sound Name="A_S3D_Rain_Light" ID="{DB6DA85A-31CD-45C8-B31A-812E59A913D9}" ShortID="389939056">
 															<PropertyList>
+																<Property Name="Highpass" Type="int16">
+																	<ValueList>
+																		<Value>30</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Lowpass" Type="int16">
+																	<ValueList>
+																		<Value>50</Value>
+																	</ValueList>
+																</Property>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
-																		<Value>-3</Value>
+																		<Value>6</Value>
 																	</ValueList>
 																</Property>
 																<Property Name="Weight" Type="Real64">
 																	<ValueList>
-																		<Value>20</Value>
+																		<Value>10</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -9766,6 +9869,13 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="EXT_AMB_Rain_Light" ID="{39CE73B9-3AEE-42F2-B479-1862F3FDE228}">
+																	<PropertyList>
+																		<Property Name="VolumeOffset" Type="Real64">
+																			<ValueList>
+																				<Value>24</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>EXT_AMB_Rain_Light.wav</AudioFile>
 																	<MediaIDList>
@@ -9778,6 +9888,50 @@
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{1BCF1B3A-9A38-4E7B-9A4B-79BCAB135F22}">
+															<PropertyList>
+																<Property Name="PanX" Type="Real64" Value="1.11022302462516E-16"/>
+															</PropertyList>
+														</Panner>
+														<Position Name="" ID="{D472C09E-2363-4C06-AFBF-A6D572C126E7}">
+															<PropertyList>
+																<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="7"/>
+															</PropertyList>
+															<ChildrenList>
+																<Path2D Name="A_S3D_Rain_Path_02" ID="{1CDCA4FE-C903-47D7-8760-6DF5971BACFF}">
+																	<PropertyList>
+																		<Property Name="RandomX" Type="Real64" Value="50"/>
+																		<Property Name="RandomY" Type="Real64" Value="50"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>0</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="A_S3D_Rain_Path_03" ID="{4D8503DF-F8EB-4CF4-8CA4-7D091226C981}">
+																	<PropertyList>
+																		<Property Name="RandomX" Type="Real64" Value="50"/>
+																		<Property Name="RandomY" Type="Real64" Value="50"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-100</XPos>
+																			<YPos>0</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+															</ChildrenList>
+														</Position>
+													</PositioningInfo>
 													<StateInfo>
 														<StateGroupList>
 															<StateGroupInfo>
@@ -9810,18 +9964,117 @@
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="A_S3D_Snow" ID="{0E1F8D85-2E81-43F1-BF3E-4ED387AB33FA}" ShortID="670370943">
 													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+														<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-9</Value>
+																<Value>3</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<Custom>
+																<Attenuation Name="Attenuation (Custom)" ID="{2CFBB5EC-96E6-4FB9-A045-C0A9DA9DC17A}" ShortID="780723189">
+																	<PropertyList>
+																		<Property Name="ConeUse" Type="bool">
+																			<ValueList>
+																				<Value>True</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<CurveUsageInfoList>
+																		<VolumeDryUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																				<Curve Name="VolumeDry" ID="{5A7753DA-C00B-48C0-9EA9-8D2BDFB785E3}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="3"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>0</YPos>
+																							<Flags>5</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>100</XPos>
+																							<YPos>-200</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
+																		</VolumeDryUsage>
+																		<VolumeWetGameUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																		</VolumeWetGameUsage>
+																		<VolumeWetUserUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																		</VolumeWetUserUsage>
+																		<LowPassFilterUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																		</LowPassFilterUsage>
+																		<HighPassFilterUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																		</HighPassFilterUsage>
+																		<SpreadUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																				<Curve Name="Spread" ID="{F682DFFE-2F23-4C9B-903F-57E05DD08F59}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="1"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>100</YPos>
+																							<Flags>5</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>100</XPos>
+																							<YPos>0</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
+																		</SpreadUsage>
+																		<FocusUsage>
+																			<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																				<Curve Name="Focus" ID="{6D29668A-AC39-4C83-8210-FEB79BB82356}">
+																					<PropertyList>
+																						<Property Name="Flags" Type="int32" Value="1"/>
+																					</PropertyList>
+																					<PointList>
+																						<Point>
+																							<XPos>0</XPos>
+																							<YPos>0</YPos>
+																							<Flags>5</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>100</XPos>
+																							<YPos>100</YPos>
+																							<Flags>37</Flags>
+																						</Point>
+																					</PointList>
+																				</Curve>
+																			</CurveUsageInfo>
+																		</FocusUsage>
+																	</CurveUsageInfoList>
+																</Attenuation>
+															</Custom>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
 														</Reference>
@@ -9873,6 +10126,11 @@
 														</Sound>
 														<Sound Name="A_S3D_Snow_Icicle_02" ID="{88159EFE-2C0A-4C29-AC0B-AE8BB19601C3}" ShortID="630500301">
 															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>6</Value>
+																	</ValueList>
+																</Property>
 																<Property Name="Weight" Type="Real64">
 																	<ValueList>
 																		<Value>30</Value>
@@ -9904,6 +10162,13 @@
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="A_S3D_Snow_Icicle_03" ID="{D6C32EA9-B03E-4A18-BAA9-38000B04B0E5}" ShortID="55326511">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>9</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A5B3F8C2-444D-4F4E-873A-8592973B4102}"/>
@@ -9934,6 +10199,9 @@
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{E05722F5-28D4-4B8F-91BA-59A7AA9FE223}"/>
+													</PositioningInfo>
 													<StateInfo>
 														<StateGroupList>
 															<StateGroupInfo>
@@ -9972,11 +10240,6 @@
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>3</Value>
-															</ValueList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -10518,7 +10781,11 @@
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Rain" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
-														<CustomState Name="" ID="{C1F040DA-24FF-4F87-9D3B-A23A89378CA9}" ShortID="126983378"/>
+														<CustomState Name="" ID="{C1F040DA-24FF-4F87-9D3B-A23A89378CA9}" ShortID="126983378">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="9"/>
+															</PropertyList>
+														</CustomState>
 													</CustomState>
 												</CustomStateList>
 											</StateInfo>
@@ -10562,13 +10829,13 @@
 									<ChildrenList>
 										<SwitchContainer Name="3D_A_P_Seasons_Tree" ID="{EDF31BA0-4AE5-4C51-8357-3967752523CE}" ShortID="912132975">
 											<PropertyList>
-												<Property Name="3DPosition" Type="int16" Value="1"/>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
 													</ValueList>
 												</Property>
+												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 												<Property Name="OverrideEffect" Type="bool" Value="True"/>
 												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
@@ -10576,7 +10843,7 @@
 												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-6</Value>
+														<Value>-3</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -10662,7 +10929,7 @@
 																			<PointList>
 																				<Point>
 																					<XPos>0</XPos>
-																					<YPos>25</YPos>
+																					<YPos>100</YPos>
 																					<Flags>5</Flags>
 																				</Point>
 																				<Point>
@@ -12183,7 +12450,7 @@
 													<PropertyList>
 														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-														<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3.5"/>
+														<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="1.5"/>
 													</PropertyList>
 													<ChildrenList>
 														<Path2D Name="3D_A_P_Seasons_Tree_Path" ID="{C9A38C92-6C4D-4822-B8BC-98B21DFBA647}">

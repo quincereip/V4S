@@ -74,7 +74,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{F3544A33-E96D-4075-AEB3-FA937893CDCB}"/>
-						<CurrentStateRef Name="None" ID="{34213144-279D-4225-8E82-F502BD43E2C8}"/>
+						<CurrentStateRef Name="Fall" ID="{8A310035-D314-4994-9C44-086F31CD9288}"/>
 						<CurrentStateRef Name="None" ID="{70D54A14-A650-462E-A2A5-9FF4802C321F}"/>
 						<CurrentStateRef Name="None" ID="{3CEB32E6-C52B-439C-BDB6-979183F2E492}"/>
 						<CurrentStateRef Name="None" ID="{2810BA7A-BEC0-440D-A8EE-53D5E100B1F9}"/>
@@ -169,9 +169,9 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{F3544A33-E96D-4075-AEB3-FA937893CDCB}"/>
+						<CurrentStateRef Name="Dense" ID="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
 						<CurrentStateRef Name="Fall" ID="{8A310035-D314-4994-9C44-086F31CD9288}"/>
-						<CurrentStateRef Name="Wiindy" ID="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+						<CurrentStateRef Name="Rain" ID="{76F86B91-88D4-4E91-A275-AFE886DA7C04}"/>
 						<CurrentStateRef Name="None" ID="{3CEB32E6-C52B-439C-BDB6-979183F2E492}"/>
 						<CurrentStateRef Name="None" ID="{2810BA7A-BEC0-440D-A8EE-53D5E100B1F9}"/>
 					</CurrentStateList>

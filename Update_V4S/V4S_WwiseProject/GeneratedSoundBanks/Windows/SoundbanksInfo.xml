@@ -24,7 +24,7 @@
 				<AuxBus Id="3413807678" Name="Room_Auxiliary_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\M&amp;E\Spatial\Room_Auxiliary_Bus" GUID="{8DC218D8-3367-4D67-B456-96C3C64DB579}"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{E19EE910-4431-421A-82C4-6214E7842FE1}" Language="SFX" Hash="3269930791">
+		<SoundBank Id="3161908922" GUID="{E19EE910-4431-421A-82C4-6214E7842FE1}" Language="SFX" Hash="2355060020">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -114,7 +114,7 @@
 						<AuxBus Id="898834102" Name="EXT" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\M&amp;E\AMB\EXT" GUID="{07373D9E-9413-4A07-8D5D-50D786C3488D}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="4011861057" Name="Play_A_S3D_Rain" ObjectPath="\Events\Default Work Unit\AMB\Place\Atmosphere\Play_A_S3D_Rain" GUID="{D8ADAE72-5324-43C6-B86A-2E13154E4CC1}" MaxAttenuation="3000." DurationType="Infinite">
+				<Event Id="4011861057" Name="Play_A_S3D_Rain" ObjectPath="\Events\Default Work Unit\AMB\Place\Atmosphere\Play_A_S3D_Rain" GUID="{D8ADAE72-5324-43C6-B86A-2E13154E4CC1}" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="309298276" Language="SFX">
 							<ShortName>Rain.wav</ShortName>
@@ -133,7 +133,7 @@
 						<AuxBus Id="898834102" Name="EXT" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\M&amp;E\AMB\EXT" GUID="{07373D9E-9413-4A07-8D5D-50D786C3488D}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1616169222" Name="Play_A_S3D_Snow" ObjectPath="\Events\Default Work Unit\AMB\Place\Atmosphere\Play_A_S3D_Snow" GUID="{738F68D0-A7B7-4935-92CC-24FD2C74DA82}" MaxAttenuation="3000." DurationType="Infinite">
+				<Event Id="1616169222" Name="Play_A_S3D_Snow" ObjectPath="\Events\Default Work Unit\AMB\Place\Atmosphere\Play_A_S3D_Snow" GUID="{738F68D0-A7B7-4935-92CC-24FD2C74DA82}" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="39169374" Language="SFX">
 							<ShortName>Snow_Icicle_02.wav</ShortName>
@@ -152,7 +152,7 @@
 						<AuxBus Id="898834102" Name="EXT" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\M&amp;E\AMB\EXT" GUID="{07373D9E-9413-4A07-8D5D-50D786C3488D}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="4218878499" Name="Play_A_S3D_Wind_Pulse" ObjectPath="\Events\Default Work Unit\AMB\Play_A_S3D_Wind_Pulse" GUID="{0C50345F-362F-46B8-81E2-5DA4D0E50A42}" MaxAttenuation="3000." DurationType="OneShot" DurationMin="14." DurationMax="14.008089">
+				<Event Id="4218878499" Name="Play_A_S3D_Wind_Pulse" ObjectPath="\Events\Default Work Unit\AMB\Play_A_S3D_Wind_Pulse" GUID="{0C50345F-362F-46B8-81E2-5DA4D0E50A42}" DurationType="OneShot" DurationMin="14." DurationMax="14.008089">
 					<IncludedMemoryFiles>
 						<File Id="789962799" Language="SFX">
 							<ShortName>Wind_Breeze.wav</ShortName>
@@ -163,7 +163,7 @@
 						<AuxBus Id="898834102" Name="EXT" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\M&amp;E\AMB\EXT" GUID="{07373D9E-9413-4A07-8D5D-50D786C3488D}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="990531070" Name="Play_A_S3D_Windy" ObjectPath="\Events\Default Work Unit\AMB\Place\Atmosphere\Play_A_S3D_Windy" GUID="{EE64712D-F0AD-4642-ACA9-5404FD3AD284}" MaxAttenuation="3000." DurationType="Infinite">
+				<Event Id="990531070" Name="Play_A_S3D_Windy" ObjectPath="\Events\Default Work Unit\AMB\Place\Atmosphere\Play_A_S3D_Windy" GUID="{EE64712D-F0AD-4642-ACA9-5404FD3AD284}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="3382213" Language="SFX">
 							<ShortName>S_Breeze.wav</ShortName>
@@ -229,7 +229,7 @@
 						<AuxBus Id="2802899749" Name="Emitter" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\M&amp;E\SFX\Emitter" GUID="{49953334-5AB5-462F-B68B-4F88ECD72A6E}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2107294498" Name="Play_Atmos_3D" ObjectPath="\Events\Default Work Unit\AMB\Place\Atmosphere\Play_Atmos_3D" GUID="{43AAC3FD-1AC4-4A77-ABC5-C7B27B8F1C12}" MaxAttenuation="3000." DurationType="Infinite">
+				<Event Id="2107294498" Name="Play_Atmos_3D" ObjectPath="\Events\Default Work Unit\AMB\Place\Atmosphere\Play_Atmos_3D" GUID="{43AAC3FD-1AC4-4A77-ABC5-C7B27B8F1C12}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="3382213" Language="SFX">
 							<ShortName>S_Breeze.wav</ShortName>

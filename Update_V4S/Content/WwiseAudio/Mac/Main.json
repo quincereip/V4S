@@ -16,7 +16,7 @@
     "Id": "3161908922",
     "GUID": "{E19EE910-4431-421A-82C4-6214E7842FE1}",
     "Language": "SFX",
-    "Hash": "2871615529",
+    "Hash": "4102925601",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -194,7 +194,7 @@
       "Name": "Play_A_S3D_Rain",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Place\\Atmosphere\\Play_A_S3D_Rain",
       "GUID": "{D8ADAE72-5324-43C6-B86A-2E13154E4CC1}",
-      "MaxAttenuation": "3000.",
+      "MaxAttenuation": "100.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -230,7 +230,7 @@
       "Name": "Play_A_S3D_Snow",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Place\\Atmosphere\\Play_A_S3D_Snow",
       "GUID": "{738F68D0-A7B7-4935-92CC-24FD2C74DA82}",
-      "MaxAttenuation": "3000.",
+      "MaxAttenuation": "100.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -266,7 +266,6 @@
       "Name": "Play_A_S3D_Wind_Pulse",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_A_S3D_Wind_Pulse",
       "GUID": "{0C50345F-362F-46B8-81E2-5DA4D0E50A42}",
-      "MaxAttenuation": "3000.",
       "DurationType": "OneShot",
       "DurationMin": "14.",
       "DurationMax": "14.008089",
@@ -292,7 +291,6 @@
       "Name": "Play_A_S3D_Windy",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Place\\Atmosphere\\Play_A_S3D_Windy",
       "GUID": "{EE64712D-F0AD-4642-ACA9-5404FD3AD284}",
-      "MaxAttenuation": "3000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -414,7 +412,6 @@
       "Name": "Play_Atmos_3D",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Place\\Atmosphere\\Play_Atmos_3D",
       "GUID": "{43AAC3FD-1AC4-4A77-ABC5-C7B27B8F1C12}",
-      "MaxAttenuation": "3000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
