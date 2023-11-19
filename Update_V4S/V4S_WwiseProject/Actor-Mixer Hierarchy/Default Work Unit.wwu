@@ -727,6 +727,11 @@
 																	</ModifierList>
 																</Property>
 																<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-3</Value>
+																	</ValueList>
+																</Property>
 																<Property Name="Weight" Type="Real64">
 																	<ValueList>
 																		<Value>20</Value>
@@ -962,6 +967,11 @@
 																		</ModifierInfo>
 																	</ModifierList>
 																</Property>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>80</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -1133,12 +1143,15 @@
 														<Panner Name="" ID="{F8CA92C2-1984-4D69-AE72-80E9AB1172A8}"/>
 														<Position Name="" ID="{25CD244A-A669-4669-BF2F-41865505CC8D}">
 															<PropertyList>
+																<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
 																<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
 																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="8"/>
 															</PropertyList>
 															<ChildrenList>
 																<Path2D Name="S2D_AMB_Fall_Path" ID="{54755C72-2746-4EC1-966E-F6C936025ADB}">
 																	<PropertyList>
+																		<Property Name="LinearTime" Type="bool" Value="False"/>
 																		<Property Name="RandomZ" Type="Real64" Value="100"/>
 																	</PropertyList>
 																	<PointList>
@@ -1956,6 +1969,11 @@
 																	</Modifier>
 																</ModifierInfo>
 															</ModifierList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
 														</Property>
 													</PropertyList>
 													<ReferenceList>
@@ -6933,6 +6951,11 @@
 										<Sound Name="3D_A_OBJ_E_Objects_Breaking Wood" ID="{6D74D648-1EE3-49DB-AA4E-36CFFCB3A116}" ShortID="764204006">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>50</Value>
+													</ValueList>
+												</Property>
 												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 												<Property Name="InitialDelay" Type="Real64">
 													<ValueList>
@@ -6958,6 +6981,7 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -7054,6 +7078,9 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{40FC6C09-6739-4306-9313-DDC624ADD0FF}"/>
+											</PositioningInfo>
 											<ActiveSourceList>
 												<ActiveSource Name="Breaking Wood" ID="{D7716759-2DB7-4301-B69F-F44D5B1E3458}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -7061,6 +7088,11 @@
 										<Sound Name="3D_A_OBJ_E_Objects_Fireplace" ID="{A8F9DBED-2632-497E-87FC-4BC947758698}" ShortID="589997466">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
 												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="OverrideOutput" Type="bool" Value="True"/>
@@ -7085,8 +7117,13 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>12</YPos>
+																		<YPos>6</YPos>
 																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>500</XPos>
+																		<YPos>6</YPos>
+																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>3000</XPos>
@@ -7104,6 +7141,11 @@
 													<Custom>
 														<Attenuation Name="Attenuation (Custom)" ID="{E4844BE2-BC73-4453-80B4-E0076FFD09F2}" ShortID="163516160">
 															<PropertyList>
+																<Property Name="ConeAttenuation" Type="Real64">
+																	<ValueList>
+																		<Value>-3</Value>
+																	</ValueList>
+																</Property>
 																<Property Name="ConeInnerAngle" Type="int32" Value="360"/>
 																<Property Name="ConeOuterAngle" Type="int32" Value="360"/>
 																<Property Name="ConeUse" Type="bool">
@@ -7127,6 +7169,11 @@
 																					<Flags>5</Flags>
 																				</Point>
 																				<Point>
+																					<XPos>500</XPos>
+																					<YPos>-0</YPos>
+																					<Flags>0</Flags>
+																				</Point>
+																				<Point>
 																					<XPos>3000</XPos>
 																					<YPos>-6.0206</YPos>
 																					<Flags>37</Flags>
@@ -7148,10 +7195,46 @@
 																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 																</HighPassFilterUsage>
 																<SpreadUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="Spread" ID="{EADEABB9-C70C-407E-9908-3F649F417C98}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="1"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>50</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>3000</XPos>
+																					<YPos>0</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
 																</SpreadUsage>
 																<FocusUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="Focus" ID="{43BCE176-C462-43B3-9162-17BBD56F4198}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="1"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>-0</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>3000</XPos>
+																					<YPos>100</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
 																</FocusUsage>
 															</CurveUsageInfoList>
 														</Attenuation>
@@ -7318,14 +7401,18 @@
 										<Sound Name="3D_A_OBJ_E_Objects_Shells" ID="{D7739BB4-6C6B-4673-927B-D70A0FBDA652}" ShortID="912167261">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
 												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 												<Property Name="InitialDelay" Type="Real64">
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{DFC664E8-F3EF-4762-B2A0-7879AB13F173}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="1"/>
+																	<Property Name="Max" Type="Real64" Value="0.25"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
@@ -7371,7 +7458,7 @@
 												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>3</Value>
+														<Value>6</Value>
 													</ValueList>
 													<RTPCList>
 														<RTPC Name="" ID="{96244B6A-B3ED-4E57-B3F3-1029CFEFF6F6}" ShortID="898771275">
@@ -7406,7 +7493,12 @@
 													<Custom>
 														<Attenuation Name="Attenuation (Custom)" ID="{E5893C78-5DEC-4F08-B476-42F47160A503}" ShortID="550859877">
 															<PropertyList>
-																<Property Name="ConeInnerAngle" Type="int32" Value="270"/>
+																<Property Name="ConeAttenuation" Type="Real64">
+																	<ValueList>
+																		<Value>0</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="ConeInnerAngle" Type="int32" Value="280"/>
 																<Property Name="ConeOuterAngle" Type="int32" Value="360"/>
 																<Property Name="ConeUse" Type="bool">
 																	<ValueList>
@@ -7427,6 +7519,11 @@
 																					<XPos>0</XPos>
 																					<YPos>0</YPos>
 																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>1000</XPos>
+																					<YPos>0</YPos>
+																					<Flags>0</Flags>
 																				</Point>
 																				<Point>
 																					<XPos>3000</XPos>
@@ -7453,7 +7550,25 @@
 																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 																</SpreadUsage>
 																<FocusUsage>
-																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="Focus" ID="{B11AD984-1928-418D-BDAC-08C9501A37DC}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="1"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>100</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>3000</XPos>
+																					<YPos>25</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
 																</FocusUsage>
 															</CurveUsageInfoList>
 														</Attenuation>
@@ -11171,7 +11286,7 @@
 																				</Point>
 																				<Point>
 																					<XPos>3000</XPos>
-																					<YPos>0</YPos>
+																					<YPos>50</YPos>
 																					<Flags>37</Flags>
 																				</Point>
 																			</PointList>
@@ -11192,7 +11307,7 @@
 																				</Point>
 																				<Point>
 																					<XPos>3000</XPos>
-																					<YPos>100</YPos>
+																					<YPos>75</YPos>
 																					<Flags>37</Flags>
 																				</Point>
 																			</PointList>
@@ -12156,7 +12271,7 @@
 																<StateRef Name="Soft" ID="{4E6AA5CB-04CF-4369-A121-0EA4EF78122A}"/>
 																<CustomState Name="" ID="{1D3D5CAB-CED9-4FC1-A200-4B819F6B1F65}" ShortID="1056498269">
 																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="6"/>
+																		<Property Name="Volume" Type="Real64" Value="15"/>
 																	</PropertyList>
 																</CustomState>
 															</CustomState>
@@ -12184,7 +12299,7 @@
 														<Property Name="BlendBehavior" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>3</Value>
+																<Value>6</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -12665,7 +12780,7 @@
 																<StateRef Name="Dry" ID="{4C8E80BE-462D-4655-9995-934F090BFAA9}"/>
 																<CustomState Name="" ID="{ECFE062E-3C6D-4900-9206-B10C66B35780}" ShortID="735140579">
 																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="3"/>
+																		<Property Name="Volume" Type="Real64" Value="6"/>
 																	</PropertyList>
 																</CustomState>
 															</CustomState>
