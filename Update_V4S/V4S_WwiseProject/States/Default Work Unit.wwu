@@ -6,6 +6,7 @@
 				<StateGroup Name="Seasons_2D" ID="{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="1.5"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>

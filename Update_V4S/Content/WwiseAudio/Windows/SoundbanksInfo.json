@@ -19,7 +19,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "2001813107",
+    "Hash": "661153528",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -66,7 +66,7 @@
     "Id": "3161908922",
     "GUID": "{E19EE910-4431-421A-82C4-6214E7842FE1}",
     "Language": "SFX",
-    "Hash": "4102925601",
+    "Hash": "1563677643",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -433,7 +433,7 @@
         "Id": "318610343",
         "Language": "SFX",
         "ShortName": "Apple\\Apple_Droppimg.wav",
-        "Path": "SFX\\Apple\\Apple_Droppimg_11F7713F.wem"
+        "Path": "SFX\\Apple\\Apple_Droppimg_1E970BB5.wem"
        },
        {
         "Id": "774997628",

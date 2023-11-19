@@ -26,6 +26,18 @@
 								<SwitchContainer Name="Seasons_2D_Bird" ID="{985155B4-8D83-4124-91A1-CE18E4590242}" ShortID="529946912">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6B5703B7-F38E-4529-9717-461355B88F49}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
@@ -35,6 +47,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -212,6 +229,20 @@
 																	</ModifierList>
 																</Property>
 																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{29A7A115-4E97-406A-A6CD-EB259E6E54CD}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="4"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
 																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 																<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 																<Property Name="Volume" Type="Real64">
@@ -696,11 +727,6 @@
 																	</ModifierList>
 																</Property>
 																<Property Name="SpeakerPanning" Type="int16" Value="1"/>
-																<Property Name="Volume" Type="Real64">
-																	<ValueList>
-																		<Value>-6</Value>
-																	</ValueList>
-																</Property>
 																<Property Name="Weight" Type="Real64">
 																	<ValueList>
 																		<Value>20</Value>
@@ -712,6 +738,13 @@
 																	<Custom>
 																		<Attenuation Name="Attenuation (Custom)" ID="{4634C5C6-ED75-4B26-9B43-05D50A0150C1}" ShortID="217561262">
 																			<PropertyList>
+																				<Property Name="ConeInnerAngle" Type="int32" Value="180"/>
+																				<Property Name="ConeOuterAngle" Type="int32" Value="180"/>
+																				<Property Name="ConeUse" Type="bool">
+																					<ValueList>
+																						<Value>True</Value>
+																					</ValueList>
+																				</Property>
 																				<Property Name="RadiusMax" Type="Real64" Value="3000"/>
 																			</PropertyList>
 																			<CurveUsageInfoList>
@@ -749,7 +782,25 @@
 																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 																				</HighPassFilterUsage>
 																				<SpreadUsage>
-																					<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																						<Curve Name="Spread" ID="{E2C78E60-F75A-4529-9DCA-B076A3D19A39}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="1"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>100</YPos>
+																									<Flags>5</Flags>
+																								</Point>
+																								<Point>
+																									<XPos>3000</XPos>
+																									<YPos>50</YPos>
+																									<Flags>37</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</CurveUsageInfo>
 																				</SpreadUsage>
 																				<FocusUsage>
 																					<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -765,7 +816,7 @@
 																								</Point>
 																								<Point>
 																									<XPos>3000</XPos>
-																									<YPos>0</YPos>
+																									<YPos>100</YPos>
 																									<Flags>37</Flags>
 																								</Point>
 																							</PointList>
@@ -788,6 +839,13 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="bbc_crickets-s_nhu0509310 [chan 1]" ID="{900CD0DC-F32E-4C5C-A1A2-3CB5A6CEC575}">
+																	<PropertyList>
+																		<Property Name="VolumeOffset" Type="Real64">
+																			<ValueList>
+																				<Value>6</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>bbc_crickets-s_nhu0509310 [chan 1].wav</AudioFile>
 																	<MediaIDList>
@@ -810,6 +868,9 @@
 																	</PropertyList>
 																	<ChildrenList>
 																		<Path2D Name="S2D_AMB_AnimalsCrickets_Path" ID="{8C66706A-F2AE-4C6B-8274-CD32BDBA3D7E}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="50"/>
+																			</PropertyList>
 																			<PointList>
 																				<Point>
 																					<XPos>70.25316</XPos>
@@ -820,6 +881,9 @@
 																			</PointList>
 																		</Path2D>
 																		<Path2D Name="S2D_AMB_AnimalsCrickets_Path_01" ID="{177753D9-AE32-4AB1-80B9-21D535178397}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="50"/>
+																			</PropertyList>
 																			<PointList>
 																				<Point>
 																					<XPos>-12.02532</XPos>
@@ -865,8 +929,7 @@
 														</Property>
 														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
-														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.5"/>
+														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
@@ -1231,6 +1294,19 @@
 																</Property>
 																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{34D4E652-5BD4-4121-A9CB-7BAA08267A76}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="4"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
 																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 																<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 																<Property Name="Volume" Type="Real64">
@@ -2010,6 +2086,19 @@
 																</Property>
 																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{AB2631C8-7428-4E17-B303-D95935A92B6B}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="4"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
 																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 																<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 															</PropertyList>
@@ -2805,6 +2894,19 @@
 																<Property Name="OverridePositioning" Type="bool" Value="True"/>
 																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{7E035BC8-75A1-4595-B98B-37AEBDCDC1E0}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="5"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
 																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 																<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 															</PropertyList>
@@ -3585,15 +3687,63 @@
 										<GroupingBehaviorList>
 											<GroupingBehavior>
 												<ItemRef Name="S2D_Bird_Summer" ID="{4601D31F-369E-404B-9EA9-C1A4BFF532E4}"/>
+												<PropertyList>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="S2D_Bird_Fall" ID="{21CB224F-40A7-426D-9A79-F8CCAF96AE75}"/>
+												<PropertyList>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="S2D_Bird_Spring" ID="{64A15D6E-9729-4809-86A7-1F5FB4F0D40F}"/>
+												<PropertyList>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="S2D_Bird_Winter" ID="{98ED77EF-5E8D-4F06-9AFC-D63D37E06D3F}"/>
+												<PropertyList>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
@@ -6344,6 +6494,11 @@
 										<Sound Name="3D_A_OBJ_E_Animals_Rodent_Acorn" ID="{BA84C117-E7BE-47E0-A647-7DB553DDC1E5}" ShortID="434411017">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
 												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 												<Property Name="Highpass" Type="int16">
 													<ValueList>
@@ -6387,6 +6542,7 @@
 												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>6</Value>
@@ -6489,6 +6645,9 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{7AE389BC-E533-4732-9E64-B46B09DC92A2}"/>
+											</PositioningInfo>
 											<ActiveSourceList>
 												<ActiveSource Name="Rodent_Acorn" ID="{7F597BDD-668A-4B6A-99BE-BFCE9C5FF3A5}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -6496,12 +6655,12 @@
 										<RandomSequenceContainer Name="3D_A_OBJ_E_Objects_Apple" ID="{7A8AC8BC-7CD9-48C4-8E24-4622D1325923}" ShortID="515669189">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
-												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
-												<Property Name="InitialDelay" Type="Real64">
+												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
-														<Value>2.5</Value>
+														<Value>100</Value>
 													</ValueList>
 												</Property>
+												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 												<Property Name="MakeUpGain" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{7405A974-1AF0-470B-A1A6-24558F12D6CA}" ShortID="457072777">
@@ -6550,12 +6709,14 @@
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>12</Value>
+														<Value>6</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -6636,6 +6797,11 @@
 																</ModifierInfo>
 															</ModifierList>
 														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>6</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -6660,6 +6826,11 @@
 												</Sound>
 												<Sound Name="Apple_Drop_02" ID="{11B1B482-9F37-4E70-B696-CCC77D5A22AE}" ShortID="283835843">
 													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>0.5</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Pitch" Type="int32">
 															<ModifierList>
 																<ModifierInfo>
@@ -6672,6 +6843,11 @@
 																	</Modifier>
 																</ModifierInfo>
 															</ModifierList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>6</Value>
+															</ValueList>
 														</Property>
 													</PropertyList>
 													<ReferenceList>
@@ -6697,6 +6873,11 @@
 												</Sound>
 												<Sound Name="Apple_Droppimg" ID="{184AFFE1-6E50-491E-8984-66CA76E36153}" ShortID="405974773">
 													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>0.5</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Pitch" Type="int32">
 															<ModifierList>
 																<ModifierInfo>
@@ -6710,6 +6891,11 @@
 																</ModifierInfo>
 															</ModifierList>
 														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>6</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -6722,9 +6908,11 @@
 													<ChildrenList>
 														<AudioFileSource Name="Apple_Droppimg" ID="{3EC1C6DF-C3AE-4C98-9128-E77806F840E9}">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.849315068493152"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.424657534246576"/>
 																<Property Name="FadeInShape" Type="int16" Value="7"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.39041095890411"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.277397260273972"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Apple\Apple_Droppimg.wav</AudioFile>
@@ -6748,7 +6936,7 @@
 												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 												<Property Name="InitialDelay" Type="Real64">
 													<ValueList>
-														<Value>3.5</Value>
+														<Value>1.5</Value>
 													</ValueList>
 												</Property>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -7006,7 +7194,7 @@
 												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>3</Value>
+														<Value>6</Value>
 													</ValueList>
 													<RTPCList>
 														<RTPC Name="" ID="{D3994E74-D598-4A2D-A37F-CFA567DF67FD}" ShortID="223430820">
@@ -7137,7 +7325,7 @@
 															<Modifier Name="" ID="{DFC664E8-F3EF-4762-B2A0-7879AB13F173}">
 																<PropertyList>
 																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
@@ -8456,7 +8644,7 @@
 														<Property Name="BlendBehavior" Type="int16" Value="1"/>
 														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
-																<Value>10</Value>
+																<Value>50</Value>
 															</ValueList>
 														</Property>
 														<Property Name="EnableDiffraction" Type="bool" Value="True"/>
@@ -8494,6 +8682,7 @@
 															</ValueList>
 														</Property>
 														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>6</Value>
@@ -8512,12 +8701,17 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>12</YPos>
+																				<YPos>200</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
+																				<XPos>500</XPos>
+																				<YPos>200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
 																				<XPos>3000</XPos>
-																				<YPos>0</YPos>
+																				<YPos>6</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -8533,11 +8727,11 @@
 																	<PropertyList>
 																		<Property Name="ConeAttenuation" Type="Real64">
 																			<ValueList>
-																				<Value>-1</Value>
+																				<Value>-3</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="ConeInnerAngle" Type="int32" Value="130"/>
-																		<Property Name="ConeOuterAngle" Type="int32" Value="360"/>
+																		<Property Name="ConeInnerAngle" Type="int32" Value="150"/>
+																		<Property Name="ConeOuterAngle" Type="int32" Value="355"/>
 																		<Property Name="ConeUse" Type="bool">
 																			<ValueList>
 																				<Value>True</Value>
@@ -8597,8 +8791,23 @@
 																							<Flags>5</Flags>
 																						</Point>
 																						<Point>
-																							<XPos>987.46082</XPos>
+																							<XPos>1000</XPos>
 																							<YPos>100</YPos>
+																							<Flags>0</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>1500</XPos>
+																							<YPos>75</YPos>
+																							<Flags>0</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>1750</XPos>
+																							<YPos>49.99999</YPos>
+																							<Flags>0</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>2500</XPos>
+																							<YPos>0</YPos>
 																							<Flags>0</Flags>
 																						</Point>
 																						<Point>
@@ -8619,12 +8828,12 @@
 																					<PointList>
 																						<Point>
 																							<XPos>0</XPos>
-																							<YPos>0</YPos>
+																							<YPos>50</YPos>
 																							<Flags>5</Flags>
 																						</Point>
 																						<Point>
-																							<XPos>1485.89342</XPos>
-																							<YPos>0</YPos>
+																							<XPos>500</XPos>
+																							<YPos>48.59155</YPos>
 																							<Flags>0</Flags>
 																						</Point>
 																						<Point>
@@ -8945,6 +9154,9 @@
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{E98B6732-60BE-480F-9141-B1F3031B01CC}"/>
+													</PositioningInfo>
 												</BlendContainer>
 												<RandomSequenceContainer Name="3D_A_P_Water_Ocean" ID="{2FF29502-5BEC-4498-AE21-5FAB67651C2C}" ShortID="1041333537">
 													<PropertyList>
@@ -9837,17 +10049,22 @@
 															<PropertyList>
 																<Property Name="Highpass" Type="int16">
 																	<ValueList>
-																		<Value>30</Value>
+																		<Value>6</Value>
 																	</ValueList>
 																</Property>
 																<Property Name="Lowpass" Type="int16">
 																	<ValueList>
-																		<Value>50</Value>
+																		<Value>6</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Pitch" Type="int32">
+																	<ValueList>
+																		<Value>-350</Value>
 																	</ValueList>
 																</Property>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
-																		<Value>6</Value>
+																		<Value>-6</Value>
 																	</ValueList>
 																</Property>
 																<Property Name="Weight" Type="Real64">
@@ -10793,12 +11010,33 @@
 												<GroupingBehaviorList>
 													<GroupingBehavior>
 														<ItemRef Name="A_S3D_Rain" ID="{B2C7F75A-8DAB-43CD-BEE2-3CDA81DB5813}"/>
+														<PropertyList>
+															<Property Name="FadeOutTime" Type="Real64">
+																<ValueList>
+																	<Value>1</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="A_S3D_Snow" ID="{0E1F8D85-2E81-43F1-BF3E-4ED387AB33FA}"/>
+														<PropertyList>
+															<Property Name="FadeOutTime" Type="Real64">
+																<ValueList>
+																	<Value>1</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="A_S3D_Windy" ID="{FBC109BA-3065-4D96-B81A-DC49413B263E}"/>
+														<PropertyList>
+															<Property Name="FadeOutTime" Type="Real64">
+																<ValueList>
+																	<Value>1</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
 												<GroupingList>
@@ -10872,13 +11110,12 @@
 																		<Value>20</Value>
 																	</ValueList>
 																</Property>
-																<Property Name="ConeInnerAngle" Type="int32" Value="35"/>
 																<Property Name="ConeLowPassFilterValue" Type="int32">
 																	<ValueList>
 																		<Value>20</Value>
 																	</ValueList>
 																</Property>
-																<Property Name="ConeOuterAngle" Type="int32" Value="80"/>
+																<Property Name="ConeOuterAngle" Type="int32" Value="270"/>
 																<Property Name="ConeUse" Type="bool">
 																	<ValueList>
 																		<Value>True</Value>
@@ -12586,12 +12823,33 @@
 												<GroupingBehaviorList>
 													<GroupingBehavior>
 														<ItemRef Name="ST_Tree_Dense" ID="{C1604979-F69B-4AA6-9E83-0004802E8653}"/>
+														<PropertyList>
+															<Property Name="FadeOutTime" Type="Real64">
+																<ValueList>
+																	<Value>0.5</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="ST_Tree_Soft" ID="{06B7107E-7545-40D9-A9AD-4DD7A3D4D17A}"/>
+														<PropertyList>
+															<Property Name="FadeOutTime" Type="Real64">
+																<ValueList>
+																	<Value>0.5</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="ST_Tree_Dry" ID="{3275FD81-5CE1-4FFD-A8F6-AD058140708C}"/>
+														<PropertyList>
+															<Property Name="FadeOutTime" Type="Real64">
+																<ValueList>
+																	<Value>0.5</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
 												<GroupingList>

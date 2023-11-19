@@ -391,6 +391,9 @@
 							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{02D8431A-6D8A-40FB-A0EF-0823B069E011}" ShortID="970268912">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="S2D_AMB_AnimalsCrickets" ID="{7F33F9DA-48B3-4E45-9C95-9DDF19DC2B14}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
@@ -408,6 +411,7 @@
 								<Action Name="" ID="{3FE96D84-4AAB-47E5-8F67-95370D367C76}" ShortID="457972278">
 									<PropertyList>
 										<Property Name="FadeInCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -428,6 +432,9 @@
 											</PropertyList>
 											<ChildrenList>
 												<Action Name="" ID="{72F4487A-B6AA-4AE1-B842-E38ADAF23D7B}" ShortID="326055476">
+													<PropertyList>
+														<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="ST_Tree_Dense" ID="{C1604979-F69B-4AA6-9E83-0004802E8653}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
@@ -443,6 +450,9 @@
 											</PropertyList>
 											<ChildrenList>
 												<Action Name="" ID="{109F9AF4-85A3-4967-96B2-6D29342A00C4}" ShortID="750064769">
+													<PropertyList>
+														<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="ST_Tree_Soft" ID="{06B7107E-7545-40D9-A9AD-4DD7A3D4D17A}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
@@ -458,6 +468,9 @@
 											</PropertyList>
 											<ChildrenList>
 												<Action Name="" ID="{79A9A81E-3756-423C-BCB5-4E2AAB9B8F0A}" ShortID="370696202">
+													<PropertyList>
+														<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="ST_Tree_Dry" ID="{3275FD81-5CE1-4FFD-A8F6-AD058140708C}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
@@ -488,6 +501,9 @@
 										<Event Name="Play_Ocean" ID="{14A26BB5-08B1-4947-B32A-BA763ACA861F}">
 											<ChildrenList>
 												<Action Name="" ID="{B4301403-24F1-4A52-AF08-6DD73141DC92}" ShortID="9911500">
+													<PropertyList>
+														<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="3D_A_P_Water_Ocean" ID="{2FF29502-5BEC-4498-AE21-5FAB67651C2C}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
@@ -499,6 +515,9 @@
 										<Event Name="Play_Waterfall" ID="{34B2BFBB-8D93-4619-AF2A-38C0BB8CDC4C}">
 											<ChildrenList>
 												<Action Name="" ID="{6FA5FEAA-1590-47F3-B368-01B6A646B936}" ShortID="460293913">
+													<PropertyList>
+														<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="3D_A_P_Water_Waterfall" ID="{FC73D419-F372-4B25-9831-35611318CA8A}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
@@ -518,6 +537,9 @@
 											</PropertyList>
 											<ChildrenList>
 												<Action Name="" ID="{095A25B3-3976-43D2-AF87-4D623BA30223}" ShortID="997905588">
+													<PropertyList>
+														<Property Name="Delay" Type="Real64" Value="0.5"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="A_S3D_Windy" ID="{FBC109BA-3065-4D96-B81A-DC49413B263E}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
@@ -533,6 +555,10 @@
 											</PropertyList>
 											<ChildrenList>
 												<Action Name="" ID="{27F434C3-916C-4A42-889C-21C3EBE665C0}" ShortID="186089344">
+													<PropertyList>
+														<Property Name="FadeInCurve" Type="int16" Value="6"/>
+														<Property Name="FadeTime" Type="Real64" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="A_S3D_Rain" ID="{B2C7F75A-8DAB-43CD-BEE2-3CDA81DB5813}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
@@ -563,6 +589,10 @@
 											</PropertyList>
 											<ChildrenList>
 												<Action Name="" ID="{3AA1A97F-61F5-443D-B043-72B2F114B9B1}" ShortID="874192412">
+													<PropertyList>
+														<Property Name="FadeInCurve" Type="int16" Value="6"/>
+														<Property Name="FadeTime" Type="Real64" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="A_S3D_Snow" ID="{0E1F8D85-2E81-43F1-BF3E-4ED387AB33FA}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
@@ -584,6 +614,10 @@
 									</PropertyList>
 									<ChildrenList>
 										<Action Name="" ID="{3E02E261-D926-41CE-8E0D-926BC048F00E}" ShortID="888329277">
+											<PropertyList>
+												<Property Name="FadeInCurve" Type="int16" Value="6"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Seasons_2D_Bird" ID="{985155B4-8D83-4124-91A1-CE18E4590242}" WorkUnitID="{002CC364-9ED9-4095-AE64-CF2BDB9A6B58}"/>
