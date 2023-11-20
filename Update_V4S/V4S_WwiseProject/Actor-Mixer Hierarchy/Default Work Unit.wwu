@@ -7170,7 +7170,7 @@
 																				</Point>
 																				<Point>
 																					<XPos>500</XPos>
-																					<YPos>-0</YPos>
+																					<YPos>0</YPos>
 																					<Flags>0</Flags>
 																				</Point>
 																				<Point>
@@ -7224,7 +7224,7 @@
 																			<PointList>
 																				<Point>
 																					<XPos>0</XPos>
-																					<YPos>-0</YPos>
+																					<YPos>0</YPos>
 																					<Flags>5</Flags>
 																				</Point>
 																				<Point>
@@ -8759,7 +8759,7 @@
 														<Property Name="BlendBehavior" Type="int16" Value="1"/>
 														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
-																<Value>50</Value>
+																<Value>80</Value>
 															</ValueList>
 														</Property>
 														<Property Name="EnableDiffraction" Type="bool" Value="True"/>
@@ -8816,17 +8816,17 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>200</YPos>
+																				<YPos>6</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>500</XPos>
-																				<YPos>200</YPos>
+																				<XPos>2500</XPos>
+																				<YPos>6</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>3000</XPos>
-																				<YPos>6</YPos>
+																				<YPos>-0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -8845,14 +8845,14 @@
 																				<Value>-3</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="ConeInnerAngle" Type="int32" Value="150"/>
+																		<Property Name="ConeInnerAngle" Type="int32" Value="225"/>
 																		<Property Name="ConeOuterAngle" Type="int32" Value="355"/>
 																		<Property Name="ConeUse" Type="bool">
 																			<ValueList>
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="RadiusMax" Type="Real64" Value="3000"/>
+																		<Property Name="RadiusMax" Type="Real64" Value="4000"/>
 																	</PropertyList>
 																	<CurveUsageInfoList>
 																		<VolumeDryUsage>
@@ -8868,12 +8868,12 @@
 																							<Flags>5</Flags>
 																						</Point>
 																						<Point>
-																							<XPos>1001.5674</XPos>
+																							<XPos>2500</XPos>
 																							<YPos>0</YPos>
 																							<Flags>0</Flags>
 																						</Point>
 																						<Point>
-																							<XPos>3000</XPos>
+																							<XPos>4000</XPos>
 																							<YPos>-3</YPos>
 																							<Flags>37</Flags>
 																						</Point>
@@ -8906,27 +8906,32 @@
 																							<Flags>5</Flags>
 																						</Point>
 																						<Point>
-																							<XPos>1000</XPos>
+																							<XPos>1999.99866666667</XPos>
 																							<YPos>100</YPos>
 																							<Flags>0</Flags>
 																						</Point>
 																						<Point>
-																							<XPos>1500</XPos>
-																							<YPos>75</YPos>
-																							<Flags>0</Flags>
-																						</Point>
-																						<Point>
-																							<XPos>1750</XPos>
-																							<YPos>49.99999</YPos>
-																							<Flags>0</Flags>
-																						</Point>
-																						<Point>
-																							<XPos>2500</XPos>
-																							<YPos>0</YPos>
+																							<XPos>2333.33333333333</XPos>
+																							<YPos>50</YPos>
 																							<Flags>0</Flags>
 																						</Point>
 																						<Point>
 																							<XPos>3000</XPos>
+																							<YPos>50</YPos>
+																							<Flags>0</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>3333.332</XPos>
+																							<YPos>25</YPos>
+																							<Flags>0</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>3333.33333333333</XPos>
+																							<YPos>0</YPos>
+																							<Flags>0</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>4000</XPos>
 																							<YPos>0</YPos>
 																							<Flags>37</Flags>
 																						</Point>
@@ -8947,12 +8952,12 @@
 																							<Flags>5</Flags>
 																						</Point>
 																						<Point>
-																							<XPos>500</XPos>
+																							<XPos>666.666666666667</XPos>
 																							<YPos>48.59155</YPos>
 																							<Flags>0</Flags>
 																						</Point>
 																						<Point>
-																							<XPos>3000</XPos>
+																							<XPos>4000</XPos>
 																							<YPos>100</YPos>
 																							<Flags>37</Flags>
 																						</Point>
@@ -9996,7 +10001,7 @@
 														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>6</Value>
+																<Value>3</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -10010,6 +10015,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="RadiusMax" Type="Real64" Value="3000"/>
 																	</PropertyList>
 																	<CurveUsageInfoList>
 																		<VolumeDryUsage>
@@ -10021,11 +10027,11 @@
 																					<PointList>
 																						<Point>
 																							<XPos>0</XPos>
-																							<YPos>0</YPos>
+																							<YPos>-2.5</YPos>
 																							<Flags>5</Flags>
 																						</Point>
 																						<Point>
-																							<XPos>100</XPos>
+																							<XPos>3000</XPos>
 																							<YPos>-200</YPos>
 																							<Flags>37</Flags>
 																						</Point>
@@ -10058,7 +10064,12 @@
 																							<Flags>5</Flags>
 																						</Point>
 																						<Point>
-																							<XPos>100</XPos>
+																							<XPos>2500</XPos>
+																							<YPos>100</YPos>
+																							<Flags>0</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>3000</XPos>
 																							<YPos>0</YPos>
 																							<Flags>37</Flags>
 																						</Point>
@@ -10079,7 +10090,12 @@
 																							<Flags>5</Flags>
 																						</Point>
 																						<Point>
-																							<XPos>100</XPos>
+																							<XPos>2500</XPos>
+																							<YPos>0</YPos>
+																							<Flags>0</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>3000</XPos>
 																							<YPos>100</YPos>
 																							<Flags>37</Flags>
 																						</Point>
@@ -10326,6 +10342,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="RadiusMax" Type="Real64" Value="3000"/>
 																	</PropertyList>
 																	<CurveUsageInfoList>
 																		<VolumeDryUsage>
@@ -10337,11 +10354,16 @@
 																					<PointList>
 																						<Point>
 																							<XPos>0</XPos>
-																							<YPos>0</YPos>
+																							<YPos>-0</YPos>
 																							<Flags>5</Flags>
 																						</Point>
 																						<Point>
-																							<XPos>100</XPos>
+																							<XPos>2510.97178683386</XPos>
+																							<YPos>-15.7557467884476</YPos>
+																							<Flags>0</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>3000</XPos>
 																							<YPos>-200</YPos>
 																							<Flags>37</Flags>
 																						</Point>
@@ -10374,7 +10396,12 @@
 																							<Flags>5</Flags>
 																						</Point>
 																						<Point>
-																							<XPos>100</XPos>
+																							<XPos>2500</XPos>
+																							<YPos>100</YPos>
+																							<Flags>0</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>3000</XPos>
 																							<YPos>0</YPos>
 																							<Flags>37</Flags>
 																						</Point>
@@ -10391,11 +10418,16 @@
 																					<PointList>
 																						<Point>
 																							<XPos>0</XPos>
-																							<YPos>0</YPos>
+																							<YPos>-0</YPos>
 																							<Flags>5</Flags>
 																						</Point>
 																						<Point>
-																							<XPos>100</XPos>
+																							<XPos>2500</XPos>
+																							<YPos>-0</YPos>
+																							<Flags>0</Flags>
+																						</Point>
+																						<Point>
+																							<XPos>3000</XPos>
 																							<YPos>100</YPos>
 																							<Flags>37</Flags>
 																						</Point>
@@ -10572,6 +10604,11 @@
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>3</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">

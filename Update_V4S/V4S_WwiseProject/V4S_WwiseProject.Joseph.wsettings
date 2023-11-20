@@ -72,10 +72,10 @@
 				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
 				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
 				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
-				<Property Name="Mixing Desk\CurrentStates\{010B5356-AB18-4CC1-8E3D-48D21DA2368A}" Type="string" Value="{70D54A14-A650-462E-A2A5-9FF4802C321F}"/>
-				<Property Name="Mixing Desk\CurrentStates\{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}" Type="string" Value="{3CEB32E6-C52B-439C-BDB6-979183F2E492}"/>
-				<Property Name="Mixing Desk\CurrentStates\{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}" Type="string" Value="{F3544A33-E96D-4075-AEB3-FA937893CDCB}"/>
-				<Property Name="Mixing Desk\CurrentStates\{475CFF01-5F51-4371-A68B-D735737A2C23}" Type="string" Value="{8A310035-D314-4994-9C44-086F31CD9288}"/>
+				<Property Name="Mixing Desk\CurrentStates\{010B5356-AB18-4CC1-8E3D-48D21DA2368A}" Type="string" Value="{0F97DCA3-23D4-4C57-A8BC-25B46ADDC7D6}"/>
+				<Property Name="Mixing Desk\CurrentStates\{11C4831A-4DC0-4DEC-B604-6829FD5A3C83}" Type="string" Value="{BC961BD0-752C-4EC7-8404-453DFBDB8D0E}"/>
+				<Property Name="Mixing Desk\CurrentStates\{1F7FFDCC-6D2C-42C0-A8E4-DF79EF6AF767}" Type="string" Value="{1A52D020-DA23-4B51-A4F6-7CA2048504CF}"/>
+				<Property Name="Mixing Desk\CurrentStates\{475CFF01-5F51-4371-A68B-D735737A2C23}" Type="string" Value="{8C21D54B-B6A5-4AD1-ACAA-F4ECAE16BA29}"/>
 				<Property Name="Mixing Desk\CurrentStates\{D7F124D0-A607-4E30-A569-5F6E60774AE6}" Type="string" Value="{2810BA7A-BEC0-440D-A8EE-53D5E100B1F9}"/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{FF5F0E17-1611-4B61-A4C1-303065D6F40C}"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>

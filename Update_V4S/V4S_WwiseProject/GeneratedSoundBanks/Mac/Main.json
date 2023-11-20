@@ -16,7 +16,7 @@
     "Id": "3161908922",
     "GUID": "{E19EE910-4431-421A-82C4-6214E7842FE1}",
     "Language": "SFX",
-    "Hash": "3154530326",
+    "Hash": "1791387691",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -194,7 +194,7 @@
       "Name": "Play_A_S3D_Rain",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Place\\Atmosphere\\Play_A_S3D_Rain",
       "GUID": "{D8ADAE72-5324-43C6-B86A-2E13154E4CC1}",
-      "MaxAttenuation": "100.",
+      "MaxAttenuation": "3000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -230,7 +230,7 @@
       "Name": "Play_A_S3D_Snow",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Place\\Atmosphere\\Play_A_S3D_Snow",
       "GUID": "{738F68D0-A7B7-4935-92CC-24FD2C74DA82}",
-      "MaxAttenuation": "100.",
+      "MaxAttenuation": "3000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -1780,7 +1780,7 @@
       "Name": "Play_Waterfall",
       "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Place\\Water\\Play_Waterfall",
       "GUID": "{34B2BFBB-8D93-4619-AF2A-38C0BB8CDC4C}",
-      "MaxAttenuation": "3000.",
+      "MaxAttenuation": "4000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
